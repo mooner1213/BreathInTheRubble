@@ -1,0 +1,5 @@
+.phone-test { padding: 12px; }
+.title { font-size: 18px; -unity-font-style: bold; margin-bottom: 8px; }
+.status { white-space: normal; margin-bottom: 10px; color: rgb(184, 219, 225); }
+.phone-test Button { min-height: 30px; margin-bottom: 5px; }
+.help { white-space: normal; margin-top: 10px; color: rgb(200, 200, 200); }
