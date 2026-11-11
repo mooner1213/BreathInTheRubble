@@ -14,6 +14,7 @@ namespace BreathInTheRubble.Prototype
         Coroutine attempt;
         public int SignalBars { get; private set; }
         public CallState State { get; private set; }
+        public bool RescueRequestSent { get; private set; }
         public event Action Changed;
         public event Action CallConnected;
 
@@ -49,6 +50,7 @@ namespace BreathInTheRubble.Prototype
             // A zero-service attempt fails even if reception recovers during that attempt.
             if (!hadSignalAtStart || SignalBars == 0) { SetState(CallState.NoSignal); yield break; }
             SetState(CallState.Connected);
+            RescueRequestSent = true;
             CallConnected?.Invoke();
         }
 

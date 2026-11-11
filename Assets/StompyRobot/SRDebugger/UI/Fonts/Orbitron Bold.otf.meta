@@ -1,0 +1,28 @@
+fileFormatVersion: 2
+guid: 4e46f78eb6d69074d9b4fe427bb2f1a2
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Orbitron
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 27688
+  packageName: SRDebugger - Console & Tools On-Device
+  packageVersion: 1.13.2
+  assetPath: Assets/StompyRobot/SRDebugger/UI/Fonts/Orbitron Bold.otf
+  uploadId: 1040702

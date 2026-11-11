@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 289fba11aefc3e148a2156885af413f0
+timeCreated: 1526341570
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 116330
+  packageName: Rubble and Debris - Modular Set
+  packageVersion: 1.3
+  assetPath: Assets/RubbleAndDebris/Prefabs/Props/Brick_Small_10.prefab
+  uploadId: 415886

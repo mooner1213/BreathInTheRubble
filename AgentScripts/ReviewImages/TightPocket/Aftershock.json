@@ -1,0 +1,2297 @@
+{
+  "big": 45,
+  "small": 180,
+  "bigReleased": 45,
+  "smallReleased": 180,
+  "allVisible": true,
+  "bigSettled": 45,
+  "escaped": [],
+  "stillOverhead": [
+    {
+      "name": "Stratum concrete 0 0 0",
+      "Released": true,
+      "visible": true,
+      "center": "(-0.665, 1.039, 1.189)",
+      "y": 1.03859162,
+      "drop": 0.6614084,
+      "speed": 0.0,
+      "gravity": true,
+      "kinematic": false,
+      "contacts": [
+        "Stratum concrete 0 0 1",
+        "Persistent thin chip 0 31",
+        "Persistent thin chip 0 33",
+        "Rubble_Corner_Out_LOD0",
+        "Rubble_Small_03_LOD0",
+        "Stratum concrete 0 1 0",
+        "Stratum concrete 0 1 1",
+        "Stratum concrete 0 1 2",
+        "Stratum concrete 0 2 2",
+        "Stratum concrete 0 2 1",
+        "Persistent thin chip 0 25"
+      ]
+    },
+    {
+      "name": "Stratum concrete 0 0 1",
+      "Released": true,
+      "visible": true,
+      "center": "(-0.813, 1.038, 0.936)",
+      "y": 1.03758919,
+      "drop": 0.687410831,
+      "speed": 0.0,
+      "gravity": true,
+      "kinematic": false,
+      "contacts": [
+        "Stratum concrete 0 0 0",
+        "Stratum concrete 0 1 0",
+        "Rubble_Corner_Out_LOD0",
+        "Persistent thin chip 0 4",
+        "Rebar_Wall_08_LOD0",
+        "Stratum concrete 0 1 1",
+        "Persistent thin chip 0 29"
+      ]
+    },
+    {
+      "name": "Stratum concrete 0 0 2",
+      "Released": true,
+      "visible": true,
+      "center": "(-0.301, 0.857, 1.203)",
+      "y": 0.8571079,
+      "drop": 0.867892146,
+      "speed": 0.0,
+      "gravity": true,
+      "kinematic": false,
+      "contacts": [
+        "Stratum concrete 0 1 2",
+        "Slanted masonry across trapped legs",
+        "Persistent thin chip 0 7",
+        "Persistent thin chip 0 13",
+        "Rubble_Medium_LOD0",
+        "Rubble_Big_LOD0"
+      ]
+    },
+    {
+      "name": "Stratum concrete 0 1 0",
+      "Released": true,
+      "visible": true,
+      "center": "(-0.582, 1.137, 0.905)",
+      "y": 1.136574,
+      "drop": 1.043426,
+      "speed": 0.0,
+      "gravity": true,
+      "kinematic": false,
+      "contacts": [
+        "Persistent thin chip 0 26",
+        "Stratum concrete 0 0 0",
+        "Stratum concrete 0 2 0",
+        "Persistent thin chip 0 34",
+        "Rebar_Wall_08_LOD0",
+        "Stratum concrete 0 1 1",
+        "Near left wedged slab",
+        "Stratum concrete 0 2 1",
+        "Stratum concrete 0 0 1"
+      ]
+    },
+    {
+      "name": "Stratum concrete 0 1 1",
+      "Released": true,
+      "visible": true,
+      "center": "(-0.847, 1.208, 0.993)",
+      "y": 1.207596,
+      "drop": 0.9974042,
+      "speed": 0.0,
+      "gravity": true,
+      "kinematic": false,
+      "contacts": [
+        "Stratum concrete 0 0 0",
+        "Rubble_Corner_Out_LOD0",
+        "Stratum concrete 0 1 0",
+        "Stratum concrete 0 0 1"
+      ]
+    },
+    {
+      "name": "Stratum concrete 0 1 2",
+      "Released": true,
+      "visible": true,
+      "center": "(-0.321, 0.990, 1.222)",
+      "y": 0.99001807,
+      "drop": 1.214982,
+      "speed": 0.0,
+      "gravity": true,
+      "kinematic": false,
+      "contacts": [
+        "Rubble_Big_LOD0",
+        "Stratum concrete 0 0 0",
+        "Stratum concrete 0 0 2",
+        "Stratum concrete 0 2 2"
+      ]
+    },
+    {
+      "name": "Stratum concrete 0 2 0",
+      "Released": true,
+      "visible": true,
+      "center": "(-0.454, 1.324, 0.900)",
+      "y": 1.32350433,
+      "drop": 1.37649572,
+      "speed": 0.0,
+      "gravity": true,
+      "kinematic": false,
+      "contacts": [
+        "Stratum concrete 0 2 2",
+        "Wall_Gray_Medium_03_LOD0",
+        "Stratum concrete 0 3 0",
+        "Persistent thin chip 0 24",
+        "Wall_Grey_Big_01_LOD0",
+        "Broken embedded fracture rim 5 3",
+        "Blocks_Big_02_LOD0",
+        "Wall_Gray_Medium_03_LOD0",
+        "Utility upper rubble",
+        "Wall_Grey_Big_01_LOD0",
+        "Persistent thin chip 0 34",
+        "Stratum concrete 0 1 0",
+        "Interlocked shaft shoulder 5 -1 0"
+      ]
+    },
+    {
+      "name": "Stratum concrete 0 2 1",
+      "Released": true,
+      "visible": true,
+      "center": "(-0.655, 1.236, 1.128)",
+      "y": 1.23630726,
+      "drop": 1.48869288,
+      "speed": 0.0,
+      "gravity": true,
+      "kinematic": false,
+      "contacts": [
+        "Stratum concrete 0 2 2",
+        "Stratum concrete 0 0 0",
+        "Stratum concrete 0 1 0"
+      ]
+    },
+    {
+      "name": "Stratum concrete 0 2 2",
+      "Released": true,
+      "visible": true,
+      "center": "(-0.424, 1.158, 1.203)",
+      "y": 1.15773666,
+      "drop": 1.56726348,
+      "speed": 0.0,
+      "gravity": true,
+      "kinematic": false,
+      "contacts": [
+        "Stratum concrete 0 2 0",
+        "Stratum concrete 0 0 0",
+        "Wall_Gray_Medium_03_LOD0",
+        "Stratum concrete 0 2 1",
+        "Stratum concrete 0 1 2"
+      ]
+    },
+    {
+      "name": "Stratum concrete 1 0 0",
+      "Released": true,
+      "visible": true,
+      "center": "(0.636, 0.841, 0.896)",
+      "y": 0.841432631,
+      "drop": 0.8585674,
+      "speed": 0.0,
+      "gravity": true,
+      "kinematic": false,
+      "contacts": [
+        "Stratum concrete 1 0 2",
+        "Persistent thin chip 1 25",
+        "Stratum concrete 1 2 0",
+        "Near right wedged slab",
+        "Rebar_Wall_08_LOD0",
+        "Rubble_Medium_LOD0",
+        "Metal contact segment 0",
+        "Persistent thin chip 1 17",
+        "Persistent thin chip 1 15"
+      ]
+    },
+    {
+      "name": "Stratum concrete 1 0 2",
+      "Released": true,
+      "visible": true,
+      "center": "(0.543, 1.038, 0.702)",
+      "y": 1.037884,
+      "drop": 0.687116,
+      "speed": 0.0,
+      "gravity": true,
+      "kinematic": false,
+      "contacts": [
+        "Rubble_Small_01_LOD0",
+        "Rebar_Wall_08_LOD0",
+        "Stratum concrete 1 0 0",
+        "Persistent thin chip 1 28",
+        "Near right wedged slab",
+        "Persistent thin chip 1 17",
+        "Stratum concrete 1 2 1"
+      ]
+    },
+    {
+      "name": "Stratum concrete 1 1 0",
+      "Released": true,
+      "visible": true,
+      "center": "(0.351, 1.025, 1.200)",
+      "y": 1.02511024,
+      "drop": 1.15488982,
+      "speed": 0.0,
+      "gravity": true,
+      "kinematic": false,
+      "contacts": [
+        "Rubble_Big_LOD0",
+        "Stratum concrete 1 1 1",
+        "Rubble_Medium_LOD0",
+        "Persistent thin chip 1 12",
+        "Persistent thin chip 1 11",
+        "Stratum concrete 1 2 0",
+        "Persistent thin chip 1 25"
+      ]
+    },
+    {
+      "name": "Stratum concrete 1 1 2",
+      "Released": true,
+      "visible": true,
+      "center": "(0.842, 0.999, 1.052)",
+      "y": 0.9988579,
+      "drop": 1.20614219,
+      "speed": 0.0,
+      "gravity": true,
+      "kinematic": false,
+      "contacts": [
+        "Rubble_Medium_LOD0",
+        "Persistent thin chip 1 19",
+        "Rebar_Wall_08_LOD0",
+        "Persistent thin chip 1 35",
+        "Stratum concrete 1 2 2",
+        "Stratum concrete 1 2 0",
+        "Persistent thin chip 1 34",
+        "Rubble_Corner_Out_LOD0"
+      ]
+    },
+    {
+      "name": "Stratum concrete 1 2 0",
+      "Released": true,
+      "visible": true,
+      "center": "(0.646, 1.100, 1.003)",
+      "y": 1.099797,
+      "drop": 1.600203,
+      "speed": 0.0,
+      "gravity": true,
+      "kinematic": false,
+      "contacts": [
+        "Stratum concrete 1 2 1",
+        "Persistent thin chip 1 17",
+        "Stratum concrete 1 1 2",
+        "Persistent thin chip 1 33",
+        "Rebar_Wall_08_LOD0",
+        "Persistent thin chip 1 30",
+        "Persistent thin chip 1 34",
+        "Stratum concrete 1 1 0",
+        "Persistent thin chip 1 24",
+        "Stratum concrete 1 0 0",
+        "Persistent thin chip 1 27"
+      ]
+    },
+    {
+      "name": "Stratum concrete 1 2 1",
+      "Released": true,
+      "visible": true,
+      "center": "(0.447, 1.185, 0.871)",
+      "y": 1.1854583,
+      "drop": 1.53954184,
+      "speed": 0.0,
+      "gravity": true,
+      "kinematic": false,
+      "contacts": [
+        "Persistent thin chip 1 30",
+        "Stratum concrete 1 2 0",
+        "Persistent thin chip 1 17",
+        "Stratum concrete 1 0 2",
+        "Wall_Grey_Big_01_LOD0"
+      ]
+    },
+    {
+      "name": "Stratum concrete 1 2 2",
+      "Released": true,
+      "visible": true,
+      "center": "(0.949, 1.124, 1.000)",
+      "y": 1.12367451,
+      "drop": 1.60132563,
+      "speed": 0.0,
+      "gravity": true,
+      "kinematic": false,
+      "contacts": [
+        "Rubble_Corner_Out_LOD0",
+        "Stratum concrete 1 1 2",
+        "Persistent thin chip 1 35"
+      ]
+    },
+    {
+      "name": "Stratum concrete 2 1 2",
+      "Released": true,
+      "visible": true,
+      "center": "(-0.771, 1.162, 0.062)",
+      "y": 1.1617434,
+      "drop": 1.04325676,
+      "speed": 0.0,
+      "gravity": true,
+      "kinematic": false,
+      "contacts": [
+        "Wall_Grey_Big_01_LOD0",
+        "Rubble_Small_01_LOD0",
+        "Stratum concrete 2 2 2"
+      ]
+    },
+    {
+      "name": "Stratum concrete 2 2 2",
+      "Released": true,
+      "visible": true,
+      "center": "(-0.699, 1.212, 0.207)",
+      "y": 1.21203935,
+      "drop": 1.51296079,
+      "speed": 0.0,
+      "gravity": true,
+      "kinematic": false,
+      "contacts": [
+        "Stratum concrete 2 1 2",
+        "Rubble_Small_01_LOD0",
+        "Rebar_Wall_08_LOD0",
+        "Wall_Side_01_LOD0"
+      ]
+    },
+    {
+      "name": "Stratum concrete 3 0 1",
+      "Released": true,
+      "visible": true,
+      "center": "(0.699, 1.671, 0.059)",
+      "y": 1.6712234,
+      "drop": 0.05377662,
+      "speed": 0.0,
+      "gravity": true,
+      "kinematic": false,
+      "contacts": [
+        "Rebar_Wall_01_LOD0",
+        "Rebar_Wall_04_LOD0"
+      ]
+    }
+  ],
+  "unsupported": [],
+  "peakMoving": 9,
+  "frames": 5669,
+  "details": [
+    {
+      "name": "Stratum concrete 0 0 0",
+      "Released": true,
+      "visible": true,
+      "center": "(-0.665, 1.039, 1.189)",
+      "y": 1.03859162,
+      "drop": 0.6614084,
+      "speed": 0.0,
+      "gravity": true,
+      "kinematic": false,
+      "contacts": [
+        "Stratum concrete 0 0 1",
+        "Persistent thin chip 0 31",
+        "Persistent thin chip 0 33",
+        "Rubble_Corner_Out_LOD0",
+        "Rubble_Small_03_LOD0",
+        "Stratum concrete 0 1 0",
+        "Stratum concrete 0 1 1",
+        "Stratum concrete 0 1 2",
+        "Stratum concrete 0 2 2",
+        "Stratum concrete 0 2 1",
+        "Persistent thin chip 0 25"
+      ]
+    },
+    {
+      "name": "Stratum concrete 0 0 1",
+      "Released": true,
+      "visible": true,
+      "center": "(-0.813, 1.038, 0.936)",
+      "y": 1.03758919,
+      "drop": 0.687410831,
+      "speed": 0.0,
+      "gravity": true,
+      "kinematic": false,
+      "contacts": [
+        "Stratum concrete 0 0 0",
+        "Stratum concrete 0 1 0",
+        "Rubble_Corner_Out_LOD0",
+        "Persistent thin chip 0 4",
+        "Rebar_Wall_08_LOD0",
+        "Stratum concrete 0 1 1",
+        "Persistent thin chip 0 29"
+      ]
+    },
+    {
+      "name": "Stratum concrete 0 0 2",
+      "Released": true,
+      "visible": true,
+      "center": "(-0.301, 0.857, 1.203)",
+      "y": 0.8571079,
+      "drop": 0.867892146,
+      "speed": 0.0,
+      "gravity": true,
+      "kinematic": false,
+      "contacts": [
+        "Stratum concrete 0 1 2",
+        "Slanted masonry across trapped legs",
+        "Persistent thin chip 0 7",
+        "Persistent thin chip 0 13",
+        "Rubble_Medium_LOD0",
+        "Rubble_Big_LOD0"
+      ]
+    },
+    {
+      "name": "Stratum concrete 0 1 0",
+      "Released": true,
+      "visible": true,
+      "center": "(-0.582, 1.137, 0.905)",
+      "y": 1.136574,
+      "drop": 1.043426,
+      "speed": 0.0,
+      "gravity": true,
+      "kinematic": false,
+      "contacts": [
+        "Persistent thin chip 0 26",
+        "Stratum concrete 0 0 0",
+        "Stratum concrete 0 2 0",
+        "Persistent thin chip 0 34",
+        "Rebar_Wall_08_LOD0",
+        "Stratum concrete 0 1 1",
+        "Near left wedged slab",
+        "Stratum concrete 0 2 1",
+        "Stratum concrete 0 0 1"
+      ]
+    },
+    {
+      "name": "Stratum concrete 0 1 1",
+      "Released": true,
+      "visible": true,
+      "center": "(-0.847, 1.208, 0.993)",
+      "y": 1.207596,
+      "drop": 0.9974042,
+      "speed": 0.0,
+      "gravity": true,
+      "kinematic": false,
+      "contacts": [
+        "Stratum concrete 0 0 0",
+        "Rubble_Corner_Out_LOD0",
+        "Stratum concrete 0 1 0",
+        "Stratum concrete 0 0 1"
+      ]
+    },
+    {
+      "name": "Stratum concrete 0 1 2",
+      "Released": true,
+      "visible": true,
+      "center": "(-0.321, 0.990, 1.222)",
+      "y": 0.99001807,
+      "drop": 1.214982,
+      "speed": 0.0,
+      "gravity": true,
+      "kinematic": false,
+      "contacts": [
+        "Rubble_Big_LOD0",
+        "Stratum concrete 0 0 0",
+        "Stratum concrete 0 0 2",
+        "Stratum concrete 0 2 2"
+      ]
+    },
+    {
+      "name": "Stratum concrete 0 2 0",
+      "Released": true,
+      "visible": true,
+      "center": "(-0.454, 1.324, 0.900)",
+      "y": 1.32350433,
+      "drop": 1.37649572,
+      "speed": 0.0,
+      "gravity": true,
+      "kinematic": false,
+      "contacts": [
+        "Stratum concrete 0 2 2",
+        "Wall_Gray_Medium_03_LOD0",
+        "Stratum concrete 0 3 0",
+        "Persistent thin chip 0 24",
+        "Wall_Grey_Big_01_LOD0",
+        "Broken embedded fracture rim 5 3",
+        "Blocks_Big_02_LOD0",
+        "Wall_Gray_Medium_03_LOD0",
+        "Utility upper rubble",
+        "Wall_Grey_Big_01_LOD0",
+        "Persistent thin chip 0 34",
+        "Stratum concrete 0 1 0",
+        "Interlocked shaft shoulder 5 -1 0"
+      ]
+    },
+    {
+      "name": "Stratum concrete 0 2 1",
+      "Released": true,
+      "visible": true,
+      "center": "(-0.655, 1.236, 1.128)",
+      "y": 1.23630726,
+      "drop": 1.48869288,
+      "speed": 0.0,
+      "gravity": true,
+      "kinematic": false,
+      "contacts": [
+        "Stratum concrete 0 2 2",
+        "Stratum concrete 0 0 0",
+        "Stratum concrete 0 1 0"
+      ]
+    },
+    {
+      "name": "Stratum concrete 0 2 2",
+      "Released": true,
+      "visible": true,
+      "center": "(-0.424, 1.158, 1.203)",
+      "y": 1.15773666,
+      "drop": 1.56726348,
+      "speed": 0.0,
+      "gravity": true,
+      "kinematic": false,
+      "contacts": [
+        "Stratum concrete 0 2 0",
+        "Stratum concrete 0 0 0",
+        "Wall_Gray_Medium_03_LOD0",
+        "Stratum concrete 0 2 1",
+        "Stratum concrete 0 1 2"
+      ]
+    },
+    {
+      "name": "Stratum concrete 1 0 0",
+      "Released": true,
+      "visible": true,
+      "center": "(0.636, 0.841, 0.896)",
+      "y": 0.841432631,
+      "drop": 0.8585674,
+      "speed": 0.0,
+      "gravity": true,
+      "kinematic": false,
+      "contacts": [
+        "Stratum concrete 1 0 2",
+        "Persistent thin chip 1 25",
+        "Stratum concrete 1 2 0",
+        "Near right wedged slab",
+        "Rebar_Wall_08_LOD0",
+        "Rubble_Medium_LOD0",
+        "Metal contact segment 0",
+        "Persistent thin chip 1 17",
+        "Persistent thin chip 1 15"
+      ]
+    },
+    {
+      "name": "Stratum concrete 1 0 1",
+      "Released": true,
+      "visible": true,
+      "center": "(0.118, 0.799, 1.201)",
+      "y": 0.799485564,
+      "drop": 0.92551446,
+      "speed": 0.0,
+      "gravity": true,
+      "kinematic": false,
+      "contacts": [
+        "Persistent thin chip 0 19",
+        "Persistent thin chip 1 3",
+        "Stratum concrete 1 1 1",
+        "Rubble_Big_LOD0",
+        "Rubble_Medium_LOD0",
+        "Persistent thin chip 1 18"
+      ]
+    },
+    {
+      "name": "Stratum concrete 1 0 2",
+      "Released": true,
+      "visible": true,
+      "center": "(0.543, 1.038, 0.702)",
+      "y": 1.037884,
+      "drop": 0.687116,
+      "speed": 0.0,
+      "gravity": true,
+      "kinematic": false,
+      "contacts": [
+        "Rubble_Small_01_LOD0",
+        "Rebar_Wall_08_LOD0",
+        "Stratum concrete 1 0 0",
+        "Persistent thin chip 1 28",
+        "Near right wedged slab",
+        "Persistent thin chip 1 17",
+        "Stratum concrete 1 2 1"
+      ]
+    },
+    {
+      "name": "Stratum concrete 1 1 0",
+      "Released": true,
+      "visible": true,
+      "center": "(0.351, 1.025, 1.200)",
+      "y": 1.02511024,
+      "drop": 1.15488982,
+      "speed": 0.0,
+      "gravity": true,
+      "kinematic": false,
+      "contacts": [
+        "Rubble_Big_LOD0",
+        "Stratum concrete 1 1 1",
+        "Rubble_Medium_LOD0",
+        "Persistent thin chip 1 12",
+        "Persistent thin chip 1 11",
+        "Stratum concrete 1 2 0",
+        "Persistent thin chip 1 25"
+      ]
+    },
+    {
+      "name": "Stratum concrete 1 1 1",
+      "Released": true,
+      "visible": true,
+      "center": "(0.341, 0.779, 1.099)",
+      "y": 0.7790844,
+      "drop": 1.42591572,
+      "speed": 0.0,
+      "gravity": true,
+      "kinematic": false,
+      "contacts": [
+        "Stratum concrete 1 0 1",
+        "Persistent thin chip 1 14",
+        "Rubble_Medium_LOD0",
+        "Rubble_Medium_LOD0",
+        "Persistent thin chip 1 8",
+        "Persistent thin chip 1 3",
+        "Persistent thin chip 1 11",
+        "Persistent thin chip 1 0",
+        "Stratum concrete 1 1 0",
+        "Persistent thin chip 1 18"
+      ]
+    },
+    {
+      "name": "Stratum concrete 1 1 2",
+      "Released": true,
+      "visible": true,
+      "center": "(0.842, 0.999, 1.052)",
+      "y": 0.9988579,
+      "drop": 1.20614219,
+      "speed": 0.0,
+      "gravity": true,
+      "kinematic": false,
+      "contacts": [
+        "Rubble_Medium_LOD0",
+        "Persistent thin chip 1 19",
+        "Rebar_Wall_08_LOD0",
+        "Persistent thin chip 1 35",
+        "Stratum concrete 1 2 2",
+        "Stratum concrete 1 2 0",
+        "Persistent thin chip 1 34",
+        "Rubble_Corner_Out_LOD0"
+      ]
+    },
+    {
+      "name": "Stratum concrete 1 2 0",
+      "Released": true,
+      "visible": true,
+      "center": "(0.646, 1.100, 1.003)",
+      "y": 1.099797,
+      "drop": 1.600203,
+      "speed": 0.0,
+      "gravity": true,
+      "kinematic": false,
+      "contacts": [
+        "Stratum concrete 1 2 1",
+        "Persistent thin chip 1 17",
+        "Stratum concrete 1 1 2",
+        "Persistent thin chip 1 33",
+        "Rebar_Wall_08_LOD0",
+        "Persistent thin chip 1 30",
+        "Persistent thin chip 1 34",
+        "Stratum concrete 1 1 0",
+        "Persistent thin chip 1 24",
+        "Stratum concrete 1 0 0",
+        "Persistent thin chip 1 27"
+      ]
+    },
+    {
+      "name": "Stratum concrete 1 2 1",
+      "Released": true,
+      "visible": true,
+      "center": "(0.447, 1.185, 0.871)",
+      "y": 1.1854583,
+      "drop": 1.53954184,
+      "speed": 0.0,
+      "gravity": true,
+      "kinematic": false,
+      "contacts": [
+        "Persistent thin chip 1 30",
+        "Stratum concrete 1 2 0",
+        "Persistent thin chip 1 17",
+        "Stratum concrete 1 0 2",
+        "Wall_Grey_Big_01_LOD0"
+      ]
+    },
+    {
+      "name": "Stratum concrete 1 2 2",
+      "Released": true,
+      "visible": true,
+      "center": "(0.949, 1.124, 1.000)",
+      "y": 1.12367451,
+      "drop": 1.60132563,
+      "speed": 0.0,
+      "gravity": true,
+      "kinematic": false,
+      "contacts": [
+        "Rubble_Corner_Out_LOD0",
+        "Stratum concrete 1 1 2",
+        "Persistent thin chip 1 35"
+      ]
+    },
+    {
+      "name": "Stratum concrete 2 0 0",
+      "Released": true,
+      "visible": true,
+      "center": "(-1.179, 0.087, 0.321)",
+      "y": 0.08730448,
+      "drop": 1.61269557,
+      "speed": 0.0,
+      "gravity": true,
+      "kinematic": false,
+      "contacts": [
+        "Stratum concrete 2 0 2",
+        "Persistent thin chip 2 8",
+        "Persistent thin chip 2 28",
+        "Continuous buried foundation concrete",
+        "Buried receiving concrete plate 0",
+        "Persistent thin chip 2 4",
+        "Persistent thin chip 2 0",
+        "Persistent thin chip 2 6",
+        "Rubble_Medium_LOD0"
+      ]
+    },
+    {
+      "name": "Stratum concrete 2 0 1",
+      "Released": true,
+      "visible": true,
+      "center": "(-1.018, 0.111, -0.154)",
+      "y": 0.110513546,
+      "drop": 1.61448646,
+      "speed": 0.0,
+      "gravity": true,
+      "kinematic": false,
+      "contacts": [
+        "Persistent thin chip 2 17",
+        "Stratum concrete 2 0 2",
+        "Stratum concrete 2 1 1",
+        "Buried receiving concrete plate 0"
+      ]
+    },
+    {
+      "name": "Stratum concrete 2 0 2",
+      "Released": true,
+      "visible": true,
+      "center": "(-1.070, 0.122, 0.101)",
+      "y": 0.121880524,
+      "drop": 1.60311949,
+      "speed": 0.0,
+      "gravity": true,
+      "kinematic": false,
+      "contacts": [
+        "Stratum concrete 2 0 1",
+        "Stratum concrete 2 1 1",
+        "Persistent thin chip 2 4",
+        "Persistent thin chip 2 21",
+        "Persistent thin chip 2 0",
+        "Buried receiving concrete plate 0",
+        "Stratum concrete 2 0 0",
+        "Persistent thin chip 2 12",
+        "Persistent thin chip 2 8"
+      ]
+    },
+    {
+      "name": "Stratum concrete 2 1 0",
+      "Released": true,
+      "visible": true,
+      "center": "(-0.873, 0.516, 0.445)",
+      "y": 0.515817,
+      "drop": 1.66418314,
+      "speed": 0.0,
+      "gravity": true,
+      "kinematic": false,
+      "contacts": [
+        "Rubble_Corner_Out_LOD0",
+        "Wall_Gray_Medium_02_LOD0"
+      ]
+    },
+    {
+      "name": "Stratum concrete 2 1 1",
+      "Released": true,
+      "visible": true,
+      "center": "(-1.113, 0.269, -0.015)",
+      "y": 0.268518984,
+      "drop": 1.93648124,
+      "speed": 0.0,
+      "gravity": true,
+      "kinematic": false,
+      "contacts": [
+        "Stratum concrete 2 0 1",
+        "Rubble_Medium_LOD0",
+        "Stratum concrete 2 2 0",
+        "Stratum concrete 2 0 2"
+      ]
+    },
+    {
+      "name": "Stratum concrete 2 1 2",
+      "Released": true,
+      "visible": true,
+      "center": "(-0.771, 1.162, 0.062)",
+      "y": 1.1617434,
+      "drop": 1.04325676,
+      "speed": 0.0,
+      "gravity": true,
+      "kinematic": false,
+      "contacts": [
+        "Wall_Grey_Big_01_LOD0",
+        "Rubble_Small_01_LOD0",
+        "Stratum concrete 2 2 2"
+      ]
+    },
+    {
+      "name": "Stratum concrete 2 2 0",
+      "Released": true,
+      "visible": true,
+      "center": "(-1.055, 0.505, -0.014)",
+      "y": 0.504975438,
+      "drop": 2.19502449,
+      "speed": 0.0,
+      "gravity": true,
+      "kinematic": false,
+      "contacts": [
+        "Wall_Grey_Big_01_LOD0",
+        "Wall_Gray_Medium_02_LOD0",
+        "Stratum concrete 2 1 1",
+        "Rubble_Medium_LOD0",
+        "Persistent thin chip 2 19",
+        "Persistent thin chip 2 24",
+        "Persistent thin chip 2 35"
+      ]
+    },
+    {
+      "name": "Stratum concrete 2 2 1",
+      "Released": true,
+      "visible": true,
+      "center": "(-0.700, 0.350, -0.031)",
+      "y": 0.34984833,
+      "drop": 2.37515187,
+      "speed": 0.0,
+      "gravity": true,
+      "kinematic": false,
+      "contacts": [
+        "Persistent thin chip 2 3",
+        "Persistent thin chip 2 24",
+        "Wall_Gray_Medium_02_LOD0",
+        "Rubble_Small_01_LOD0",
+        "Persistent thin chip 2 30",
+        "Wall_Grey_Big_01_LOD0"
+      ]
+    },
+    {
+      "name": "Stratum concrete 2 2 2",
+      "Released": true,
+      "visible": true,
+      "center": "(-0.699, 1.212, 0.207)",
+      "y": 1.21203935,
+      "drop": 1.51296079,
+      "speed": 0.0,
+      "gravity": true,
+      "kinematic": false,
+      "contacts": [
+        "Stratum concrete 2 1 2",
+        "Rubble_Small_01_LOD0",
+        "Rebar_Wall_08_LOD0",
+        "Wall_Side_01_LOD0"
+      ]
+    },
+    {
+      "name": "Stratum concrete 3 0 0",
+      "Released": true,
+      "visible": true,
+      "center": "(1.059, 0.256, -0.254)",
+      "y": 0.256168127,
+      "drop": 1.44383192,
+      "speed": 0.0,
+      "gravity": true,
+      "kinematic": false,
+      "contacts": [
+        "Persistent thin chip 3 9",
+        "Persistent thin chip 3 22",
+        "Stratum concrete 4 1 2",
+        "Stratum concrete 3 2 0",
+        "Persistent thin chip 3 29",
+        "Persistent thin chip 3 27",
+        "Persistent thin chip 3 6",
+        "Buried receiving concrete plate 1"
+      ]
+    },
+    {
+      "name": "Stratum concrete 3 0 1",
+      "Released": true,
+      "visible": true,
+      "center": "(0.699, 1.671, 0.059)",
+      "y": 1.6712234,
+      "drop": 0.05377662,
+      "speed": 0.0,
+      "gravity": true,
+      "kinematic": false,
+      "contacts": [
+        "Rebar_Wall_01_LOD0",
+        "Rebar_Wall_04_LOD0"
+      ]
+    },
+    {
+      "name": "Stratum concrete 3 0 2",
+      "Released": true,
+      "visible": true,
+      "center": "(1.073, 0.131, 0.027)",
+      "y": 0.131498009,
+      "drop": 1.593502,
+      "speed": 0.0,
+      "gravity": true,
+      "kinematic": false,
+      "contacts": [
+        "Buried receiving concrete plate 1",
+        "Persistent thin chip 3 15",
+        "Persistent thin chip 3 9",
+        "Stratum concrete 3 1 2"
+      ]
+    },
+    {
+      "name": "Stratum concrete 3 1 0",
+      "Released": true,
+      "visible": true,
+      "center": "(0.854, 0.647, 0.450)",
+      "y": 0.6465729,
+      "drop": 1.53342724,
+      "speed": 0.0,
+      "gravity": true,
+      "kinematic": false,
+      "contacts": [
+        "Wall_Gray_Medium_02_LOD0",
+        "Rubble_Corner_Out_LOD0"
+      ]
+    },
+    {
+      "name": "Stratum concrete 3 1 1",
+      "Released": true,
+      "visible": true,
+      "center": "(1.217, 0.129, -0.445)",
+      "y": 0.129434615,
+      "drop": 2.07556558,
+      "speed": 0.0,
+      "gravity": true,
+      "kinematic": false,
+      "contacts": [
+        "Buried receiving concrete plate 1",
+        "Persistent thin chip 3 6",
+        "Persistent thin chip 3 25",
+        "Rubble_Big_LOD0"
+      ]
+    },
+    {
+      "name": "Stratum concrete 3 1 2",
+      "Released": true,
+      "visible": true,
+      "center": "(1.107, 0.158, 0.275)",
+      "y": 0.15824306,
+      "drop": 2.04675722,
+      "speed": 0.0,
+      "gravity": true,
+      "kinematic": false,
+      "contacts": [
+        "Persistent thin chip 3 24",
+        "Persistent thin chip 3 32",
+        "Buried receiving concrete plate 1",
+        "Persistent thin chip 3 0",
+        "Persistent thin chip 3 4",
+        "Stratum concrete 3 0 2"
+      ]
+    },
+    {
+      "name": "Stratum concrete 3 2 0",
+      "Released": true,
+      "visible": true,
+      "center": "(1.064, 0.359, 0.010)",
+      "y": 0.359103978,
+      "drop": 2.34089613,
+      "speed": 0.0,
+      "gravity": true,
+      "kinematic": false,
+      "contacts": [
+        "Wall_Grey_Big_01_LOD0",
+        "Stratum concrete 3 2 2",
+        "Stratum concrete 3 0 0",
+        "Stratum concrete 3 2 1",
+        "Rubble_Small_03_LOD0"
+      ]
+    },
+    {
+      "name": "Stratum concrete 3 2 1",
+      "Released": true,
+      "visible": true,
+      "center": "(1.166, 0.542, 0.035)",
+      "y": 0.5415427,
+      "drop": 2.18345737,
+      "speed": 0.0,
+      "gravity": true,
+      "kinematic": false,
+      "contacts": [
+        "Persistent thin chip 3 34",
+        "Stratum concrete 3 2 0",
+        "Stratum concrete 3 2 2",
+        "Rubble_Small_03_LOD0",
+        "Persistent thin chip 3 26"
+      ]
+    },
+    {
+      "name": "Stratum concrete 3 2 2",
+      "Released": true,
+      "visible": true,
+      "center": "(0.972, 0.473, 0.062)",
+      "y": 0.4726474,
+      "drop": 2.25235271,
+      "speed": 0.0,
+      "gravity": true,
+      "kinematic": false,
+      "contacts": [
+        "Stratum concrete 3 2 0",
+        "Wall_Gray_Medium_02_LOD0",
+        "Stratum concrete 3 2 1",
+        "Persistent thin chip 3 34"
+      ]
+    },
+    {
+      "name": "Stratum concrete 4 0 0",
+      "Released": true,
+      "visible": true,
+      "center": "(0.480, 0.155, -0.404)",
+      "y": 0.1546987,
+      "drop": 1.54530132,
+      "speed": 0.0,
+      "gravity": true,
+      "kinematic": false,
+      "contacts": [
+        "Stratum concrete 4 2 1",
+        "Buried receiving concrete plate 3",
+        "Persistent thin chip 4 1",
+        "Persistent thin chip 4 30",
+        "Stratum concrete 4 2 2",
+        "Buried receiving concrete plate 1",
+        "Rubble_Small_01_LOD0",
+        "Persistent thin chip 4 2",
+        "Stratum concrete 4 1 0",
+        "Persistent thin chip 4 12",
+        "Persistent thin chip 4 31",
+        "Persistent thin chip 4 25"
+      ]
+    },
+    {
+      "name": "Stratum concrete 4 0 1",
+      "Released": true,
+      "visible": true,
+      "center": "(-0.049, 0.076, -0.128)",
+      "y": 0.0758066848,
+      "drop": 1.64919329,
+      "speed": 0.0,
+      "gravity": true,
+      "kinematic": false,
+      "contacts": [
+        "Floor Slab",
+        "Persistent thin chip 4 7",
+        "Persistent thin chip 4 26",
+        "Stratum concrete 4 2 0",
+        "Buried receiving concrete plate 0"
+      ]
+    },
+    {
+      "name": "Stratum concrete 4 0 2",
+      "Released": true,
+      "visible": true,
+      "center": "(0.784, 0.143, -0.276)",
+      "y": 0.142838329,
+      "drop": 1.58216166,
+      "speed": 0.0,
+      "gravity": true,
+      "kinematic": false,
+      "contacts": [
+        "Persistent thin chip 4 11",
+        "Stratum concrete 4 2 2",
+        "Rubble_Medium_LOD0",
+        "Stratum concrete 4 1 2",
+        "Rubble_Small_01_LOD0",
+        "Buried receiving concrete plate 1",
+        "Persistent thin chip 4 18",
+        "Persistent thin chip 4 5",
+        "Persistent thin chip 3 19"
+      ]
+    },
+    {
+      "name": "Stratum concrete 4 1 0",
+      "Released": true,
+      "visible": true,
+      "center": "(0.459, 0.277, -0.595)",
+      "y": 0.2768028,
+      "drop": 1.90319729,
+      "speed": 0.0,
+      "gravity": true,
+      "kinematic": false,
+      "contacts": [
+        "Stratum concrete 4 0 0",
+        "Persistent thin chip 4 14",
+        "Wall_Grey_Big_01_LOD0",
+        "Persistent thin chip 4 29",
+        "Persistent thin chip 4 33",
+        "Persistent thin chip 4 20"
+      ]
+    },
+    {
+      "name": "Stratum concrete 4 1 1",
+      "Released": true,
+      "visible": true,
+      "center": "(0.761, 0.144, -0.543)",
+      "y": 0.144477636,
+      "drop": 2.06052256,
+      "speed": 0.0,
+      "gravity": true,
+      "kinematic": false,
+      "contacts": [
+        "Persistent thin chip 4 9",
+        "Rubble_Medium_LOD0",
+        "Persistent thin chip 4 5",
+        "Buried receiving concrete plate 1",
+        "Persistent thin chip 4 24",
+        "Stratum concrete 4 2 2"
+      ]
+    },
+    {
+      "name": "Stratum concrete 4 1 2",
+      "Released": true,
+      "visible": true,
+      "center": "(0.986, 0.140, -0.419)",
+      "y": 0.139931932,
+      "drop": 2.06506824,
+      "speed": 0.0,
+      "gravity": true,
+      "kinematic": false,
+      "contacts": [
+        "Persistent thin chip 4 9",
+        "Stratum concrete 3 0 0",
+        "Persistent thin chip 4 5",
+        "Buried receiving concrete plate 1",
+        "Stratum concrete 4 0 2",
+        "Rubble_Medium_LOD0"
+      ]
+    },
+    {
+      "name": "Stratum concrete 4 2 0",
+      "Released": true,
+      "visible": true,
+      "center": "(0.141, 0.221, -0.144)",
+      "y": 0.221093729,
+      "drop": 2.47890639,
+      "speed": 0.0,
+      "gravity": true,
+      "kinematic": false,
+      "contacts": [
+        "Phone Ledge",
+        "Persistent thin chip 4 17",
+        "Buried receiving concrete plate 1",
+        "Stratum concrete 4 0 1",
+        "Persistent thin chip 4 4"
+      ]
+    },
+    {
+      "name": "Stratum concrete 4 2 1",
+      "Released": true,
+      "visible": true,
+      "center": "(0.653, 0.313, -0.267)",
+      "y": 0.312916249,
+      "drop": 2.41208386,
+      "speed": 0.0,
+      "gravity": true,
+      "kinematic": false,
+      "contacts": [
+        "Persistent thin chip 4 11",
+        "Stratum concrete 4 0 0",
+        "Rubble_Small_01_LOD0",
+        "Persistent thin chip 4 27"
+      ]
+    },
+    {
+      "name": "Stratum concrete 4 2 2",
+      "Released": true,
+      "visible": true,
+      "center": "(0.777, 0.279, -0.392)",
+      "y": 0.279370576,
+      "drop": 2.4456296,
+      "speed": 0.0,
+      "gravity": true,
+      "kinematic": false,
+      "contacts": [
+        "Persistent thin chip 4 11",
+        "Stratum concrete 4 0 2",
+        "Persistent thin chip 4 27",
+        "Rubble_Small_01_LOD0",
+        "Persistent thin chip 4 5",
+        "Stratum concrete 4 1 1",
+        "Stratum concrete 4 0 0"
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "time": 0.153158188,
+      "bigReleased": 0,
+      "smallReleased": 0,
+      "visible": 225,
+      "pipe": "(0.000, 2.450, 0.880)",
+      "bearings": [
+        [
+          {
+            "y": 1.7,
+            "releaseAt": 3.05
+          },
+          {
+            "y": 2.18,
+            "releaseAt": 6.28
+          },
+          {
+            "y": 2.7,
+            "releaseAt": 11.74
+          },
+          {
+            "y": 3.15,
+            "releaseAt": 0.0
+          }
+        ],
+        [
+          {
+            "y": 1.7,
+            "releaseAt": 3.89
+          },
+          {
+            "y": 2.18,
+            "releaseAt": 7.48
+          },
+          {
+            "y": 2.7,
+            "releaseAt": 13.15
+          },
+          {
+            "y": 3.15,
+            "releaseAt": 0.0
+          }
+        ],
+        [
+          {
+            "y": 1.7,
+            "releaseAt": 4.67
+          },
+          {
+            "y": 2.18,
+            "releaseAt": 8.66
+          },
+          {
+            "y": 2.7,
+            "releaseAt": 14.28
+          },
+          {
+            "y": 3.15,
+            "releaseAt": 0.0
+          }
+        ],
+        [
+          {
+            "y": 1.7,
+            "releaseAt": 5.41
+          },
+          {
+            "y": 2.18,
+            "releaseAt": 9.53
+          },
+          {
+            "y": 2.7,
+            "releaseAt": 15.34
+          },
+          {
+            "y": 3.15,
+            "releaseAt": 0.0
+          }
+        ],
+        [
+          {
+            "y": 1.7,
+            "releaseAt": 6.12
+          },
+          {
+            "y": 2.18,
+            "releaseAt": 10.76
+          },
+          {
+            "y": 2.7,
+            "releaseAt": 14.82
+          },
+          {
+            "y": 3.15,
+            "releaseAt": 0.0
+          }
+        ],
+        [
+          {
+            "y": 3.0,
+            "releaseAt": 0.0
+          }
+        ]
+      ]
+    },
+    {
+      "time": 3.522211,
+      "bigReleased": 3,
+      "smallReleased": 6,
+      "visible": 225,
+      "pipe": "(0.000, 2.450, 0.880)",
+      "bearings": [
+        [
+          {
+            "y": 1.7,
+            "releaseAt": 3.05
+          },
+          {
+            "y": 2.108284,
+            "releaseAt": 6.28
+          },
+          {
+            "y": 2.7,
+            "releaseAt": 11.74
+          },
+          {
+            "y": 3.15,
+            "releaseAt": 0.0
+          }
+        ],
+        [
+          {
+            "y": 1.7,
+            "releaseAt": 3.89
+          },
+          {
+            "y": 2.18,
+            "releaseAt": 7.48
+          },
+          {
+            "y": 2.7,
+            "releaseAt": 13.15
+          },
+          {
+            "y": 3.15,
+            "releaseAt": 0.0
+          }
+        ],
+        [
+          {
+            "y": 1.7,
+            "releaseAt": 4.67
+          },
+          {
+            "y": 2.18,
+            "releaseAt": 8.66
+          },
+          {
+            "y": 2.7,
+            "releaseAt": 14.28
+          },
+          {
+            "y": 3.15,
+            "releaseAt": 0.0
+          }
+        ],
+        [
+          {
+            "y": 1.7,
+            "releaseAt": 5.41
+          },
+          {
+            "y": 2.18,
+            "releaseAt": 9.53
+          },
+          {
+            "y": 2.7,
+            "releaseAt": 15.34
+          },
+          {
+            "y": 3.15,
+            "releaseAt": 0.0
+          }
+        ],
+        [
+          {
+            "y": 1.7,
+            "releaseAt": 6.12
+          },
+          {
+            "y": 2.18,
+            "releaseAt": 10.76
+          },
+          {
+            "y": 2.7,
+            "releaseAt": 14.82
+          },
+          {
+            "y": 3.15,
+            "releaseAt": 0.0
+          }
+        ],
+        [
+          {
+            "y": 3.0,
+            "releaseAt": 0.0
+          }
+        ]
+      ]
+    },
+    {
+      "time": 4.126566,
+      "bigReleased": 6,
+      "smallReleased": 17,
+      "visible": 225,
+      "pipe": "(0.000, 2.450, 0.880)",
+      "bearings": [
+        [
+          {
+            "y": 1.7,
+            "releaseAt": 3.05
+          },
+          {
+            "y": 1.78131938,
+            "releaseAt": 6.28
+          },
+          {
+            "y": 2.7,
+            "releaseAt": 11.74
+          },
+          {
+            "y": 3.15,
+            "releaseAt": 0.0
+          }
+        ],
+        [
+          {
+            "y": 1.7,
+            "releaseAt": 3.89
+          },
+          {
+            "y": 2.178472,
+            "releaseAt": 7.48
+          },
+          {
+            "y": 2.7,
+            "releaseAt": 13.15
+          },
+          {
+            "y": 3.15,
+            "releaseAt": 0.0
+          }
+        ],
+        [
+          {
+            "y": 1.7,
+            "releaseAt": 4.67
+          },
+          {
+            "y": 2.18,
+            "releaseAt": 8.66
+          },
+          {
+            "y": 2.7,
+            "releaseAt": 14.28
+          },
+          {
+            "y": 3.15,
+            "releaseAt": 0.0
+          }
+        ],
+        [
+          {
+            "y": 1.7,
+            "releaseAt": 5.41
+          },
+          {
+            "y": 2.18,
+            "releaseAt": 9.53
+          },
+          {
+            "y": 2.7,
+            "releaseAt": 15.34
+          },
+          {
+            "y": 3.15,
+            "releaseAt": 0.0
+          }
+        ],
+        [
+          {
+            "y": 1.7,
+            "releaseAt": 6.12
+          },
+          {
+            "y": 2.18,
+            "releaseAt": 10.76
+          },
+          {
+            "y": 2.7,
+            "releaseAt": 14.82
+          },
+          {
+            "y": 3.15,
+            "releaseAt": 0.0
+          }
+        ],
+        [
+          {
+            "y": 3.0,
+            "releaseAt": 0.0
+          }
+        ]
+      ]
+    },
+    {
+      "time": 5.537985,
+      "bigReleased": 11,
+      "smallReleased": 40,
+      "visible": 225,
+      "pipe": "(-0.014, 1.172, 0.662)",
+      "bearings": [
+        [
+          {
+            "y": 1.7,
+            "releaseAt": 3.05
+          },
+          {
+            "y": 1.75,
+            "releaseAt": 6.28
+          },
+          {
+            "y": 2.7,
+            "releaseAt": 11.74
+          },
+          {
+            "y": 3.15,
+            "releaseAt": 0.0
+          }
+        ],
+        [
+          {
+            "y": 1.7,
+            "releaseAt": 3.89
+          },
+          {
+            "y": 1.75,
+            "releaseAt": 7.48
+          },
+          {
+            "y": 2.7,
+            "releaseAt": 13.15
+          },
+          {
+            "y": 3.15,
+            "releaseAt": 0.0
+          }
+        ],
+        [
+          {
+            "y": 1.7,
+            "releaseAt": 4.67
+          },
+          {
+            "y": 1.87933815,
+            "releaseAt": 8.66
+          },
+          {
+            "y": 2.7,
+            "releaseAt": 14.28
+          },
+          {
+            "y": 3.15,
+            "releaseAt": 0.0
+          }
+        ],
+        [
+          {
+            "y": 1.7,
+            "releaseAt": 5.41
+          },
+          {
+            "y": 2.18,
+            "releaseAt": 9.53
+          },
+          {
+            "y": 2.7,
+            "releaseAt": 15.34
+          },
+          {
+            "y": 3.15,
+            "releaseAt": 0.0
+          }
+        ],
+        [
+          {
+            "y": 1.7,
+            "releaseAt": 6.12
+          },
+          {
+            "y": 2.18,
+            "releaseAt": 10.76
+          },
+          {
+            "y": 2.7,
+            "releaseAt": 14.82
+          },
+          {
+            "y": 3.15,
+            "releaseAt": 0.0
+          }
+        ],
+        [
+          {
+            "y": 3.0,
+            "releaseAt": 0.0
+          }
+        ]
+      ]
+    },
+    {
+      "time": 6.43876839,
+      "bigReleased": 17,
+      "smallReleased": 54,
+      "visible": 225,
+      "pipe": "(-0.016, 0.457, 0.247)",
+      "bearings": [
+        [
+          {
+            "y": 1.7,
+            "releaseAt": 3.05
+          },
+          {
+            "y": 1.75,
+            "releaseAt": 6.28
+          },
+          {
+            "y": 2.7,
+            "releaseAt": 11.74
+          },
+          {
+            "y": 3.15,
+            "releaseAt": 0.0
+          }
+        ],
+        [
+          {
+            "y": 1.7,
+            "releaseAt": 3.89
+          },
+          {
+            "y": 1.75,
+            "releaseAt": 7.48
+          },
+          {
+            "y": 2.7,
+            "releaseAt": 13.15
+          },
+          {
+            "y": 3.15,
+            "releaseAt": 0.0
+          }
+        ],
+        [
+          {
+            "y": 1.7,
+            "releaseAt": 4.67
+          },
+          {
+            "y": 1.75,
+            "releaseAt": 8.66
+          },
+          {
+            "y": 2.7,
+            "releaseAt": 14.28
+          },
+          {
+            "y": 3.15,
+            "releaseAt": 0.0
+          }
+        ],
+        [
+          {
+            "y": 1.7,
+            "releaseAt": 5.41
+          },
+          {
+            "y": 1.79922307,
+            "releaseAt": 9.53
+          },
+          {
+            "y": 2.7,
+            "releaseAt": 15.34
+          },
+          {
+            "y": 3.15,
+            "releaseAt": 0.0
+          }
+        ],
+        [
+          {
+            "y": 1.7,
+            "releaseAt": 6.12
+          },
+          {
+            "y": 2.16473961,
+            "releaseAt": 10.76
+          },
+          {
+            "y": 2.7,
+            "releaseAt": 14.82
+          },
+          {
+            "y": 3.15,
+            "releaseAt": 0.0
+          }
+        ],
+        [
+          {
+            "y": 3.0,
+            "releaseAt": 0.0
+          }
+        ]
+      ]
+    },
+    {
+      "time": 8.429468,
+      "bigReleased": 21,
+      "smallReleased": 84,
+      "visible": 225,
+      "pipe": "(-0.033, 0.456, 0.251)",
+      "bearings": [
+        [
+          {
+            "y": 1.7,
+            "releaseAt": 3.05
+          },
+          {
+            "y": 1.75,
+            "releaseAt": 6.28
+          },
+          {
+            "y": 1.8900001,
+            "releaseAt": 11.74
+          },
+          {
+            "y": 3.15,
+            "releaseAt": 0.0
+          }
+        ],
+        [
+          {
+            "y": 1.7,
+            "releaseAt": 3.89
+          },
+          {
+            "y": 1.75,
+            "releaseAt": 7.48
+          },
+          {
+            "y": 2.05108547,
+            "releaseAt": 13.15
+          },
+          {
+            "y": 3.15,
+            "releaseAt": 0.0
+          }
+        ],
+        [
+          {
+            "y": 1.7,
+            "releaseAt": 4.67
+          },
+          {
+            "y": 1.75,
+            "releaseAt": 8.66
+          },
+          {
+            "y": 2.7,
+            "releaseAt": 14.28
+          },
+          {
+            "y": 3.15,
+            "releaseAt": 0.0
+          }
+        ],
+        [
+          {
+            "y": 1.7,
+            "releaseAt": 5.41
+          },
+          {
+            "y": 1.75,
+            "releaseAt": 9.53
+          },
+          {
+            "y": 2.7,
+            "releaseAt": 15.34
+          },
+          {
+            "y": 3.15,
+            "releaseAt": 0.0
+          }
+        ],
+        [
+          {
+            "y": 1.7,
+            "releaseAt": 6.12
+          },
+          {
+            "y": 1.75,
+            "releaseAt": 10.76
+          },
+          {
+            "y": 2.7,
+            "releaseAt": 14.82
+          },
+          {
+            "y": 3.15,
+            "releaseAt": 0.0
+          }
+        ],
+        [
+          {
+            "y": 3.0,
+            "releaseAt": 0.0
+          }
+        ]
+      ]
+    },
+    {
+      "time": 10.53026,
+      "bigReleased": 27,
+      "smallReleased": 108,
+      "visible": 225,
+      "pipe": "(-0.031, 0.459, 0.248)",
+      "bearings": [
+        [
+          {
+            "y": 1.7,
+            "releaseAt": 3.05
+          },
+          {
+            "y": 1.75,
+            "releaseAt": 6.28
+          },
+          {
+            "y": 1.8900001,
+            "releaseAt": 11.74
+          },
+          {
+            "y": 3.15,
+            "releaseAt": 0.0
+          }
+        ],
+        [
+          {
+            "y": 1.7,
+            "releaseAt": 3.89
+          },
+          {
+            "y": 1.75,
+            "releaseAt": 7.48
+          },
+          {
+            "y": 1.8900001,
+            "releaseAt": 13.15
+          },
+          {
+            "y": 3.15,
+            "releaseAt": 0.0
+          }
+        ],
+        [
+          {
+            "y": 1.7,
+            "releaseAt": 4.67
+          },
+          {
+            "y": 1.75,
+            "releaseAt": 8.66
+          },
+          {
+            "y": 1.8900001,
+            "releaseAt": 14.28
+          },
+          {
+            "y": 3.15,
+            "releaseAt": 0.0
+          }
+        ],
+        [
+          {
+            "y": 1.7,
+            "releaseAt": 5.41
+          },
+          {
+            "y": 1.75,
+            "releaseAt": 9.53
+          },
+          {
+            "y": 2.00567055,
+            "releaseAt": 15.34
+          },
+          {
+            "y": 3.15,
+            "releaseAt": 0.0
+          }
+        ],
+        [
+          {
+            "y": 1.7,
+            "releaseAt": 6.12
+          },
+          {
+            "y": 1.75,
+            "releaseAt": 10.76
+          },
+          {
+            "y": 2.7,
+            "releaseAt": 14.82
+          },
+          {
+            "y": 3.15,
+            "releaseAt": 0.0
+          }
+        ],
+        [
+          {
+            "y": 1.68489528,
+            "releaseAt": 0.0
+          }
+        ]
+      ]
+    },
+    {
+      "time": 14.5243053,
+      "bigReleased": 39,
+      "smallReleased": 148,
+      "visible": 225,
+      "pipe": "(-0.029, 0.455, 0.251)",
+      "bearings": [
+        [
+          {
+            "y": 1.7,
+            "releaseAt": 3.05
+          },
+          {
+            "y": 1.75,
+            "releaseAt": 6.28
+          },
+          {
+            "y": 1.8900001,
+            "releaseAt": 11.74
+          },
+          {
+            "y": 1.56000006,
+            "releaseAt": 0.0
+          }
+        ],
+        [
+          {
+            "y": 1.7,
+            "releaseAt": 3.89
+          },
+          {
+            "y": 1.75,
+            "releaseAt": 7.48
+          },
+          {
+            "y": 1.8900001,
+            "releaseAt": 13.15
+          },
+          {
+            "y": 2.88445878,
+            "releaseAt": 0.0
+          }
+        ],
+        [
+          {
+            "y": 1.7,
+            "releaseAt": 4.67
+          },
+          {
+            "y": 1.75,
+            "releaseAt": 8.66
+          },
+          {
+            "y": 1.8900001,
+            "releaseAt": 14.28
+          },
+          {
+            "y": 3.15,
+            "releaseAt": 0.0
+          }
+        ],
+        [
+          {
+            "y": 1.7,
+            "releaseAt": 5.41
+          },
+          {
+            "y": 1.75,
+            "releaseAt": 9.53
+          },
+          {
+            "y": 1.8900001,
+            "releaseAt": 15.34
+          },
+          {
+            "y": 3.15,
+            "releaseAt": 0.0
+          }
+        ],
+        [
+          {
+            "y": 1.7,
+            "releaseAt": 6.12
+          },
+          {
+            "y": 1.75,
+            "releaseAt": 10.76
+          },
+          {
+            "y": 1.8900001,
+            "releaseAt": 14.82
+          },
+          {
+            "y": 3.15,
+            "releaseAt": 0.0
+          }
+        ],
+        [
+          {
+            "y": 1.6,
+            "releaseAt": 0.0
+          }
+        ]
+      ]
+    },
+    {
+      "time": 17.9507885,
+      "bigReleased": 45,
+      "smallReleased": 180,
+      "visible": 225,
+      "pipe": "(-0.025, 0.456, 0.250)",
+      "bearings": [
+        [
+          {
+            "y": 1.7,
+            "releaseAt": 3.05
+          },
+          {
+            "y": 1.75,
+            "releaseAt": 6.28
+          },
+          {
+            "y": 1.8900001,
+            "releaseAt": 11.74
+          },
+          {
+            "y": 1.56000006,
+            "releaseAt": 0.0
+          }
+        ],
+        [
+          {
+            "y": 1.7,
+            "releaseAt": 3.89
+          },
+          {
+            "y": 1.75,
+            "releaseAt": 7.48
+          },
+          {
+            "y": 1.8900001,
+            "releaseAt": 13.15
+          },
+          {
+            "y": 1.56000006,
+            "releaseAt": 0.0
+          }
+        ],
+        [
+          {
+            "y": 1.7,
+            "releaseAt": 4.67
+          },
+          {
+            "y": 1.75,
+            "releaseAt": 8.66
+          },
+          {
+            "y": 1.8900001,
+            "releaseAt": 14.28
+          },
+          {
+            "y": 1.56000006,
+            "releaseAt": 0.0
+          }
+        ],
+        [
+          {
+            "y": 1.7,
+            "releaseAt": 5.41
+          },
+          {
+            "y": 1.75,
+            "releaseAt": 9.53
+          },
+          {
+            "y": 1.8900001,
+            "releaseAt": 15.34
+          },
+          {
+            "y": 1.56000006,
+            "releaseAt": 0.0
+          }
+        ],
+        [
+          {
+            "y": 1.7,
+            "releaseAt": 6.12
+          },
+          {
+            "y": 1.75,
+            "releaseAt": 10.76
+          },
+          {
+            "y": 1.8900001,
+            "releaseAt": 14.82
+          },
+          {
+            "y": 1.56000006,
+            "releaseAt": 0.0
+          }
+        ],
+        [
+          {
+            "y": 1.6,
+            "releaseAt": 0.0
+          }
+        ]
+      ]
+    },
+    {
+      "time": 28.5079327,
+      "bigReleased": 45,
+      "smallReleased": 180,
+      "visible": 225,
+      "pipe": "(-0.025, 0.456, 0.250)",
+      "bearings": [
+        [
+          {
+            "y": 1.7,
+            "releaseAt": 3.05
+          },
+          {
+            "y": 1.75,
+            "releaseAt": 6.28
+          },
+          {
+            "y": 1.8900001,
+            "releaseAt": 11.74
+          },
+          {
+            "y": 1.56000006,
+            "releaseAt": 0.0
+          }
+        ],
+        [
+          {
+            "y": 1.7,
+            "releaseAt": 3.89
+          },
+          {
+            "y": 1.75,
+            "releaseAt": 7.48
+          },
+          {
+            "y": 1.8900001,
+            "releaseAt": 13.15
+          },
+          {
+            "y": 1.56000006,
+            "releaseAt": 0.0
+          }
+        ],
+        [
+          {
+            "y": 1.7,
+            "releaseAt": 4.67
+          },
+          {
+            "y": 1.75,
+            "releaseAt": 8.66
+          },
+          {
+            "y": 1.8900001,
+            "releaseAt": 14.28
+          },
+          {
+            "y": 1.56000006,
+            "releaseAt": 0.0
+          }
+        ],
+        [
+          {
+            "y": 1.7,
+            "releaseAt": 5.41
+          },
+          {
+            "y": 1.75,
+            "releaseAt": 9.53
+          },
+          {
+            "y": 1.8900001,
+            "releaseAt": 15.34
+          },
+          {
+            "y": 1.56000006,
+            "releaseAt": 0.0
+          }
+        ],
+        [
+          {
+            "y": 1.7,
+            "releaseAt": 6.12
+          },
+          {
+            "y": 1.75,
+            "releaseAt": 10.76
+          },
+          {
+            "y": 1.8900001,
+            "releaseAt": 14.82
+          },
+          {
+            "y": 1.56000006,
+            "releaseAt": 0.0
+          }
+        ],
+        [
+          {
+            "y": 1.6,
+            "releaseAt": 0.0
+          }
+        ]
+      ]
+    }
+  ]
+}

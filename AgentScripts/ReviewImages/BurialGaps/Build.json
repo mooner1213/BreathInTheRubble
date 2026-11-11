@@ -1,0 +1,113 @@
+{
+  "separatedStones": 90,
+  "modifiedSources": [
+    {
+      "source": "Rebar_Wall_08_LOD0",
+      "mesh": "ClosedCut_121",
+      "islands": 5
+    },
+    {
+      "source": "Rebar_Wall_08_LOD0",
+      "mesh": "ClosedCut_123",
+      "islands": 5
+    },
+    {
+      "source": "Rebar_Wall_01_LOD0",
+      "mesh": "ClosedCut_3",
+      "islands": 8
+    },
+    {
+      "source": "Wall_Grey_Big_01_LOD0",
+      "mesh": "ClosedCut_126",
+      "islands": 1
+    },
+    {
+      "source": "Rebar_Wall_08_LOD0",
+      "mesh": "ClosedCut_133",
+      "islands": 4
+    },
+    {
+      "source": "Wall_Gray_Medium_03_LOD0",
+      "mesh": "ClosedCut_27",
+      "islands": 2
+    },
+    {
+      "source": "Rebar_Wall_08_LOD0",
+      "mesh": "ClosedCut_134",
+      "islands": 3
+    },
+    {
+      "source": "Rebar_Wall_04_LOD0",
+      "mesh": "ClosedCut_6",
+      "islands": 8
+    },
+    {
+      "source": "Rebar_Wall_04_LOD0",
+      "mesh": "ClosedCut_4",
+      "islands": 8
+    },
+    {
+      "source": "Wall_DarkGrey_Medium_01_LOD0",
+      "mesh": "ClosedCut_19",
+      "islands": 1
+    },
+    {
+      "source": "Blocks_Big_02_LOD0",
+      "mesh": "ClosedCut_23",
+      "islands": 3
+    },
+    {
+      "source": "Rebar_Wall_04_LOD0",
+      "mesh": "ClosedCut_0",
+      "islands": 7
+    },
+    {
+      "source": "Blocks_Big_01_LOD0",
+      "mesh": "ClosedCut_28",
+      "islands": 2
+    },
+    {
+      "source": "Wall_DarkGrey_Medium_01_LOD0",
+      "mesh": "ClosedCut_29",
+      "islands": 1
+    },
+    {
+      "source": "Rebar_Wall_04_LOD0",
+      "mesh": "ClosedCut_2",
+      "islands": 8
+    },
+    {
+      "source": "Wall_Gray_Medium_03_LOD0",
+      "mesh": "ClosedCut_20",
+      "islands": 2
+    },
+    {
+      "source": "Bricks_Big_02_LOD0",
+      "mesh": "ClosedCut_55",
+      "islands": 1
+    },
+    {
+      "source": "Bricks_Big_02_LOD0",
+      "mesh": "ClosedCut_25",
+      "islands": 1
+    },
+    {
+      "source": "Rebar_Wall_01_LOD0",
+      "mesh": "ClosedCut_7",
+      "islands": 6
+    },
+    {
+      "source": "Rebar_Wall_01_LOD0",
+      "mesh": "ClosedCut_5",
+      "islands": 6
+    },
+    {
+      "source": "Rebar_Wall_01_LOD0",
+      "mesh": "CutCanopy_025",
+      "islands": 8
+    }
+  ],
+  "permanentBacking": 33,
+  "rescueRoofPieces": 3,
+  "totalElements": 486
+}

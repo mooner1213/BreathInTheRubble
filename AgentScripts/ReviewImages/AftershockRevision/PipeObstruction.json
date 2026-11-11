@@ -1,0 +1,20 @@
+{
+  "result": "FAIL",
+  "samples": 155,
+  "frames": 180,
+  "available": true,
+  "position": "(0.017, 1.003, 0.963)",
+  "reachable": false,
+  "renderedRadius": 0.0110000577,
+  "physicalRadius": 0.027,
+  "geometry": "rendered-radius capsule against visible rubble triangles; 1.5mm tolerance",
+  "intersections": [
+    {
+      "elapsed": 7.88893127,
+      "surface": "Prototype Environment/Independent 360 structural collapse/Persistent structural rubble/Overlapping front ceiling lip broken section 0",
+      "depth": 0.00200634543,
+      "pipe": "(0.000, 1.340, 0.879)"
+    }
+  ],
+  "count": 1
+}

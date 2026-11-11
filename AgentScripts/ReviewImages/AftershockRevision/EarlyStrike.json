@@ -1,0 +1,32 @@
+{
+  "result": "FAIL",
+  "physicalImpactSurfaces": [
+    "Concrete",
+    "Concrete",
+    "Concrete",
+    "Concrete",
+    "Concrete",
+    "Concrete"
+  ],
+  "signalCount": 3,
+  "audioPlayed": true,
+  "pipeHeld": true,
+  "impactCount": 6,
+  "pipePosition": "(0.197, 0.680, 0.066)",
+  "constraints": "None",
+  "contacts": [
+    "held Overlapping front ceiling lip broken section 1 / Overlapping front ceiling lip broken section 1 / Concrete at (0.13, 0.79, 0.37)",
+    "held Overlapping front ceiling lip broken section 1 / Overlapping front ceiling lip broken section 1 / Concrete at (0.13, 0.78, 0.34)",
+    "held Low overlapping fracture veil broken section 1 / Low overlapping fracture veil broken section 1 / Concrete at (0.13, 0.84, 0.42)",
+    "held Metal contact 2 / Metal contact 2 / Metal at (0.13, 0.75, 0.28)",
+    "held Overhead breaking slab 1 / Overhead breaking slab 1 / Concrete at (0.12, 0.87, 0.39)",
+    "held Overhead breaking slab 1 / Overhead breaking slab 1 / Concrete at (0.12, 0.83, 0.32)",
+    "held Overlapping front ceiling lip broken section 1 / Overlapping front ceiling lip broken section 1 / Concrete at (0.22, 0.83, 0.29)",
+    "held Overhead breaking slab 1 / Overhead breaking slab 1 / Concrete at (0.20, 0.84, 0.29)",
+    "held Overlapping front ceiling lip broken section 1 / Overlapping front ceiling lip broken section 1 / Concrete at (0.26, 0.82, 0.30)",
+    "held Overlapping front ceiling lip broken section 1 / Overlapping front ceiling lip broken section 1 / Concrete at (0.25, 0.81, 0.29)",
+    "held Metal contact 2 / Metal contact 2 / Metal at (0.25, 0.75, 0.26)",
+    "held Overhead breaking slab 1 / Overhead breaking slab 1 / Concrete at (0.24, 0.83, 0.29)"
+  ],
+  "Stage": 1
+}

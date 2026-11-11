@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 6cad2a7016eb0bf488b0c408d7071055
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 27688
+  packageName: SRDebugger - Console & Tools On-Device
+  packageVersion: 1.13.2
+  assetPath: Assets/StompyRobot/SRDebugger/Scenes/Sample.unity
+  uploadId: 1040702

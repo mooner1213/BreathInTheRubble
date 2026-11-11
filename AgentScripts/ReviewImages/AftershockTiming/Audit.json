@@ -1,0 +1,34 @@
+{
+  "elements": 363,
+  "uniquePhases": 363,
+  "newFractures": 29,
+  "crackLines": 58,
+  "distances": [
+    {
+      "direction": "(0.0, 0.0, 1.0)",
+      "distance": 0.7298583,
+      "surface": "Center crushed bearing stone broken section 1"
+    },
+    {
+      "direction": "(1.0, 0.0, 0.0)",
+      "distance": 0.440843433,
+      "surface": "Rubble_Small_01_LOD0"
+    },
+    {
+      "direction": "(0.0, 0.0, -1.0)",
+      "distance": 0.5348318,
+      "surface": "Rear close load wall"
+    },
+    {
+      "direction": "(-1.0, 0.0, 0.0)",
+      "distance": 0.4998954,
+      "surface": "Rubble_Small_01_LOD0"
+    },
+    {
+      "direction": "(0.0, 1.0, 0.0)",
+      "distance": 0.612843037,
+      "surface": "Wall_Grey_Big_01_LOD0"
+    }
+  ],
+  "propOverlaps": []
+}

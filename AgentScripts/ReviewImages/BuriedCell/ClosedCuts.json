@@ -1,0 +1,882 @@
+[
+  {
+    "name": "Rebar_Wall_04_LOD0",
+    "loops": 12,
+    "triangles": 95
+  },
+  {
+    "name": "Rebar_Wall_01_LOD0",
+    "loops": 3,
+    "triangles": 37
+  },
+  {
+    "name": "Rebar_Wall_04_LOD0",
+    "loops": 4,
+    "triangles": 36
+  },
+  {
+    "name": "Rebar_Wall_01_LOD0",
+    "loops": 4,
+    "triangles": 33
+  },
+  {
+    "name": "Rebar_Wall_04_LOD0",
+    "loops": 12,
+    "triangles": 110
+  },
+  {
+    "name": "Rebar_Wall_01_LOD0",
+    "loops": 9,
+    "triangles": 70
+  },
+  {
+    "name": "Rebar_Wall_04_LOD0",
+    "loops": 10,
+    "triangles": 73
+  },
+  {
+    "name": "Rebar_Wall_01_LOD0",
+    "loops": 12,
+    "triangles": 102
+  },
+  {
+    "name": "Wall_Gray_Medium_02_LOD0",
+    "loops": 1,
+    "triangles": 18
+  },
+  {
+    "name": "Bricks_Big_02_LOD0",
+    "loops": 1,
+    "triangles": 10
+  },
+  {
+    "name": "Blocks_Big_02_LOD0",
+    "loops": 1,
+    "triangles": 11
+  },
+  {
+    "name": "Wall_Gray_Medium_02_LOD0",
+    "loops": 1,
+    "triangles": 21
+  },
+  {
+    "name": "Wall_DarkGrey_Medium_01_LOD0",
+    "loops": 1,
+    "triangles": 9
+  },
+  {
+    "name": "Wall_Gray_Medium_03_LOD0",
+    "loops": 1,
+    "triangles": 11
+  },
+  {
+    "name": "Blocks_Big_01_LOD0",
+    "loops": 1,
+    "triangles": 17
+  },
+  {
+    "name": "Bricks_Big_02_LOD0",
+    "loops": 3,
+    "triangles": 40
+  },
+  {
+    "name": "Blocks_Big_02_LOD0",
+    "loops": 2,
+    "triangles": 29
+  },
+  {
+    "name": "Wall_Gray_Medium_02_LOD0",
+    "loops": 2,
+    "triangles": 32
+  },
+  {
+    "name": "Bricks_Big_02_LOD0",
+    "loops": 4,
+    "triangles": 31
+  },
+  {
+    "name": "Wall_DarkGrey_Medium_01_LOD0",
+    "loops": 3,
+    "triangles": 14
+  },
+  {
+    "name": "Wall_Gray_Medium_03_LOD0",
+    "loops": 4,
+    "triangles": 37
+  },
+  {
+    "name": "Blocks_Big_01_LOD0",
+    "loops": 5,
+    "triangles": 52
+  },
+  {
+    "name": "Wall_DarkGrey_Medium_01_LOD0",
+    "loops": 2,
+    "triangles": 13
+  },
+  {
+    "name": "Blocks_Big_02_LOD0",
+    "loops": 6,
+    "triangles": 83
+  },
+  {
+    "name": "Wall_Gray_Medium_02_LOD0",
+    "loops": 2,
+    "triangles": 17
+  },
+  {
+    "name": "Bricks_Big_02_LOD0",
+    "loops": 4,
+    "triangles": 25
+  },
+  {
+    "name": "Blocks_Big_02_LOD0",
+    "loops": 1,
+    "triangles": 7
+  },
+  {
+    "name": "Wall_Gray_Medium_03_LOD0",
+    "loops": 5,
+    "triangles": 48
+  },
+  {
+    "name": "Blocks_Big_01_LOD0",
+    "loops": 4,
+    "triangles": 64
+  },
+  {
+    "name": "Wall_DarkGrey_Medium_01_LOD0",
+    "loops": 4,
+    "triangles": 19
+  },
+  {
+    "name": "Wall_Gray_Medium_03_LOD0",
+    "loops": 2,
+    "triangles": 22
+  },
+  {
+    "name": "Bricks_Big_02_LOD0",
+    "loops": 1,
+    "triangles": 10
+  },
+  {
+    "name": "Blocks_Big_02_LOD0",
+    "loops": 1,
+    "triangles": 9
+  },
+  {
+    "name": "Wall_Gray_Medium_02_LOD0",
+    "loops": 1,
+    "triangles": 3
+  },
+  {
+    "name": "Blocks_Big_01_LOD0",
+    "loops": 3,
+    "triangles": 39
+  },
+  {
+    "name": "Wall_DarkGrey_Medium_01_LOD0",
+    "loops": 1,
+    "triangles": 6
+  },
+  {
+    "name": "Wall_Gray_Medium_03_LOD0",
+    "loops": 2,
+    "triangles": 10
+  },
+  {
+    "name": "Blocks_Big_01_LOD0",
+    "loops": 2,
+    "triangles": 22
+  },
+  {
+    "name": "Bricks_Big_02_LOD0",
+    "loops": 1,
+    "triangles": 25
+  },
+  {
+    "name": "Blocks_Big_02_LOD0",
+    "loops": 1,
+    "triangles": 21
+  },
+  {
+    "name": "Wall_Gray_Medium_02_LOD0",
+    "loops": 1,
+    "triangles": 13
+  },
+  {
+    "name": "Bricks_Big_02_LOD0",
+    "loops": 1,
+    "triangles": 13
+  },
+  {
+    "name": "Bricks_Big_02_LOD0",
+    "loops": 1,
+    "triangles": 5
+  },
+  {
+    "name": "Wall_Gray_Medium_03_LOD0",
+    "loops": 2,
+    "triangles": 5
+  },
+  {
+    "name": "Blocks_Big_01_LOD0",
+    "loops": 1,
+    "triangles": 15
+  },
+  {
+    "name": "Wall_DarkGrey_Medium_01_LOD0",
+    "loops": 1,
+    "triangles": 10
+  },
+  {
+    "name": "Wall_Gray_Medium_03_LOD0",
+    "loops": 1,
+    "triangles": 10
+  },
+  {
+    "name": "Blocks_Big_01_LOD0",
+    "loops": 1,
+    "triangles": 12
+  },
+  {
+    "name": "Wall_DarkGrey_Medium_01_LOD0",
+    "loops": 1,
+    "triangles": 1
+  },
+  {
+    "name": "Wall_Gray_Medium_03_LOD0",
+    "loops": 1,
+    "triangles": 4
+  },
+  {
+    "name": "Blocks_Big_01_LOD0",
+    "loops": 1,
+    "triangles": 2
+  },
+  {
+    "name": "Blocks_Big_01_LOD0",
+    "loops": 1,
+    "triangles": 15
+  },
+  {
+    "name": "Wall_DarkGrey_Medium_01_LOD0",
+    "loops": 1,
+    "triangles": 9
+  },
+  {
+    "name": "Wall_Gray_Medium_03_LOD0",
+    "loops": 1,
+    "triangles": 4
+  },
+  {
+    "name": "Blocks_Big_01_LOD0",
+    "loops": 1,
+    "triangles": 9
+  },
+  {
+    "name": "Bricks_Big_02_LOD0",
+    "loops": 2,
+    "triangles": 22
+  },
+  {
+    "name": "Blocks_Big_02_LOD0",
+    "loops": 1,
+    "triangles": 20
+  },
+  {
+    "name": "Wall_Gray_Medium_02_LOD0",
+    "loops": 1,
+    "triangles": 15
+  },
+  {
+    "name": "Bricks_Big_02_LOD0",
+    "loops": 1,
+    "triangles": 14
+  },
+  {
+    "name": "Wall_DarkGrey_Medium_01_LOD0",
+    "loops": 1,
+    "triangles": 8
+  },
+  {
+    "name": "Wall_Gray_Medium_03_LOD0",
+    "loops": 1,
+    "triangles": 5
+  },
+  {
+    "name": "Blocks_Big_01_LOD0",
+    "loops": 2,
+    "triangles": 10
+  },
+  {
+    "name": "Wall_DarkGrey_Medium_01_LOD0",
+    "loops": 1,
+    "triangles": 8
+  },
+  {
+    "name": "Blocks_Big_02_LOD0",
+    "loops": 2,
+    "triangles": 26
+  },
+  {
+    "name": "Bricks_Big_02_LOD0",
+    "loops": 1,
+    "triangles": 4
+  },
+  {
+    "name": "Wall_Gray_Medium_03_LOD0",
+    "loops": 1,
+    "triangles": 9
+  },
+  {
+    "name": "Blocks_Big_01_LOD0",
+    "loops": 2,
+    "triangles": 29
+  },
+  {
+    "name": "Wall_DarkGrey_Medium_01_LOD0",
+    "loops": 1,
+    "triangles": 8
+  },
+  {
+    "name": "Bricks_Big_02_LOD0",
+    "loops": 1,
+    "triangles": 14
+  },
+  {
+    "name": "Wall_Gray_Medium_02_LOD0",
+    "loops": 1,
+    "triangles": 3
+  },
+  {
+    "name": "Blocks_Big_01_LOD0",
+    "loops": 1,
+    "triangles": 16
+  },
+  {
+    "name": "Wall_DarkGrey_Medium_01_LOD0",
+    "loops": 2,
+    "triangles": 11
+  },
+  {
+    "name": "Wall_Gray_Medium_03_LOD0",
+    "loops": 1,
+    "triangles": 12
+  },
+  {
+    "name": "Blocks_Big_01_LOD0",
+    "loops": 2,
+    "triangles": 28
+  },
+  {
+    "name": "Bricks_Big_02_LOD0",
+    "loops": 1,
+    "triangles": 11
+  },
+  {
+    "name": "Blocks_Big_02_LOD0",
+    "loops": 2,
+    "triangles": 16
+  },
+  {
+    "name": "Bricks_Big_02_LOD0",
+    "loops": 2,
+    "triangles": 13
+  },
+  {
+    "name": "Wall_DarkGrey_Medium_01_LOD0",
+    "loops": 1,
+    "triangles": 9
+  },
+  {
+    "name": "Wall_Gray_Medium_03_LOD0",
+    "loops": 1,
+    "triangles": 11
+  },
+  {
+    "name": "Blocks_Big_01_LOD0",
+    "loops": 1,
+    "triangles": 13
+  },
+  {
+    "name": "Wall_DarkGrey_Medium_01_LOD0",
+    "loops": 1,
+    "triangles": 7
+  },
+  {
+    "name": "Wall_Gray_Medium_03_LOD0",
+    "loops": 1,
+    "triangles": 11
+  },
+  {
+    "name": "Blocks_Big_01_LOD0",
+    "loops": 1,
+    "triangles": 16
+  },
+  {
+    "name": "Wall_DarkGrey_Medium_01_LOD0",
+    "loops": 1,
+    "triangles": 9
+  },
+  {
+    "name": "Wall_Gray_Medium_03_LOD0",
+    "loops": 1,
+    "triangles": 10
+  },
+  {
+    "name": "Wall_Gray_Medium_02_LOD0",
+    "loops": 1,
+    "triangles": 10
+  },
+  {
+    "name": "Bricks_Big_02_LOD0",
+    "loops": 1,
+    "triangles": 8
+  },
+  {
+    "name": "Blocks_Big_02_LOD0",
+    "loops": 2,
+    "triangles": 22
+  },
+  {
+    "name": "Wall_Gray_Medium_02_LOD0",
+    "loops": 1,
+    "triangles": 3
+  },
+  {
+    "name": "Blocks_Big_01_LOD0",
+    "loops": 1,
+    "triangles": 1
+  },
+  {
+    "name": "Bricks_Big_02_LOD0",
+    "loops": 1,
+    "triangles": 11
+  },
+  {
+    "name": "Blocks_Big_02_LOD0",
+    "loops": 1,
+    "triangles": 18
+  },
+  {
+    "name": "Wall_Gray_Medium_02_LOD0",
+    "loops": 2,
+    "triangles": 14
+  },
+  {
+    "name": "Bricks_Big_02_LOD0",
+    "loops": 1,
+    "triangles": 7
+  },
+  {
+    "name": "Rebar_Wall_04_LOD0",
+    "loops": 6,
+    "triangles": 42
+  },
+  {
+    "name": "Rebar_Wall_01_LOD0",
+    "loops": 10,
+    "triangles": 110
+  },
+  {
+    "name": "Rebar_Wall_04_LOD0",
+    "loops": 9,
+    "triangles": 92
+  },
+  {
+    "name": "Rebar_Wall_01_LOD0",
+    "loops": 2,
+    "triangles": 24
+  },
+  {
+    "name": "Rebar_Wall_04_LOD0",
+    "loops": 7,
+    "triangles": 58
+  },
+  {
+    "name": "Rebar_Wall_01_LOD0",
+    "loops": 4,
+    "triangles": 41
+  },
+  {
+    "name": "Rebar_Wall_04_LOD0",
+    "loops": 12,
+    "triangles": 82
+  },
+  {
+    "name": "Rebar_Wall_01_LOD0",
+    "loops": 10,
+    "triangles": 93
+  },
+  {
+    "name": "Rebar_Wall_04_LOD0",
+    "loops": 12,
+    "triangles": 110
+  },
+  {
+    "name": "Rebar_Wall_01_LOD0",
+    "loops": 3,
+    "triangles": 20
+  },
+  {
+    "name": "Rebar_Wall_04_LOD0",
+    "loops": 17,
+    "triangles": 112
+  },
+  {
+    "name": "Rebar_Wall_01_LOD0",
+    "loops": 9,
+    "triangles": 91
+  },
+  {
+    "name": "Rebar_Wall_04_LOD0",
+    "loops": 10,
+    "triangles": 76
+  },
+  {
+    "name": "Rebar_Wall_01_LOD0",
+    "loops": 13,
+    "triangles": 121
+  },
+  {
+    "name": "Rebar_Wall_04_LOD0",
+    "loops": 23,
+    "triangles": 188
+  },
+  {
+    "name": "Rebar_Wall_01_LOD0",
+    "loops": 5,
+    "triangles": 42
+  },
+  {
+    "name": "Rebar_Wall_04_LOD0",
+    "loops": 16,
+    "triangles": 106
+  },
+  {
+    "name": "Rebar_Wall_01_LOD0",
+    "loops": 9,
+    "triangles": 59
+  },
+  {
+    "name": "Rubble_Big_LOD0",
+    "loops": 2,
+    "triangles": 16
+  },
+  {
+    "name": "Wall_Gray_Medium_02_LOD0",
+    "loops": 1,
+    "triangles": 7
+  },
+  {
+    "name": "Wall_Gray_Medium_02_LOD0",
+    "loops": 1,
+    "triangles": 14
+  },
+  {
+    "name": "Wall_Gray_Medium_02_LOD0",
+    "loops": 1,
+    "triangles": 5
+  },
+  {
+    "name": "Wall_Gray_Medium_02_LOD0",
+    "loops": 1,
+    "triangles": 5
+  },
+  {
+    "name": "Wall_Gray_Medium_02_LOD0",
+    "loops": 1,
+    "triangles": 9
+  },
+  {
+    "name": "Wall_Gray_Medium_02_LOD0",
+    "loops": 1,
+    "triangles": 11
+  },
+  {
+    "name": "Wall_Gray_Medium_02_LOD0",
+    "loops": 1,
+    "triangles": 9
+  },
+  {
+    "name": "Wall_Grey_Big_01_LOD0",
+    "loops": 1,
+    "triangles": 12
+  },
+  {
+    "name": "Rebar_Wall_08_LOD0",
+    "loops": 1,
+    "triangles": 4
+  },
+  {
+    "name": "Wall_Grey_Big_01_LOD0",
+    "loops": 1,
+    "triangles": 14
+  },
+  {
+    "name": "Rebar_Wall_08_LOD0",
+    "loops": 1,
+    "triangles": 13
+  },
+  {
+    "name": "Wall_Side_01_LOD0",
+    "loops": 2,
+    "triangles": 23
+  },
+  {
+    "name": "Wall_Side_01_LOD0",
+    "loops": 3,
+    "triangles": 32
+  },
+  {
+    "name": "Wall_Grey_Big_01_LOD0",
+    "loops": 5,
+    "triangles": 64
+  },
+  {
+    "name": "Wall_Grey_Big_01_LOD0",
+    "loops": 1,
+    "triangles": 11
+  },
+  {
+    "name": "Wall_Grey_Big_01_LOD0",
+    "loops": 2,
+    "triangles": 18
+  },
+  {
+    "name": "Wall_Grey_Big_01_LOD0",
+    "loops": 2,
+    "triangles": 14
+  },
+  {
+    "name": "Wall_Grey_Big_01_LOD0",
+    "loops": 2,
+    "triangles": 15
+  },
+  {
+    "name": "Wall_Grey_Big_01_LOD0",
+    "loops": 1,
+    "triangles": 10
+  },
+  {
+    "name": "Rubble_Small_01_LOD0",
+    "loops": 1,
+    "triangles": 6
+  },
+  {
+    "name": "Rebar_Wall_08_LOD0",
+    "loops": 1,
+    "triangles": 6
+  },
+  {
+    "name": "Rebar_Wall_08_LOD0",
+    "loops": 1,
+    "triangles": 11
+  },
+  {
+    "name": "Wall_Gray_Medium_03_LOD0",
+    "loops": 2,
+    "triangles": 12
+  },
+  {
+    "name": "Interlocked shaft shoulder 0 1 0",
+    "loops": 2,
+    "triangles": 24
+  },
+  {
+    "name": "Interlocked shaft shoulder 0 1 1",
+    "loops": 2,
+    "triangles": 22
+  },
+  {
+    "name": "Interlocked shaft shoulder 0 1 2",
+    "loops": 2,
+    "triangles": 20
+  },
+  {
+    "name": "Interlocked shaft shoulder 0 1 3",
+    "loops": 2,
+    "triangles": 22
+  },
+  {
+    "name": "Broken embedded fracture rim 0 0",
+    "loops": 1,
+    "triangles": 3
+  },
+  {
+    "name": "Broken embedded fracture rim 0 2",
+    "loops": 1,
+    "triangles": 2
+  },
+  {
+    "name": "Broken embedded fracture rim 0 4",
+    "loops": 1,
+    "triangles": 1
+  },
+  {
+    "name": "Broken embedded fracture rim 0 5",
+    "loops": 1,
+    "triangles": 5
+  },
+  {
+    "name": "Interlocked shaft shoulder 1 -1 0",
+    "loops": 2,
+    "triangles": 17
+  },
+  {
+    "name": "Interlocked shaft shoulder 1 -1 1",
+    "loops": 2,
+    "triangles": 20
+  },
+  {
+    "name": "Interlocked shaft shoulder 1 -1 2",
+    "loops": 3,
+    "triangles": 27
+  },
+  {
+    "name": "Interlocked shaft shoulder 1 -1 3",
+    "loops": 2,
+    "triangles": 18
+  },
+  {
+    "name": "Broken embedded fracture rim 1 1",
+    "loops": 1,
+    "triangles": 6
+  },
+  {
+    "name": "Broken embedded fracture rim 1 3",
+    "loops": 1,
+    "triangles": 3
+  },
+  {
+    "name": "Broken embedded fracture rim 1 5",
+    "loops": 1,
+    "triangles": 1
+  },
+  {
+    "name": "Broken embedded fracture rim 1 6",
+    "loops": 1,
+    "triangles": 2
+  },
+  {
+    "name": "Broken embedded fracture rim 2 1",
+    "loops": 1,
+    "triangles": 3
+  },
+  {
+    "name": "Broken embedded fracture rim 2 5",
+    "loops": 1,
+    "triangles": 5
+  },
+  {
+    "name": "Broken embedded fracture rim 2 7",
+    "loops": 1,
+    "triangles": 7
+  },
+  {
+    "name": "Broken embedded fracture rim 3 1",
+    "loops": 1,
+    "triangles": 6
+  },
+  {
+    "name": "Broken embedded fracture rim 3 5",
+    "loops": 1,
+    "triangles": 3
+  },
+  {
+    "name": "Broken embedded fracture rim 3 7",
+    "loops": 1,
+    "triangles": 4
+  },
+  {
+    "name": "Broken embedded fracture rim 4 2",
+    "loops": 1,
+    "triangles": 4
+  },
+  {
+    "name": "Broken embedded fracture rim 4 3",
+    "loops": 1,
+    "triangles": 3
+  },
+  {
+    "name": "Broken embedded fracture rim 4 5",
+    "loops": 1,
+    "triangles": 6
+  },
+  {
+    "name": "Broken embedded fracture rim 4 6",
+    "loops": 1,
+    "triangles": 2
+  },
+  {
+    "name": "Broken embedded fracture rim 4 7",
+    "loops": 1,
+    "triangles": 2
+  },
+  {
+    "name": "Interlocked shaft shoulder 5 -1 0",
+    "loops": 2,
+    "triangles": 15
+  },
+  {
+    "name": "Interlocked shaft shoulder 5 -1 1",
+    "loops": 3,
+    "triangles": 31
+  },
+  {
+    "name": "Interlocked shaft shoulder 5 -1 2",
+    "loops": 3,
+    "triangles": 29
+  },
+  {
+    "name": "Interlocked shaft shoulder 5 -1 3",
+    "loops": 3,
+    "triangles": 21
+  },
+  {
+    "name": "Interlocked shaft shoulder 5 1 0",
+    "loops": 2,
+    "triangles": 16
+  },
+  {
+    "name": "Interlocked shaft shoulder 5 1 1",
+    "loops": 2,
+    "triangles": 18
+  },
+  {
+    "name": "Interlocked shaft shoulder 5 1 2",
+    "loops": 2,
+    "triangles": 15
+  },
+  {
+    "name": "Interlocked shaft shoulder 5 1 3",
+    "loops": 2,
+    "triangles": 18
+  },
+  {
+    "name": "Broken embedded fracture rim 5 0",
+    "loops": 2,
+    "triangles": 13
+  },
+  {
+    "name": "Broken embedded fracture rim 5 1",
+    "loops": 1,
+    "triangles": 13
+  },
+  {
+    "name": "Broken embedded fracture rim 5 3",
+    "loops": 1,
+    "triangles": 6
+  },
+  {
+    "name": "Broken embedded fracture rim 5 6",
+    "loops": 1,
+    "triangles": 3
+  },
+  {
+    "name": "Broken embedded fracture rim 5 7",
+    "loops": 1,
+    "triangles": 6
+  }
+]

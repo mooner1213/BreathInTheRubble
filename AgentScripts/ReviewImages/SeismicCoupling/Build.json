@@ -1,0 +1,181 @@
+{
+  "foundations": 10,
+  "fitted": [
+    {
+      "name": "Front face left pressed rubble broken section 0",
+      "scale": 0.320000023,
+      "depth": 0.0,
+      "obstacle": "Rubble_Medium_LOD0"
+    },
+    {
+      "name": "Front face left pressed rubble broken section 1",
+      "scale": 0.200000018,
+      "depth": 0.00108014792,
+      "obstacle": "Slanted masonry across trapped legs"
+    },
+    {
+      "name": "Front face left pressed rubble broken section 2",
+      "scale": 0.320000023,
+      "depth": 0.0007336811,
+      "obstacle": "Slanted masonry across trapped legs"
+    },
+    {
+      "name": "Front face left pressed rubble broken section 3",
+      "scale": 0.76,
+      "depth": 0.0,
+      "obstacle": "Rubble_Medium_LOD0"
+    },
+    {
+      "name": "Front face right interlocked masonry broken section 0",
+      "scale": 0.320000023,
+      "depth": 0.0,
+      "obstacle": "Right slit buried cheek"
+    },
+    {
+      "name": "Front face right interlocked masonry broken section 1",
+      "scale": 0.200000018,
+      "depth": 0.0,
+      "obstacle": "Rubble_Medium_LOD0"
+    },
+    {
+      "name": "Front face right interlocked masonry broken section 2",
+      "scale": 0.200000018,
+      "depth": 0.0,
+      "obstacle": "Slanted masonry across trapped legs"
+    },
+    {
+      "name": "Front face right interlocked masonry broken section 3",
+      "scale": 0.840000033,
+      "depth": 0.0,
+      "obstacle": "Slanted masonry across trapped legs"
+    },
+    {
+      "name": "Center crushed bearing stone broken section 0",
+      "scale": 0.24000001,
+      "depth": 0.0,
+      "obstacle": "Rubble_Medium_LOD0"
+    },
+    {
+      "name": "Center crushed bearing stone broken section 1",
+      "scale": 0.24000001,
+      "depth": 0.0006246175,
+      "obstacle": "Rubble_Medium_LOD0"
+    },
+    {
+      "name": "Near left wedged slab failing support",
+      "scale": 0.12000002,
+      "depth": 0.005034574,
+      "obstacle": "Slanted masonry across trapped legs"
+    },
+    {
+      "name": "Near right wedged slab failing support",
+      "scale": 0.36,
+      "depth": 0.0,
+      "obstacle": "Right slit buried cheek"
+    },
+    {
+      "name": "Overhead breaking slab 0",
+      "scale": 0.320000023,
+      "depth": 0.0,
+      "obstacle": "Overlapping front ceiling lip broken section 2"
+    },
+    {
+      "name": "Overhead breaking slab 1",
+      "scale": 0.280000031,
+      "depth": 0.0,
+      "obstacle": "Wall_Side_01_LOD0"
+    },
+    {
+      "name": "Overhead breaking slab 2",
+      "scale": 0.56,
+      "depth": 0.0,
+      "obstacle": "Close shoulder breakaway 2"
+    },
+    {
+      "name": "Overhead breaking slab 3",
+      "scale": 0.320000023,
+      "depth": 0.0,
+      "obstacle": "Close shoulder breakaway 3"
+    },
+    {
+      "name": "Close shoulder breakaway 0",
+      "scale": 0.840000033,
+      "depth": 0.0,
+      "obstacle": "Wall_Grey_Big_01_LOD0"
+    },
+    {
+      "name": "Close shoulder breakaway 1",
+      "scale": 0.6,
+      "depth": 0.0,
+      "obstacle": "Wall_Grey_Big_01_LOD0"
+    },
+    {
+      "name": "Close shoulder breakaway 2",
+      "scale": 0.4,
+      "depth": 0.0,
+      "obstacle": "Rear left locked masonry"
+    },
+    {
+      "name": "Close shoulder breakaway 3",
+      "scale": 0.44,
+      "depth": 0.0,
+      "obstacle": "Rear right locked concrete"
+    },
+    {
+      "name": "Close shoulder breakaway 4",
+      "scale": 1.0,
+      "depth": 0.0,
+      "obstacle": ""
+    },
+    {
+      "name": "Low overlapping fracture veil broken section 0",
+      "scale": 0.24000001,
+      "depth": 0.0,
+      "obstacle": "Overlapping front ceiling lip broken section 0"
+    },
+    {
+      "name": "Low overlapping fracture veil broken section 1",
+      "scale": 0.160000026,
+      "depth": 0.0009579212,
+      "obstacle": "Right close shoulder canopy"
+    },
+    {
+      "name": "Low overlapping fracture veil broken section 2",
+      "scale": 0.12000002,
+      "depth": 0.0170757789,
+      "obstacle": "Left close shoulder canopy"
+    },
+    {
+      "name": "Low overlapping fracture veil broken section 3",
+      "scale": 0.72,
+      "depth": 0.0,
+      "obstacle": "Overlapping front ceiling lip broken section 3"
+    },
+    {
+      "name": "Overlapping front ceiling lip broken section 0",
+      "scale": 0.36,
+      "depth": 0.0,
+      "obstacle": "Wall_Grey_Big_01_LOD0"
+    },
+    {
+      "name": "Overlapping front ceiling lip broken section 1",
+      "scale": 0.12000002,
+      "depth": 0.00460725138,
+      "obstacle": "Right close shoulder canopy"
+    },
+    {
+      "name": "Overlapping front ceiling lip broken section 2",
+      "scale": 0.480000019,
+      "depth": 0.0,
+      "obstacle": "Left close shoulder canopy"
+    },
+    {
+      "name": "Overlapping front ceiling lip broken section 3",
+      "scale": 1.0,
+      "depth": 0.0,
+      "obstacle": ""
+    }
+  ],
+  "unresolved": 3,
+  "failures": 101
+}

@@ -1,0 +1,94 @@
+using UnityEngine;
+
+namespace BreathInTheRubble.Prototype
+{
+    /// <summary>Fails at an attachment edge, then falls and rolls against existing rubble.</summary>
+    [RequireComponent(typeof(Rigidbody), typeof(MeshCollider))]
+    public sealed class AftershockFallingChunk : MonoBehaviour
+    {
+        [SerializeField] Transform detachedRoot;
+        [SerializeField] Collider[] ignoreColliders = System.Array.Empty<Collider>();
+        [SerializeField] Transform head;
+        [SerializeField] Transform leftHand;
+        [SerializeField] Transform rightHand;
+        [SerializeField] Vector3 attachmentPoint;
+        [SerializeField] Vector3 attachmentAxis = Vector3.right;
+        [SerializeField] Vector3 releaseVelocity;
+        [SerializeField] Vector3 releaseAngularVelocity;
+        [SerializeField, Min(0f)] float delaySeconds;
+        [SerializeField, Min(0.05f)] float attachmentSeconds = 0.18f;
+        [SerializeField] float peelDegrees = 5f;
+        Rigidbody body;
+        MeshCollider shape;
+        Renderer surface;
+        Transform originalParent;
+        Vector3 originalPosition;
+        Quaternion originalRotation;
+        bool initialized;
+        bool released;
+        bool safetyHidden;
+        public bool Released => released;
+
+        void Awake() { Initialize(); ResetEffect(); }
+        void Initialize()
+        {
+            if (initialized) return;
+            body = GetComponent<Rigidbody>(); shape = GetComponent<MeshCollider>(); surface = GetComponent<Renderer>();
+            originalParent = transform.parent;
+            originalPosition = transform.localPosition; originalRotation = transform.localRotation;
+            initialized = true;
+        }
+        public void Apply(float sinceFracture)
+        {
+            Initialize();
+            if (released || originalParent == null) return;
+            float since = sinceFracture - delaySeconds;
+            // The attachment holds at its real rest pose. Once it fails, only PhysX moves it.
+            // Rotating a kinematic mesh around an arbitrary point made it look suspended.
+            if (since < attachmentSeconds) return;
+            var velocity = originalParent.TransformDirection(releaseVelocity);
+            var spin = originalParent.TransformDirection(releaseAngularVelocity);
+            transform.SetParent(detachedRoot, true);
+            body.isKinematic = false; body.useGravity = true;
+            body.linearVelocity = velocity; body.angularVelocity = spin;
+            body.WakeUp();
+            released = true;
+        }
+        void LateUpdate()
+        {
+            if (!released || safetyHidden || surface == null) return;
+            // Respect tracked poses: hide cosmetic rubble if a person reaches into its path.
+            if (Near(head, 0.24f) || Near(leftHand, 0.09f) || Near(rightHand, 0.09f))
+            {
+                safetyHidden = true; surface.enabled = false; shape.enabled = false;
+                body.useGravity = false; body.isKinematic = true;
+            }
+        }
+        bool Near(Transform target, float radius)
+        {
+            return target != null && (surface.bounds.ClosestPoint(target.position) - target.position).sqrMagnitude < radius * radius;
+        }
+        public void ResetEffect()
+        {
+            Initialize();
+            if (!body.isKinematic) { body.linearVelocity = Vector3.zero; body.angularVelocity = Vector3.zero; }
+            body.useGravity = false; body.isKinematic = true;
+            if (!Application.isPlaying || !gameObject.activeInHierarchy || (originalParent != null && !originalParent.gameObject.activeInHierarchy)) return;
+            if (originalParent != null)
+            {
+                transform.SetParent(originalParent, false);
+                transform.localPosition = originalPosition; transform.localRotation = originalRotation;
+            }
+            shape.enabled = true; if (surface != null) surface.enabled = true;
+            // Reapply after a safety hide/re-enable; collider activation can reset pair filtering.
+            foreach (var other in ignoreColliders)
+                if (other != null && other != shape) Physics.IgnoreCollision(shape, other, true);
+            released = false; safetyHidden = false;
+        }
+        void OnDisable()
+        {
+            // Reparenting is unsafe during scene teardown.
+            if (body != null) { body.useGravity = false; body.isKinematic = true; }
+        }
+    }
+}

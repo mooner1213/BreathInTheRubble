@@ -1,0 +1,130 @@
+{
+  "frames": 4848,
+  "drops": [
+    0.6381154,
+    1.08751822
+  ],
+  "minHeadGap": 0.39973408,
+  "warningSound": true,
+  "impactSound": true,
+  "maxStrain": 1.0,
+  "pipeAvailable": true,
+  "allReleased": true,
+  "allVisible": true,
+  "positions": [
+    "(-0.247, 0.601, 0.900)",
+    "(0.565, 0.179, 0.676)"
+  ],
+  "samples": [
+    {
+      "time": 0.365820467,
+      "frame": 4835,
+      "strain": [
+        0.0,
+        0.0
+      ],
+      "chunks": [
+        {
+          "Released": false,
+          "visible": true,
+          "center": "(-0.232, 1.239, 0.979)",
+          "speed": 0.0
+        },
+        {
+          "Released": false,
+          "visible": true,
+          "center": "(0.607, 1.267, 0.582)",
+          "speed": 0.0
+        }
+      ]
+    },
+    {
+      "time": 2.816215,
+      "frame": 5468,
+      "strain": [
+        0.833137,
+        0.0
+      ],
+      "chunks": [
+        {
+          "Released": false,
+          "visible": true,
+          "center": "(-0.233, 1.216, 0.962)",
+          "speed": 0.0
+        },
+        {
+          "Released": false,
+          "visible": true,
+          "center": "(0.607, 1.267, 0.582)",
+          "speed": 0.0
+        }
+      ]
+    },
+    {
+      "time": 3.43883014,
+      "frame": 5604,
+      "strain": [
+        1.0,
+        0.0
+      ],
+      "chunks": [
+        {
+          "Released": true,
+          "visible": true,
+          "center": "(-0.232, 1.057, 0.954)",
+          "speed": 1.75173271
+        },
+        {
+          "Released": false,
+          "visible": true,
+          "center": "(0.607, 1.267, 0.582)",
+          "speed": 0.0
+        }
+      ]
+    },
+    {
+      "time": 6.86222,
+      "frame": 6395,
+      "strain": [
+        1.0,
+        1.0
+      ],
+      "chunks": [
+        {
+          "Released": true,
+          "visible": true,
+          "center": "(-0.247, 0.601, 0.899)",
+          "speed": 0.0
+        },
+        {
+          "Released": true,
+          "visible": true,
+          "center": "(0.610, 1.076, 0.580)",
+          "speed": 1.46198606
+        }
+      ]
+    },
+    {
+      "time": 17.92687,
+      "frame": 9290,
+      "strain": [
+        1.0,
+        1.0
+      ],
+      "chunks": [
+        {
+          "Released": true,
+          "visible": true,
+          "center": "(-0.247, 0.601, 0.900)",
+          "speed": 0.0
+        },
+        {
+          "Released": true,
+          "visible": true,
+          "center": "(0.565, 0.179, 0.676)",
+          "speed": 0.0
+        }
+      ]
+    }
+  ]
+}

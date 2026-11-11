@@ -1,0 +1,114 @@
+{
+  "newMeshes": 18,
+  "archivedLines": 58,
+  "fragments": [
+    {
+      "name": "Front face left pressed rubble broken section 0",
+      "vertices": 12801,
+      "triangles": 4267,
+      "opening": "(-0.0001, 0.0011, 0.0000)"
+    },
+    {
+      "name": "Front face left pressed rubble broken section 1",
+      "vertices": 10962,
+      "triangles": 3654,
+      "opening": "(0.0017, -0.0013, 0.0000)"
+    },
+    {
+      "name": "Front face left pressed rubble broken section 2",
+      "vertices": 11568,
+      "triangles": 3856,
+      "opening": "(-0.0017, -0.0002, 0.0000)"
+    },
+    {
+      "name": "Front face left pressed rubble broken section 3",
+      "vertices": 11328,
+      "triangles": 3776,
+      "opening": "(0.0011, -0.0021, 0.0000)"
+    },
+    {
+      "name": "Front face right interlocked masonry broken section 0",
+      "vertices": 20796,
+      "triangles": 6932,
+      "opening": "(0.0002, 0.0011, 0.0000)"
+    },
+    {
+      "name": "Front face right interlocked masonry broken section 1",
+      "vertices": 19857,
+      "triangles": 6619,
+      "opening": "(0.0018, -0.0009, 0.0000)"
+    },
+    {
+      "name": "Front face right interlocked masonry broken section 2",
+      "vertices": 21237,
+      "triangles": 7079,
+      "opening": "(-0.0018, -0.0011, 0.0000)"
+    },
+    {
+      "name": "Front face right interlocked masonry broken section 3",
+      "vertices": 17751,
+      "triangles": 5917,
+      "opening": "(0.0006, -0.0024, 0.0000)"
+    },
+    {
+      "name": "Center crushed bearing stone broken section 0",
+      "vertices": 1902,
+      "triangles": 634,
+      "opening": "(0.0015, 0.0002, 0.0000)"
+    },
+    {
+      "name": "Center crushed bearing stone broken section 1",
+      "vertices": 1986,
+      "triangles": 662,
+      "opening": "(-0.0013, -0.0020, 0.0000)"
+    },
+    {
+      "name": "Low overlapping fracture veil broken section 0",
+      "vertices": 38574,
+      "triangles": 12858,
+      "opening": "(0.0018, -0.0007, 0.0000)"
+    },
+    {
+      "name": "Low overlapping fracture veil broken section 1",
+      "vertices": 20736,
+      "triangles": 6912,
+      "opening": "(0.0018, -0.0008, 0.0000)"
+    },
+    {
+      "name": "Low overlapping fracture veil broken section 2",
+      "vertices": 6036,
+      "triangles": 2012,
+      "opening": "(-0.0018, -0.0006, 0.0000)"
+    },
+    {
+      "name": "Low overlapping fracture veil broken section 3",
+      "vertices": 14235,
+      "triangles": 4745,
+      "opening": "(-0.0018, -0.0007, 0.0000)"
+    },
+    {
+      "name": "Overlapping front ceiling lip broken section 0",
+      "vertices": 23067,
+      "triangles": 7689,
+      "opening": "(0.0018, -0.0006, 0.0000)"
+    },
+    {
+      "name": "Overlapping front ceiling lip broken section 1",
+      "vertices": 16518,
+      "triangles": 5506,
+      "opening": "(0.0018, -0.0006, 0.0000)"
+    },
+    {
+      "name": "Overlapping front ceiling lip broken section 2",
+      "vertices": 2517,
+      "triangles": 839,
+      "opening": "(-0.0018, -0.0008, 0.0000)"
+    },
+    {
+      "name": "Overlapping front ceiling lip broken section 3",
+      "vertices": 7149,
+      "triangles": 2383,
+      "opening": "(-0.0018, -0.0011, 0.0000)"
+    }
+  ]
+}

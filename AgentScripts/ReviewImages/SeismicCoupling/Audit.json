@@ -1,0 +1,22 @@
+{
+  "overlaps": 0,
+  "deepest": 0.0,
+  "boxes": 201,
+  "activeWarnings": [],
+  "activePockets": 0,
+  "fractureSections": [],
+  "veil": {
+    "name": "Aftershock Dense Dust Veil",
+    "position": "(0.00, 0.96, 0.28)",
+    "shape": "(0.95, 0.42, 0.30)",
+    "maxParticles": 100,
+    "constantMin": 13.0,
+    "lifeMax": 22.0,
+    "material": "PeakDust",
+    "enabled": true,
+    "layers": 15
+  },
+  "hands": 2,
+  "origins": 1,
+  "inputManagers": 1
+}

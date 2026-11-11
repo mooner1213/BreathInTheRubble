@@ -1,0 +1,12 @@
+{
+  "scene": "Assets/_Project/Scenes/ConfinedPrototype.unity",
+  "isDirty": false,
+  "playing": false,
+  "distance": 0.055,
+  "degrees": 0.7,
+  "loadReference": 3.85,
+  "scale": 1.0,
+  "physicalHmd": false,
+  "origins": 1,
+  "inputManagers": 1
+}

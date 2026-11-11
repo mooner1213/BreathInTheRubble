@@ -14,8 +14,13 @@ namespace BreathInTheRubble.Prototype
         public float RemainingPercent => (float)remainingPercent;
         // Ceiling preserves the starting number until a full percentage point is used.
         public int DisplayedPercent => Mathf.CeilToInt(RemainingPercent);
+        public const int LowBatteryPercent = 24;
+        public bool IsLow => DisplayedPercent <= LowBatteryPercent;
 
         void Awake() { remainingPercent = Mathf.Clamp(startingPercent, 0f, 100f); }
+#if UNITY_EDITOR
+        public void PreviewRemainingPercent(float value){remainingPercent=Mathf.Clamp(value,0f,100f);}
+#endif
 
         public void Drain(float seconds, bool flashlightOn, EmergencyCallSystem.CallState callState)
         {

@@ -1,0 +1,35 @@
+{
+  "result": "PASS",
+  "physicalImpactSurfaces": [
+    "Concrete",
+    "Concrete",
+    "Concrete",
+    "Concrete",
+    "Concrete",
+    "Concrete",
+    "Concrete",
+    "Metal"
+  ],
+  "signalCount": 2,
+  "audioPlayed": true,
+  "pipeHeld": true,
+  "impactCount": 8,
+  "pipePosition": "(0.150, 0.738, 0.106)",
+  "constraints": "None",
+  "contacts": [
+    "held Front face right interlocked masonry broken section 2 / Front face right interlocked masonry broken section 2 / Concrete at (0.12, 0.83, 0.42)",
+    "held Front face right interlocked masonry broken section 2 / Front face right interlocked masonry broken section 2 / Concrete at (0.12, 0.83, 0.42)",
+    "held Metal contact 2 / Metal contact 2 / Metal at (0.13, 0.74, 0.27)",
+    "held Low overlapping fracture veil broken section 1 / Low overlapping fracture veil broken section 1 / Concrete at (0.13, 0.87, 0.38)",
+    "held Low overlapping fracture veil broken section 1 / Low overlapping fracture veil broken section 1 / Concrete at (0.13, 0.81, 0.30)",
+    "held Overlapping front ceiling lip broken section 1 / Overlapping front ceiling lip broken section 1 / Concrete at (0.17, 0.62, 0.06)",
+    "held Overlapping front ceiling lip broken section 1 / Overlapping front ceiling lip broken section 1 / Concrete at (0.17, 0.63, 0.07)",
+    "held Metal contact segment 2 / Metal contact segment 2 / Metal at (0.12, 0.78, 0.42)",
+    "held Overlapping front ceiling lip broken section 1 / Overlapping front ceiling lip broken section 1 / Concrete at (0.18, 0.71, 0.08)",
+    "held Metal contact 2 / Metal contact 2 / Metal at (0.08, 0.74, 0.27)",
+    "held Overlapping front ceiling lip broken section 1 / Overlapping front ceiling lip broken section 1 / Concrete at (0.25, 0.67, 0.08)",
+    "held Overlapping front ceiling lip broken section 1 / Overlapping front ceiling lip broken section 1 / Concrete at (0.22, 0.68, 0.10)",
+    "held Metal contact 2 / Metal contact 2 / Metal at (0.08, 0.74, 0.27)"
+  ],
+  "Stage": 1
+}

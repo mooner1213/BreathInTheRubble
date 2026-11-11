@@ -1,0 +1,15 @@
+{
+  "result": "FAIL",
+  "samples": 156,
+  "frames": 174,
+  "available": true,
+  "position": "(-0.027, 1.039, 1.059)",
+  "reachable": false,
+  "LastBlockedSurface": "Overlapping front ceiling lip broken section 0",
+  "blockedAt": "(-0.001, 1.404, 0.859)",
+  "renderedRadius": 0.0110000577,
+  "physicalRadius": 0.027,
+  "geometry": "rendered-radius capsule against visible rubble triangles; 1.5mm tolerance",
+  "intersections": [],
+  "count": 0
+}

@@ -1,0 +1,176 @@
+[
+  {
+    "name": "Front face left pressed rubble broken section 0",
+    "boxes": 9,
+    "willFall": true,
+    "visualSize": "(0.314, 0.254, 0.228)"
+  },
+  {
+    "name": "Front face left pressed rubble broken section 1",
+    "boxes": 6,
+    "willFall": true,
+    "visualSize": "(0.216, 0.318, 0.211)"
+  },
+  {
+    "name": "Front face left pressed rubble broken section 2",
+    "boxes": 5,
+    "willFall": true,
+    "visualSize": "(0.257, 0.308, 0.230)"
+  },
+  {
+    "name": "Front face left pressed rubble broken section 3",
+    "boxes": 7,
+    "willFall": true,
+    "visualSize": "(0.274, 0.250, 0.218)"
+  },
+  {
+    "name": "Front face right interlocked masonry broken section 0",
+    "boxes": 12,
+    "willFall": true,
+    "visualSize": "(0.371, 0.237, 0.247)"
+  },
+  {
+    "name": "Front face right interlocked masonry broken section 1",
+    "boxes": 6,
+    "willFall": true,
+    "visualSize": "(0.217, 0.359, 0.249)"
+  },
+  {
+    "name": "Front face right interlocked masonry broken section 2",
+    "boxes": 19,
+    "willFall": true,
+    "visualSize": "(0.245, 0.427, 0.244)"
+  },
+  {
+    "name": "Front face right interlocked masonry broken section 3",
+    "boxes": 18,
+    "willFall": true,
+    "visualSize": "(0.328, 0.248, 0.273)"
+  },
+  {
+    "name": "Center crushed bearing stone broken section 0",
+    "boxes": 2,
+    "willFall": true,
+    "visualSize": "(0.214, 0.203, 0.122)"
+  },
+  {
+    "name": "Center crushed bearing stone broken section 1",
+    "boxes": 1,
+    "willFall": true,
+    "visualSize": "(0.240, 0.212, 0.122)"
+  },
+  {
+    "name": "Near left wedged slab failing support",
+    "boxes": 22,
+    "willFall": true,
+    "visualSize": "(0.313, 0.437, 0.737)"
+  },
+  {
+    "name": "Near right wedged slab failing support",
+    "boxes": 59,
+    "willFall": true,
+    "visualSize": "(0.272, 0.441, 0.714)"
+  },
+  {
+    "name": "Overhead breaking slab 0",
+    "boxes": 30,
+    "willFall": true,
+    "visualSize": "(0.390, 0.120, 0.406)"
+  },
+  {
+    "name": "Overhead breaking slab 1",
+    "boxes": 31,
+    "willFall": true,
+    "visualSize": "(0.382, 0.137, 0.389)"
+  },
+  {
+    "name": "Overhead breaking slab 2",
+    "boxes": 28,
+    "willFall": true,
+    "visualSize": "(0.372, 0.120, 0.424)"
+  },
+  {
+    "name": "Overhead breaking slab 3",
+    "boxes": 35,
+    "willFall": true,
+    "visualSize": "(0.384, 0.122, 0.429)"
+  },
+  {
+    "name": "Close shoulder breakaway 0",
+    "boxes": 25,
+    "willFall": true,
+    "visualSize": "(0.350, 0.161, 0.256)"
+  },
+  {
+    "name": "Close shoulder breakaway 1",
+    "boxes": 48,
+    "willFall": true,
+    "visualSize": "(0.393, 0.173, 0.396)"
+  },
+  {
+    "name": "Close shoulder breakaway 2",
+    "boxes": 24,
+    "willFall": true,
+    "visualSize": "(0.283, 0.193, 0.296)"
+  },
+  {
+    "name": "Close shoulder breakaway 3",
+    "boxes": 36,
+    "willFall": true,
+    "visualSize": "(0.346, 0.251, 0.343)"
+  },
+  {
+    "name": "Close shoulder breakaway 4",
+    "boxes": 29,
+    "willFall": true,
+    "visualSize": "(0.266, 0.193, 0.364)"
+  },
+  {
+    "name": "Low overlapping fracture veil broken section 0",
+    "boxes": 24,
+    "willFall": true,
+    "visualSize": "(0.383, 0.171, 0.278)"
+  },
+  {
+    "name": "Low overlapping fracture veil broken section 1",
+    "boxes": 10,
+    "willFall": true,
+    "visualSize": "(0.390, 0.164, 0.254)"
+  },
+  {
+    "name": "Low overlapping fracture veil broken section 2",
+    "boxes": 19,
+    "willFall": true,
+    "visualSize": "(0.362, 0.171, 0.268)"
+  },
+  {
+    "name": "Low overlapping fracture veil broken section 3",
+    "boxes": 24,
+    "willFall": true,
+    "visualSize": "(0.359, 0.181, 0.292)"
+  },
+  {
+    "name": "Overlapping front ceiling lip broken section 0",
+    "boxes": 13,
+    "willFall": true,
+    "visualSize": "(0.371, 0.175, 0.318)"
+  },
+  {
+    "name": "Overlapping front ceiling lip broken section 1",
+    "boxes": 14,
+    "willFall": true,
+    "visualSize": "(0.361, 0.181, 0.314)"
+  },
+  {
+    "name": "Overlapping front ceiling lip broken section 2",
+    "boxes": 14,
+    "willFall": true,
+    "visualSize": "(0.356, 0.173, 0.166)"
+  },
+  {
+    "name": "Overlapping front ceiling lip broken section 3",
+    "boxes": 15,
+    "willFall": true,
+    "visualSize": "(0.324, 0.174, 0.253)"
+  }
+]

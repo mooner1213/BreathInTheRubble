@@ -1,0 +1,62 @@
+using UnityEngine;
+
+namespace BreathInTheRubble.Prototype
+{
+    public sealed class AftershockDebris : MonoBehaviour
+    {
+        [SerializeField] Transform head;
+        [SerializeField] Transform leftHand;
+        [SerializeField] Transform rightHand;
+        [SerializeField] Transform[] fragments=System.Array.Empty<Transform>();
+        [SerializeField] Vector3[] landingPositions=System.Array.Empty<Vector3>();
+        [SerializeField] float[] releaseTimes=System.Array.Empty<float>();
+        [SerializeField] float[] fallDurations=System.Array.Empty<float>();
+        Vector3[] starts;
+        Vector3[] previousPositions;
+        Quaternion[] rotations;
+        bool[] hiddenForSafety;
+        void Awake()
+        {
+            starts=new Vector3[fragments.Length];previousPositions=new Vector3[fragments.Length];rotations=new Quaternion[fragments.Length];hiddenForSafety=new bool[fragments.Length];
+            for(int i=0;i<fragments.Length;i++){starts[i]=fragments[i].position;rotations[i]=fragments[i].rotation;}ResetEffect();
+        }
+        public void Apply(float elapsed)
+        {
+            if(starts==null)return;
+            for(int i=0;i<fragments.Length;i++)
+            {
+                if (fragments[i] == null || i >= landingPositions.Length) continue;
+                float release = i < releaseTimes.Length ? releaseTimes[i] : 1.3f+i*0.42f;
+                float duration = i < fallDurations.Length ? Mathf.Max(0.1f, fallDurations[i]) : 0.65f;
+                float t=(elapsed-release)/duration;
+                if(t<0f || hiddenForSafety[i]){fragments[i].gameObject.SetActive(false);continue;}
+                float fall = Mathf.Clamp01(t);var end=landingPositions[i];
+                var position=Vector3.Lerp(starts[i],end,fall*fall);
+                float afterLanding = Mathf.Max(0f, (t - 1f) * duration);
+                position.y+=Mathf.Abs(Mathf.Sin(afterLanding*19f))*0.035f*Mathf.Exp(-afterLanding*5f);
+                float padding = Mathf.Min(0.08f, fragments[i].lossyScale.magnitude * 0.5f);
+                if(NearPath(head,previousPositions[i],position,0.28f+padding) ||
+                    NearPath(leftHand,previousPositions[i],position,0.13f+padding) ||
+                    NearPath(rightHand,previousPositions[i],position,0.13f+padding))
+                {hiddenForSafety[i]=true;fragments[i].gameObject.SetActive(false);continue;}
+                fragments[i].gameObject.SetActive(true);fragments[i].position=position;
+                float spin=fall+Mathf.Min(0.35f,afterLanding*0.7f);
+                fragments[i].rotation=rotations[i]*Quaternion.Euler(spin*235f,spin*143f,spin*310f);
+                previousPositions[i]=position;
+            }
+        }
+        public void ResetEffect()
+        {
+            if(starts==null)return;
+            for(int i=0;i<fragments.Length;i++){if(fragments[i]==null)continue;fragments[i].position=starts[i];previousPositions[i]=starts[i];fragments[i].rotation=rotations[i];fragments[i].gameObject.SetActive(false);hiddenForSafety[i]=false;}
+        }
+        static bool NearPath(Transform tracked, Vector3 start, Vector3 end, float radius)
+        {
+            if (tracked == null) return false;
+            Vector3 path = end - start;
+            float t = path.sqrMagnitude > 0.000001f ? Mathf.Clamp01(Vector3.Dot(tracked.position-start,path)/path.sqrMagnitude) : 0f;
+            return (tracked.position - (start + path*t)).sqrMagnitude < radius*radius;
+        }
+        void OnDisable(){ResetEffect();}
+    }
+}

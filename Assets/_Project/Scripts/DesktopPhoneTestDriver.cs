@@ -16,6 +16,7 @@ namespace BreathInTheRubble.Prototype
         PhoneInterfaceController phone;
         Rigidbody body;
         XRGrabInteractable grab;
+        AftershockEnvironmentMotion aftershockMotion;
         Vector3 cameraPosition, restPosition;
         Quaternion cameraRotation, restRotation;
         bool restKinematic, restGravity, restCollisions, restGrab;
@@ -23,12 +24,14 @@ namespace BreathInTheRubble.Prototype
         Vector3 phoneAngles;
         float distance = 0.34f;
         bool clickedScreenButton;
+        bool latchedGuardPreview;
 
         public bool DesktopEnabled { get; private set; }
         public bool IsHolding { get; private set; }
         public bool AimWithView { get; private set; }
         public PhoneInterfaceController Phone => phone;
         public Vector3 PhoneAngles => phoneAngles;
+        public bool GuardPreviewEnabled => latchedGuardPreview;
         public static bool HasPhysicalHmd
         {
             get
@@ -46,6 +49,7 @@ namespace BreathInTheRubble.Prototype
             {
                 if (HasPhysicalHmd) return;
                 phone = FindFirstObjectByType<PhoneInterfaceController>(); view = Camera.main;
+                aftershockMotion = FindFirstObjectByType<AftershockEnvironmentMotion>();
                 if (phone == null || view == null) return;
                 body = phone.GetComponent<Rigidbody>(); grab = phone.GetComponent<XRGrabInteractable>();
                 cameraPosition = view.transform.position; cameraRotation = view.transform.rotation;
@@ -59,11 +63,13 @@ namespace BreathInTheRubble.Prototype
                         (behaviour.transform.IsChildOf(view.transform.root) &&
                          (behaviour.GetType().Name == "XRInteractorLineVisual" || behaviour.GetType().Name == "CurveVisualController" || behaviour.GetType().Name == "XRInteractorReticleVisual"))) Suspend(behaviour);
                 foreach (var renderer in view.transform.root.GetComponentsInChildren<Renderer>())
-                    if (renderer.enabled) { hidden.Add(renderer); renderer.enabled = false; }
+                    if (renderer.enabled && renderer.GetComponentInParent<AwakeningReveal>() == null)
+                    { hidden.Add(renderer); renderer.enabled = false; }
                 DesktopEnabled = true;
             }
             else
             {
+                var guard=FindFirstObjectByType<HeadProtectionDetector>();if(guard!=null)guard.SetEditorPreview(false,false);
                 ReturnPhone();
                 DesktopEnabled = false;
                 if (view != null) view.transform.SetPositionAndRotation(cameraPosition, cameraRotation);
@@ -84,6 +90,9 @@ namespace BreathInTheRubble.Prototype
         {
             if (!DesktopEnabled) return;
             if (HasPhysicalHmd) { SetDesktopMode(false); return; }
+            var guard=FindFirstObjectByType<HeadProtectionDetector>();
+            bool gameFocused=UnityEditor.EditorWindow.focusedWindow!=null && UnityEditor.EditorWindow.focusedWindow.GetType().Name=="GameView";
+            if(guard!=null)guard.SetEditorPreview(true,latchedGuardPreview || (gameFocused && Keyboard.current!=null && Keyboard.current.hKey.isPressed));
             // Inspector typing and shortcuts in other windows must not operate the phone.
             if (UnityEditor.EditorWindow.focusedWindow == null || UnityEditor.EditorWindow.focusedWindow.GetType().Name != "GameView") return;
             var keyboard = Keyboard.current; var mouse = Mouse.current;
@@ -107,9 +116,12 @@ namespace BreathInTheRubble.Prototype
 
         void LateUpdate()
         {
-            if (!DesktopEnabled || view == null) return;
-            // Desktop-only rotation. The seated camera position never changes.
-            view.transform.SetPositionAndRotation(cameraPosition, Quaternion.Euler(viewPitch, viewYaw, 0f));
+            if (!DesktopEnabled || view == null || HasPhysicalHmd) return;
+            // Desktop preview only. Physical HMD/controller poses are never driven by this effect.
+            var rotation = Quaternion.Euler(viewPitch, viewYaw, 0f);
+            var tremorPosition = aftershockMotion != null ? aftershockMotion.DesktopShakeOffset : Vector3.zero;
+            var tremorAngles = aftershockMotion != null ? aftershockMotion.DesktopShakeEuler : Vector3.zero;
+            view.transform.SetPositionAndRotation(cameraPosition + rotation*tremorPosition, rotation*Quaternion.Euler(tremorAngles));
             if (IsHolding) ApplyHeldPose();
         }
 
@@ -159,6 +171,16 @@ namespace BreathInTheRubble.Prototype
 
         public void ConfirmEmergencyCall() { if (DesktopEnabled) phone.GetComponent<PhoneDialerView>()?.ConfirmCall(); }
         public void PreviewReception(int bars) { if (DesktopEnabled) phone.GetComponent<PhoneReceptionProgression>()?.PreviewSignal(bars); }
+        public void ToggleGuardPreview(){if(DesktopEnabled)latchedGuardPreview=!latchedGuardPreview;}
+        public void PreviewBattery(float value)
+        {
+            if(!DesktopEnabled)return;
+            if (!IsHolding) ToggleHold();
+            phone.GetComponent<PhoneWakeSequence>()?.WakeNow();
+            phone.GetComponent<PhoneBattery>()?.PreviewRemainingPercent(value);
+            phone.GetComponent<PhoneBatteryView>()?.RefreshNow();
+            phone.GetComponent<PhoneLowBatteryWarning>()?.PreviewWarning();
+        }
 
         public void ToggleAim() { if (!DesktopEnabled) return; if (!IsHolding) ToggleHold(); AimWithView = !AimWithView; phoneAngles = Vector3.zero; ApplyHeldPose(); }
         public void ResetPhonePose() { phoneAngles = Vector3.zero; distance = 0.34f; AimWithView = false; if (IsHolding) ApplyHeldPose(); }
@@ -185,6 +207,16 @@ namespace BreathInTheRubble.Prototype
             if (!IsHolding || phone == null || view == null) return;
             var target = view.transform;
             var position = target.position + target.forward * distance + target.right * 0.075f - target.up * 0.065f;
+            // The editor adapter has no tracked hand to stop at a close ceiling. Fit its
+            // temporary hold distance to rubble so the flashlight stays on the visible side.
+            var offset=position-target.position;float allowed=offset.magnitude;
+            foreach(var hit in Physics.SphereCastAll(target.position,.035f,offset.normalized,allowed,Physics.DefaultRaycastLayers,QueryTriggerInteraction.Ignore))
+            {
+                if(hit.collider.transform.IsChildOf(phone.transform))continue;
+                var surface=hit.collider.GetComponentInParent<MeshRenderer>();if(surface==null||!surface.enabled)continue;
+                allowed=Mathf.Min(allowed,Mathf.Max(.14f,hit.distance-.025f));
+            }
+            position=target.position+offset.normalized*allowed;
             var rotation = target.rotation * Quaternion.Euler(phoneAngles);
             if (AimWithView && phone.FlashlightEnabled)
                 rotation = Quaternion.LookRotation(target.position + target.forward * 1.8f - position, target.up) * Quaternion.Euler(phoneAngles);

@@ -1,0 +1,291 @@
+{
+  "result": "PASS",
+  "large": 28,
+  "largeReleased": 28,
+  "visibleLarge": 25,
+  "settledLarge": 25,
+  "escaped": [],
+  "smallPool": 84,
+  "visibleSmall": 82,
+  "maxSimultaneouslyMovingLarge": 8,
+  "maxShowerParticles": 429,
+  "clearanceSamples": 81,
+  "pipeIntersections": 0,
+  "intersections": [],
+  "IsAvailable": true,
+  "liveFrames": 1963,
+  "drops": [
+    1.18543065,
+    0.667004,
+    0.447683871,
+    1.06779432,
+    1.27138829,
+    1.16895044,
+    1.182755,
+    1.16081965,
+    1.27918017,
+    1.029261,
+    1.10644925,
+    0.9997909,
+    1.26889825,
+    1.04594076,
+    0.9448575,
+    1.28302228,
+    1.2016046,
+    1.04412818,
+    1.20539618,
+    1.08196211,
+    1.260818,
+    1.07917321,
+    1.10940337,
+    1.233816,
+    0.2588333,
+    1.16616619,
+    0.495712042,
+    1.2599076
+  ],
+  "details": [
+    {
+      "name": "Falling roof masonry 4",
+      "visible": true,
+      "center": "(-0.878, 0.212, 0.384)",
+      "drop": 1.18543065
+    },
+    {
+      "name": "Avalanche concrete slab 8",
+      "visible": false,
+      "center": "(-0.349, 0.723, 0.844)",
+      "drop": 0.667004
+    },
+    {
+      "name": "Falling roof masonry 1",
+      "visible": false,
+      "center": "(0.341, 0.941, 0.016)",
+      "drop": 0.447683871
+    },
+    {
+      "name": "Wall_Gray_Medium_02_LOD0",
+      "visible": true,
+      "center": "(-0.665, 0.202, 0.485)",
+      "drop": 1.06779432
+    },
+    {
+      "name": "Falling roof masonry 6",
+      "visible": true,
+      "center": "(-1.027, 0.126, 0.303)",
+      "drop": 1.27138829
+    },
+    {
+      "name": "Wall_Gray_Medium_03_LOD0",
+      "visible": true,
+      "center": "(0.658, 0.111, 0.580)",
+      "drop": 1.16895044
+    },
+    {
+      "name": "Falling roof masonry 7",
+      "visible": true,
+      "center": "(0.432, 0.206, 0.821)",
+      "drop": 1.182755
+    },
+    {
+      "name": "Falling roof masonry 8",
+      "visible": true,
+      "center": "(-0.628, 0.236, 0.580)",
+      "drop": 1.16081965
+    },
+    {
+      "name": "Wall_Gray_Medium_03_LOD0",
+      "visible": true,
+      "center": "(-0.615, 0.101, -0.433)",
+      "drop": 1.27918017
+    },
+    {
+      "name": "Avalanche concrete slab 4",
+      "visible": true,
+      "center": "(-0.694, 0.221, 0.556)",
+      "drop": 1.029261
+    },
+    {
+      "name": "Falling roof masonry 3",
+      "visible": true,
+      "center": "(1.138, 0.282, 0.146)",
+      "drop": 1.10644925
+    },
+    {
+      "name": "Avalanche concrete slab 5",
+      "visible": true,
+      "center": "(1.107, 0.300, 0.271)",
+      "drop": 0.9997909
+    },
+    {
+      "name": "Wall_Grey_Small_01_LOD0",
+      "visible": true,
+      "center": "(0.637, 0.071, 0.401)",
+      "drop": 1.26889825
+    },
+    {
+      "name": "Avalanche concrete slab 6",
+      "visible": true,
+      "center": "(-0.925, 0.234, -0.563)",
+      "drop": 1.04594076
+    },
+    {
+      "name": "Avalanche concrete slab 1",
+      "visible": true,
+      "center": "(-0.776, 0.275, 0.643)",
+      "drop": 0.9448575
+    },
+    {
+      "name": "Wall_Gray_Medium_01_LOD0",
+      "visible": true,
+      "center": "(0.551, 0.097, 0.745)",
+      "drop": 1.28302228
+    },
+    {
+      "name": "Wall_Gray_Medium_01_LOD0",
+      "visible": true,
+      "center": "(0.471, 0.108, -0.429)",
+      "drop": 1.2016046
+    },
+    {
+      "name": "Avalanche concrete slab 7",
+      "visible": true,
+      "center": "(0.805, 0.226, -0.321)",
+      "drop": 1.04412818
+    },
+    {
+      "name": "Falling roof masonry 5",
+      "visible": true,
+      "center": "(0.786, 0.183, 0.673)",
+      "drop": 1.20539618
+    },
+    {
+      "name": "Foreground gravity slab 2",
+      "visible": true,
+      "center": "(0.538, 0.185, 0.648)",
+      "drop": 1.08196211
+    },
+    {
+      "name": "Wall_Gray_Medium_01_LOD0",
+      "visible": true,
+      "center": "(0.685, 0.119, -0.456)",
+      "drop": 1.260818
+    },
+    {
+      "name": "Avalanche concrete slab 2",
+      "visible": true,
+      "center": "(0.577, 0.151, 0.814)",
+      "drop": 1.07917321
+    },
+    {
+      "name": "Avalanche concrete slab 9",
+      "visible": true,
+      "center": "(0.493, 0.251, 0.907)",
+      "drop": 1.10940337
+    },
+    {
+      "name": "Wall_Gray_Medium_03_LOD0",
+      "visible": true,
+      "center": "(-0.631, 0.116, -0.258)",
+      "drop": 1.233816
+    },
+    {
+      "name": "Falling roof masonry 2",
+      "visible": false,
+      "center": "(-0.425, 1.138, 0.089)",
+      "drop": 0.2588333
+    },
+    {
+      "name": "Avalanche concrete slab 3",
+      "visible": true,
+      "center": "(-0.983, 0.154, 0.462)",
+      "drop": 1.16616619
+    },
+    {
+      "name": "Foreground gravity slab 1",
+      "visible": true,
+      "center": "(-0.447, 0.743, 0.952)",
+      "drop": 0.495712042
+    },
+    {
+      "name": "Wall_Gray_Medium_02_LOD0",
+      "visible": true,
+      "center": "(-0.901, 0.120, 0.644)",
+      "drop": 1.2599076
+    }
+  ],
+  "frames": [
+    {
+      "elapsed": 2.94512177,
+      "largeReleased": 0,
+      "largeMoving": 0,
+      "showerParticles": 160,
+      "pipe": "(-0.067, 1.078, 0.582)",
+      "IsAvailable": false
+    },
+    {
+      "elapsed": 3.491253,
+      "largeReleased": 7,
+      "largeMoving": 6,
+      "showerParticles": 350,
+      "pipe": "(-0.063, 1.078, 0.577)",
+      "IsAvailable": false
+    },
+    {
+      "elapsed": 3.84381485,
+      "largeReleased": 7,
+      "largeMoving": 5,
+      "showerParticles": 390,
+      "pipe": "(-0.066, 1.074, 0.578)",
+      "IsAvailable": false
+    },
+    {
+      "elapsed": 5.020645,
+      "largeReleased": 11,
+      "largeMoving": 3,
+      "showerParticles": 316,
+      "pipe": "(-0.067, 1.074, 0.575)",
+      "IsAvailable": false
+    },
+    {
+      "elapsed": 5.41527,
+      "largeReleased": 14,
+      "largeMoving": 8,
+      "showerParticles": 267,
+      "pipe": "(-0.064, 1.078, 0.558)",
+      "IsAvailable": false
+    },
+    {
+      "elapsed": 6.863306,
+      "largeReleased": 19,
+      "largeMoving": 6,
+      "showerParticles": 297,
+      "pipe": "(-0.031, 0.572, 0.277)",
+      "IsAvailable": false
+    },
+    {
+      "elapsed": 7.29138374,
+      "largeReleased": 21,
+      "largeMoving": 7,
+      "showerParticles": 238,
+      "pipe": "(-0.025, 0.455, 0.250)",
+      "IsAvailable": true
+    },
+    {
+      "elapsed": 10.50005,
+      "largeReleased": 26,
+      "largeMoving": 3,
+      "showerParticles": 205,
+      "pipe": "(-0.025, 0.455, 0.250)",
+      "IsAvailable": true
+    },
+    {
+      "elapsed": 17.9136276,
+      "largeReleased": 28,
+      "largeMoving": 0,
+      "showerParticles": 0,
+      "pipe": "(-0.025, 0.455, 0.250)",
+      "IsAvailable": true
+    }
+  ]
+}

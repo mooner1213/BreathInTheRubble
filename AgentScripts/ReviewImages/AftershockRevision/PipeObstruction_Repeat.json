@@ -1,0 +1,20 @@
+{
+  "result": "FAIL",
+  "samples": 167,
+  "frames": 202,
+  "available": true,
+  "position": "(0.000, 1.005, 0.873)",
+  "reachable": false,
+  "renderedRadius": 0.0110000577,
+  "physicalRadius": 0.027,
+  "geometry": "rendered-radius capsule against visible rubble triangles; 1.5mm tolerance",
+  "intersections": [
+    {
+      "elapsed": 7.864197,
+      "surface": "Prototype Environment/Interlocked Rubble Structure/Shaft front lintel/Wall_Grey_Big_01_LOD0",
+      "depth": 0.00955724,
+      "pipe": "(-0.040, 1.294, 0.706)"
+    }
+  ],
+  "count": 1
+}

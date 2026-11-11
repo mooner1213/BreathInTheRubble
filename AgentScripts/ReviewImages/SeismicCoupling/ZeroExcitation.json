@@ -1,0 +1,10 @@
+{
+  "result": "PASS",
+  "elapsed": 20.3086014,
+  "fractures": 0,
+  "legacyReleased": 0,
+  "pipeRevealed": false,
+  "maxMotion": 0.0,
+  "liveFrames": 4864,
+  "driven": 15
+}

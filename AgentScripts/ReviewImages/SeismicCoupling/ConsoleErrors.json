@@ -1,0 +1,41 @@
+﻿{
+  "success": true,
+  "command": "command",
+  "data": {
+    "command": "console get",
+    "parameters": {
+      "tail": "10",
+      "level": "error"
+    },
+    "result": {
+      "entries": [],
+      "cursor": 84,
+      "session": "751e996ae2f94046b062f5fc2e569898",
+      "returned": 0,
+      "dropped": false,
+      "reset": false,
+      "counts": {
+        "error": 0,
+        "warn": 38,
+        "log": 46
+      },
+      "groundTruth": {
+        "sampledUtc": "2026-11-10T08:03:38.7240522Z",
+        "ageMs": 259,
+        "compilationFailed": false,
+        "compiling": false,
+        "consoleErrors": 0,
+        "consoleWarnings": 1,
+        "consoleLogs": 0,
+        "seeded": true
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "D:\\Project\\BreathInTheRubble"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

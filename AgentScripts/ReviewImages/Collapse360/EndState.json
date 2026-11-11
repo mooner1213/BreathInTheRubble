@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "command": "command",
+  "data": {
+    "command": "script eval",
+    "parameters": {
+      "code": "return new { scene=UnityEngine.SceneManagement.SceneManager.GetActiveScene().path, dirty=UnityEngine.SceneManagement.SceneManager.GetActiveScene().isDirty, playing=UnityEngine.Application.isPlaying, hmd=BreathInTheRubble.Prototype.DesktopPhoneTestDriver.HasPhysicalHmd, origins=UnityEngine.Object.FindObjectsByType<Unity.XR.CoreUtils.XROrigin>(UnityEngine.FindObjectsSortMode.None).Length, inputManagers=UnityEngine.Object.FindObjectsByType<UnityEngine.XR.Interaction.Toolkit.Inputs.InputActionManager>(UnityEngine.FindObjectsSortMode.None).Length };"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": {
+        "scene": "Assets/_Project/Scenes/ConfinedPrototype.unity",
+        "dirty": false,
+        "playing": false,
+        "hmd": false,
+        "origins": 1,
+        "inputManagers": 1
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "D:\\Project\\BreathInTheRubble"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

@@ -1,0 +1,48 @@
+{
+    "result":  "PASS",
+    "previousFloorMaximum":  0.0255953465,
+    "currentFloorMaximum":  0.07680018,
+    "bins":  [
+                 {
+                     "phase":  "0-2",
+                     "samples":  19,
+                     "rmsDistance":  0.0015559897851679392,
+                     "rmsDegrees":  0,
+                     "rmsScreenPixels":  0.32980698297505417
+                 },
+                 {
+                     "phase":  "2-5",
+                     "samples":  35,
+                     "rmsDistance":  0.022429191306635544,
+                     "rmsDegrees":  0.36580940104059639,
+                     "rmsScreenPixels":  5.06673977717954
+                 },
+                 {
+                     "phase":  "5-10",
+                     "samples":  55,
+                     "rmsDistance":  0.035546487312436162,
+                     "rmsDegrees":  0.57317371270237649,
+                     "rmsScreenPixels":  8.4070449032972
+                 },
+                 {
+                     "phase":  "18-20",
+                     "samples":  23,
+                     "rmsDistance":  0.0017398943019294826,
+                     "rmsDegrees":  0,
+                     "rmsScreenPixels":  1.2382953082717874
+                 },
+                 {
+                     "phase":  "20-32",
+                     "samples":  136,
+                     "rmsDistance":  0,
+                     "rmsDegrees":  0,
+                     "rmsScreenPixels":  1.124009609999999
+                 }
+             ],
+    "firstFailure":  6.017769,
+    "lastFailure":  9.673828,
+    "headInside":  0,
+    "maxTrackedMove":  0.0,
+    "maxHeadTurn":  0.0,
+    "liveFrames":  4407
+}

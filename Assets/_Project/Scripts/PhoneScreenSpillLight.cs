@@ -14,13 +14,29 @@ namespace BreathInTheRubble.Prototype
         [SerializeField, Range(0f, 1f)] float minimumDownwardFacingForOverlap = 0.995f;
         [SerializeField] LayerMask occlusionMask = ~0;
 
+        [Header("Awakening glow")]
+        [SerializeField, Min(1f)] float awakeningIntensityMultiplier = 5f;
+        [SerializeField, Min(0f)] float awakeningHoldSeconds = 4f;
+        [SerializeField, Min(0.1f)] float awakeningFadeSeconds = 2f;
+        [SerializeField, Range(1f, 179f)] float awakeningOuterAngle = 150f;
+        [SerializeField, Range(0f, 179f)] float awakeningInnerAngle = 108f;
+
         readonly RaycastHit[] raycastHits = new RaycastHit[8];
         float requestedLevel;
+        float restingOuterAngle, restingInnerAngle;
+        double awakeningBeganAt;
+        bool awakeningGlow;
 
         void Awake()
         {
             if (spillLight == null)
                 spillLight = GetComponent<Light>();
+
+            if (spillLight != null)
+            {
+                restingOuterAngle = spillLight.spotAngle;
+                restingInnerAngle = spillLight.innerSpotAngle;
+            }
 
             SetEmissionLevel(0f);
         }
@@ -33,6 +49,13 @@ namespace BreathInTheRubble.Prototype
         public void SetEmissionLevel(float level)
         {
             requestedLevel = Mathf.Clamp01(level);
+            UpdateLightOutput();
+        }
+
+        public void BeginAwakeningGlow()
+        {
+            awakeningBeganAt = Time.timeAsDouble;
+            awakeningGlow = true;
             UpdateLightOutput();
         }
 
@@ -49,7 +72,16 @@ namespace BreathInTheRubble.Prototype
             }
 
             spillLight.enabled = true;
-            spillLight.intensity = maximumIntensity * requestedLevel * MeasureClearance();
+            float glow = 0f;
+            if (awakeningGlow)
+            {
+                float age = (float)(Time.timeAsDouble - awakeningBeganAt);
+                glow = 1f - Mathf.SmoothStep(0f, 1f, Mathf.Clamp01((age - awakeningHoldSeconds) / awakeningFadeSeconds));
+                spillLight.spotAngle = Mathf.Lerp(restingOuterAngle, awakeningOuterAngle, glow);
+                spillLight.innerSpotAngle = Mathf.Lerp(restingInnerAngle, awakeningInnerAngle, glow);
+                if (glow <= 0f) awakeningGlow = false;
+            }
+            spillLight.intensity = maximumIntensity * requestedLevel * MeasureClearance() * Mathf.Lerp(1f, awakeningIntensityMultiplier, glow);
         }
 
         float MeasureClearance()

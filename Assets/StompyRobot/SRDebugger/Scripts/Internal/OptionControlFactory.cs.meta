@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 0d6e807b7446052409d51e03ab38cfae
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 27688
+  packageName: SRDebugger - Console & Tools On-Device
+  packageVersion: 1.13.2
+  assetPath: Assets/StompyRobot/SRDebugger/Scripts/Internal/OptionControlFactory.cs
+  uploadId: 1040702

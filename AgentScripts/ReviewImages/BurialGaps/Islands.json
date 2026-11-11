@@ -1,0 +1,902 @@
+[
+  {
+    "name": "Unsupported stone island 00",
+    "Released": true,
+    "shakeBeforeRelease": 0.0499828979,
+    "fall": -0.009353638,
+    "moved": 0.0176812466,
+    "y": 1.40527725,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 01",
+    "Released": true,
+    "shakeBeforeRelease": 0.04972667,
+    "fall": 0.0306460857,
+    "moved": 0.03755276,
+    "y": 1.4164505,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 02",
+    "Released": true,
+    "shakeBeforeRelease": 0.0474994779,
+    "fall": 0.0250995159,
+    "moved": 0.0994052961,
+    "y": 1.42323852,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 03",
+    "Released": true,
+    "shakeBeforeRelease": 0.06071328,
+    "fall": 0.4129225,
+    "moved": 0.41588968,
+    "y": 1.02632725,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 04",
+    "Released": true,
+    "shakeBeforeRelease": 0.048315715,
+    "fall": 0.427550435,
+    "moved": 0.429474175,
+    "y": 1.01040852,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 05",
+    "Released": true,
+    "shakeBeforeRelease": 0.04869435,
+    "fall": 0.00293672085,
+    "moved": 0.0037193303,
+    "y": 1.390713,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 06",
+    "Released": true,
+    "shakeBeforeRelease": 0.05684321,
+    "fall": 0.0297245979,
+    "moved": 0.04555728,
+    "y": 1.42232335,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 07",
+    "Released": true,
+    "shakeBeforeRelease": 0.0478241779,
+    "fall": 0.912746549,
+    "moved": 0.9661651,
+    "y": 0.5405086,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 08",
+    "Released": true,
+    "shakeBeforeRelease": 0.0576738268,
+    "fall": 0.08366752,
+    "moved": 0.0996934846,
+    "y": 1.35290933,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 09",
+    "Released": true,
+    "shakeBeforeRelease": 0.0505161546,
+    "fall": 1.35129392,
+    "moved": 1.36680555,
+    "y": 0.08403948,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 10",
+    "Released": true,
+    "shakeBeforeRelease": 0.0488051623,
+    "fall": 0.04924214,
+    "moved": 0.176985547,
+    "y": 1.68741345,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 11",
+    "Released": true,
+    "shakeBeforeRelease": 0.0580265261,
+    "fall": 0.0378167629,
+    "moved": 0.0670400038,
+    "y": 1.67032361,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 12",
+    "Released": true,
+    "shakeBeforeRelease": 0.04950185,
+    "fall": -0.0724855661,
+    "moved": 0.116820037,
+    "y": 1.82367241,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 13",
+    "Released": true,
+    "shakeBeforeRelease": 0.04814365,
+    "fall": -0.07422972,
+    "moved": 0.100308456,
+    "y": 1.78963423,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 14",
+    "Released": true,
+    "shakeBeforeRelease": 0.0577328019,
+    "fall": 0.021474123,
+    "moved": 0.06336826,
+    "y": 1.73113108,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 15",
+    "Released": true,
+    "shakeBeforeRelease": 0.0469978377,
+    "fall": 0.86527586,
+    "moved": 0.9571767,
+    "y": 0.8864564,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 16",
+    "Released": true,
+    "shakeBeforeRelease": 0.0578043275,
+    "fall": -0.0197587013,
+    "moved": 0.111018263,
+    "y": 1.78290188,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 17",
+    "Released": true,
+    "shakeBeforeRelease": 0.04692702,
+    "fall": -0.01595831,
+    "moved": 0.0297733862,
+    "y": 1.7711159,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 18",
+    "Released": true,
+    "shakeBeforeRelease": 0.0497126766,
+    "fall": 0.8304024,
+    "moved": 0.888681,
+    "y": 0.54294467,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 19",
+    "Released": true,
+    "shakeBeforeRelease": 0.06537537,
+    "fall": 0.143230557,
+    "moved": 0.162638456,
+    "y": 0.996182561,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 20",
+    "Released": true,
+    "shakeBeforeRelease": 0.0508366451,
+    "fall": 0.2993135,
+    "moved": 0.31688112,
+    "y": 0.841010869,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 21",
+    "Released": true,
+    "shakeBeforeRelease": 0.0645630658,
+    "fall": 0.06783247,
+    "moved": 0.0710901543,
+    "y": 1.22913945,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 22",
+    "Released": true,
+    "shakeBeforeRelease": 0.0504908375,
+    "fall": 0.359356523,
+    "moved": 0.374734432,
+    "y": 0.9385514,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 23",
+    "Released": true,
+    "shakeBeforeRelease": 0.0469886772,
+    "fall": 0.6321096,
+    "moved": 0.674603,
+    "y": 0.9004331,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 24",
+    "Released": true,
+    "shakeBeforeRelease": 0.05861633,
+    "fall": 0.6376031,
+    "moved": 0.6775989,
+    "y": 0.8861756,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 25",
+    "Released": true,
+    "shakeBeforeRelease": 0.0532555431,
+    "fall": 0.06367552,
+    "moved": 0.1099541,
+    "y": 0.9671587,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 26",
+    "Released": true,
+    "shakeBeforeRelease": 0.05188745,
+    "fall": 0.793283343,
+    "moved": 0.810390949,
+    "y": 0.450417429,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 27",
+    "Released": true,
+    "shakeBeforeRelease": 0.05652128,
+    "fall": 0.009395599,
+    "moved": 0.01014368,
+    "y": 1.23518348,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 28",
+    "Released": true,
+    "shakeBeforeRelease": 0.0476963557,
+    "fall": -0.0560929775,
+    "moved": 0.0635885447,
+    "y": 1.80017352,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 29",
+    "Released": true,
+    "shakeBeforeRelease": 0.054409828,
+    "fall": 0.004674554,
+    "moved": 0.006845065,
+    "y": 1.74141514,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 30",
+    "Released": true,
+    "shakeBeforeRelease": 0.04871036,
+    "fall": -0.03638184,
+    "moved": 0.0364072472,
+    "y": 1.80179894,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 31",
+    "Released": true,
+    "shakeBeforeRelease": 0.0488527156,
+    "fall": -0.05317092,
+    "moved": 0.0546750128,
+    "y": 1.81671393,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 32",
+    "Released": true,
+    "shakeBeforeRelease": 0.0534751154,
+    "fall": -0.0787214041,
+    "moved": 0.09674235,
+    "y": 1.78270543,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 33",
+    "Released": true,
+    "shakeBeforeRelease": 0.04662386,
+    "fall": -0.07489896,
+    "moved": 0.0839704052,
+    "y": 1.807673,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 34",
+    "Released": true,
+    "shakeBeforeRelease": 0.04774913,
+    "fall": 0.0276838541,
+    "moved": 0.0444415323,
+    "y": 1.69775081,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 35",
+    "Released": true,
+    "shakeBeforeRelease": 0.05067173,
+    "fall": 0.0295052528,
+    "moved": 0.0317708142,
+    "y": 1.67636824,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 36",
+    "Released": true,
+    "shakeBeforeRelease": 0.0485464558,
+    "fall": 0.134148717,
+    "moved": 0.1489474,
+    "y": 1.52924359,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 37",
+    "Released": true,
+    "shakeBeforeRelease": 0.0607041232,
+    "fall": 0.0575048923,
+    "moved": 0.07438617,
+    "y": 1.603943,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 38",
+    "Released": true,
+    "shakeBeforeRelease": 0.0479346626,
+    "fall": 0.0029822588,
+    "moved": 0.04208896,
+    "y": 1.65264678,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 39",
+    "Released": true,
+    "shakeBeforeRelease": 0.0481538549,
+    "fall": -0.03504467,
+    "moved": 0.2472605,
+    "y": 1.720525,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 40",
+    "Released": true,
+    "shakeBeforeRelease": 0.0596426241,
+    "fall": -0.006359458,
+    "moved": 0.168946356,
+    "y": 1.713368,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 41",
+    "Released": true,
+    "shakeBeforeRelease": 0.0487086661,
+    "fall": 0.7579037,
+    "moved": 0.7721856,
+    "y": 0.9506668,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 42",
+    "Released": true,
+    "shakeBeforeRelease": 0.0601500273,
+    "fall": 1.426065,
+    "moved": 1.47206044,
+    "y": 0.2762609,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 43",
+    "Released": true,
+    "shakeBeforeRelease": 0.0475120023,
+    "fall": 0.85955894,
+    "moved": 0.9013701,
+    "y": 0.859706759,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 44",
+    "Released": true,
+    "shakeBeforeRelease": 0.0500115566,
+    "fall": 0.683667,
+    "moved": 0.7112887,
+    "y": 0.886318147,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 45",
+    "Released": true,
+    "shakeBeforeRelease": 0.0588316172,
+    "fall": 0.0757497549,
+    "moved": 0.09904219,
+    "y": 1.45968068,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 46",
+    "Released": true,
+    "shakeBeforeRelease": 0.0494920574,
+    "fall": 0.731437862,
+    "moved": 0.7387586,
+    "y": 0.823872745,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 47",
+    "Released": true,
+    "shakeBeforeRelease": 0.0493244976,
+    "fall": 0.6967668,
+    "moved": 0.7107387,
+    "y": 0.866324961,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 48",
+    "Released": true,
+    "shakeBeforeRelease": 0.0620922931,
+    "fall": -0.03392613,
+    "moved": 0.06366512,
+    "y": 1.71873939,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 49",
+    "Released": true,
+    "shakeBeforeRelease": 0.0510810576,
+    "fall": -0.121662021,
+    "moved": 0.162703,
+    "y": 1.82831609,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 50",
+    "Released": true,
+    "shakeBeforeRelease": 0.05955774,
+    "fall": 0.0627493858,
+    "moved": 0.105993569,
+    "y": 1.64534593,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 51",
+    "Released": true,
+    "shakeBeforeRelease": 0.0488074534,
+    "fall": 0.09945059,
+    "moved": 0.116021574,
+    "y": 1.60664988,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 52",
+    "Released": true,
+    "shakeBeforeRelease": 0.0499629639,
+    "fall": 1.55830812,
+    "moved": 1.59340549,
+    "y": 0.151384637,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 53",
+    "Released": true,
+    "shakeBeforeRelease": 0.0612020157,
+    "fall": 0.00282156467,
+    "moved": 0.0624136,
+    "y": 1.699599,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 54",
+    "Released": true,
+    "shakeBeforeRelease": 0.0489589125,
+    "fall": 0.9581761,
+    "moved": 0.960412264,
+    "y": 0.7686086,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 55",
+    "Released": true,
+    "shakeBeforeRelease": 0.05970452,
+    "fall": 0.719259,
+    "moved": 0.7815806,
+    "y": 0.949733853,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 56",
+    "Released": true,
+    "shakeBeforeRelease": 0.04995041,
+    "fall": 0.517819643,
+    "moved": 0.5742139,
+    "y": 1.182237,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 57",
+    "Released": true,
+    "shakeBeforeRelease": 0.04788098,
+    "fall": 0.710782766,
+    "moved": 0.7684328,
+    "y": 1.13343,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 58",
+    "Released": true,
+    "shakeBeforeRelease": 0.0557977371,
+    "fall": -0.00626397133,
+    "moved": 0.0364802331,
+    "y": 1.72202253,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 59",
+    "Released": true,
+    "shakeBeforeRelease": 0.04754949,
+    "fall": 0.0210368633,
+    "moved": 0.0511463955,
+    "y": 1.70490742,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 60",
+    "Released": true,
+    "shakeBeforeRelease": 0.0491150022,
+    "fall": -0.00273907185,
+    "moved": 0.0419563949,
+    "y": 1.79047871,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 61",
+    "Released": true,
+    "shakeBeforeRelease": 0.053702753,
+    "fall": -0.0001707077,
+    "moved": 0.0319061577,
+    "y": 1.78610229,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 62",
+    "Released": true,
+    "shakeBeforeRelease": 0.04894087,
+    "fall": -0.0643903,
+    "moved": 0.120372757,
+    "y": 1.7939198,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 63",
+    "Released": true,
+    "shakeBeforeRelease": 0.0548139364,
+    "fall": -0.06483984,
+    "moved": 0.07062525,
+    "y": 1.880775,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 64",
+    "Released": true,
+    "shakeBeforeRelease": 0.04860722,
+    "fall": -0.0163553953,
+    "moved": 0.08022797,
+    "y": 1.83393419,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 65",
+    "Released": true,
+    "shakeBeforeRelease": 0.0492424071,
+    "fall": -0.127385259,
+    "moved": 0.170983642,
+    "y": 1.86034119,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 66",
+    "Released": true,
+    "shakeBeforeRelease": 0.0574048236,
+    "fall": 1.0986557,
+    "moved": 1.26889348,
+    "y": 0.663783848,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 67",
+    "Released": true,
+    "shakeBeforeRelease": 0.0495390445,
+    "fall": 0.10424304,
+    "moved": 0.128474474,
+    "y": 1.68776107,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 68",
+    "Released": true,
+    "shakeBeforeRelease": 0.05113215,
+    "fall": 0.41319108,
+    "moved": 0.417747229,
+    "y": 1.15976775,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 69",
+    "Released": true,
+    "shakeBeforeRelease": 0.0578745157,
+    "fall": 1.3209188,
+    "moved": 1.42282462,
+    "y": 0.5275083,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 70",
+    "Released": true,
+    "shakeBeforeRelease": 0.04910214,
+    "fall": -0.09441173,
+    "moved": 0.09502705,
+    "y": 1.84099543,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 71",
+    "Released": true,
+    "shakeBeforeRelease": 0.0575994439,
+    "fall": 0.23440969,
+    "moved": 0.261000454,
+    "y": 1.444335,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 72",
+    "Released": true,
+    "shakeBeforeRelease": 0.0486154072,
+    "fall": -0.0450104475,
+    "moved": 0.06442914,
+    "y": 1.86367118,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 73",
+    "Released": true,
+    "shakeBeforeRelease": 0.048112724,
+    "fall": 1.07157588,
+    "moved": 1.0872004,
+    "y": 0.667631149,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 74",
+    "Released": true,
+    "shakeBeforeRelease": 0.0532330163,
+    "fall": 0.098985076,
+    "moved": 0.102237515,
+    "y": 1.65341067,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 75",
+    "Released": true,
+    "shakeBeforeRelease": 0.0507348664,
+    "fall": 0.0908951759,
+    "moved": 0.09534649,
+    "y": 1.6622591,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 76",
+    "Released": true,
+    "shakeBeforeRelease": 0.0538843572,
+    "fall": 0.217856884,
+    "moved": 0.259028822,
+    "y": 1.4033637,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 77",
+    "Released": true,
+    "shakeBeforeRelease": 0.04747029,
+    "fall": 0.239819407,
+    "moved": 0.309790283,
+    "y": 1.38056254,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 78",
+    "Released": true,
+    "shakeBeforeRelease": 0.0480688065,
+    "fall": 0.06758666,
+    "moved": 0.0768321455,
+    "y": 1.5624876,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 79",
+    "Released": true,
+    "shakeBeforeRelease": 0.0563811064,
+    "fall": 0.0155656338,
+    "moved": 0.06777164,
+    "y": 1.61164093,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 80",
+    "Released": true,
+    "shakeBeforeRelease": 0.0483265743,
+    "fall": 0.1803863,
+    "moved": 0.2300839,
+    "y": 1.42175674,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 81",
+    "Released": true,
+    "shakeBeforeRelease": 0.0463568866,
+    "fall": 1.58183789,
+    "moved": 1.62960148,
+    "y": 0.08425893,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 82",
+    "Released": true,
+    "shakeBeforeRelease": 0.06042326,
+    "fall": -0.0404107571,
+    "moved": 0.0482177623,
+    "y": 1.76434875,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 83",
+    "Released": true,
+    "shakeBeforeRelease": 0.0514722057,
+    "fall": -0.12911427,
+    "moved": 0.193900168,
+    "y": 1.85384643,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 84",
+    "Released": true,
+    "shakeBeforeRelease": 0.0598030053,
+    "fall": 0.0526243448,
+    "moved": 0.08477077,
+    "y": 1.61515749,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 85",
+    "Released": true,
+    "shakeBeforeRelease": 0.0488152,
+    "fall": -0.0512172,
+    "moved": 0.06731358,
+    "y": 1.7395041,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 86",
+    "Released": true,
+    "shakeBeforeRelease": 0.0483254679,
+    "fall": -0.08639777,
+    "moved": 0.1033316,
+    "y": 1.77550459,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 87",
+    "Released": true,
+    "shakeBeforeRelease": 0.05650335,
+    "fall": -0.00433743,
+    "moved": 0.1544221,
+    "y": 1.64706147,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 88",
+    "Released": true,
+    "shakeBeforeRelease": 0.0494121574,
+    "fall": 0.9490676,
+    "moved": 0.960670233,
+    "y": 0.708348751,
+    "kinematic": false,
+    "gravity": true
+  },
+  {
+    "name": "Unsupported stone island 89",
+    "Released": true,
+    "shakeBeforeRelease": 0.0490652919,
+    "fall": 0.05050683,
+    "moved": 0.0794801041,
+    "y": 1.60773826,
+    "kinematic": false,
+    "gravity": true
+  }
+]

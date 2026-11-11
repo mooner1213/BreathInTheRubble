@@ -1,0 +1,26 @@
+﻿{
+    "checkedUtc":  "2026-11-10T06:43:08.3785799Z",
+    "visualRuntimePassed":  true,
+    "noDrawnCrackLines":  true,
+    "distinctMotionPatterns":  16,
+    "runtimeFrames":  5725,
+    "resetPassed":  true,
+    "movieSeconds":  18.0,
+    "finalPipeTrials":  3,
+    "pipeTrialsPassed":  2,
+    "pipeIntersectionCount":  0,
+    "overallPipePassed":  false,
+    "remainingIssue":  "Pipe can stop outside seated grab range (final trial 3)",
+    "sceneSha256":  "60364E7BC21090564320D69DD776E98C953D46ACCB62CE8459A8C6711FC07098",
+    "runtimeFiles":  [
+                         {
+                             "sha256":  "7324728A0FEFD9FB9575A38D48177FBB09779CA1A3715F2344FFDD8F2E727F76",
+                             "path":  "Assets/_Project/Scripts/RubbleStructuralCollapse.cs"
+                         },
+                         {
+                             "sha256":  "FFE13318A029D799E6FF428B9BC9581A6971699433D45ED788FF62081F02C5CB",
+                             "path":  "Assets/_Project/Scripts/AftershockPipeDrop.cs"
+                         }
+                     ],
+    "headsetTested":  false
+}

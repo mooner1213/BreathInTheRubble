@@ -1,0 +1,747 @@
+{
+  "mapped": 363,
+  "missed": [
+    {
+      "name": "Rubble_Big_LOD0",
+      "p": "(-0.58, -0.20, -0.43)",
+      "parent": "Buried floor rubble 0",
+      "body": null,
+      "collider": "Rubble_Big_LOD0"
+    },
+    {
+      "name": "Rubble_Medium_LOD0",
+      "p": "(0.55, -0.13, -0.38)",
+      "parent": "Buried floor rubble 1",
+      "body": null,
+      "collider": "Rubble_Medium_LOD0"
+    },
+    {
+      "name": "Rubble_Corner_Out_LOD0",
+      "p": "(-0.55, -0.20, 0.55)",
+      "parent": "Buried floor rubble 2",
+      "body": null,
+      "collider": "Rubble_Corner_Out_LOD0"
+    },
+    {
+      "name": "Rubble_Small_03_LOD0",
+      "p": "(0.59, -0.13, 0.54)",
+      "parent": "Buried floor rubble 3",
+      "body": null,
+      "collider": "Rubble_Small_03_LOD0"
+    },
+    {
+      "name": "Rubble_Big_LOD0",
+      "p": "(0.19, -1.58, -0.44)",
+      "parent": "Staggered gap closure 3",
+      "body": null,
+      "collider": "Rubble_Big_LOD0"
+    },
+    {
+      "name": "Low exposed emergency rebar",
+      "p": "(0.65, 0.90, 0.13)",
+      "parent": "Wall_Grey_Big_01_LOD0",
+      "body": "Wall_Grey_Big_01_LOD0",
+      "collider": "Wall_Grey_Big_01_LOD0"
+    },
+    {
+      "name": "Rubble_Medium_LOD0",
+      "p": "(-0.85, -0.05, 0.65)",
+      "parent": "Concrete and brick landing bed 1",
+      "body": null,
+      "collider": "Rubble_Medium_LOD0"
+    },
+    {
+      "name": "Rubble_Medium_LOD0",
+      "p": "(0.85, -0.04, 0.70)",
+      "parent": "Concrete and brick landing bed 2",
+      "body": null,
+      "collider": "Rubble_Medium_LOD0"
+    },
+    {
+      "name": "Rubble_Medium_LOD0",
+      "p": "(-0.80, -0.04, -0.50)",
+      "parent": "Concrete and brick landing bed 3",
+      "body": null,
+      "collider": "Rubble_Medium_LOD0"
+    },
+    {
+      "name": "Rubble_Medium_LOD0",
+      "p": "(0.80, -0.06, -0.50)",
+      "parent": "Concrete and brick landing bed 4",
+      "body": null,
+      "collider": "Rubble_Medium_LOD0"
+    },
+    {
+      "name": "Buried receiving concrete plate 0",
+      "p": "(-0.80, 0.00, 0.05)",
+      "parent": "Buried avalanche foundation",
+      "body": null,
+      "collider": "Buried receiving concrete plate 0"
+    },
+    {
+      "name": "Buried receiving concrete plate 1",
+      "p": "(0.80, 0.00, 0.05)",
+      "parent": "Buried avalanche foundation",
+      "body": null,
+      "collider": "Buried receiving concrete plate 1"
+    },
+    {
+      "name": "Buried receiving concrete plate 2",
+      "p": "(0.00, 0.00, 1.25)",
+      "parent": "Buried avalanche foundation",
+      "body": null,
+      "collider": "Buried receiving concrete plate 2"
+    },
+    {
+      "name": "Buried receiving concrete plate 3",
+      "p": "(0.00, 0.00, -0.80)",
+      "parent": "Buried avalanche foundation",
+      "body": null,
+      "collider": "Buried receiving concrete plate 3"
+    },
+    {
+      "name": "Continuous buried foundation concrete",
+      "p": "(0.00, 0.00, 0.00)",
+      "parent": "Prototype Environment",
+      "body": null,
+      "collider": "Continuous buried foundation concrete"
+    }
+  ],
+  "groups": [
+    {
+      "name": "Concrete Shell",
+      "renderers": 0,
+      "bodies": 0
+    },
+    {
+      "name": "Rubble",
+      "renderers": 1,
+      "bodies": 1
+    },
+    {
+      "name": "Earthquake Realism Pass",
+      "renderers": 0,
+      "bodies": 0
+    },
+    {
+      "name": "Awakening Dust",
+      "renderers": 0,
+      "bodies": 0
+    },
+    {
+      "name": "Buried Lower Body Rubble",
+      "renderers": 0,
+      "bodies": 0
+    },
+    {
+      "name": "Settled Collapse Details",
+      "renderers": 0,
+      "bodies": 0
+    },
+    {
+      "name": "Rear Bottle Pocket",
+      "renderers": 1,
+      "bodies": 1
+    },
+    {
+      "name": "Buried Surroundings",
+      "renderers": 0,
+      "bodies": 0
+    },
+    {
+      "name": "Rear Aftershock Breakaway",
+      "renderers": 0,
+      "bodies": 0
+    },
+    {
+      "name": "Archived Floating Fractures - Inactive",
+      "renderers": 0,
+      "bodies": 0
+    },
+    {
+      "name": "Embedded Rear Wall Fractures",
+      "renderers": 0,
+      "bodies": 0
+    },
+    {
+      "name": "Sealed Rubble Burial",
+      "renderers": 200,
+      "bodies": 195
+    },
+    {
+      "name": "Interlocked Rubble Structure",
+      "renderers": 43,
+      "bodies": 44
+    },
+    {
+      "name": "Structural Aftershock Breakaway",
+      "renderers": 0,
+      "bodies": 0
+    },
+    {
+      "name": "Upper Joint Collapse",
+      "renderers": 0,
+      "bodies": 0
+    },
+    {
+      "name": "Physical rubble landing beds",
+      "renderers": 4,
+      "bodies": 0
+    },
+    {
+      "name": "Close Packed Survival Pocket",
+      "renderers": 10,
+      "bodies": 10
+    },
+    {
+      "name": "Foreground Load Failures",
+      "renderers": 2,
+      "bodies": 2
+    },
+    {
+      "name": "Aftershock Avalanche",
+      "renderers": 4,
+      "bodies": 0
+    },
+    {
+      "name": "Deep Layered Collapse",
+      "renderers": 340,
+      "bodies": 225
+    },
+    {
+      "name": "Independent 360 structural collapse",
+      "renderers": 112,
+      "bodies": 112
+    },
+    {
+      "name": "Tracked rubble contact",
+      "renderers": 0,
+      "bodies": 1
+    },
+    {
+      "name": "Continuous buried foundation concrete",
+      "renderers": 1,
+      "bodies": 0
+    },
+    {
+      "name": "Aftershock 5 10 20 30 timing applied",
+      "renderers": 0,
+      "bodies": 0
+    },
+    {
+      "name": "Aftershock overhead dispersion applied",
+      "renderers": 0,
+      "bodies": 0
+    }
+  ],
+  "overlapCount": 146,
+  "overlaps": [
+    {
+      "a": "Front face left pressed rubble broken section 0",
+      "b": "Slanted masonry across trapped legs",
+      "depth": 0.0203981549,
+      "otherBody": "Slanted masonry across trapped legs",
+      "normal": "(0.10, 0.81, -0.57)"
+    },
+    {
+      "a": "Front face left pressed rubble broken section 0",
+      "b": "Left slit buried cheek",
+      "depth": 0.04394583,
+      "otherBody": "Left slit buried cheek",
+      "normal": "(0.33, -0.94, 0.01)"
+    },
+    {
+      "a": "Front face left pressed rubble broken section 0",
+      "b": "Rubble_Medium_LOD0",
+      "depth": 0.0237000156,
+      "otherBody": "Rubble_Medium_LOD0",
+      "normal": "(0.33, 0.64, -0.69)"
+    },
+    {
+      "a": "Front face left pressed rubble broken section 0",
+      "b": "Front face left pressed rubble broken section 1",
+      "depth": 0.0231986325,
+      "otherBody": "Front face left pressed rubble broken section 1",
+      "normal": "(-0.65, 0.75, 0.12)"
+    },
+    {
+      "a": "Front face left pressed rubble broken section 0",
+      "b": "Front face left pressed rubble broken section 2",
+      "depth": 0.0171066783,
+      "otherBody": "Front face left pressed rubble broken section 2",
+      "normal": "(0.69, 0.71, 0.16)"
+    },
+    {
+      "a": "Front face left pressed rubble broken section 0",
+      "b": "Front face left pressed rubble broken section 3",
+      "depth": 0.00747707253,
+      "otherBody": "Front face left pressed rubble broken section 3",
+      "normal": "(0.59, 0.80, 0.09)"
+    },
+    {
+      "a": "Front face left pressed rubble broken section 0",
+      "b": "Center crushed bearing stone broken section 1",
+      "depth": 0.06679405,
+      "otherBody": "Center crushed bearing stone broken section 1",
+      "normal": "(-0.75, -0.47, 0.46)"
+    },
+    {
+      "a": "Front face left pressed rubble broken section 1",
+      "b": "Slanted masonry across trapped legs",
+      "depth": 0.0511075929,
+      "otherBody": "Slanted masonry across trapped legs",
+      "normal": "(0.49, 0.60, -0.64)"
+    },
+    {
+      "a": "Front face left pressed rubble broken section 1",
+      "b": "Rubble_Medium_LOD0",
+      "depth": 0.0275065023,
+      "otherBody": "Rubble_Medium_LOD0",
+      "normal": "(0.77, -0.63, 0.09)"
+    },
+    {
+      "a": "Front face left pressed rubble broken section 1",
+      "b": "Front face left pressed rubble broken section 0",
+      "depth": 0.0231986325,
+      "otherBody": "Front face left pressed rubble broken section 0",
+      "normal": "(0.65, -0.75, -0.12)"
+    },
+    {
+      "a": "Front face left pressed rubble broken section 1",
+      "b": "Front face left pressed rubble broken section 2",
+      "depth": 0.00280363858,
+      "otherBody": "Front face left pressed rubble broken section 2",
+      "normal": "(0.95, 0.30, 0.11)"
+    },
+    {
+      "a": "Front face left pressed rubble broken section 1",
+      "b": "Front face left pressed rubble broken section 3",
+      "depth": 0.0145688932,
+      "otherBody": "Front face left pressed rubble broken section 3",
+      "normal": "(0.71, 0.70, 0.12)"
+    },
+    {
+      "a": "Front face left pressed rubble broken section 1",
+      "b": "Front face right interlocked masonry broken section 2",
+      "depth": 0.0221646279,
+      "otherBody": "Front face right interlocked masonry broken section 2",
+      "normal": "(-0.94, -0.06, -0.35)"
+    },
+    {
+      "a": "Front face left pressed rubble broken section 1",
+      "b": "Center crushed bearing stone broken section 1",
+      "depth": 0.0594572425,
+      "otherBody": "Center crushed bearing stone broken section 1",
+      "normal": "(-0.67, -0.65, 0.36)"
+    },
+    {
+      "a": "Front face left pressed rubble broken section 2",
+      "b": "Slanted masonry across trapped legs",
+      "depth": 0.07764009,
+      "otherBody": "Slanted masonry across trapped legs",
+      "normal": "(0.12, 0.79, -0.60)"
+    },
+    {
+      "a": "Front face left pressed rubble broken section 2",
+      "b": "Left slit buried cheek",
+      "depth": 0.0149344848,
+      "otherBody": "Left slit buried cheek",
+      "normal": "(0.74, -0.63, -0.24)"
+    },
+    {
+      "a": "Front face left pressed rubble broken section 2",
+      "b": "Rubble_Medium_LOD0",
+      "depth": 0.0235484466,
+      "otherBody": "Rubble_Medium_LOD0",
+      "normal": "(0.15, 0.16, -0.98)"
+    },
+    {
+      "a": "Front face left pressed rubble broken section 2",
+      "b": "Front face left pressed rubble broken section 0",
+      "depth": 0.0171066783,
+      "otherBody": "Front face left pressed rubble broken section 0",
+      "normal": "(-0.69, -0.71, -0.16)"
+    },
+    {
+      "a": "Front face left pressed rubble broken section 2",
+      "b": "Front face left pressed rubble broken section 1",
+      "depth": 0.00280363858,
+      "otherBody": "Front face left pressed rubble broken section 1",
+      "normal": "(-0.95, -0.30, -0.11)"
+    },
+    {
+      "a": "Front face left pressed rubble broken section 2",
+      "b": "Front face left pressed rubble broken section 3",
+      "depth": 0.0165001713,
+      "otherBody": "Front face left pressed rubble broken section 3",
+      "normal": "(-0.86, 0.48, -0.19)"
+    },
+    {
+      "a": "Front face left pressed rubble broken section 2",
+      "b": "Near left wedged slab failing support",
+      "depth": 0.0125446767,
+      "otherBody": "Near left wedged slab failing support",
+      "normal": "(0.94, -0.30, -0.17)"
+    },
+    {
+      "a": "Front face left pressed rubble broken section 3",
+      "b": "Rubble_Medium_LOD0",
+      "depth": 0.0236369371,
+      "otherBody": "Rubble_Medium_LOD0",
+      "normal": "(0.01, -1.00, -0.01)"
+    },
+    {
+      "a": "Front face left pressed rubble broken section 3",
+      "b": "Front face left pressed rubble broken section 0",
+      "depth": 0.00747707253,
+      "otherBody": "Front face left pressed rubble broken section 0",
+      "normal": "(-0.59, -0.80, -0.09)"
+    },
+    {
+      "a": "Front face left pressed rubble broken section 3",
+      "b": "Front face left pressed rubble broken section 1",
+      "depth": 0.0145688932,
+      "otherBody": "Front face left pressed rubble broken section 1",
+      "normal": "(-0.71, -0.70, -0.12)"
+    },
+    {
+      "a": "Front face left pressed rubble broken section 3",
+      "b": "Front face left pressed rubble broken section 2",
+      "depth": 0.0165001713,
+      "otherBody": "Front face left pressed rubble broken section 2",
+      "normal": "(0.86, -0.48, 0.19)"
+    },
+    {
+      "a": "Front face left pressed rubble broken section 3",
+      "b": "Front face right interlocked masonry broken section 2",
+      "depth": 0.005979046,
+      "otherBody": "Front face right interlocked masonry broken section 2",
+      "normal": "(-0.92, -0.33, -0.22)"
+    },
+    {
+      "a": "Front face right interlocked masonry broken section 0",
+      "b": "Right slit buried cheek",
+      "depth": 0.07725751,
+      "otherBody": "Right slit buried cheek",
+      "normal": "(-0.25, -0.82, 0.52)"
+    },
+    {
+      "a": "Front face right interlocked masonry broken section 0",
+      "b": "Rubble_Medium_LOD0",
+      "depth": 0.0083243,
+      "otherBody": "Rubble_Medium_LOD0",
+      "normal": "(0.52, 0.85, -0.09)"
+    },
+    {
+      "a": "Front face right interlocked masonry broken section 0",
+      "b": "Front face right interlocked masonry broken section 1",
+      "depth": 0.0182509124,
+      "otherBody": "Front face right interlocked masonry broken section 1",
+      "normal": "(-0.64, 0.76, 0.13)"
+    },
+    {
+      "a": "Front face right interlocked masonry broken section 0",
+      "b": "Front face right interlocked masonry broken section 2",
+      "depth": 0.0144553175,
+      "otherBody": "Front face right interlocked masonry broken section 2",
+      "normal": "(0.69, 0.70, 0.17)"
+    },
+    {
+      "a": "Front face right interlocked masonry broken section 0",
+      "b": "Front face right interlocked masonry broken section 3",
+      "depth": 0.00618876424,
+      "otherBody": "Front face right interlocked masonry broken section 3",
+      "normal": "(0.66, 0.73, 0.18)"
+    },
+    {
+      "a": "Front face right interlocked masonry broken section 0",
+      "b": "Center crushed bearing stone broken section 0",
+      "depth": 0.0359513834,
+      "otherBody": "Center crushed bearing stone broken section 0",
+      "normal": "(0.69, 0.70, 0.17)"
+    },
+    {
+      "a": "Front face right interlocked masonry broken section 0",
+      "b": "Near right wedged slab failing support",
+      "depth": 0.0291798674,
+      "otherBody": "Near right wedged slab failing support",
+      "normal": "(-0.93, -0.31, -0.21)"
+    },
+    {
+      "a": "Front face right interlocked masonry broken section 1",
+      "b": "Right slit buried cheek",
+      "depth": 0.04680415,
+      "otherBody": "Right slit buried cheek",
+      "normal": "(0.11, -0.99, -0.01)"
+    },
+    {
+      "a": "Front face right interlocked masonry broken section 1",
+      "b": "Rubble_Medium_LOD0",
+      "depth": 0.0308502465,
+      "otherBody": "Rubble_Medium_LOD0",
+      "normal": "(0.19, 0.60, -0.78)"
+    },
+    {
+      "a": "Front face right interlocked masonry broken section 1",
+      "b": "Front face right interlocked masonry broken section 0",
+      "depth": 0.0182509124,
+      "otherBody": "Front face right interlocked masonry broken section 0",
+      "normal": "(0.64, -0.76, -0.13)"
+    },
+    {
+      "a": "Front face right interlocked masonry broken section 1",
+      "b": "Front face right interlocked masonry broken section 2",
+      "depth": 0.0046460256,
+      "otherBody": "Front face right interlocked masonry broken section 2",
+      "normal": "(0.85, 0.50, 0.19)"
+    },
+    {
+      "a": "Front face right interlocked masonry broken section 1",
+      "b": "Front face right interlocked masonry broken section 3",
+      "depth": 0.0132736713,
+      "otherBody": "Front face right interlocked masonry broken section 3",
+      "normal": "(0.71, 0.68, 0.18)"
+    },
+    {
+      "a": "Front face right interlocked masonry broken section 1",
+      "b": "Near right wedged slab failing support",
+      "depth": 0.0341337137,
+      "otherBody": "Near right wedged slab failing support",
+      "normal": "(-0.93, -0.31, -0.21)"
+    },
+    {
+      "a": "Front face right interlocked masonry broken section 2",
+      "b": "Slanted masonry across trapped legs",
+      "depth": 0.06772878,
+      "otherBody": "Slanted masonry across trapped legs",
+      "normal": "(0.76, 0.32, -0.56)"
+    },
+    {
+      "a": "Front face right interlocked masonry broken section 2",
+      "b": "Rubble_Medium_LOD0",
+      "depth": 0.0259231664,
+      "otherBody": "Rubble_Medium_LOD0",
+      "normal": "(-0.46, -0.66, -0.60)"
+    },
+    {
+      "a": "Front face right interlocked masonry broken section 2",
+      "b": "Front face left pressed rubble broken section 1",
+      "depth": 0.0221646279,
+      "otherBody": "Front face left pressed rubble broken section 1",
+      "normal": "(0.94, 0.06, 0.35)"
+    },
+    {
+      "a": "Front face right interlocked masonry broken section 2",
+      "b": "Front face left pressed rubble broken section 3",
+      "depth": 0.005979046,
+      "otherBody": "Front face left pressed rubble broken section 3",
+      "normal": "(0.92, 0.33, 0.22)"
+    },
+    {
+      "a": "Front face right interlocked masonry broken section 2",
+      "b": "Front face right interlocked masonry broken section 0",
+      "depth": 0.0144553175,
+      "otherBody": "Front face right interlocked masonry broken section 0",
+      "normal": "(-0.69, -0.70, -0.17)"
+    },
+    {
+      "a": "Front face right interlocked masonry broken section 2",
+      "b": "Front face right interlocked masonry broken section 1",
+      "depth": 0.0046460256,
+      "otherBody": "Front face right interlocked masonry broken section 1",
+      "normal": "(-0.85, -0.50, -0.19)"
+    },
+    {
+      "a": "Front face right interlocked masonry broken section 2",
+      "b": "Front face right interlocked masonry broken section 3",
+      "depth": 0.0163553115,
+      "otherBody": "Front face right interlocked masonry broken section 3",
+      "normal": "(-0.87, 0.46, -0.17)"
+    },
+    {
+      "a": "Front face right interlocked masonry broken section 2",
+      "b": "Center crushed bearing stone broken section 0",
+      "depth": 0.09418404,
+      "otherBody": "Center crushed bearing stone broken section 0",
+      "normal": "(-0.69, -0.71, -0.13)"
+    },
+    {
+      "a": "Front face right interlocked masonry broken section 2",
+      "b": "Center crushed bearing stone broken section 1",
+      "depth": 0.06876473,
+      "otherBody": "Center crushed bearing stone broken section 1",
+      "normal": "(0.90, -0.01, 0.44)"
+    },
+    {
+      "a": "Front face right interlocked masonry broken section 3",
+      "b": "Slanted masonry across trapped legs",
+      "depth": 0.0139545947,
+      "otherBody": "Slanted masonry across trapped legs",
+      "normal": "(0.99, -0.07, -0.15)"
+    },
+    {
+      "a": "Front face right interlocked masonry broken section 3",
+      "b": "Rubble_Medium_LOD0",
+      "depth": 0.004239696,
+      "otherBody": "Rubble_Medium_LOD0",
+      "normal": "(-0.03, -0.36, -0.93)"
+    },
+    {
+      "a": "Front face right interlocked masonry broken section 3",
+      "b": "Front face right interlocked masonry broken section 0",
+      "depth": 0.00618876424,
+      "otherBody": "Front face right interlocked masonry broken section 0",
+      "normal": "(-0.66, -0.73, -0.18)"
+    },
+    {
+      "a": "Front face right interlocked masonry broken section 3",
+      "b": "Front face right interlocked masonry broken section 1",
+      "depth": 0.0132736713,
+      "otherBody": "Front face right interlocked masonry broken section 1",
+      "normal": "(-0.71, -0.68, -0.18)"
+    },
+    {
+      "a": "Front face right interlocked masonry broken section 3",
+      "b": "Front face right interlocked masonry broken section 2",
+      "depth": 0.0163553115,
+      "otherBody": "Front face right interlocked masonry broken section 2",
+      "normal": "(0.87, -0.46, 0.17)"
+    },
+    {
+      "a": "Center crushed bearing stone broken section 0",
+      "b": "Rubble_Medium_LOD0",
+      "depth": 0.009094947,
+      "otherBody": "Rubble_Medium_LOD0",
+      "normal": "(0.58, 0.72, 0.38)"
+    },
+    {
+      "a": "Center crushed bearing stone broken section 0",
+      "b": "Front face right interlocked masonry broken section 0",
+      "depth": 0.0359513834,
+      "otherBody": "Front face right interlocked masonry broken section 0",
+      "normal": "(-0.69, -0.70, -0.17)"
+    },
+    {
+      "a": "Center crushed bearing stone broken section 0",
+      "b": "Front face right interlocked masonry broken section 2",
+      "depth": 0.09418404,
+      "otherBody": "Front face right interlocked masonry broken section 2",
+      "normal": "(0.69, 0.71, 0.13)"
+    },
+    {
+      "a": "Center crushed bearing stone broken section 0",
+      "b": "Center crushed bearing stone broken section 1",
+      "depth": 0.021320913,
+      "otherBody": "Center crushed bearing stone broken section 1",
+      "normal": "(0.71, 0.68, 0.18)"
+    },
+    {
+      "a": "Center crushed bearing stone broken section 1",
+      "b": "Rubble_Medium_LOD0",
+      "depth": 0.008361913,
+      "otherBody": "Rubble_Medium_LOD0",
+      "normal": "(0.75, 0.57, 0.33)"
+    },
+    {
+      "a": "Center crushed bearing stone broken section 1",
+      "b": "Front face left pressed rubble broken section 0",
+      "depth": 0.06679405,
+      "otherBody": "Front face left pressed rubble broken section 0",
+      "normal": "(0.75, 0.47, -0.46)"
+    },
+    {
+      "a": "Center crushed bearing stone broken section 1",
+      "b": "Front face left pressed rubble broken section 1",
+      "depth": 0.0594572425,
+      "otherBody": "Front face left pressed rubble broken section 1",
+      "normal": "(0.67, 0.65, -0.36)"
+    },
+    {
+      "a": "Center crushed bearing stone broken section 1",
+      "b": "Front face right interlocked masonry broken section 2",
+      "depth": 0.06876473,
+      "otherBody": "Front face right interlocked masonry broken section 2",
+      "normal": "(-0.90, 0.01, -0.44)"
+    },
+    {
+      "a": "Center crushed bearing stone broken section 1",
+      "b": "Center crushed bearing stone broken section 0",
+      "depth": 0.021320913,
+      "otherBody": "Center crushed bearing stone broken section 0",
+      "normal": "(-0.71, -0.68, -0.18)"
+    },
+    {
+      "a": "Near left wedged slab failing support",
+      "b": "Slanted masonry across trapped legs",
+      "depth": 0.0294892341,
+      "otherBody": "Slanted masonry across trapped legs",
+      "normal": "(-0.23, -0.90, -0.36)"
+    },
+    {
+      "a": "Near left wedged slab failing support",
+      "b": "Metal contact segment 0",
+      "depth": 0.08662733,
+      "otherBody": "Bent left wall reinforcement",
+      "normal": "(0.82, -0.58, 0.04)"
+    },
+    {
+      "a": "Near left wedged slab failing support",
+      "b": "Metal contact segment 1",
+      "depth": 0.009640679,
+      "otherBody": "Bent left wall reinforcement",
+      "normal": "(-0.44, -0.79, 0.42)"
+    },
+    {
+      "a": "Near left wedged slab failing support",
+      "b": "Metal contact segment 0",
+      "depth": 0.0760828555,
+      "otherBody": "Lower broken wall tie",
+      "normal": "(-0.21, 0.94, 0.28)"
+    },
+    {
+      "a": "Near left wedged slab failing support",
+      "b": "Metal contact segment 1",
+      "depth": 0.0240647048,
+      "otherBody": "Lower broken wall tie",
+      "normal": "(-0.94, 0.30, 0.17)"
+    },
+    {
+      "a": "Near left wedged slab failing support",
+      "b": "Left slit buried cheek",
+      "depth": 0.0322418064,
+      "otherBody": "Left slit buried cheek",
+      "normal": "(-0.82, -0.33, 0.46)"
+    },
+    {
+      "a": "Near left wedged slab failing support",
+      "b": "Left buried seam backing",
+      "depth": 0.008318454,
+      "otherBody": "Left buried seam backing",
+      "normal": "(-0.10, -0.05, -0.99)"
+    },
+    {
+      "a": "Near left wedged slab failing support",
+      "b": "Rubble_Small_01_LOD0",
+      "depth": 0.04434506,
+      "otherBody": "Rubble_Small_01_LOD0",
+      "normal": "(1.00, -0.01, 0.00)"
+    }
+  ],
+  "props": [
+    {
+      "name": "Thin Steel Pipe (Grabbable)",
+      "isKinematic": true,
+      "constraints": 0
+    },
+    {
+      "name": "Smartphone (Grabbable)",
+      "isKinematic": false,
+      "constraints": 0
+    },
+    {
+      "name": "Water Bottle 45 Percent (Grabbable)",
+      "isKinematic": false,
+      "constraints": 0
+    }
+  ]
+}

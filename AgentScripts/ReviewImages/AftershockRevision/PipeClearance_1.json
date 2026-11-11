@@ -1,0 +1,13 @@
+{
+  "result": "PASS",
+  "samples": 154,
+  "frames": 184,
+  "available": true,
+  "position": "(-0.042, 0.807, 0.485)",
+  "reachable": true,
+  "renderedRadius": 0.0110000577,
+  "physicalRadius": 0.027,
+  "geometry": "rendered-radius capsule against visible rubble triangles; 1.5mm tolerance",
+  "intersections": [],
+  "count": 0
+}

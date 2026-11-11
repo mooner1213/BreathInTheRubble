@@ -1,0 +1,87 @@
+﻿{
+  "success": true,
+  "command": "command",
+  "data": {
+    "command": "console get",
+    "parameters": {
+      "tail": "5",
+      "level": "warn"
+    },
+    "result": {
+      "entries": [
+        {
+          "seq": 79,
+          "timestampUtc": "2026-11-10T07:56:05.0301359Z",
+          "level": "warn",
+          "logType": "Warning",
+          "message": "Assets\\_Project\\Scripts\\AftershockFallingChunk.cs(20,32): warning CS0414: The field 'AftershockFallingChunk.peelDegrees' is assigned but its value is never used",
+          "stackTrace": "",
+          "seeded": false
+        },
+        {
+          "seq": 80,
+          "timestampUtc": "2026-11-10T07:56:05.0301359Z",
+          "level": "warn",
+          "logType": "Warning",
+          "message": "Assets\\_Project\\Scripts\\AftershockDirector.cs(21,38): warning CS0414: The field 'AftershockDirector.lateImpactDustCount' is assigned but its value is never used",
+          "stackTrace": "",
+          "seeded": false
+        },
+        {
+          "seq": 83,
+          "timestampUtc": "2026-11-10T08:00:18.3042667Z",
+          "level": "warn",
+          "logType": "Warning",
+          "message": "Failed to get haptic capabilities of XRSimulatedController:/XRSimulatedController, error code -1. Continuing assuming a single haptic channel.",
+          "stackTrace": "UnityEngine.XR.Interaction.Toolkit.XRInteractionManager:Update () (at ./Library/PackageCache/com.unity.xr.interaction.toolkit@63ca3b7ce776/Runtime/Interaction/XRInteractionManager.cs:672)\n",
+          "seeded": false
+        },
+        {
+          "seq": 84,
+          "timestampUtc": "2026-11-10T08:01:46.8648409Z",
+          "level": "warn",
+          "logType": "Warning",
+          "message": "Color primaries 0 is unknown or unsupported by WindowsMediaFoundation. Falling back to default may result in color shift. D:\\Project\\BreathInTheRubble\\AgentScripts\\ReviewImages\\SeismicCoupling\\Episode.mp4",
+          "stackTrace": "\n",
+          "seeded": true
+        },
+        {
+          "seq": 89,
+          "timestampUtc": "2026-11-10T08:24:51.7721692Z",
+          "level": "warn",
+          "logType": "Warning",
+          "message": "Color primaries 0 is unknown or unsupported by WindowsMediaFoundation. Falling back to default may result in color shift. D:\\Project\\BreathInTheRubble\\AgentScripts\\ReviewImages\\AftershockStrength\\Episode.mp4",
+          "stackTrace": "\n",
+          "seeded": true
+        }
+      ],
+      "cursor": 89,
+      "session": "751e996ae2f94046b062f5fc2e569898",
+      "returned": 5,
+      "dropped": false,
+      "reset": false,
+      "counts": {
+        "error": 0,
+        "warn": 39,
+        "log": 50
+      },
+      "groundTruth": {
+        "sampledUtc": "2026-11-10T08:25:59.0954697Z",
+        "ageMs": 273,
+        "compilationFailed": false,
+        "compiling": false,
+        "consoleErrors": 0,
+        "consoleWarnings": 2,
+        "consoleLogs": 2,
+        "seeded": true
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "D:\\Project\\BreathInTheRubble"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

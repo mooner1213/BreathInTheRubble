@@ -1,0 +1,342 @@
+{
+  "pieces": 101,
+  "released": 101,
+  "visible": 101,
+  "escaped": [],
+  "newBigPieces": 29,
+  "newBigMoved": 28,
+  "newBigDropped": 23,
+  "peakMoving": 19,
+  "peakCracks": 20,
+  "peakPowder": 814,
+  "commonRootTravel": 0.0,
+  "maxHeadDrift": 0.0,
+  "headInsideSamples": 0,
+  "initialSystems": 39,
+  "finalSystems": 39,
+  "frames": 4547,
+  "details": [
+    {
+      "name": "Front face left pressed rubble broken section 0",
+      "Released": true,
+      "drop": 0.0,
+      "travel": 0.278813124,
+      "center": "(-0.097, 0.946, 0.984)",
+      "speed": 0.01353302
+    },
+    {
+      "name": "Front face left pressed rubble broken section 1",
+      "Released": true,
+      "drop": 0.154417515,
+      "travel": 0.6473362,
+      "center": "(-0.011, 0.507, 0.134)",
+      "speed": 0.008347893
+    },
+    {
+      "name": "Front face left pressed rubble broken section 2",
+      "Released": true,
+      "drop": 0.4716511,
+      "travel": 0.5987775,
+      "center": "(-0.169, 0.422, 0.422)",
+      "speed": 0.0173926838
+    },
+    {
+      "name": "Front face left pressed rubble broken section 3",
+      "Released": true,
+      "drop": 0.341996968,
+      "travel": 0.443493217,
+      "center": "(-0.321, 0.352, 0.472)",
+      "speed": 0.000335772085
+    },
+    {
+      "name": "Front face right interlocked masonry broken section 0",
+      "Released": true,
+      "drop": 0.115632951,
+      "travel": 0.3245545,
+      "center": "(0.452, 0.780, 1.005)",
+      "speed": 0.0
+    },
+    {
+      "name": "Front face right interlocked masonry broken section 1",
+      "Released": true,
+      "drop": 0.499889374,
+      "travel": 0.597323954,
+      "center": "(0.409, 0.155, 1.109)",
+      "speed": 0.0
+    },
+    {
+      "name": "Front face right interlocked masonry broken section 2",
+      "Released": true,
+      "drop": 0.08344895,
+      "travel": 0.223572165,
+      "center": "(0.159, 0.789, 0.522)",
+      "speed": 0.004188514
+    },
+    {
+      "name": "Front face right interlocked masonry broken section 3",
+      "Released": true,
+      "drop": 0.458164036,
+      "travel": 0.665693164,
+      "center": "(0.580, 0.208, 0.930)",
+      "speed": 0.0
+    },
+    {
+      "name": "Center crushed bearing stone broken section 0",
+      "Released": true,
+      "drop": 0.390079528,
+      "travel": 0.5559496,
+      "center": "(-0.005, 0.500, 0.325)",
+      "speed": 0.00158848614
+    },
+    {
+      "name": "Center crushed bearing stone broken section 1",
+      "Released": true,
+      "drop": 0.0501110554,
+      "travel": 0.129706532,
+      "center": "(-0.142, 0.825, 0.664)",
+      "speed": 0.0308388472
+    },
+    {
+      "name": "Near left wedged slab failing support",
+      "Released": true,
+      "drop": 0.0,
+      "travel": 0.564174533,
+      "center": "(-0.730, 1.176, 0.962)",
+      "speed": 0.0
+    },
+    {
+      "name": "Near right wedged slab failing support",
+      "Released": true,
+      "drop": 0.383348823,
+      "travel": 0.51087147,
+      "center": "(0.791, 0.409, 0.642)",
+      "speed": 0.0
+    },
+    {
+      "name": "Overhead breaking slab 0",
+      "Released": true,
+      "drop": 0.346892774,
+      "travel": 0.377872467,
+      "center": "(-0.123, 0.928, 0.387)",
+      "speed": 0.008782007
+    },
+    {
+      "name": "Overhead breaking slab 1",
+      "Released": true,
+      "drop": 0.351050138,
+      "travel": 0.4021809,
+      "center": "(0.313, 0.942, 0.103)",
+      "speed": 0.013171372
+    },
+    {
+      "name": "Overhead breaking slab 2",
+      "Released": true,
+      "drop": 0.703956,
+      "travel": 0.706372857,
+      "center": "(-0.262, 0.572, -0.229)",
+      "speed": 0.00225726678
+    },
+    {
+      "name": "Overhead breaking slab 3",
+      "Released": true,
+      "drop": 0.752702951,
+      "travel": 0.762229443,
+      "center": "(0.325, 0.550, -0.299)",
+      "speed": 0.00212079776
+    },
+    {
+      "name": "Close shoulder breakaway 0",
+      "Released": true,
+      "drop": 1.04071188,
+      "travel": 1.08887029,
+      "center": "(-0.271, 0.130, -0.183)",
+      "speed": 0.0
+    },
+    {
+      "name": "Close shoulder breakaway 1",
+      "Released": true,
+      "drop": 1.01259661,
+      "travel": 1.08563769,
+      "center": "(0.669, 0.150, -0.269)",
+      "speed": 0.0
+    },
+    {
+      "name": "Close shoulder breakaway 2",
+      "Released": true,
+      "drop": 0.104424357,
+      "travel": 0.288391978,
+      "center": "(-0.243, 1.099, -0.744)",
+      "speed": 0.0
+    },
+    {
+      "name": "Close shoulder breakaway 3",
+      "Released": true,
+      "drop": 1.035995,
+      "travel": 1.11942053,
+      "center": "(0.713, 0.185, -0.559)",
+      "speed": 0.0
+    },
+    {
+      "name": "Close shoulder breakaway 4",
+      "Released": true,
+      "drop": 0.5195777,
+      "travel": 0.541325748,
+      "center": "(0.002, 0.720, -0.418)",
+      "speed": 0.005167485
+    },
+    {
+      "name": "Low overlapping fracture veil broken section 0",
+      "Released": true,
+      "drop": 0.315743029,
+      "travel": 0.374322474,
+      "center": "(0.133, 0.911, 0.830)",
+      "speed": 0.00298922113
+    },
+    {
+      "name": "Low overlapping fracture veil broken section 1",
+      "Released": true,
+      "drop": 0.501086652,
+      "travel": 0.6828253,
+      "center": "(-0.092, 0.662, 0.301)",
+      "speed": 0.00560722128
+    },
+    {
+      "name": "Low overlapping fracture veil broken section 2",
+      "Released": true,
+      "drop": 0.225356221,
+      "travel": 0.5206583,
+      "center": "(-0.223, 1.018, 1.034)",
+      "speed": 0.004807484
+    },
+    {
+      "name": "Low overlapping fracture veil broken section 3",
+      "Released": true,
+      "drop": 0.5757914,
+      "travel": 0.6124403,
+      "center": "(-0.238, 0.612, 0.427)",
+      "speed": 0.00393112144
+    },
+    {
+      "name": "Overlapping front ceiling lip broken section 0",
+      "Released": true,
+      "drop": 0.288050771,
+      "travel": 0.353820175,
+      "center": "(0.198, 0.998, 0.623)",
+      "speed": 0.00651692925
+    },
+    {
+      "name": "Overlapping front ceiling lip broken section 1",
+      "Released": true,
+      "drop": 1.12888336,
+      "travel": 1.349846,
+      "center": "(0.319, 0.118, -0.240)",
+      "speed": 0.0
+    },
+    {
+      "name": "Overlapping front ceiling lip broken section 2",
+      "Released": true,
+      "drop": 0.835895658,
+      "travel": 0.96449405,
+      "center": "(0.259, 0.475, 0.132)",
+      "speed": 0.000368920824
+    },
+    {
+      "name": "Overlapping front ceiling lip broken section 3",
+      "Released": true,
+      "drop": 0.4876035,
+      "travel": 0.5274221,
+      "center": "(-0.183, 0.769, 0.238)",
+      "speed": 0.009610367
+    }
+  ],
+  "samples": [
+    {
+      "elapsed": 1.50239182,
+      "newReleased": 0,
+      "allReleased": 0,
+      "powder": 6,
+      "cracks": 6,
+      "moving": 0
+    },
+    {
+      "elapsed": 2.01029968,
+      "newReleased": 0,
+      "allReleased": 0,
+      "powder": 6,
+      "cracks": 6,
+      "moving": 0
+    },
+    {
+      "elapsed": 2.55571747,
+      "newReleased": 1,
+      "allReleased": 2,
+      "powder": 93,
+      "cracks": 8,
+      "moving": 0
+    },
+    {
+      "elapsed": 3.11341476,
+      "newReleased": 3,
+      "allReleased": 7,
+      "powder": 362,
+      "cracks": 10,
+      "moving": 0
+    },
+    {
+      "elapsed": 3.67155838,
+      "newReleased": 4,
+      "allReleased": 12,
+      "powder": 424,
+      "cracks": 16,
+      "moving": 3
+    },
+    {
+      "elapsed": 4.661358,
+      "newReleased": 17,
+      "allReleased": 48,
+      "powder": 729,
+      "cracks": 8,
+      "moving": 12
+    },
+    {
+      "elapsed": 6.555599,
+      "newReleased": 23,
+      "allReleased": 71,
+      "powder": 235,
+      "cracks": 2,
+      "moving": 7
+    },
+    {
+      "elapsed": 8.859653,
+      "newReleased": 25,
+      "allReleased": 85,
+      "powder": 303,
+      "cracks": 2,
+      "moving": 7
+    },
+    {
+      "elapsed": 11.9024582,
+      "newReleased": 27,
+      "allReleased": 99,
+      "powder": 202,
+      "cracks": 2,
+      "moving": 2
+    },
+    {
+      "elapsed": 15.3006783,
+      "newReleased": 29,
+      "allReleased": 101,
+      "powder": 107,
+      "cracks": 0,
+      "moving": 5
+    },
+    {
+      "elapsed": 28.5051956,
+      "newReleased": 29,
+      "allReleased": 101,
+      "powder": 0,
+      "cracks": 0,
+      "moving": 0
+    }
+  ]
+}

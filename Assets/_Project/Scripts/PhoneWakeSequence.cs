@@ -10,6 +10,7 @@ namespace BreathInTheRubble.Prototype
         static readonly int EmissionColorId = Shader.PropertyToID("_EmissionColor");
 
         [Header("Timing")]
+        [SerializeField] bool screenOnAtStart;
         [SerializeField, Min(0f)] float wakeDelaySeconds = 5f;
         [SerializeField, Range(1, 6)] int alarmPulseCount = 3;
         [SerializeField, Min(0.05f)] float alarmPulseInterval = 0.42f;
@@ -61,6 +62,12 @@ namespace BreathInTheRubble.Prototype
 
         IEnumerator Start()
         {
+            // The awakening scene can begin with an already glowing screen; the alarm keeps its own delay.
+            if (screenOnAtStart)
+            {
+                screenSpillController?.BeginAwakeningGlow();
+                WakeNow();
+            }
             yield return new WaitForSeconds(wakeDelaySeconds);
             WakeNow();
 

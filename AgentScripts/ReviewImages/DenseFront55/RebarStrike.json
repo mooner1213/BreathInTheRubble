@@ -1,0 +1,15 @@
+{
+  "result": "PASS",
+  "physicalImpactSurfaces": [
+    "Concrete",
+    "Metal",
+    "Metal",
+    "Metal",
+    "Concrete"
+  ],
+  "signalCount": 5,
+  "audioPlayed": true,
+  "pipeHeld": true,
+  "impactCount": 5,
+  "Stage": 2
+}

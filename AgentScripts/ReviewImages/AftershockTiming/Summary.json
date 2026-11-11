@@ -1,0 +1,12 @@
+﻿{
+    "checkedUtc":  "2026-11-10T07:28:50.3459982Z",
+    "profilePassed":  true,
+    "noEarlyLargeCollapse":  true,
+    "initialGrainParticles":  10,
+    "all101ReleasedBy10":  true,
+    "supportsStoppedAfter20":  true,
+    "dustClearedBy30":  true,
+    "sceneSha256":  "372357AE0D7B23842172AB138285884CBCE0A03115357BE9E8EB15D73524EBE9",
+    "headsetTested":  false,
+    "knownPipeAccessIssueResolved":  false
+}

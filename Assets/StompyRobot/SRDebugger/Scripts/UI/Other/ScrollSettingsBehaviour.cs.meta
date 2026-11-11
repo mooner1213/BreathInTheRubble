@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 6f0ff44b792ef2042856036000e22450
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 27688
+  packageName: SRDebugger - Console & Tools On-Device
+  packageVersion: 1.13.2
+  assetPath: Assets/StompyRobot/SRDebugger/Scripts/UI/Other/ScrollSettingsBehaviour.cs
+  uploadId: 1040702

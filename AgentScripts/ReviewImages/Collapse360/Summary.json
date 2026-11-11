@@ -1,0 +1,23 @@
+﻿{
+    "checkedUtc":  "2026-11-10T05:50:52.7956123Z",
+    "checks":  {
+                   "allFragmentsReleased":  true,
+                   "noEscapedFragments":  true,
+                   "liveFrames":  true,
+                   "noForcedHeadTranslation":  true,
+                   "noSampledHeadInside":  true,
+                   "noGroupMotion":  true,
+                   "resetPassed":  true,
+                   "pipePassed":  true,
+                   "strikePassed":  true,
+                   "rescuePassed":  true,
+                   "noCompileOrConsoleErrors":  true,
+                   "stoppedCleanScene":  true,
+                   "singleXrAndInputManager":  true
+               },
+    "sceneSha256":  "D9008705CED96AED32E92953ACC983D4C9523468060552BF0D7B32A35D4956E0",
+    "runtimeCodeChangedThisTurn":  false,
+    "headsetTested":  false,
+    "fullCallToRescueTested":  false,
+    "warnings":  2
+}

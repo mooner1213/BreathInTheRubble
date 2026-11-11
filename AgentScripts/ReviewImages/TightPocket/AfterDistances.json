@@ -1,0 +1,27 @@
+[
+  {
+    "yaw": -45.0,
+    "distance": 0.6476427,
+    "surface": "Near left wedged slab"
+  },
+  {
+    "yaw": -25.0,
+    "distance": 0.821191847,
+    "surface": "Near left wedged slab"
+  },
+  {
+    "yaw": 0.0,
+    "distance": 0.801343,
+    "surface": "Rubble_Medium_LOD0"
+  },
+  {
+    "yaw": 25.0,
+    "distance": 0.8623058,
+    "surface": "Near right wedged slab"
+  },
+  {
+    "yaw": 45.0,
+    "distance": 0.6271467,
+    "surface": "Near right wedged slab"
+  }
+]

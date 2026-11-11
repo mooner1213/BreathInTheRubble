@@ -1,0 +1,60 @@
+{
+  "success": true,
+  "command": "command",
+  "data": {
+    "command": "console get",
+    "parameters": {
+      "tail": "30",
+      "level": "warn"
+    },
+    "result": {
+      "entries": [
+        {
+          "seq": 1,
+          "timestampUtc": "2026-11-10T05:22:56.2486601Z",
+          "level": "warn",
+          "logType": "Warning",
+          "message": "Importer(NativeFormatImporter) generated inconsistent result for asset(guid:3dd11dcd12272e54f8a19d8224e35f53) \"Assets/XR/Settings/OpenXRPackageSettings.asset\"",
+          "stackTrace": "UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()\n",
+          "seeded": false
+        },
+        {
+          "seq": 2,
+          "timestampUtc": "2026-11-10T05:36:50.811422Z",
+          "level": "warn",
+          "logType": "Warning",
+          "message": "[Worker2] Import Error Code:(4)\nMessage: Build asset version error: assets/xr/settings/openxrpackagesettings.asset in SourceAssetDB has modification time of '2026-11-10T05:23:02.9228416Z' while content on disk has modification time of '2026-11-10T05:36:50.1130032Z'\n",
+          "stackTrace": "",
+          "seeded": false
+        }
+      ],
+      "cursor": 5,
+      "session": "751e996ae2f94046b062f5fc2e569898",
+      "returned": 2,
+      "dropped": false,
+      "reset": false,
+      "counts": {
+        "error": 0,
+        "warn": 2,
+        "log": 3
+      },
+      "groundTruth": {
+        "sampledUtc": "2026-11-10T05:48:50.9518551Z",
+        "ageMs": 262,
+        "compilationFailed": false,
+        "compiling": false,
+        "consoleErrors": 0,
+        "consoleWarnings": 2,
+        "consoleLogs": 3,
+        "seeded": true
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "D:\\Project\\BreathInTheRubble"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

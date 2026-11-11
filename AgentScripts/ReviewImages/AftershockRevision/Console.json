@@ -1,0 +1,213 @@
+{
+  "success": true,
+  "command": "command",
+  "data": {
+    "command": "console get",
+    "parameters": {
+      "tail": "30",
+      "level": "warn"
+    },
+    "result": {
+      "entries": [
+        {
+          "seq": 1,
+          "timestampUtc": "2026-11-10T05:22:56.2486601Z",
+          "level": "warn",
+          "logType": "Warning",
+          "message": "Importer(NativeFormatImporter) generated inconsistent result for asset(guid:3dd11dcd12272e54f8a19d8224e35f53) \"Assets/XR/Settings/OpenXRPackageSettings.asset\"",
+          "stackTrace": "UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()\n",
+          "seeded": false
+        },
+        {
+          "seq": 2,
+          "timestampUtc": "2026-11-10T05:36:50.811422Z",
+          "level": "warn",
+          "logType": "Warning",
+          "message": "[Worker2] Import Error Code:(4)\nMessage: Build asset version error: assets/xr/settings/openxrpackagesettings.asset in SourceAssetDB has modification time of '2026-11-10T05:23:02.9228416Z' while content on disk has modification time of '2026-11-10T05:36:50.1130032Z'\n",
+          "stackTrace": "",
+          "seeded": false
+        },
+        {
+          "seq": 8,
+          "timestampUtc": "2026-11-10T05:58:34.6723673Z",
+          "level": "warn",
+          "logType": "Warning",
+          "message": "Failed to get haptic capabilities of XRSimulatedController:/XRSimulatedController, error code -1. Continuing assuming a single haptic channel.",
+          "stackTrace": "UnityEngine.XR.Interaction.Toolkit.XRInteractionManager:Update () (at ./Library/PackageCache/com.unity.xr.interaction.toolkit@63ca3b7ce776/Runtime/Interaction/XRInteractionManager.cs:672)\n",
+          "seeded": false
+        },
+        {
+          "seq": 13,
+          "timestampUtc": "2026-11-10T06:04:26.89674Z",
+          "level": "warn",
+          "logType": "Warning",
+          "message": "Call to StopSubsystems without an initialized manager.Please make sure wait for initialization to complete before calling this API.",
+          "stackTrace": "\nUnityEngine.XR.Management.XRManagerSettings:OnDisable () (at ./Library/PackageCache/com.unity.xr.management@ca5b202bb583/Runtime/XRManagerSettings.cs:460)\n",
+          "seeded": true
+        },
+        {
+          "seq": 14,
+          "timestampUtc": "2026-11-10T06:04:26.89674Z",
+          "level": "warn",
+          "logType": "Warning",
+          "message": "Color primaries 0 is unknown or unsupported by WindowsMediaFoundation. Falling back to default may result in color shift. D:\\Project\\BreathInTheRubble\\Temp\\AftershockReference\\Unreinforced.mp4",
+          "stackTrace": "\n",
+          "seeded": true
+        },
+        {
+          "seq": 15,
+          "timestampUtc": "2026-11-10T06:04:32.1137945Z",
+          "level": "warn",
+          "logType": "Warning",
+          "message": "Color primaries 0 is unknown or unsupported by WindowsMediaFoundation. Falling back to default may result in color shift. D:\\Project\\BreathInTheRubble\\Temp\\AftershockReference\\ReinforcedModerate.mp4",
+          "stackTrace": "\n",
+          "seeded": true
+        },
+        {
+          "seq": 16,
+          "timestampUtc": "2026-11-10T06:04:32.1137945Z",
+          "level": "warn",
+          "logType": "Warning",
+          "message": "Color primaries 0 is unknown or unsupported by WindowsMediaFoundation. Falling back to default may result in color shift. D:\\Project\\BreathInTheRubble\\Temp\\AftershockReference\\ReinforcedFailure.mp4",
+          "stackTrace": "\n",
+          "seeded": true
+        },
+        {
+          "seq": 17,
+          "timestampUtc": "2026-11-10T06:08:37.0917914Z",
+          "level": "warn",
+          "logType": "Warning",
+          "message": "Assets\\_Project\\Scripts\\AftershockFallingChunk.cs(20,32): warning CS0414: The field 'AftershockFallingChunk.peelDegrees' is assigned but its value is never used",
+          "stackTrace": "",
+          "seeded": false
+        },
+        {
+          "seq": 18,
+          "timestampUtc": "2026-11-10T06:09:23.217692Z",
+          "level": "warn",
+          "logType": "Warning",
+          "message": "Assets\\_Project\\Scripts\\AftershockFallingChunk.cs(20,32): warning CS0414: The field 'AftershockFallingChunk.peelDegrees' is assigned but its value is never used",
+          "stackTrace": "",
+          "seeded": false
+        },
+        {
+          "seq": 22,
+          "timestampUtc": "2026-11-10T06:14:19.1080451Z",
+          "level": "warn",
+          "logType": "Warning",
+          "message": "Failed to get haptic capabilities of XRSimulatedController:/XRSimulatedController, error code -1. Continuing assuming a single haptic channel.",
+          "stackTrace": "UnityEngine.XR.Interaction.Toolkit.XRInteractionManager:Update () (at ./Library/PackageCache/com.unity.xr.interaction.toolkit@63ca3b7ce776/Runtime/Interaction/XRInteractionManager.cs:672)\n",
+          "seeded": false
+        },
+        {
+          "seq": 23,
+          "timestampUtc": "2026-11-10T06:15:21.9772847Z",
+          "level": "warn",
+          "logType": "Warning",
+          "message": "Assets\\_Project\\Scripts\\AftershockFallingChunk.cs(20,32): warning CS0414: The field 'AftershockFallingChunk.peelDegrees' is assigned but its value is never used",
+          "stackTrace": "",
+          "seeded": false
+        },
+        {
+          "seq": 27,
+          "timestampUtc": "2026-11-10T06:16:44.0631207Z",
+          "level": "warn",
+          "logType": "Warning",
+          "message": "Color primaries 0 is unknown or unsupported by WindowsMediaFoundation. Falling back to default may result in color shift. D:\\Project\\BreathInTheRubble\\AgentScripts\\ReviewImages\\AftershockRevision\\Motion.mp4",
+          "stackTrace": "\n",
+          "seeded": true
+        },
+        {
+          "seq": 28,
+          "timestampUtc": "2026-11-10T06:22:28.0022979Z",
+          "level": "warn",
+          "logType": "Warning",
+          "message": "Failed to get haptic capabilities of XRSimulatedController:/XRSimulatedController1, error code -1. Continuing assuming a single haptic channel.",
+          "stackTrace": "UnityEngine.XR.Interaction.Toolkit.XRInteractionManager:Update () (at ./Library/PackageCache/com.unity.xr.interaction.toolkit@63ca3b7ce776/Runtime/Interaction/XRInteractionManager.cs:672)\n",
+          "seeded": false
+        },
+        {
+          "seq": 29,
+          "timestampUtc": "2026-11-10T06:26:02.829159Z",
+          "level": "warn",
+          "logType": "Warning",
+          "message": "Assets\\_Project\\Scripts\\AftershockFallingChunk.cs(20,32): warning CS0414: The field 'AftershockFallingChunk.peelDegrees' is assigned but its value is never used",
+          "stackTrace": "",
+          "seeded": false
+        },
+        {
+          "seq": 32,
+          "timestampUtc": "2026-11-10T06:28:28.3417068Z",
+          "level": "warn",
+          "logType": "Warning",
+          "message": "XR Interaction Simulator could not detect controllers. Point-and-click functionality will be disabled for controllers. If you wish to use this functionality, please check the InputModalityManager configuration or set the LeftControllerTransform or RightControllerTransform manually.",
+          "stackTrace": "UnityEngine.Behaviour:set_enabled (bool)\nBreathInTheRubble.Prototype.DesktopPhoneTestDriver:SetDesktopMode (bool) (at Assets/_Project/Scripts/DesktopPhoneTestDriver.cs:78)\nBreathInTheRubble.Prototype.DesktopPhoneTestDriver:OnDisable () (at Assets/_Project/Scripts/DesktopPhoneTestDriver.cs:226)\n",
+          "seeded": false
+        },
+        {
+          "seq": 33,
+          "timestampUtc": "2026-11-10T06:28:28.3417068Z",
+          "level": "warn",
+          "logType": "Warning",
+          "message": "XR Interaction Simulator could not detect hands. Point-and-click functionality will be disabled for hands. If you wish to use this functionality, please check the InputModalityManager configuration or set the LeftHandAimTransform or RightHandAimTransform manually.",
+          "stackTrace": "UnityEngine.Behaviour:set_enabled (bool)\nBreathInTheRubble.Prototype.DesktopPhoneTestDriver:SetDesktopMode (bool) (at Assets/_Project/Scripts/DesktopPhoneTestDriver.cs:78)\nBreathInTheRubble.Prototype.DesktopPhoneTestDriver:OnDisable () (at Assets/_Project/Scripts/DesktopPhoneTestDriver.cs:226)\n",
+          "seeded": false
+        },
+        {
+          "seq": 34,
+          "timestampUtc": "2026-11-10T06:28:31.1015559Z",
+          "level": "warn",
+          "logType": "Warning",
+          "message": "Assets\\_Project\\Scripts\\AftershockFallingChunk.cs(20,32): warning CS0414: The field 'AftershockFallingChunk.peelDegrees' is assigned but its value is never used",
+          "stackTrace": "",
+          "seeded": false
+        },
+        {
+          "seq": 37,
+          "timestampUtc": "2026-11-10T06:33:46.8989155Z",
+          "level": "warn",
+          "logType": "Warning",
+          "message": "Assets\\_Project\\Scripts\\AftershockFallingChunk.cs(20,32): warning CS0414: The field 'AftershockFallingChunk.peelDegrees' is assigned but its value is never used",
+          "stackTrace": "",
+          "seeded": false
+        },
+        {
+          "seq": 41,
+          "timestampUtc": "2026-11-10T06:39:38.9101585Z",
+          "level": "warn",
+          "logType": "Warning",
+          "message": "Failed to get haptic capabilities of XRSimulatedController:/XRSimulatedController, error code -1. Continuing assuming a single haptic channel.",
+          "stackTrace": "UnityEngine.XR.Interaction.Toolkit.XRInteractionManager:Update () (at ./Library/PackageCache/com.unity.xr.interaction.toolkit@63ca3b7ce776/Runtime/Interaction/XRInteractionManager.cs:672)\n",
+          "seeded": false
+        }
+      ],
+      "cursor": 41,
+      "session": "751e996ae2f94046b062f5fc2e569898",
+      "returned": 19,
+      "dropped": false,
+      "reset": false,
+      "counts": {
+        "error": 0,
+        "warn": 19,
+        "log": 22
+      },
+      "groundTruth": {
+        "sampledUtc": "2026-11-10T06:41:51.5846089Z",
+        "ageMs": 300,
+        "compilationFailed": false,
+        "compiling": false,
+        "consoleErrors": 0,
+        "consoleWarnings": 3,
+        "consoleLogs": 3,
+        "seeded": true
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "D:\\Project\\BreathInTheRubble"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

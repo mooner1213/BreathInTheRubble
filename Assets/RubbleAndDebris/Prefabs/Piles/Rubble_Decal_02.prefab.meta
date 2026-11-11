@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 527cf14a0c1b02947ac93063d6a06f0e
+timeCreated: 1523405688
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 116330
+  packageName: Rubble and Debris - Modular Set
+  packageVersion: 1.3
+  assetPath: Assets/RubbleAndDebris/Prefabs/Piles/Rubble_Decal_02.prefab
+  uploadId: 415886

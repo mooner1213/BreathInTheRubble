@@ -1,0 +1,23 @@
+{
+  "scene": "Assets/_Project/Scenes/ConfinedPrototype.unity",
+  "newMeshRenderers": 22,
+  "newParticleSystems": 2,
+  "newTriangles": 23564,
+  "defaultOrBrokenMaterials": [],
+  "grabs": [
+    {
+      "name": "Smartphone (Grabbable)",
+      "position": "(0.430, 0.500, 0.170)"
+    },
+    {
+      "name": "Water Bottle 45 Percent (Grabbable)",
+      "position": "(-0.280, 0.302, -0.430)"
+    },
+    {
+      "name": "Thin Steel Pipe (Grabbable)",
+      "position": "(-0.190, 1.720, 0.580)"
+    }
+  ],
+  "xrOrigins": 1,
+  "inputManagers": 1
+}

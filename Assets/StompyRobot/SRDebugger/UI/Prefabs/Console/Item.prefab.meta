@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 408ed745743f47f46ac11b71f96cf1a4
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 27688
+  packageName: SRDebugger - Console & Tools On-Device
+  packageVersion: 1.13.2
+  assetPath: Assets/StompyRobot/SRDebugger/UI/Prefabs/Console/Item.prefab
+  uploadId: 1040702

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: b2751607e5a512442a9983d00411cb91
+timeCreated: 1526341498
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 116330
+  packageName: Rubble and Debris - Modular Set
+  packageVersion: 1.3
+  assetPath: Assets/RubbleAndDebris/Prefabs/WithRebar/Rebar_Wall_05.prefab
+  uploadId: 415886

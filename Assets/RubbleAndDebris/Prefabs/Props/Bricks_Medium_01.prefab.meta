@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: b8812b1943815d04e849426645097ac2
+timeCreated: 1526341560
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 116330
+  packageName: Rubble and Debris - Modular Set
+  packageVersion: 1.3
+  assetPath: Assets/RubbleAndDebris/Prefabs/Props/Bricks_Medium_01.prefab
+  uploadId: 415886

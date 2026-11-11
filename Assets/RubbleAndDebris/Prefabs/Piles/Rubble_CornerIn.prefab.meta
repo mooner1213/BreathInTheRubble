@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 6f36ac9944c895349b4a132111091b6b
+timeCreated: 1523405680
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 116330
+  packageName: Rubble and Debris - Modular Set
+  packageVersion: 1.3
+  assetPath: Assets/RubbleAndDebris/Prefabs/Piles/Rubble_CornerIn.prefab
+  uploadId: 415886

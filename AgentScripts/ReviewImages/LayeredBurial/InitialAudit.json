@@ -1,0 +1,31 @@
+{
+  "chunks": 225,
+  "pipe": "(0.000, 2.450, 0.880)",
+  "sourceVisibility": [
+    {
+      "eye": "(0.000, 0.900, 0.000)",
+      "visibleLooseSources": [],
+      "pipeVisible": []
+    },
+    {
+      "eye": "(0.150, 0.900, 0.000)",
+      "visibleLooseSources": [],
+      "pipeVisible": []
+    },
+    {
+      "eye": "(-0.150, 0.900, 0.000)",
+      "visibleLooseSources": [],
+      "pipeVisible": []
+    },
+    {
+      "eye": "(0.000, 1.020, 0.000)",
+      "visibleLooseSources": [],
+      "pipeVisible": []
+    },
+    {
+      "eye": "(0.000, 0.900, 0.120)",
+      "visibleLooseSources": [],
+      "pipeVisible": []
+    }
+  ]
+}

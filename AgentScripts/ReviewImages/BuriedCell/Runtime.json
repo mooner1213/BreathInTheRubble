@@ -1,0 +1,62 @@
+{
+  "pieces": 54,
+  "released": 54,
+  "escaped": 0,
+  "renderers": 54,
+  "settled": 54,
+  "visiblePeak": 7,
+  "reset": true,
+  "frames": 5257,
+  "samples": [
+    {
+      "elapsed": 3.1166935,
+      "released": 1,
+      "visible": 0
+    },
+    {
+      "elapsed": 3.418827,
+      "released": 3,
+      "visible": 1
+    },
+    {
+      "elapsed": 3.7017746,
+      "released": 7,
+      "visible": 0
+    },
+    {
+      "elapsed": 4.51697159,
+      "released": 12,
+      "visible": 2
+    },
+    {
+      "elapsed": 5.21670532,
+      "released": 18,
+      "visible": 1
+    },
+    {
+      "elapsed": 7.236452,
+      "released": 24,
+      "visible": 4
+    },
+    {
+      "elapsed": 10.1035786,
+      "released": 36,
+      "visible": 4
+    },
+    {
+      "elapsed": 13.1188011,
+      "released": 43,
+      "visible": 4
+    },
+    {
+      "elapsed": 16.4011211,
+      "released": 54,
+      "visible": 4
+    },
+    {
+      "elapsed": 28.501852,
+      "released": 54,
+      "visible": 5
+    }
+  ]
+}

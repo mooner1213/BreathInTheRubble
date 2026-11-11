@@ -1,0 +1,40 @@
+{
+  "result": "FAIL",
+  "samples": 156,
+  "frames": 181,
+  "available": true,
+  "position": "(0.086, 1.028, 0.655)",
+  "reachable": true,
+  "LastBlockedSurface": "Wall_Grey_Big_01_LOD0",
+  "blockedAt": "(-0.006, 1.285, 0.748)",
+  "renderedRadius": 0.0110000577,
+  "physicalRadius": 0.027,
+  "geometry": "rendered-radius capsule against visible rubble triangles; 1.5mm tolerance",
+  "intersections": [
+    {
+      "elapsed": 9.107063,
+      "surface": "Prototype Environment/Independent 360 structural collapse/Persistent structural rubble/Low overlapping fracture veil broken section 3",
+      "depth": 0.00837442651,
+      "pipe": "(0.041, 1.059, 0.634)"
+    },
+    {
+      "elapsed": 9.261055,
+      "surface": "Prototype Environment/Independent 360 structural collapse/Persistent structural rubble/Overhead breaking slab 0",
+      "depth": 0.0110000633,
+      "pipe": "(0.057, 1.061, 0.620)"
+    },
+    {
+      "elapsed": 9.261055,
+      "surface": "Prototype Environment/Independent 360 structural collapse/Persistent structural rubble/Overhead breaking slab 1",
+      "depth": 0.0110000633,
+      "pipe": "(0.057, 1.061, 0.620)"
+    },
+    {
+      "elapsed": 9.418045,
+      "surface": "Prototype Environment/Independent 360 structural collapse/Persistent structural rubble/Overhead breaking slab 0",
+      "depth": 0.0110000605,
+      "pipe": "(0.054, 1.056, 0.643)"
+    }
+  ],
+  "count": 4
+}

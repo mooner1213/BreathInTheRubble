@@ -1,0 +1,1182 @@
+{
+  "pieces": 279,
+  "released": 279,
+  "escaped": 0,
+  "renderers": 279,
+  "settled": 279,
+  "visiblePeak": 52,
+  "reset": true,
+  "frontNear55": 23,
+  "allNear55": 59,
+  "approach": [
+    {
+      "name": "Close seam plate 0",
+      "nearest": 0.270140141
+    },
+    {
+      "name": "Close seam chip 1",
+      "nearest": 0.4889667
+    },
+    {
+      "name": "Close seam chip 2",
+      "nearest": 0.509794354
+    },
+    {
+      "name": "Close seam chip 3",
+      "nearest": 0.6330964
+    },
+    {
+      "name": "Close seam chip 4",
+      "nearest": 0.5169249
+    },
+    {
+      "name": "Close seam chip 5",
+      "nearest": 0.314434558
+    },
+    {
+      "name": "Close seam chip 6",
+      "nearest": 0.526492357
+    },
+    {
+      "name": "Close seam chip 7",
+      "nearest": 0.4445214
+    },
+    {
+      "name": "Close seam chip 8",
+      "nearest": 0.454304963
+    },
+    {
+      "name": "Close seam plate 9",
+      "nearest": 0.299018323
+    },
+    {
+      "name": "Close seam chip 10",
+      "nearest": 0.275302947
+    },
+    {
+      "name": "Close seam chip 11",
+      "nearest": 0.6301147
+    },
+    {
+      "name": "Close seam chip 12",
+      "nearest": 0.6112528
+    },
+    {
+      "name": "Close seam chip 13",
+      "nearest": 0.4654777
+    },
+    {
+      "name": "Close seam chip 14",
+      "nearest": 0.3353924
+    },
+    {
+      "name": "Close seam chip 15",
+      "nearest": 0.311736524
+    },
+    {
+      "name": "Close seam chip 16",
+      "nearest": 0.6346304
+    },
+    {
+      "name": "Close seam chip 17",
+      "nearest": 0.6219971
+    },
+    {
+      "name": "Close seam plate 18",
+      "nearest": 0.242255956
+    },
+    {
+      "name": "Close seam chip 19",
+      "nearest": 0.6126107
+    },
+    {
+      "name": "Close seam chip 20",
+      "nearest": 0.6239228
+    },
+    {
+      "name": "Close seam chip 21",
+      "nearest": 0.6143675
+    },
+    {
+      "name": "Close seam chip 22",
+      "nearest": 0.608029544
+    },
+    {
+      "name": "Close seam chip 23",
+      "nearest": 0.6156358
+    },
+    {
+      "name": "Close seam chip 24",
+      "nearest": 0.6004491
+    },
+    {
+      "name": "Close seam chip 25",
+      "nearest": 0.6054238
+    },
+    {
+      "name": "Close seam chip 26",
+      "nearest": 0.61328584
+    },
+    {
+      "name": "Close seam plate 27",
+      "nearest": 0.476085454
+    },
+    {
+      "name": "Close seam chip 28",
+      "nearest": 0.6489584
+    },
+    {
+      "name": "Close seam chip 29",
+      "nearest": 0.6636437
+    },
+    {
+      "name": "Close seam chip 30",
+      "nearest": 0.6667181
+    },
+    {
+      "name": "Close seam chip 31",
+      "nearest": 0.6701069
+    },
+    {
+      "name": "Close seam chip 32",
+      "nearest": 0.6556369
+    },
+    {
+      "name": "Close seam chip 33",
+      "nearest": 0.660202146
+    },
+    {
+      "name": "Close seam chip 34",
+      "nearest": 0.6571292
+    },
+    {
+      "name": "Close seam chip 35",
+      "nearest": 0.6599385
+    },
+    {
+      "name": "Close seam plate 36",
+      "nearest": 0.142709836
+    },
+    {
+      "name": "Close seam chip 37",
+      "nearest": 0.347334445
+    },
+    {
+      "name": "Close seam chip 38",
+      "nearest": 0.479432136
+    },
+    {
+      "name": "Close seam chip 39",
+      "nearest": 0.3768394
+    },
+    {
+      "name": "Close seam chip 40",
+      "nearest": 0.489346057
+    },
+    {
+      "name": "Close seam chip 41",
+      "nearest": 0.612888
+    },
+    {
+      "name": "Close seam chip 42",
+      "nearest": 0.227322131
+    },
+    {
+      "name": "Close seam chip 43",
+      "nearest": 0.455186754
+    },
+    {
+      "name": "Close seam chip 44",
+      "nearest": 0.590417266
+    },
+    {
+      "name": "Close seam plate 45",
+      "nearest": 0.582274854
+    },
+    {
+      "name": "Close seam chip 46",
+      "nearest": 0.731143653
+    },
+    {
+      "name": "Close seam chip 47",
+      "nearest": 0.405431539
+    },
+    {
+      "name": "Close seam chip 48",
+      "nearest": 0.741409063
+    },
+    {
+      "name": "Close seam chip 49",
+      "nearest": 0.5733881
+    },
+    {
+      "name": "Close seam chip 50",
+      "nearest": 0.6552669
+    },
+    {
+      "name": "Close seam chip 51",
+      "nearest": 0.657218039
+    },
+    {
+      "name": "Close seam chip 52",
+      "nearest": 0.7142831
+    },
+    {
+      "name": "Close seam chip 53",
+      "nearest": 0.6812939
+    },
+    {
+      "name": "Stratum concrete 0 0 0",
+      "nearest": 0.7241986
+    },
+    {
+      "name": "Stratum concrete 0 0 1",
+      "nearest": 0.888419747
+    },
+    {
+      "name": "Stratum concrete 0 0 2",
+      "nearest": 0.681448042
+    },
+    {
+      "name": "Stratum concrete 0 1 0",
+      "nearest": 0.891952336
+    },
+    {
+      "name": "Stratum concrete 0 1 1",
+      "nearest": 0.873486
+    },
+    {
+      "name": "Stratum concrete 0 1 2",
+      "nearest": 0.753971
+    },
+    {
+      "name": "Stratum concrete 0 2 0",
+      "nearest": 0.6632506
+    },
+    {
+      "name": "Stratum concrete 0 2 1",
+      "nearest": 1.02525055
+    },
+    {
+      "name": "Stratum concrete 0 2 2",
+      "nearest": 0.68610394
+    },
+    {
+      "name": "Persistent thin chip 0 0",
+      "nearest": 0.7658322
+    },
+    {
+      "name": "Persistent thin chip 0 1",
+      "nearest": 0.7733943
+    },
+    {
+      "name": "Persistent thin chip 0 2",
+      "nearest": 0.8133055
+    },
+    {
+      "name": "Persistent thin chip 0 3",
+      "nearest": 0.7974482
+    },
+    {
+      "name": "Persistent thin chip 0 4",
+      "nearest": 0.8899017
+    },
+    {
+      "name": "Persistent thin chip 0 5",
+      "nearest": 0.765603364
+    },
+    {
+      "name": "Persistent thin chip 0 6",
+      "nearest": 0.714817643
+    },
+    {
+      "name": "Persistent thin chip 0 7",
+      "nearest": 0.7643617
+    },
+    {
+      "name": "Persistent thin chip 0 8",
+      "nearest": 0.841411054
+    },
+    {
+      "name": "Persistent thin chip 0 9",
+      "nearest": 0.7388788
+    },
+    {
+      "name": "Persistent thin chip 0 10",
+      "nearest": 0.7636172
+    },
+    {
+      "name": "Persistent thin chip 0 11",
+      "nearest": 0.9292459
+    },
+    {
+      "name": "Persistent thin chip 0 12",
+      "nearest": 0.8473116
+    },
+    {
+      "name": "Persistent thin chip 0 13",
+      "nearest": 0.8827157
+    },
+    {
+      "name": "Persistent thin chip 0 14",
+      "nearest": 0.7778088
+    },
+    {
+      "name": "Persistent thin chip 0 15",
+      "nearest": 0.753152847
+    },
+    {
+      "name": "Persistent thin chip 0 16",
+      "nearest": 0.81328
+    },
+    {
+      "name": "Persistent thin chip 0 17",
+      "nearest": 0.739230633
+    },
+    {
+      "name": "Persistent thin chip 0 18",
+      "nearest": 0.8586124
+    },
+    {
+      "name": "Persistent thin chip 0 19",
+      "nearest": 0.818276346
+    },
+    {
+      "name": "Persistent thin chip 0 20",
+      "nearest": 0.8738472
+    },
+    {
+      "name": "Persistent thin chip 0 21",
+      "nearest": 0.870871
+    },
+    {
+      "name": "Persistent thin chip 0 22",
+      "nearest": 0.7652083
+    },
+    {
+      "name": "Persistent thin chip 0 23",
+      "nearest": 0.8278589
+    },
+    {
+      "name": "Persistent thin chip 0 24",
+      "nearest": 100.0
+    },
+    {
+      "name": "Persistent thin chip 0 25",
+      "nearest": 0.827458739
+    },
+    {
+      "name": "Persistent thin chip 0 26",
+      "nearest": 1.02789772
+    },
+    {
+      "name": "Persistent thin chip 0 27",
+      "nearest": 1.05567169
+    },
+    {
+      "name": "Persistent thin chip 0 28",
+      "nearest": 1.01349437
+    },
+    {
+      "name": "Persistent thin chip 0 29",
+      "nearest": 0.9843156
+    },
+    {
+      "name": "Persistent thin chip 0 30",
+      "nearest": 0.955924869
+    },
+    {
+      "name": "Persistent thin chip 0 31",
+      "nearest": 0.652537048
+    },
+    {
+      "name": "Persistent thin chip 0 32",
+      "nearest": 0.932925045
+    },
+    {
+      "name": "Persistent thin chip 0 33",
+      "nearest": 1.09259856
+    },
+    {
+      "name": "Persistent thin chip 0 34",
+      "nearest": 100.0
+    },
+    {
+      "name": "Persistent thin chip 0 35",
+      "nearest": 100.0
+    },
+    {
+      "name": "Stratum concrete 1 0 0",
+      "nearest": 0.7278855
+    },
+    {
+      "name": "Stratum concrete 1 0 1",
+      "nearest": 0.7400436
+    },
+    {
+      "name": "Stratum concrete 1 0 2",
+      "nearest": 1.06202114
+    },
+    {
+      "name": "Stratum concrete 1 1 0",
+      "nearest": 0.8896025
+    },
+    {
+      "name": "Stratum concrete 1 1 1",
+      "nearest": 0.693848968
+    },
+    {
+      "name": "Stratum concrete 1 1 2",
+      "nearest": 100.0
+    },
+    {
+      "name": "Stratum concrete 1 2 0",
+      "nearest": 100.0
+    },
+    {
+      "name": "Stratum concrete 1 2 1",
+      "nearest": 100.0
+    },
+    {
+      "name": "Stratum concrete 1 2 2",
+      "nearest": 100.0
+    },
+    {
+      "name": "Persistent thin chip 1 0",
+      "nearest": 0.719489455
+    },
+    {
+      "name": "Persistent thin chip 1 1",
+      "nearest": 0.936496
+    },
+    {
+      "name": "Persistent thin chip 1 2",
+      "nearest": 0.7401435
+    },
+    {
+      "name": "Persistent thin chip 1 3",
+      "nearest": 0.8254464
+    },
+    {
+      "name": "Persistent thin chip 1 4",
+      "nearest": 0.887303233
+    },
+    {
+      "name": "Persistent thin chip 1 5",
+      "nearest": 0.791149855
+    },
+    {
+      "name": "Persistent thin chip 1 6",
+      "nearest": 0.782706
+    },
+    {
+      "name": "Persistent thin chip 1 7",
+      "nearest": 0.7555885
+    },
+    {
+      "name": "Persistent thin chip 1 8",
+      "nearest": 0.800846756
+    },
+    {
+      "name": "Persistent thin chip 1 9",
+      "nearest": 0.868207157
+    },
+    {
+      "name": "Persistent thin chip 1 10",
+      "nearest": 0.879454136
+    },
+    {
+      "name": "Persistent thin chip 1 11",
+      "nearest": 0.8795104
+    },
+    {
+      "name": "Persistent thin chip 1 12",
+      "nearest": 0.8245604
+    },
+    {
+      "name": "Persistent thin chip 1 13",
+      "nearest": 100.0
+    },
+    {
+      "name": "Persistent thin chip 1 14",
+      "nearest": 0.8548877
+    },
+    {
+      "name": "Persistent thin chip 1 15",
+      "nearest": 0.9488696
+    },
+    {
+      "name": "Persistent thin chip 1 16",
+      "nearest": 0.93542105
+    },
+    {
+      "name": "Persistent thin chip 1 17",
+      "nearest": 0.8255099
+    },
+    {
+      "name": "Persistent thin chip 1 18",
+      "nearest": 0.7982379
+    },
+    {
+      "name": "Persistent thin chip 1 19",
+      "nearest": 0.7974908
+    },
+    {
+      "name": "Persistent thin chip 1 20",
+      "nearest": 0.8181812
+    },
+    {
+      "name": "Persistent thin chip 1 21",
+      "nearest": 0.954007745
+    },
+    {
+      "name": "Persistent thin chip 1 22",
+      "nearest": 0.776541054
+    },
+    {
+      "name": "Persistent thin chip 1 23",
+      "nearest": 100.0
+    },
+    {
+      "name": "Persistent thin chip 1 24",
+      "nearest": 0.669969559
+    },
+    {
+      "name": "Persistent thin chip 1 25",
+      "nearest": 0.7514288
+    },
+    {
+      "name": "Persistent thin chip 1 26",
+      "nearest": 100.0
+    },
+    {
+      "name": "Persistent thin chip 1 27",
+      "nearest": 1.00912189
+    },
+    {
+      "name": "Persistent thin chip 1 28",
+      "nearest": 100.0
+    },
+    {
+      "name": "Persistent thin chip 1 29",
+      "nearest": 0.923456967
+    },
+    {
+      "name": "Persistent thin chip 1 30",
+      "nearest": 0.8612874
+    },
+    {
+      "name": "Persistent thin chip 1 31",
+      "nearest": 100.0
+    },
+    {
+      "name": "Persistent thin chip 1 32",
+      "nearest": 100.0
+    },
+    {
+      "name": "Persistent thin chip 1 33",
+      "nearest": 0.8970143
+    },
+    {
+      "name": "Persistent thin chip 1 34",
+      "nearest": 100.0
+    },
+    {
+      "name": "Persistent thin chip 1 35",
+      "nearest": 100.0
+    },
+    {
+      "name": "Stratum concrete 2 0 0",
+      "nearest": 0.6196435
+    },
+    {
+      "name": "Stratum concrete 2 0 1",
+      "nearest": 0.7882753
+    },
+    {
+      "name": "Stratum concrete 2 0 2",
+      "nearest": 0.65017426
+    },
+    {
+      "name": "Stratum concrete 2 1 0",
+      "nearest": 0.631333649
+    },
+    {
+      "name": "Stratum concrete 2 1 1",
+      "nearest": 0.802033842
+    },
+    {
+      "name": "Stratum concrete 2 1 2",
+      "nearest": 0.5311198
+    },
+    {
+      "name": "Stratum concrete 2 2 0",
+      "nearest": 0.556299567
+    },
+    {
+      "name": "Stratum concrete 2 2 1",
+      "nearest": 0.9428679
+    },
+    {
+      "name": "Stratum concrete 2 2 2",
+      "nearest": 0.5710079
+    },
+    {
+      "name": "Persistent thin chip 2 0",
+      "nearest": 0.7680548
+    },
+    {
+      "name": "Persistent thin chip 2 1",
+      "nearest": 0.718902469
+    },
+    {
+      "name": "Persistent thin chip 2 2",
+      "nearest": 0.91267395
+    },
+    {
+      "name": "Persistent thin chip 2 3",
+      "nearest": 0.5868663
+    },
+    {
+      "name": "Persistent thin chip 2 4",
+      "nearest": 0.5546753
+    },
+    {
+      "name": "Persistent thin chip 2 5",
+      "nearest": 0.9421972
+    },
+    {
+      "name": "Persistent thin chip 2 6",
+      "nearest": 0.8460933
+    },
+    {
+      "name": "Persistent thin chip 2 7",
+      "nearest": 0.6328979
+    },
+    {
+      "name": "Persistent thin chip 2 8",
+      "nearest": 0.8464838
+    },
+    {
+      "name": "Persistent thin chip 2 9",
+      "nearest": 0.6848714
+    },
+    {
+      "name": "Persistent thin chip 2 10",
+      "nearest": 0.5931704
+    },
+    {
+      "name": "Persistent thin chip 2 11",
+      "nearest": 0.7418831
+    },
+    {
+      "name": "Persistent thin chip 2 12",
+      "nearest": 0.6869434
+    },
+    {
+      "name": "Persistent thin chip 2 13",
+      "nearest": 0.811448157
+    },
+    {
+      "name": "Persistent thin chip 2 14",
+      "nearest": 0.6026535
+    },
+    {
+      "name": "Persistent thin chip 2 15",
+      "nearest": 0.746874034
+    },
+    {
+      "name": "Persistent thin chip 2 16",
+      "nearest": 0.6430905
+    },
+    {
+      "name": "Persistent thin chip 2 17",
+      "nearest": 0.941936553
+    },
+    {
+      "name": "Persistent thin chip 2 18",
+      "nearest": 0.446386367
+    },
+    {
+      "name": "Persistent thin chip 2 19",
+      "nearest": 0.717383564
+    },
+    {
+      "name": "Persistent thin chip 2 20",
+      "nearest": 0.748252869
+    },
+    {
+      "name": "Persistent thin chip 2 21",
+      "nearest": 0.6654275
+    },
+    {
+      "name": "Persistent thin chip 2 22",
+      "nearest": 0.5863047
+    },
+    {
+      "name": "Persistent thin chip 2 23",
+      "nearest": 0.6428276
+    },
+    {
+      "name": "Persistent thin chip 2 24",
+      "nearest": 0.7185922
+    },
+    {
+      "name": "Persistent thin chip 2 25",
+      "nearest": 0.5948909
+    },
+    {
+      "name": "Persistent thin chip 2 26",
+      "nearest": 0.6966791
+    },
+    {
+      "name": "Persistent thin chip 2 27",
+      "nearest": 0.58363384
+    },
+    {
+      "name": "Persistent thin chip 2 28",
+      "nearest": 0.6141426
+    },
+    {
+      "name": "Persistent thin chip 2 29",
+      "nearest": 0.8602193
+    },
+    {
+      "name": "Persistent thin chip 2 30",
+      "nearest": 0.511246741
+    },
+    {
+      "name": "Persistent thin chip 2 31",
+      "nearest": 0.6091542
+    },
+    {
+      "name": "Persistent thin chip 2 32",
+      "nearest": 0.6763091
+    },
+    {
+      "name": "Persistent thin chip 2 33",
+      "nearest": 0.6814752
+    },
+    {
+      "name": "Persistent thin chip 2 34",
+      "nearest": 0.7933888
+    },
+    {
+      "name": "Persistent thin chip 2 35",
+      "nearest": 0.528323948
+    },
+    {
+      "name": "Stratum concrete 3 0 0",
+      "nearest": 0.6899152
+    },
+    {
+      "name": "Stratum concrete 3 0 1",
+      "nearest": 0.581396
+    },
+    {
+      "name": "Stratum concrete 3 0 2",
+      "nearest": 0.811222136
+    },
+    {
+      "name": "Stratum concrete 3 1 0",
+      "nearest": 0.6283896
+    },
+    {
+      "name": "Stratum concrete 3 1 1",
+      "nearest": 0.652853668
+    },
+    {
+      "name": "Stratum concrete 3 1 2",
+      "nearest": 0.9388821
+    },
+    {
+      "name": "Stratum concrete 3 2 0",
+      "nearest": 0.6895882
+    },
+    {
+      "name": "Stratum concrete 3 2 1",
+      "nearest": 0.63241756
+    },
+    {
+      "name": "Stratum concrete 3 2 2",
+      "nearest": 0.7642547
+    },
+    {
+      "name": "Persistent thin chip 3 0",
+      "nearest": 1.0713346
+    },
+    {
+      "name": "Persistent thin chip 3 1",
+      "nearest": 0.8364141
+    },
+    {
+      "name": "Persistent thin chip 3 2",
+      "nearest": 0.8316932
+    },
+    {
+      "name": "Persistent thin chip 3 3",
+      "nearest": 0.5916954
+    },
+    {
+      "name": "Persistent thin chip 3 4",
+      "nearest": 0.736122
+    },
+    {
+      "name": "Persistent thin chip 3 5",
+      "nearest": 0.6009492
+    },
+    {
+      "name": "Persistent thin chip 3 6",
+      "nearest": 0.8718203
+    },
+    {
+      "name": "Persistent thin chip 3 7",
+      "nearest": 1.03455353
+    },
+    {
+      "name": "Persistent thin chip 3 8",
+      "nearest": 0.751235962
+    },
+    {
+      "name": "Persistent thin chip 3 9",
+      "nearest": 0.719357431
+    },
+    {
+      "name": "Persistent thin chip 3 10",
+      "nearest": 0.844760239
+    },
+    {
+      "name": "Persistent thin chip 3 11",
+      "nearest": 0.7451698
+    },
+    {
+      "name": "Persistent thin chip 3 12",
+      "nearest": 0.772643268
+    },
+    {
+      "name": "Persistent thin chip 3 13",
+      "nearest": 0.6912546
+    },
+    {
+      "name": "Persistent thin chip 3 14",
+      "nearest": 0.7296196
+    },
+    {
+      "name": "Persistent thin chip 3 15",
+      "nearest": 0.7245348
+    },
+    {
+      "name": "Persistent thin chip 3 16",
+      "nearest": 0.659576535
+    },
+    {
+      "name": "Persistent thin chip 3 17",
+      "nearest": 0.6505825
+    },
+    {
+      "name": "Persistent thin chip 3 18",
+      "nearest": 0.714644969
+    },
+    {
+      "name": "Persistent thin chip 3 19",
+      "nearest": 0.900247157
+    },
+    {
+      "name": "Persistent thin chip 3 20",
+      "nearest": 0.839440465
+    },
+    {
+      "name": "Persistent thin chip 3 21",
+      "nearest": 0.724597454
+    },
+    {
+      "name": "Persistent thin chip 3 22",
+      "nearest": 0.7019859
+    },
+    {
+      "name": "Persistent thin chip 3 23",
+      "nearest": 1.01856279
+    },
+    {
+      "name": "Persistent thin chip 3 24",
+      "nearest": 0.8015881
+    },
+    {
+      "name": "Persistent thin chip 3 25",
+      "nearest": 0.920940161
+    },
+    {
+      "name": "Persistent thin chip 3 26",
+      "nearest": 0.8785295
+    },
+    {
+      "name": "Persistent thin chip 3 27",
+      "nearest": 0.671304166
+    },
+    {
+      "name": "Persistent thin chip 3 28",
+      "nearest": 0.722983539
+    },
+    {
+      "name": "Persistent thin chip 3 29",
+      "nearest": 0.9924936
+    },
+    {
+      "name": "Persistent thin chip 3 30",
+      "nearest": 0.6993696
+    },
+    {
+      "name": "Persistent thin chip 3 31",
+      "nearest": 0.977304459
+    },
+    {
+      "name": "Persistent thin chip 3 32",
+      "nearest": 0.690679669
+    },
+    {
+      "name": "Persistent thin chip 3 33",
+      "nearest": 0.9058162
+    },
+    {
+      "name": "Persistent thin chip 3 34",
+      "nearest": 0.7864149
+    },
+    {
+      "name": "Persistent thin chip 3 35",
+      "nearest": 0.8042881
+    },
+    {
+      "name": "Stratum concrete 4 0 0",
+      "nearest": 6.50781429E-10
+    },
+    {
+      "name": "Stratum concrete 4 0 1",
+      "nearest": 0.0
+    },
+    {
+      "name": "Stratum concrete 4 0 2",
+      "nearest": 0.672252357
+    },
+    {
+      "name": "Stratum concrete 4 1 0",
+      "nearest": 0.318489969
+    },
+    {
+      "name": "Stratum concrete 4 1 1",
+      "nearest": 0.128578842
+    },
+    {
+      "name": "Stratum concrete 4 1 2",
+      "nearest": 0.680049
+    },
+    {
+      "name": "Stratum concrete 4 2 0",
+      "nearest": 0.442696065
+    },
+    {
+      "name": "Stratum concrete 4 2 1",
+      "nearest": 0.282676041
+    },
+    {
+      "name": "Stratum concrete 4 2 2",
+      "nearest": 0.533842266
+    },
+    {
+      "name": "Persistent thin chip 4 0",
+      "nearest": 0.580936
+    },
+    {
+      "name": "Persistent thin chip 4 1",
+      "nearest": 0.5139894
+    },
+    {
+      "name": "Persistent thin chip 4 2",
+      "nearest": 0.623436
+    },
+    {
+      "name": "Persistent thin chip 4 3",
+      "nearest": 0.294828326
+    },
+    {
+      "name": "Persistent thin chip 4 4",
+      "nearest": 0.5433545
+    },
+    {
+      "name": "Persistent thin chip 4 5",
+      "nearest": 0.449231744
+    },
+    {
+      "name": "Persistent thin chip 4 6",
+      "nearest": 0.690745652
+    },
+    {
+      "name": "Persistent thin chip 4 7",
+      "nearest": 0.5635996
+    },
+    {
+      "name": "Persistent thin chip 4 8",
+      "nearest": 0.244472176
+    },
+    {
+      "name": "Persistent thin chip 4 9",
+      "nearest": 0.5226563
+    },
+    {
+      "name": "Persistent thin chip 4 10",
+      "nearest": 0.502168238
+    },
+    {
+      "name": "Persistent thin chip 4 11",
+      "nearest": 0.195715547
+    },
+    {
+      "name": "Persistent thin chip 4 12",
+      "nearest": 0.484601557
+    },
+    {
+      "name": "Persistent thin chip 4 13",
+      "nearest": 0.463199
+    },
+    {
+      "name": "Persistent thin chip 4 14",
+      "nearest": 0.333890915
+    },
+    {
+      "name": "Persistent thin chip 4 15",
+      "nearest": 0.302915275
+    },
+    {
+      "name": "Persistent thin chip 4 16",
+      "nearest": 0.4630854
+    },
+    {
+      "name": "Persistent thin chip 4 17",
+      "nearest": 0.480797052
+    },
+    {
+      "name": "Persistent thin chip 4 18",
+      "nearest": 0.475662738
+    },
+    {
+      "name": "Persistent thin chip 4 19",
+      "nearest": 0.582969248
+    },
+    {
+      "name": "Persistent thin chip 4 20",
+      "nearest": 0.549066
+    },
+    {
+      "name": "Persistent thin chip 4 21",
+      "nearest": 0.586685658
+    },
+    {
+      "name": "Persistent thin chip 4 22",
+      "nearest": 0.211484462
+    },
+    {
+      "name": "Persistent thin chip 4 23",
+      "nearest": 0.429631829
+    },
+    {
+      "name": "Persistent thin chip 4 24",
+      "nearest": 0.6846048
+    },
+    {
+      "name": "Persistent thin chip 4 25",
+      "nearest": 0.5627107
+    },
+    {
+      "name": "Persistent thin chip 4 26",
+      "nearest": 0.262098163
+    },
+    {
+      "name": "Persistent thin chip 4 27",
+      "nearest": 0.537044764
+    },
+    {
+      "name": "Persistent thin chip 4 28",
+      "nearest": 0.282479376
+    },
+    {
+      "name": "Persistent thin chip 4 29",
+      "nearest": 0.5525992
+    },
+    {
+      "name": "Persistent thin chip 4 30",
+      "nearest": 0.371563584
+    },
+    {
+      "name": "Persistent thin chip 4 31",
+      "nearest": 0.3433199
+    },
+    {
+      "name": "Persistent thin chip 4 32",
+      "nearest": 0.5103311
+    },
+    {
+      "name": "Persistent thin chip 4 33",
+      "nearest": 0.5568832
+    },
+    {
+      "name": "Persistent thin chip 4 34",
+      "nearest": 0.282923043
+    },
+    {
+      "name": "Persistent thin chip 4 35",
+      "nearest": 0.588202
+    }
+  ],
+  "frames": 4538,
+  "samples": [
+    {
+      "elapsed": 3.11338043,
+      "released": 4,
+      "visible": 1
+    },
+    {
+      "elapsed": 3.408493,
+      "released": 13,
+      "visible": 2
+    },
+    {
+      "elapsed": 3.70529175,
+      "released": 18,
+      "visible": 1
+    },
+    {
+      "elapsed": 4.514694,
+      "released": 38,
+      "visible": 3
+    },
+    {
+      "elapsed": 5.21179962,
+      "released": 57,
+      "visible": 7
+    },
+    {
+      "elapsed": 7.21007538,
+      "released": 114,
+      "visible": 17
+    },
+    {
+      "elapsed": 10.1085358,
+      "released": 166,
+      "visible": 23
+    },
+    {
+      "elapsed": 13.1155319,
+      "released": 210,
+      "visible": 35
+    },
+    {
+      "elapsed": 16.4144745,
+      "released": 279,
+      "visible": 48
+    },
+    {
+      "elapsed": 28.5016174,
+      "released": 279,
+      "visible": 41
+    }
+  ]
+}

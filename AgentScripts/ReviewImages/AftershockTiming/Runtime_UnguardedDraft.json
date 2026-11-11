@@ -1,0 +1,4728 @@
+{
+  "result": "PASS",
+  "profile": true,
+  "maxBeforeFive": 0,
+  "pieces": 101,
+  "released": 101,
+  "escaped": [],
+  "headInside": 0,
+  "maxHeadMove": 0.0,
+  "maxHeadTurn": 0.0,
+  "afterTwentyMotion": 0.0,
+  "liveFrames": 6003,
+  "videoFrames": 630,
+  "videoSeconds": 31.5,
+  "systemsBefore": 39,
+  "systemsAfter": 39,
+  "motionEarly": 0.00063430256,
+  "motionPeak": 0.01078877,
+  "motionLate": 0.000217548062,
+  "samples": [
+    {
+      "at": 0.0,
+      "elapsed": 0.0,
+      "shockSeconds": 0.0,
+      "dustSeconds": 0.0,
+      "strength": 0.0,
+      "haze": 0.0,
+      "opacity": 0.0,
+      "dustActive": true,
+      "released": 0,
+      "particles": 0,
+      "stage": "Aftershock"
+    },
+    {
+      "at": 1.0,
+      "elapsed": 1.00423431,
+      "shockSeconds": 1.00423431,
+      "dustSeconds": 1.27436209,
+      "strength": 0.104814284,
+      "haze": 0.0427064449,
+      "opacity": 0.0258826949,
+      "dustActive": true,
+      "released": 0,
+      "particles": 0,
+      "stage": "Aftershock"
+    },
+    {
+      "at": 3.0,
+      "elapsed": 3.003456,
+      "shockSeconds": 3.003456,
+      "dustSeconds": 3.27365065,
+      "strength": 0.648995042,
+      "haze": 0.191317171,
+      "opacity": 0.1159498,
+      "dustActive": true,
+      "released": 0,
+      "particles": 2,
+      "stage": "Aftershock"
+    },
+    {
+      "at": 4.85,
+      "elapsed": 4.859047,
+      "shockSeconds": 4.859047,
+      "dustSeconds": 5.127571,
+      "strength": 0.9976607,
+      "haze": 0.280197829,
+      "opacity": 0.169816867,
+      "dustActive": true,
+      "released": 0,
+      "particles": 10,
+      "stage": "Aftershock"
+    },
+    {
+      "at": 5.75,
+      "elapsed": 5.75511932,
+      "shockSeconds": 5.75511932,
+      "dustSeconds": 6.025254,
+      "strength": 1.0,
+      "haze": 0.98324573,
+      "opacity": 0.5959065,
+      "dustActive": true,
+      "released": 17,
+      "particles": 634,
+      "stage": "Aftershock"
+    },
+    {
+      "at": 7.5,
+      "elapsed": 7.50646973,
+      "shockSeconds": 7.50646973,
+      "dustSeconds": 7.769983,
+      "strength": 1.0,
+      "haze": 1.65,
+      "opacity": 1.0,
+      "dustActive": true,
+      "released": 85,
+      "particles": 706,
+      "stage": "Aftershock"
+    },
+    {
+      "at": 9.8,
+      "elapsed": 9.807655,
+      "shockSeconds": 9.807655,
+      "dustSeconds": 10.0736179,
+      "strength": 1.0,
+      "haze": 1.6499331,
+      "opacity": 0.999959469,
+      "dustActive": true,
+      "released": 101,
+      "particles": 1016,
+      "stage": "Aftershock"
+    },
+    {
+      "at": 10.3,
+      "elapsed": 10.3013077,
+      "shockSeconds": 10.3013077,
+      "dustSeconds": 10.5672617,
+      "strength": 0.997331142,
+      "haze": 1.64609325,
+      "opacity": 0.997632265,
+      "dustActive": true,
+      "released": 101,
+      "particles": 907,
+      "stage": "Aftershock"
+    },
+    {
+      "at": 12.0,
+      "elapsed": 12.0006256,
+      "shockSeconds": 12.0006256,
+      "dustSeconds": 12.269042,
+      "strength": 0.895939946,
+      "haze": 1.59110558,
+      "opacity": 0.9643064,
+      "dustActive": true,
+      "released": 101,
+      "particles": 816,
+      "stage": "Aftershock"
+    },
+    {
+      "at": 15.0,
+      "elapsed": 15.0032959,
+      "shockSeconds": 15.0032959,
+      "dustSeconds": 15.2734327,
+      "strength": 0.499505579,
+      "haze": 1.3663553,
+      "opacity": 0.8280941,
+      "dustActive": true,
+      "released": 101,
+      "particles": 691,
+      "stage": "Aftershock"
+    },
+    {
+      "at": 19.8,
+      "elapsed": 19.8003845,
+      "shockSeconds": 19.8003845,
+      "dustSeconds": 20.069088,
+      "strength": 0.00117945671,
+      "haze": 0.816450536,
+      "opacity": 0.4948185,
+      "dustActive": true,
+      "released": 101,
+      "particles": 473,
+      "stage": "Aftershock"
+    },
+    {
+      "at": 20.3,
+      "elapsed": 20.3005676,
+      "shockSeconds": 20.0012741,
+      "dustSeconds": 20.5675278,
+      "strength": 0.0,
+      "haze": 0.7548438,
+      "opacity": 0.4574811,
+      "dustActive": true,
+      "released": 101,
+      "particles": 513,
+      "stage": "Isolation"
+    },
+    {
+      "at": 25.0,
+      "elapsed": 25.0093536,
+      "shockSeconds": 20.0012741,
+      "dustSeconds": 25.2794285,
+      "strength": 0.0,
+      "haze": 0.232370153,
+      "opacity": 0.1408304,
+      "dustActive": true,
+      "released": 101,
+      "particles": 208,
+      "stage": "Isolation"
+    },
+    {
+      "at": 29.7,
+      "elapsed": 29.711998,
+      "shockSeconds": 20.0012741,
+      "dustSeconds": 29.9822025,
+      "strength": 0.0,
+      "haze": 3.93390656E-06,
+      "opacity": 2.38418579E-06,
+      "dustActive": true,
+      "released": 101,
+      "particles": 144,
+      "stage": "Isolation"
+    },
+    {
+      "at": 30.3,
+      "elapsed": 30.3098831,
+      "shockSeconds": 20.0012741,
+      "dustSeconds": 0.0,
+      "strength": 0.0,
+      "haze": 0.0,
+      "opacity": 0.0,
+      "dustActive": false,
+      "released": 101,
+      "particles": 0,
+      "stage": "Isolation"
+    },
+    {
+      "at": 32.0,
+      "elapsed": 32.0009079,
+      "shockSeconds": 20.0012741,
+      "dustSeconds": 0.0,
+      "strength": 0.0,
+      "haze": 0.0,
+      "opacity": 0.0,
+      "dustActive": false,
+      "released": 101,
+      "particles": 0,
+      "stage": "Isolation"
+    }
+  ],
+  "motion": [
+    {
+      "elapsed": 0.0,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.0,
+      "dustClock": 0.0
+    },
+    {
+      "elapsed": 0.07057953,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0005921509,
+      "haze": 0.00336355576,
+      "dustClock": 0.333333343
+    },
+    {
+      "elapsed": 0.123939514,
+      "speed": 3.41067448E-07,
+      "turn": 0.0,
+      "strength": 0.001812859,
+      "haze": 0.004661917,
+      "dustClock": 0.394104064
+    },
+    {
+      "elapsed": 0.18132019,
+      "speed": 3.587027E-07,
+      "turn": 0.0,
+      "strength": 0.00384986144,
+      "haze": 0.00602804963,
+      "dustClock": 0.44991374
+    },
+    {
+      "elapsed": 0.2346878,
+      "speed": 2.90667458E-07,
+      "turn": 0.0,
+      "strength": 0.00640258472,
+      "haze": 0.007531274,
+      "dustClock": 0.504863739
+    },
+    {
+      "elapsed": 0.2948761,
+      "speed": 4.49320737E-07,
+      "turn": 0.0,
+      "strength": 0.0100239888,
+      "haze": 0.009349584,
+      "dustClock": 0.564949155
+    },
+    {
+      "elapsed": 0.35068512,
+      "speed": 4.38867028E-06,
+      "turn": 0.0,
+      "strength": 0.01406757,
+      "haze": 0.0112008471,
+      "dustClock": 0.6208641
+    },
+    {
+      "elapsed": 0.403121948,
+      "speed": 2.45774481E-05,
+      "turn": 0.0,
+      "strength": 0.0184527114,
+      "haze": 0.0130719552,
+      "dustClock": 0.6732907
+    },
+    {
+      "elapsed": 0.4540558,
+      "speed": 6.05470159E-05,
+      "turn": 0.0,
+      "strength": 0.02324222,
+      "haze": 0.015012322,
+      "dustClock": 0.724240839
+    },
+    {
+      "elapsed": 0.5108185,
+      "speed": 0.00010282213,
+      "turn": 0.0,
+      "strength": 0.02917961,
+      "haze": 0.0173075944,
+      "dustClock": 0.7809104
+    },
+    {
+      "elapsed": 0.567649841,
+      "speed": 0.000175835332,
+      "turn": 0.0,
+      "strength": 0.035740573,
+      "haze": 0.0197543819,
+      "dustClock": 0.837842345
+    },
+    {
+      "elapsed": 0.627761841,
+      "speed": 0.000153097091,
+      "turn": 0.0,
+      "strength": 0.04333193,
+      "haze": 0.0224903189,
+      "dustClock": 0.8980483
+    },
+    {
+      "elapsed": 0.680015564,
+      "speed": 0.000177592447,
+      "turn": 0.0,
+      "strength": 0.0504592769,
+      "haze": 0.02492708,
+      "dustClock": 0.9491266
+    },
+    {
+      "elapsed": 0.7346878,
+      "speed": 0.000285963266,
+      "turn": 0.0,
+      "strength": 0.0584269874,
+      "haze": 0.0277126189,
+      "dustClock": 1.00505316
+    },
+    {
+      "elapsed": 0.789833069,
+      "speed": 0.000379041681,
+      "turn": 0.0,
+      "strength": 0.0669767261,
+      "haze": 0.0305664819,
+      "dustClock": 1.06003189
+    },
+    {
+      "elapsed": 0.8452835,
+      "speed": 0.000593756558,
+      "turn": 0.0,
+      "strength": 0.07607716,
+      "haze": 0.0335626565,
+      "dustClock": 1.11559343
+    },
+    {
+      "elapsed": 0.9002228,
+      "speed": 0.000710307038,
+      "turn": 0.0,
+      "strength": 0.08557547,
+      "haze": 0.03656197,
+      "dustClock": 1.169303
+    },
+    {
+      "elapsed": 0.9517822,
+      "speed": 0.000831693935,
+      "turn": 0.0,
+      "strength": 0.09491138,
+      "haze": 0.0395930521,
+      "dustClock": 1.22189307
+    },
+    {
+      "elapsed": 1.00423431,
+      "speed": 0.0007651059,
+      "turn": 0.0,
+      "strength": 0.104814284,
+      "haze": 0.0427064449,
+      "dustClock": 1.27436209
+    },
+    {
+      "elapsed": 1.06685638,
+      "speed": 0.000258734828,
+      "turn": 0.0,
+      "strength": 0.117153466,
+      "haze": 0.0464429557,
+      "dustClock": 1.33551776
+    },
+    {
+      "elapsed": 1.1240387,
+      "speed": 0.0015304992,
+      "turn": 0.0,
+      "strength": 0.12889266,
+      "haze": 0.050132487,
+      "dustClock": 1.39420485
+    },
+    {
+      "elapsed": 1.18228149,
+      "speed": 0.00113139278,
+      "turn": 0.0,
+      "strength": 0.141293466,
+      "haze": 0.0538857654,
+      "dustClock": 1.45238984
+    },
+    {
+      "elapsed": 1.23806763,
+      "speed": 0.00116799108,
+      "turn": 0.0,
+      "strength": 0.153573781,
+      "haze": 0.05749906,
+      "dustClock": 1.5071311
+    },
+    {
+      "elapsed": 1.29396057,
+      "speed": 0.00126335677,
+      "turn": 0.0,
+      "strength": 0.166255713,
+      "haze": 0.0613298677,
+      "dustClock": 1.56396
+    },
+    {
+      "elapsed": 1.35487366,
+      "speed": 0.00112249749,
+      "turn": 0.0,
+      "strength": 0.18048802,
+      "haze": 0.06553411,
+      "dustClock": 1.6250627
+    },
+    {
+      "elapsed": 1.4111557,
+      "speed": 0.0007522782,
+      "turn": 0.0,
+      "strength": 0.194001347,
+      "haze": 0.06947267,
+      "dustClock": 1.68124056
+    },
+    {
+      "elapsed": 1.47320557,
+      "speed": 0.0009184215,
+      "turn": 0.0,
+      "strength": 0.209282562,
+      "haze": 0.07390456,
+      "dustClock": 1.7433697
+    },
+    {
+      "elapsed": 1.52398682,
+      "speed": 0.00106146571,
+      "turn": 0.0,
+      "strength": 0.222072065,
+      "haze": 0.07757529,
+      "dustClock": 1.794056
+    },
+    {
+      "elapsed": 1.58085632,
+      "speed": 0.000948542845,
+      "turn": 0.0,
+      "strength": 0.236681134,
+      "haze": 0.08167226,
+      "dustClock": 1.849895
+    },
+    {
+      "elapsed": 1.6349411,
+      "speed": 0.0009261366,
+      "turn": 0.0,
+      "strength": 0.2508399,
+      "haze": 0.08576841,
+      "dustClock": 1.90503538
+    },
+    {
+      "elapsed": 1.69199371,
+      "speed": 0.001056567,
+      "turn": 0.0,
+      "strength": 0.266038567,
+      "haze": 0.0900513455,
+      "dustClock": 1.96204209
+    },
+    {
+      "elapsed": 1.74280548,
+      "speed": 0.00122852554,
+      "turn": 0.0,
+      "strength": 0.279787779,
+      "haze": 0.09390768,
+      "dustClock": 2.0128715
+    },
+    {
+      "elapsed": 1.80072021,
+      "speed": 0.00104864291,
+      "turn": 0.0,
+      "strength": 0.295687139,
+      "haze": 0.09826296,
+      "dustClock": 2.06978059
+    },
+    {
+      "elapsed": 1.85285187,
+      "speed": 0.00139128813,
+      "turn": 0.0,
+      "strength": 0.310191959,
+      "haze": 0.102364123,
+      "dustClock": 2.12295079
+    },
+    {
+      "elapsed": 1.90373993,
+      "speed": 0.00137345016,
+      "turn": 0.0,
+      "strength": 0.324513733,
+      "haze": 0.1062356,
+      "dustClock": 2.17282414
+    },
+    {
+      "elapsed": 1.9565506,
+      "speed": 0.00138893223,
+      "turn": 0.0,
+      "strength": 0.3395332,
+      "haze": 0.11042998,
+      "dustClock": 2.226561
+    },
+    {
+      "elapsed": 2.01120758,
+      "speed": 0.00136667117,
+      "turn": 0.0,
+      "strength": 0.355230778,
+      "haze": 0.114722289,
+      "dustClock": 2.281289
+    },
+    {
+      "elapsed": 2.07012177,
+      "speed": 0.001984097,
+      "turn": 0.0,
+      "strength": 0.372307569,
+      "haze": 0.119363725,
+      "dustClock": 2.34023356
+    },
+    {
+      "elapsed": 2.1236496,
+      "speed": 0.00192045781,
+      "turn": 0.0,
+      "strength": 0.387947768,
+      "haze": 0.1235955,
+      "dustClock": 2.39381886
+    },
+    {
+      "elapsed": 2.18144226,
+      "speed": 0.00279346248,
+      "turn": 0.0,
+      "strength": 0.4049499,
+      "haze": 0.128075525,
+      "dustClock": 2.450442
+    },
+    {
+      "elapsed": 2.239006,
+      "speed": 0.00251144753,
+      "turn": 0.0,
+      "strength": 0.421986252,
+      "haze": 0.132642582,
+      "dustClock": 2.50811362
+    },
+    {
+      "elapsed": 2.29484558,
+      "speed": 0.004478744,
+      "turn": 0.0,
+      "strength": 0.438591838,
+      "haze": 0.137123987,
+      "dustClock": 2.56471133
+    },
+    {
+      "elapsed": 2.34583282,
+      "speed": 0.00319452677,
+      "turn": 0.0,
+      "strength": 0.4538085,
+      "haze": 0.14117606,
+      "dustClock": 2.61594272
+    },
+    {
+      "elapsed": 2.3996582,
+      "speed": 0.003319343,
+      "turn": 0.0,
+      "strength": 0.469913632,
+      "haze": 0.145338476,
+      "dustClock": 2.66867113
+    },
+    {
+      "elapsed": 2.45175171,
+      "speed": 0.002826098,
+      "turn": 0.0,
+      "strength": 0.4855273,
+      "haze": 0.149527386,
+      "dustClock": 2.721888
+    },
+    {
+      "elapsed": 2.51122284,
+      "speed": 0.00309607061,
+      "turn": 0.0,
+      "strength": 0.5033669,
+      "haze": 0.154185489,
+      "dustClock": 2.781307
+    },
+    {
+      "elapsed": 2.572052,
+      "speed": 0.003910737,
+      "turn": 0.0,
+      "strength": 0.5216096,
+      "haze": 0.158929616,
+      "dustClock": 2.842157
+    },
+    {
+      "elapsed": 2.62731171,
+      "speed": 0.00408892753,
+      "turn": 0.0,
+      "strength": 0.5381605,
+      "haze": 0.163225591,
+      "dustClock": 2.89761519
+    },
+    {
+      "elapsed": 2.67886353,
+      "speed": 0.004123461,
+      "turn": 0.0,
+      "strength": 0.553567469,
+      "haze": 0.167086437,
+      "dustClock": 2.94779944
+    },
+    {
+      "elapsed": 2.736168,
+      "speed": 0.00336695462,
+      "turn": 0.0,
+      "strength": 0.5706396,
+      "haze": 0.171570331,
+      "dustClock": 3.00655818
+    },
+    {
+      "elapsed": 2.79433441,
+      "speed": 0.003163515,
+      "turn": 0.0,
+      "strength": 0.5878923,
+      "haze": 0.17594251,
+      "dustClock": 3.06441951
+    },
+    {
+      "elapsed": 2.84758759,
+      "speed": 0.00267126574,
+      "turn": 0.0,
+      "strength": 0.6036043,
+      "haze": 0.179928347,
+      "dustClock": 3.11772776
+    },
+    {
+      "elapsed": 2.90317535,
+      "speed": 0.003013649,
+      "turn": 0.0,
+      "strength": 0.619904041,
+      "haze": 0.184041888,
+      "dustClock": 3.17337942
+    },
+    {
+      "elapsed": 2.960373,
+      "speed": 0.00191032607,
+      "turn": 0.0,
+      "strength": 0.636550665,
+      "haze": 0.188088939,
+      "dustClock": 3.228843
+    },
+    {
+      "elapsed": 3.06819916,
+      "speed": 0.0016950455,
+      "turn": 0.0,
+      "strength": 0.667524636,
+      "haze": 0.195793927,
+      "dustClock": 3.336721
+    },
+    {
+      "elapsed": 3.12322235,
+      "speed": 0.00406273641,
+      "turn": 0.0,
+      "strength": 0.683093667,
+      "haze": 0.199744508,
+      "dustClock": 3.39338946
+    },
+    {
+      "elapsed": 3.17961884,
+      "speed": 0.00263202027,
+      "turn": 0.0,
+      "strength": 0.698863149,
+      "haze": 0.203523487,
+      "dustClock": 3.44859886
+    },
+    {
+      "elapsed": 3.23549652,
+      "speed": 0.00287644146,
+      "turn": 0.0,
+      "strength": 0.714283049,
+      "haze": 0.207353279,
+      "dustClock": 3.50567746
+    },
+    {
+      "elapsed": 3.29117584,
+      "speed": 0.002631956,
+      "turn": 0.0,
+      "strength": 0.7294289,
+      "haze": 0.211003527,
+      "dustClock": 3.56126881
+    },
+    {
+      "elapsed": 3.34394073,
+      "speed": 0.00289080874,
+      "turn": 0.0,
+      "strength": 0.743564844,
+      "haze": 0.214393333,
+      "dustClock": 3.61406422
+    },
+    {
+      "elapsed": 3.39511871,
+      "speed": 0.00238429825,
+      "turn": 0.0,
+      "strength": 0.757060349,
+      "haze": 0.217605218,
+      "dustClock": 3.66525912
+    },
+    {
+      "elapsed": 3.44809723,
+      "speed": 0.00224534748,
+      "turn": 0.0,
+      "strength": 0.7707934,
+      "haze": 0.220846444,
+      "dustClock": 3.71822071
+    },
+    {
+      "elapsed": 3.504158,
+      "speed": 0.002761882,
+      "turn": 0.0,
+      "strength": 0.785047,
+      "haze": 0.224185467,
+      "dustClock": 3.774325
+    },
+    {
+      "elapsed": 3.56669617,
+      "speed": 0.00257481285,
+      "turn": 0.0,
+      "strength": 0.800589144,
+      "haze": 0.227789357,
+      "dustClock": 3.836898
+    },
+    {
+      "elapsed": 3.620308,
+      "speed": 0.00409253128,
+      "turn": 0.190174446,
+      "strength": 0.813595,
+      "haze": 0.230706155,
+      "dustClock": 3.88931
+    },
+    {
+      "elapsed": 3.675743,
+      "speed": 0.00535758724,
+      "turn": 0.0,
+      "strength": 0.8267179,
+      "haze": 0.233738363,
+      "dustClock": 3.94573975
+    },
+    {
+      "elapsed": 3.73210144,
+      "speed": 0.00658158632,
+      "turn": 0.227987736,
+      "strength": 0.8397037,
+      "haze": 0.236660451,
+      "dustClock": 4.00229931
+    },
+    {
+      "elapsed": 3.78504944,
+      "speed": 0.00634861225,
+      "turn": 0.21401681,
+      "strength": 0.8515617,
+      "haze": 0.239284977,
+      "dustClock": 4.055234
+    },
+    {
+      "elapsed": 3.843071,
+      "speed": 0.005455486,
+      "turn": 0.0,
+      "strength": 0.864158332,
+      "haze": 0.242025018,
+      "dustClock": 4.113045
+    },
+    {
+      "elapsed": 3.899788,
+      "speed": 0.00550578348,
+      "turn": 0.0,
+      "strength": 0.8760523,
+      "haze": 0.24453643,
+      "dustClock": 4.16875935
+    },
+    {
+      "elapsed": 3.95505524,
+      "speed": 0.006181862,
+      "turn": 0.205035418,
+      "strength": 0.8872266,
+      "haze": 0.2469471,
+      "dustClock": 4.225209
+    },
+    {
+      "elapsed": 4.0091095,
+      "speed": 0.00488886843,
+      "turn": 0.194085941,
+      "strength": 0.897743046,
+      "haze": 0.24912712,
+      "dustClock": 4.27932024
+    },
+    {
+      "elapsed": 4.07094574,
+      "speed": 0.00517538,
+      "turn": 0.203906626,
+      "strength": 0.9092535,
+      "haze": 0.251452059,
+      "dustClock": 4.34103346
+    },
+    {
+      "elapsed": 4.12385559,
+      "speed": 0.004226987,
+      "turn": 0.0,
+      "strength": 0.9186454,
+      "haze": 0.2533068,
+      "dustClock": 4.394024
+    },
+    {
+      "elapsed": 4.17892456,
+      "speed": 0.005208823,
+      "turn": 0.0,
+      "strength": 0.9279569,
+      "haze": 0.255047053,
+      "dustClock": 4.447667
+    },
+    {
+      "elapsed": 4.229721,
+      "speed": 0.004078085,
+      "turn": 0.0,
+      "strength": 0.93611294,
+      "haze": 0.256604284,
+      "dustClock": 4.49987
+    },
+    {
+      "elapsed": 4.28101349,
+      "speed": 0.003577557,
+      "turn": 0.0,
+      "strength": 0.9439138,
+      "haze": 0.257970184,
+      "dustClock": 4.550019
+    },
+    {
+      "elapsed": 4.33859253,
+      "speed": 0.00364410458,
+      "turn": 0.0,
+      "strength": 0.952134252,
+      "haze": 0.259376973,
+      "dustClock": 4.60759
+    },
+    {
+      "elapsed": 4.398575,
+      "speed": 0.00500221271,
+      "turn": 0.179697245,
+      "strength": 0.9600752,
+      "haze": 0.260653645,
+      "dustClock": 4.66754
+    },
+    {
+      "elapsed": 4.4557724,
+      "speed": 0.003594361,
+      "turn": 0.0,
+      "strength": 0.967037,
+      "haze": 0.261707217,
+      "dustClock": 4.72592354
+    },
+    {
+      "elapsed": 4.510605,
+      "speed": 0.00354036037,
+      "turn": 0.0,
+      "strength": 0.9731345,
+      "haze": 0.262520522,
+      "dustClock": 4.780665
+    },
+    {
+      "elapsed": 4.57653046,
+      "speed": 0.00367939728,
+      "turn": 0.0,
+      "strength": 0.979695857,
+      "haze": 0.263269156,
+      "dustClock": 4.8465333
+    },
+    {
+      "elapsed": 4.63121033,
+      "speed": 0.00412347028,
+      "turn": 0.0,
+      "strength": 0.9844818,
+      "haze": 0.263696074,
+      "dustClock": 4.90140438
+    },
+    {
+      "elapsed": 4.68504333,
+      "speed": 0.004219778,
+      "turn": 0.0,
+      "strength": 0.988596141,
+      "haze": 0.2639369,
+      "dustClock": 4.95523834
+    },
+    {
+      "elapsed": 4.739662,
+      "speed": 0.00310527417,
+      "turn": 0.0,
+      "strength": 0.992149234,
+      "haze": 0.264077544,
+      "dustClock": 5.0086503
+    },
+    {
+      "elapsed": 4.791565,
+      "speed": 0.00423393631,
+      "turn": 0.0,
+      "strength": 0.994931459,
+      "haze": 0.2678727,
+      "dustClock": 5.06167459
+    },
+    {
+      "elapsed": 4.849907,
+      "speed": 0.003807007,
+      "turn": 0.0,
+      "strength": 0.997350752,
+      "haze": 0.278389573,
+      "dustClock": 5.12008333
+    },
+    {
+      "elapsed": 4.92453,
+      "speed": 0.00173415779,
+      "turn": 0.0,
+      "strength": 0.999323368,
+      "haze": 0.30004555,
+      "dustClock": 5.19249249
+    },
+    {
+      "elapsed": 4.97542572,
+      "speed": 0.0112886457,
+      "turn": 0.9712692,
+      "strength": 0.999927759,
+      "haze": 0.321518034,
+      "dustClock": 5.24548674
+    },
+    {
+      "elapsed": 5.030281,
+      "speed": 0.006722008,
+      "turn": 0.0,
+      "strength": 1.0,
+      "haze": 0.3485252,
+      "dustClock": 5.300614
+    },
+    {
+      "elapsed": 5.083359,
+      "speed": 0.005575168,
+      "turn": 0.515596151,
+      "strength": 1.0,
+      "haze": 0.3786175,
+      "dustClock": 5.35354233
+    },
+    {
+      "elapsed": 5.14234161,
+      "speed": 0.0046651694,
+      "turn": 0.5072385,
+      "strength": 1.0,
+      "haze": 0.41649437,
+      "dustClock": 5.41240835
+    },
+    {
+      "elapsed": 5.19241333,
+      "speed": 0.005961528,
+      "turn": 0.33856672,
+      "strength": 1.0,
+      "haze": 0.452003539,
+      "dustClock": 5.46240234
+    },
+    {
+      "elapsed": 5.25099945,
+      "speed": 0.00690479437,
+      "turn": 0.377518415,
+      "strength": 1.0,
+      "haze": 0.497306079,
+      "dustClock": 5.52118158
+    },
+    {
+      "elapsed": 5.316826,
+      "speed": 0.009654893,
+      "turn": 0.665232241,
+      "strength": 1.0,
+      "haze": 0.5519266,
+      "dustClock": 5.586804
+    },
+    {
+      "elapsed": 5.36852264,
+      "speed": 0.0100442264,
+      "turn": 0.4939742,
+      "strength": 1.0,
+      "haze": 0.597741842,
+      "dustClock": 5.638668
+    },
+    {
+      "elapsed": 5.425865,
+      "speed": 0.007301836,
+      "turn": 0.437715083,
+      "strength": 1.0,
+      "haze": 0.64759475,
+      "dustClock": 5.69267654
+    },
+    {
+      "elapsed": 5.483345,
+      "speed": 0.00588895474,
+      "turn": 0.0,
+      "strength": 1.0,
+      "haze": 0.702403843,
+      "dustClock": 5.74986124
+    },
+    {
+      "elapsed": 5.53376,
+      "speed": 0.004304506,
+      "turn": 0.0,
+      "strength": 1.0,
+      "haze": 0.7557215,
+      "dustClock": 5.80385447
+    },
+    {
+      "elapsed": 5.590515,
+      "speed": 0.00574469566,
+      "turn": 0.0,
+      "strength": 1.0,
+      "haze": 0.8130921,
+      "dustClock": 5.86065865
+    },
+    {
+      "elapsed": 5.64432526,
+      "speed": 0.006903057,
+      "turn": 0.2517007,
+      "strength": 1.0,
+      "haze": 0.8639679,
+      "dustClock": 5.910262
+    },
+    {
+      "elapsed": 5.70552063,
+      "speed": 0.006453865,
+      "turn": 0.202040836,
+      "strength": 1.0,
+      "haze": 0.926197946,
+      "dustClock": 5.97036
+    },
+    {
+      "elapsed": 5.844452,
+      "speed": 0.00388013874,
+      "turn": 0.159146428,
+      "strength": 1.0,
+      "haze": 1.050864,
+      "dustClock": 6.0905447
+    },
+    {
+      "elapsed": 5.905815,
+      "speed": 0.01549175,
+      "turn": 1.13800371,
+      "strength": 1.0,
+      "haze": 1.1329031,
+      "dustClock": 6.170882
+    },
+    {
+      "elapsed": 5.9703064,
+      "speed": 0.00766062364,
+      "turn": 0.0,
+      "strength": 1.0,
+      "haze": 1.19580114,
+      "dustClock": 6.233998
+    },
+    {
+      "elapsed": 6.027855,
+      "speed": 0.00774373626,
+      "turn": 0.0,
+      "strength": 1.0,
+      "haze": 1.25186849,
+      "dustClock": 6.29195929
+    },
+    {
+      "elapsed": 6.085396,
+      "speed": 0.008525427,
+      "turn": 0.0,
+      "strength": 1.0,
+      "haze": 1.305719,
+      "dustClock": 6.349726
+    },
+    {
+      "elapsed": 6.146797,
+      "speed": 0.0105649838,
+      "turn": 0.216874614,
+      "strength": 1.0,
+      "haze": 1.36055446,
+      "dustClock": 6.4114356
+    },
+    {
+      "elapsed": 6.20532227,
+      "speed": 0.0124261212,
+      "turn": 0.3017386,
+      "strength": 1.0,
+      "haze": 1.40895414,
+      "dustClock": 6.469215
+    },
+    {
+      "elapsed": 6.263611,
+      "speed": 0.0163383037,
+      "turn": 0.6673951,
+      "strength": 1.0,
+      "haze": 1.45507514,
+      "dustClock": 6.528298
+    },
+    {
+      "elapsed": 6.32224274,
+      "speed": 0.0162306689,
+      "turn": 0.188611776,
+      "strength": 1.0,
+      "haze": 1.49717116,
+      "dustClock": 6.58710051
+    },
+    {
+      "elapsed": 6.38305664,
+      "speed": 0.0128672,
+      "turn": 0.207334489,
+      "strength": 1.0,
+      "haze": 1.5364846,
+      "dustClock": 6.648283
+    },
+    {
+      "elapsed": 6.44656372,
+      "speed": 0.0130433291,
+      "turn": 0.190752923,
+      "strength": 1.0,
+      "haze": 1.57099855,
+      "dustClock": 6.70994139
+    },
+    {
+      "elapsed": 6.50719452,
+      "speed": 0.0134660266,
+      "turn": 0.211922154,
+      "strength": 1.0,
+      "haze": 1.6001581,
+      "dustClock": 6.772211
+    },
+    {
+      "elapsed": 6.57510376,
+      "speed": 0.0130365891,
+      "turn": 0.4955601,
+      "strength": 1.0,
+      "haze": 1.62479651,
+      "dustClock": 6.83996248
+    },
+    {
+      "elapsed": 6.63121033,
+      "speed": 0.0129138259,
+      "turn": 0.427107126,
+      "strength": 1.0,
+      "haze": 1.64022017,
+      "dustClock": 6.90136957
+    },
+    {
+      "elapsed": 6.68808,
+      "speed": 0.0118246805,
+      "turn": 0.0,
+      "strength": 1.0,
+      "haze": 1.64758039,
+      "dustClock": 6.95135832
+    },
+    {
+      "elapsed": 6.743927,
+      "speed": 0.01367621,
+      "turn": 0.300307065,
+      "strength": 1.0,
+      "haze": 1.65,
+      "dustClock": 7.00768137
+    },
+    {
+      "elapsed": 6.807457,
+      "speed": 0.0127302445,
+      "turn": 0.291275,
+      "strength": 1.0,
+      "haze": 1.65,
+      "dustClock": 7.073078
+    },
+    {
+      "elapsed": 6.864624,
+      "speed": 0.0115324939,
+      "turn": 0.0,
+      "strength": 1.0,
+      "haze": 1.65,
+      "dustClock": 7.13026953
+    },
+    {
+      "elapsed": 6.92217255,
+      "speed": 0.0109103015,
+      "turn": 0.0,
+      "strength": 1.0,
+      "haze": 1.65,
+      "dustClock": 7.18811
+    },
+    {
+      "elapsed": 6.98442841,
+      "speed": 0.0107022449,
+      "turn": 0.0,
+      "strength": 1.0,
+      "haze": 1.65,
+      "dustClock": 7.250166
+    },
+    {
+      "elapsed": 7.040718,
+      "speed": 0.0101431618,
+      "turn": 0.0,
+      "strength": 1.0,
+      "haze": 1.65,
+      "dustClock": 7.30763435
+    },
+    {
+      "elapsed": 7.10221863,
+      "speed": 0.0112999631,
+      "turn": 0.2309754,
+      "strength": 1.0,
+      "haze": 1.65,
+      "dustClock": 7.36840153
+    },
+    {
+      "elapsed": 7.15444946,
+      "speed": 0.0173718929,
+      "turn": 0.3757778,
+      "strength": 1.0,
+      "haze": 1.65,
+      "dustClock": 7.424611
+    },
+    {
+      "elapsed": 7.206955,
+      "speed": 0.0142627405,
+      "turn": 0.210619211,
+      "strength": 1.0,
+      "haze": 1.65,
+      "dustClock": 7.47708
+    },
+    {
+      "elapsed": 7.26432037,
+      "speed": 0.0111231375,
+      "turn": 0.0,
+      "strength": 1.0,
+      "haze": 1.65,
+      "dustClock": 7.530946
+    },
+    {
+      "elapsed": 7.322815,
+      "speed": 0.009970806,
+      "turn": 0.0,
+      "strength": 1.0,
+      "haze": 1.65,
+      "dustClock": 7.589994
+    },
+    {
+      "elapsed": 7.38237762,
+      "speed": 0.0074185,
+      "turn": 0.0,
+      "strength": 1.0,
+      "haze": 1.65,
+      "dustClock": 7.647867
+    },
+    {
+      "elapsed": 7.44168854,
+      "speed": 0.007923085,
+      "turn": 0.0,
+      "strength": 1.0,
+      "haze": 1.65,
+      "dustClock": 7.707784
+    },
+    {
+      "elapsed": 7.49173737,
+      "speed": 0.009166046,
+      "turn": 0.0,
+      "strength": 1.0,
+      "haze": 1.65,
+      "dustClock": 7.76185
+    },
+    {
+      "elapsed": 7.581665,
+      "speed": 0.00362892449,
+      "turn": 0.0,
+      "strength": 1.0,
+      "haze": 1.65,
+      "dustClock": 7.839314
+    },
+    {
+      "elapsed": 7.633011,
+      "speed": 0.0151973078,
+      "turn": 1.29896486,
+      "strength": 1.0,
+      "haze": 1.65,
+      "dustClock": 7.903178
+    },
+    {
+      "elapsed": 7.687187,
+      "speed": 0.007697816,
+      "turn": 0.0,
+      "strength": 1.0,
+      "haze": 1.65,
+      "dustClock": 7.951472
+    },
+    {
+      "elapsed": 7.74629974,
+      "speed": 0.00784973,
+      "turn": 0.243920088,
+      "strength": 1.0,
+      "haze": 1.65,
+      "dustClock": 8.007948
+    },
+    {
+      "elapsed": 7.80474854,
+      "speed": 0.0112513993,
+      "turn": 0.8018679,
+      "strength": 1.0,
+      "haze": 1.65,
+      "dustClock": 8.068642
+    },
+    {
+      "elapsed": 7.855301,
+      "speed": 0.0111486251,
+      "turn": 0.6637841,
+      "strength": 1.0,
+      "haze": 1.65,
+      "dustClock": 8.125479
+    },
+    {
+      "elapsed": 7.922676,
+      "speed": 0.007586601,
+      "turn": 0.5198083,
+      "strength": 1.0,
+      "haze": 1.65,
+      "dustClock": 8.18915749
+    },
+    {
+      "elapsed": 7.98852539,
+      "speed": 0.008346874,
+      "turn": 0.0,
+      "strength": 1.0,
+      "haze": 1.65,
+      "dustClock": 8.253861
+    },
+    {
+      "elapsed": 8.045036,
+      "speed": 0.005256065,
+      "turn": 0.0,
+      "strength": 1.0,
+      "haze": 1.65,
+      "dustClock": 8.31036949
+    },
+    {
+      "elapsed": 8.0956955,
+      "speed": 0.00820030551,
+      "turn": 0.0,
+      "strength": 1.0,
+      "haze": 1.65,
+      "dustClock": 8.366004
+    },
+    {
+      "elapsed": 8.153389,
+      "speed": 0.00707328459,
+      "turn": 0.0,
+      "strength": 1.0,
+      "haze": 1.65,
+      "dustClock": 8.423533
+    },
+    {
+      "elapsed": 8.204041,
+      "speed": 0.008065837,
+      "turn": 0.0,
+      "strength": 1.0,
+      "haze": 1.65,
+      "dustClock": 8.470384
+    },
+    {
+      "elapsed": 8.263168,
+      "speed": 0.0107707651,
+      "turn": 0.209105745,
+      "strength": 1.0,
+      "haze": 1.65,
+      "dustClock": 8.528732
+    },
+    {
+      "elapsed": 8.321068,
+      "speed": 0.0111867711,
+      "turn": 0.4677819,
+      "strength": 1.0,
+      "haze": 1.65,
+      "dustClock": 8.58713
+    },
+    {
+      "elapsed": 8.381447,
+      "speed": 0.009388869,
+      "turn": 0.429516017,
+      "strength": 1.0,
+      "haze": 1.65,
+      "dustClock": 8.64708
+    },
+    {
+      "elapsed": 8.444725,
+      "speed": 0.009412914,
+      "turn": 0.75130105,
+      "strength": 1.0,
+      "haze": 1.65,
+      "dustClock": 8.710046
+    },
+    {
+      "elapsed": 8.504311,
+      "speed": 0.008117721,
+      "turn": 0.448823452,
+      "strength": 1.0,
+      "haze": 1.65,
+      "dustClock": 8.770916
+    },
+    {
+      "elapsed": 8.555412,
+      "speed": 0.008688555,
+      "turn": 0.306043118,
+      "strength": 1.0,
+      "haze": 1.65,
+      "dustClock": 8.825461
+    },
+    {
+      "elapsed": 8.605675,
+      "speed": 0.008100576,
+      "turn": 0.491581827,
+      "strength": 1.0,
+      "haze": 1.65,
+      "dustClock": 8.875816
+    },
+    {
+      "elapsed": 8.656479,
+      "speed": 0.0104186889,
+      "turn": 0.5992479,
+      "strength": 1.0,
+      "haze": 1.65,
+      "dustClock": 8.926623
+    },
+    {
+      "elapsed": 8.723923,
+      "speed": 0.0110404324,
+      "turn": 0.8922482,
+      "strength": 1.0,
+      "haze": 1.65,
+      "dustClock": 8.990771
+    },
+    {
+      "elapsed": 8.78521,
+      "speed": 0.008561159,
+      "turn": 0.175872,
+      "strength": 1.0,
+      "haze": 1.65,
+      "dustClock": 9.052075
+    },
+    {
+      "elapsed": 8.836357,
+      "speed": 0.00766762532,
+      "turn": 0.0,
+      "strength": 1.0,
+      "haze": 1.65,
+      "dustClock": 9.106453
+    },
+    {
+      "elapsed": 8.89122,
+      "speed": 0.00533496076,
+      "turn": 0.0,
+      "strength": 1.0,
+      "haze": 1.65,
+      "dustClock": 9.161225
+    },
+    {
+      "elapsed": 8.941727,
+      "speed": 0.00676126173,
+      "turn": 0.213410839,
+      "strength": 1.0,
+      "haze": 1.65,
+      "dustClock": 9.209006
+    },
+    {
+      "elapsed": 9.002296,
+      "speed": 0.00708138756,
+      "turn": 0.31885767,
+      "strength": 1.0,
+      "haze": 1.65,
+      "dustClock": 9.26936
+    },
+    {
+      "elapsed": 9.05666351,
+      "speed": 0.008858931,
+      "turn": 0.3886095,
+      "strength": 1.0,
+      "haze": 1.65,
+      "dustClock": 9.326826
+    },
+    {
+      "elapsed": 9.116013,
+      "speed": 0.006549144,
+      "turn": 0.0,
+      "strength": 1.0,
+      "haze": 1.65,
+      "dustClock": 9.386109
+    },
+    {
+      "elapsed": 9.166672,
+      "speed": 0.00553132128,
+      "turn": 0.0,
+      "strength": 1.0,
+      "haze": 1.65,
+      "dustClock": 9.432941
+    },
+    {
+      "elapsed": 9.22702,
+      "speed": 0.006759319,
+      "turn": 0.168945119,
+      "strength": 1.0,
+      "haze": 1.65,
+      "dustClock": 9.497107
+    },
+    {
+      "elapsed": 9.283775,
+      "speed": 0.00495258858,
+      "turn": 0.0,
+      "strength": 1.0,
+      "haze": 1.65,
+      "dustClock": 9.549881
+    },
+    {
+      "elapsed": 9.344734,
+      "speed": 0.005373703,
+      "turn": 0.0,
+      "strength": 1.0,
+      "haze": 1.65,
+      "dustClock": 9.60922
+    },
+    {
+      "elapsed": 9.396194,
+      "speed": 0.005134215,
+      "turn": 0.0,
+      "strength": 1.0,
+      "haze": 1.65,
+      "dustClock": 9.666256
+    },
+    {
+      "elapsed": 9.446884,
+      "speed": 0.00568977,
+      "turn": 0.0,
+      "strength": 1.0,
+      "haze": 1.65,
+      "dustClock": 9.716966
+    },
+    {
+      "elapsed": 9.506966,
+      "speed": 0.00477615325,
+      "turn": 0.0,
+      "strength": 1.0,
+      "haze": 1.65,
+      "dustClock": 9.77709
+    },
+    {
+      "elapsed": 9.569458,
+      "speed": 0.0047370065,
+      "turn": 0.0,
+      "strength": 1.0,
+      "haze": 1.65,
+      "dustClock": 9.835863
+    },
+    {
+      "elapsed": 9.620285,
+      "speed": 0.004102623,
+      "turn": 0.0,
+      "strength": 1.0,
+      "haze": 1.65,
+      "dustClock": 9.8873415
+    },
+    {
+      "elapsed": 9.675049,
+      "speed": 0.00402908167,
+      "turn": 0.0,
+      "strength": 1.0,
+      "haze": 1.65,
+      "dustClock": 9.945087
+    },
+    {
+      "elapsed": 9.730942,
+      "speed": 0.00317740743,
+      "turn": 0.0,
+      "strength": 1.0,
+      "haze": 1.65,
+      "dustClock": 10.0010757
+    },
+    {
+      "elapsed": 9.787628,
+      "speed": 0.00379267382,
+      "turn": 0.0,
+      "strength": 1.0,
+      "haze": 1.64995909,
+      "dustClock": 10.05757
+    },
+    {
+      "elapsed": 9.872925,
+      "speed": 0.00175268925,
+      "turn": 0.0,
+      "strength": 1.0,
+      "haze": 1.64978027,
+      "dustClock": 10.1335478
+    },
+    {
+      "elapsed": 9.931587,
+      "speed": 0.0052522216,
+      "turn": 0.206506357,
+      "strength": 1.0,
+      "haze": 1.64950013,
+      "dustClock": 10.2016468
+    },
+    {
+      "elapsed": 9.993782,
+      "speed": 0.002381295,
+      "turn": 0.0,
+      "strength": 1.0,
+      "haze": 1.649146,
+      "dustClock": 10.2638731
+    },
+    {
+      "elapsed": 10.0439529,
+      "speed": 0.00227607088,
+      "turn": 0.0,
+      "strength": 0.999942243,
+      "haze": 1.64879215,
+      "dustClock": 10.3140612
+    },
+    {
+      "elapsed": 10.1016006,
+      "speed": 0.0018998317,
+      "turn": 0.0,
+      "strength": 0.99969244,
+      "haze": 1.64834177,
+      "dustClock": 10.36833
+    },
+    {
+      "elapsed": 10.1617584,
+      "speed": 0.00163798046,
+      "turn": 0.0,
+      "strength": 0.9992235,
+      "haze": 1.64775622,
+      "dustClock": 10.4288845
+    },
+    {
+      "elapsed": 10.2223358,
+      "speed": 0.00113615661,
+      "turn": 0.0,
+      "strength": 0.998539,
+      "haze": 1.64709139,
+      "dustClock": 10.4888115
+    },
+    {
+      "elapsed": 10.2843323,
+      "speed": 0.0008729429,
+      "turn": 0.0,
+      "strength": 0.997620642,
+      "haze": 1.64632308,
+      "dustClock": 10.5501566
+    },
+    {
+      "elapsed": 10.3617249,
+      "speed": 0.0005721866,
+      "turn": 0.0,
+      "strength": 0.9961693,
+      "haze": 1.64526761,
+      "dustClock": 10.6249409
+    },
+    {
+      "elapsed": 10.4154663,
+      "speed": 0.00434347754,
+      "turn": 0.301725924,
+      "strength": 0.9949651,
+      "haze": 1.6443162,
+      "dustClock": 10.6855955
+    },
+    {
+      "elapsed": 10.4696121,
+      "speed": 0.00351835717,
+      "turn": 0.0,
+      "strength": 0.99359107,
+      "haze": 1.643463,
+      "dustClock": 10.7358847
+    },
+    {
+      "elapsed": 10.5216293,
+      "speed": 0.00369606982,
+      "turn": 0.0,
+      "strength": 0.992121,
+      "haze": 1.6425246,
+      "dustClock": 10.78763
+    },
+    {
+      "elapsed": 10.5849457,
+      "speed": 0.00279954541,
+      "turn": 0.0,
+      "strength": 0.990135431,
+      "haze": 1.64129293,
+      "dustClock": 10.8509607
+    },
+    {
+      "elapsed": 10.6418686,
+      "speed": 0.00324889761,
+      "turn": 0.0,
+      "strength": 0.988169,
+      "haze": 1.64008856,
+      "dustClock": 10.9088106
+    },
+    {
+      "elapsed": 10.6948776,
+      "speed": 0.00452108961,
+      "turn": 0.203336179,
+      "strength": 0.986185431,
+      "haze": 1.63884676,
+      "dustClock": 10.9650011
+    },
+    {
+      "elapsed": 10.7500992,
+      "speed": 0.00332712126,
+      "turn": 0.0,
+      "strength": 0.9839646,
+      "haze": 1.63755715,
+      "dustClock": 11.0202351
+    },
+    {
+      "elapsed": 10.8036118,
+      "speed": 0.00318429,
+      "turn": 0.190526918,
+      "strength": 0.9816642,
+      "haze": 1.63633764,
+      "dustClock": 11.0699816
+    },
+    {
+      "elapsed": 10.8689651,
+      "speed": 0.00333745452,
+      "turn": 0.24811551,
+      "strength": 0.9786593,
+      "haze": 1.63465512,
+      "dustClock": 11.1352358
+    },
+    {
+      "elapsed": 10.92205,
+      "speed": 0.003478508,
+      "turn": 0.0,
+      "strength": 0.9760625,
+      "haze": 1.63324142,
+      "dustClock": 11.1874485
+    },
+    {
+      "elapsed": 10.9763641,
+      "speed": 0.0034060576,
+      "turn": 0.0,
+      "strength": 0.9732629,
+      "haze": 1.63158286,
+      "dustClock": 11.2460918
+    },
+    {
+      "elapsed": 11.0269623,
+      "speed": 0.00337180519,
+      "turn": 0.0,
+      "strength": 0.970526636,
+      "haze": 1.63008082,
+      "dustClock": 11.29706
+    },
+    {
+      "elapsed": 11.0819016,
+      "speed": 0.00324214669,
+      "turn": 0.0,
+      "strength": 0.9674174,
+      "haze": 1.62851048,
+      "dustClock": 11.3484278
+    },
+    {
+      "elapsed": 11.1330872,
+      "speed": 0.0039866697,
+      "turn": 0.19918853,
+      "strength": 0.9643929,
+      "haze": 1.62677252,
+      "dustClock": 11.4032345
+    },
+    {
+      "elapsed": 11.1927109,
+      "speed": 0.003888099,
+      "turn": 0.185474277,
+      "strength": 0.9607166,
+      "haze": 1.62481093,
+      "dustClock": 11.4628086
+    },
+    {
+      "elapsed": 11.2437592,
+      "speed": 0.00415290147,
+      "turn": 0.0,
+      "strength": 0.9574399,
+      "haze": 1.62320817,
+      "dustClock": 11.50988
+    },
+    {
+      "elapsed": 11.29612,
+      "speed": 0.00568625843,
+      "turn": 0.0,
+      "strength": 0.953956962,
+      "haze": 1.62122941,
+      "dustClock": 11.5661888
+    },
+    {
+      "elapsed": 11.3554,
+      "speed": 0.00369539461,
+      "turn": 0.0,
+      "strength": 0.9498668,
+      "haze": 1.619072,
+      "dustClock": 11.6255484
+    },
+    {
+      "elapsed": 11.4084167,
+      "speed": 0.00451365951,
+      "turn": 0.0,
+      "strength": 0.9460784,
+      "haze": 1.61708057,
+      "dustClock": 11.6786375
+    },
+    {
+      "elapsed": 11.4679489,
+      "speed": 0.0048484765,
+      "turn": 0.361986458,
+      "strength": 0.941680253,
+      "haze": 1.61493433,
+      "dustClock": 11.7341967
+    },
+    {
+      "elapsed": 11.5241394,
+      "speed": 0.004463931,
+      "turn": 0.0,
+      "strength": 0.937391162,
+      "haze": 1.61262381,
+      "dustClock": 11.79226
+    },
+    {
+      "elapsed": 11.5845795,
+      "speed": 0.004816599,
+      "turn": 0.0,
+      "strength": 0.932630658,
+      "haze": 1.61006021,
+      "dustClock": 11.854763
+    },
+    {
+      "elapsed": 11.63562,
+      "speed": 0.00330189732,
+      "turn": 0.0,
+      "strength": 0.9284938,
+      "haze": 1.60790968,
+      "dustClock": 11.9057674
+    },
+    {
+      "elapsed": 11.68943,
+      "speed": 0.00293124421,
+      "turn": 0.0,
+      "strength": 0.9240186,
+      "haze": 1.60558522,
+      "dustClock": 11.9595642
+    },
+    {
+      "elapsed": 11.7464066,
+      "speed": 0.00366734364,
+      "turn": 0.0,
+      "strength": 0.919154763,
+      "haze": 1.60305917,
+      "dustClock": 12.0165653
+    },
+    {
+      "elapsed": 11.8080063,
+      "speed": 0.00324720936,
+      "turn": 0.0,
+      "strength": 0.913753748,
+      "haze": 1.6002593,
+      "dustClock": 12.078125
+    },
+    {
+      "elapsed": 11.8759384,
+      "speed": 0.003109882,
+      "turn": 0.0,
+      "strength": 0.907629,
+      "haze": 1.59710932,
+      "dustClock": 12.1455069
+    },
+    {
+      "elapsed": 11.9266357,
+      "speed": 0.002767779,
+      "turn": 0.0,
+      "strength": 0.9029453,
+      "haze": 1.59465468,
+      "dustClock": 12.1967506
+    },
+    {
+      "elapsed": 11.9787674,
+      "speed": 0.00266956235,
+      "turn": 0.0,
+      "strength": 0.8980302,
+      "haze": 1.59219527,
+      "dustClock": 12.2470636
+    },
+    {
+      "elapsed": 12.0588913,
+      "speed": 0.00177030358,
+      "turn": 0.0,
+      "strength": 0.8902844,
+      "haze": 1.58822441,
+      "dustClock": 12.3262825
+    },
+    {
+      "elapsed": 12.1224289,
+      "speed": 0.004018493,
+      "turn": 0.0,
+      "strength": 0.8839807,
+      "haze": 1.58497953,
+      "dustClock": 12.38932
+    },
+    {
+      "elapsed": 12.1752853,
+      "speed": 0.00252249534,
+      "turn": 0.0,
+      "strength": 0.87863034,
+      "haze": 1.582033,
+      "dustClock": 12.4453421
+    },
+    {
+      "elapsed": 12.2306824,
+      "speed": 0.002237944,
+      "turn": 0.0,
+      "strength": 0.872921169,
+      "haze": 1.5790596,
+      "dustClock": 12.5007744
+    },
+    {
+      "elapsed": 12.289566,
+      "speed": 0.00195498927,
+      "turn": 0.0,
+      "strength": 0.866740942,
+      "haze": 1.5758338,
+      "dustClock": 12.5597458
+    },
+    {
+      "elapsed": 12.3414307,
+      "speed": 0.00216042157,
+      "turn": 0.0,
+      "strength": 0.8612039,
+      "haze": 1.57309222,
+      "dustClock": 12.6089687
+    },
+    {
+      "elapsed": 12.391571,
+      "speed": 0.00195399253,
+      "turn": 0.0,
+      "strength": 0.855769336,
+      "haze": 1.57010937,
+      "dustClock": 12.661643
+    },
+    {
+      "elapsed": 12.44854,
+      "speed": 0.00182887889,
+      "turn": 0.0,
+      "strength": 0.8494993,
+      "haze": 1.56682372,
+      "dustClock": 12.7186594
+    },
+    {
+      "elapsed": 12.5025253,
+      "speed": 0.001243429,
+      "turn": 0.0,
+      "strength": 0.8434658,
+      "haze": 1.5638212,
+      "dustClock": 12.7698975
+    },
+    {
+      "elapsed": 12.5619812,
+      "speed": 0.00167961034,
+      "turn": 0.0,
+      "strength": 0.83672,
+      "haze": 1.56031728,
+      "dustClock": 12.828701
+    },
+    {
+      "elapsed": 12.61319,
+      "speed": 0.00181944552,
+      "turn": 0.0,
+      "strength": 0.8308269,
+      "haze": 1.55700684,
+      "dustClock": 12.883337
+    },
+    {
+      "elapsed": 12.6748123,
+      "speed": 0.00288166641,
+      "turn": 0.0,
+      "strength": 0.823635936,
+      "haze": 1.55321348,
+      "dustClock": 12.9449015
+    },
+    {
+      "elapsed": 12.7284546,
+      "speed": 0.005175517,
+      "turn": 0.2061558,
+      "strength": 0.8172898,
+      "haze": 1.54985285,
+      "dustClock": 12.9985685
+    },
+    {
+      "elapsed": 12.7837067,
+      "speed": 0.00508139655,
+      "turn": 0.18987833,
+      "strength": 0.8106713,
+      "haze": 1.5465517,
+      "dustClock": 13.0505247
+    },
+    {
+      "elapsed": 12.8355408,
+      "speed": 0.004314876,
+      "turn": 0.0,
+      "strength": 0.8043884,
+      "haze": 1.54299462,
+      "dustClock": 13.10571
+    },
+    {
+      "elapsed": 12.8858185,
+      "speed": 0.002600982,
+      "turn": 0.0,
+      "strength": 0.7982274,
+      "haze": 1.53970683,
+      "dustClock": 13.1560125
+    },
+    {
+      "elapsed": 12.9463882,
+      "speed": 0.00156665035,
+      "turn": 0.0,
+      "strength": 0.7907203,
+      "haze": 1.53569317,
+      "dustClock": 13.2165546
+    },
+    {
+      "elapsed": 13.0037766,
+      "speed": 0.0010970633,
+      "turn": 0.0,
+      "strength": 0.783524,
+      "haze": 1.53201938,
+      "dustClock": 13.2711725
+    },
+    {
+      "elapsed": 13.0538254,
+      "speed": 0.00141627481,
+      "turn": 0.0,
+      "strength": 0.777183533,
+      "haze": 1.52842176,
+      "dustClock": 13.3239546
+    },
+    {
+      "elapsed": 13.1160736,
+      "speed": 0.00166178064,
+      "turn": 0.0,
+      "strength": 0.7692162,
+      "haze": 1.52411926,
+      "dustClock": 13.3862133
+    },
+    {
+      "elapsed": 13.1703339,
+      "speed": 0.00274838484,
+      "turn": 0.0,
+      "strength": 0.76219964,
+      "haze": 1.52031624,
+      "dustClock": 13.4404926
+    },
+    {
+      "elapsed": 13.2225037,
+      "speed": 0.00340272719,
+      "turn": 0.0,
+      "strength": 0.7553925,
+      "haze": 1.51677847,
+      "dustClock": 13.4903851
+    },
+    {
+      "elapsed": 13.2736511,
+      "speed": 0.00441594655,
+      "turn": 0.0,
+      "strength": 0.748662353,
+      "haze": 1.51294565,
+      "dustClock": 13.5438137
+    },
+    {
+      "elapsed": 13.3315048,
+      "speed": 0.002787862,
+      "turn": 0.0,
+      "strength": 0.740984559,
+      "haze": 1.50874746,
+      "dustClock": 13.6016169
+    },
+    {
+      "elapsed": 13.3817978,
+      "speed": 0.00304039,
+      "turn": 0.0,
+      "strength": 0.734255552,
+      "haze": 1.50516176,
+      "dustClock": 13.6504183
+    },
+    {
+      "elapsed": 13.4409256,
+      "speed": 0.00166946754,
+      "turn": 0.0,
+      "strength": 0.7262819,
+      "haze": 1.50081348,
+      "dustClock": 13.70893
+    },
+    {
+      "elapsed": 13.49575,
+      "speed": 0.00218569348,
+      "turn": 0.0,
+      "strength": 0.7188299,
+      "haze": 1.49653637,
+      "dustClock": 13.7657957
+    },
+    {
+      "elapsed": 13.5616074,
+      "speed": 0.0021559475,
+      "turn": 0.0,
+      "strength": 0.7098069,
+      "haze": 1.49172974,
+      "dustClock": 13.8289251
+    },
+    {
+      "elapsed": 13.6138,
+      "speed": 0.00281879515,
+      "turn": 0.0,
+      "strength": 0.7026027,
+      "haze": 1.48749089,
+      "dustClock": 13.8839455
+    },
+    {
+      "elapsed": 13.6684036,
+      "speed": 0.003379962,
+      "turn": 0.0,
+      "strength": 0.6950172,
+      "haze": 1.48338032,
+      "dustClock": 13.93674
+    },
+    {
+      "elapsed": 13.722229,
+      "speed": 0.00283637224,
+      "turn": 0.0,
+      "strength": 0.6874932,
+      "haze": 1.47916722,
+      "dustClock": 13.990304
+    },
+    {
+      "elapsed": 13.7813873,
+      "speed": 0.003113009,
+      "turn": 0.0,
+      "strength": 0.679172635,
+      "haze": 1.474435,
+      "dustClock": 14.0498314
+    },
+    {
+      "elapsed": 13.8397675,
+      "speed": 0.003123516,
+      "turn": 0.0,
+      "strength": 0.6709112,
+      "haze": 1.4697504,
+      "dustClock": 14.1081228
+    },
+    {
+      "elapsed": 13.8994141,
+      "speed": 0.00210948312,
+      "turn": 0.0,
+      "strength": 0.662421644,
+      "haze": 1.46494412,
+      "dustClock": 14.1672983
+    },
+    {
+      "elapsed": 13.95919,
+      "speed": 0.00222040783,
+      "turn": 0.0,
+      "strength": 0.65386647,
+      "haze": 1.46003067,
+      "dustClock": 14.2271595
+    },
+    {
+      "elapsed": 14.02317,
+      "speed": 0.00231950055,
+      "turn": 0.0,
+      "strength": 0.644660234,
+      "haze": 1.45454192,
+      "dustClock": 14.2933035
+    },
+    {
+      "elapsed": 14.0817871,
+      "speed": 0.00166140671,
+      "turn": 0.0,
+      "strength": 0.6361836,
+      "haze": 1.4497596,
+      "dustClock": 14.350338
+    },
+    {
+      "elapsed": 14.1349716,
+      "speed": 0.00193013425,
+      "turn": 0.0,
+      "strength": 0.6284597,
+      "haze": 1.44513643,
+      "dustClock": 14.4049644
+    },
+    {
+      "elapsed": 14.1947784,
+      "speed": 0.001876734,
+      "turn": 0.0,
+      "strength": 0.619739056,
+      "haze": 1.44002116,
+      "dustClock": 14.4648466
+    },
+    {
+      "elapsed": 14.2484818,
+      "speed": 0.00157025189,
+      "turn": 0.0,
+      "strength": 0.6118789,
+      "haze": 1.4353869,
+      "dustClock": 14.5186062
+    },
+    {
+      "elapsed": 14.3053894,
+      "speed": 0.00166851911,
+      "turn": 0.0,
+      "strength": 0.6035213,
+      "haze": 1.430439,
+      "dustClock": 14.57551
+    },
+    {
+      "elapsed": 14.3722153,
+      "speed": 0.00129114476,
+      "turn": 0.0,
+      "strength": 0.5936729,
+      "haze": 1.4245683,
+      "dustClock": 14.6423864
+    },
+    {
+      "elapsed": 14.4324417,
+      "speed": 0.0010085844,
+      "turn": 0.0,
+      "strength": 0.5847681,
+      "haze": 1.4192338,
+      "dustClock": 14.7025776
+    },
+    {
+      "elapsed": 14.4933929,
+      "speed": 0.0009945496,
+      "turn": 0.0,
+      "strength": 0.575731039,
+      "haze": 1.41378617,
+      "dustClock": 14.7634983
+    },
+    {
+      "elapsed": 14.5464935,
+      "speed": 0.000853605568,
+      "turn": 0.0,
+      "strength": 0.5678394,
+      "haze": 1.40900016,
+      "dustClock": 14.8165827
+    },
+    {
+      "elapsed": 14.6017075,
+      "speed": 0.0004605227,
+      "turn": 0.0,
+      "strength": 0.5596175,
+      "haze": 1.40413022,
+      "dustClock": 14.8701906
+    },
+    {
+      "elapsed": 14.6620865,
+      "speed": 0.0007269912,
+      "turn": 0.0,
+      "strength": 0.5506099,
+      "haze": 1.398614,
+      "dustClock": 14.9304323
+    },
+    {
+      "elapsed": 14.7128067,
+      "speed": 0.0009302743,
+      "turn": 0.0,
+      "strength": 0.543031633,
+      "haze": 1.39377367,
+      "dustClock": 14.9828892
+    },
+    {
+      "elapsed": 14.7628708,
+      "speed": 0.0007500911,
+      "turn": 0.0,
+      "strength": 0.5355427,
+      "haze": 1.38929188,
+      "dustClock": 15.0311337
+    },
+    {
+      "elapsed": 14.8137207,
+      "speed": 0.0010503236,
+      "turn": 0.0,
+      "strength": 0.527928948,
+      "haze": 1.38435936,
+      "dustClock": 15.0838766
+    },
+    {
+      "elapsed": 14.8717422,
+      "speed": 0.0008800088,
+      "turn": 0.0,
+      "strength": 0.5192344,
+      "haze": 1.37889838,
+      "dustClock": 15.1418543
+    },
+    {
+      "elapsed": 14.9308014,
+      "speed": 0.00079192163,
+      "turn": 0.0,
+      "strength": 0.510379136,
+      "haze": 1.373291,
+      "dustClock": 15.200942
+    },
+    {
+      "elapsed": 14.9814606,
+      "speed": 0.0008355592,
+      "turn": 0.0,
+      "strength": 0.5027809,
+      "haze": 1.36860526,
+      "dustClock": 15.2499876
+    },
+    {
+      "elapsed": 15.0638123,
+      "speed": 0.000448198873,
+      "turn": 0.0,
+      "strength": 0.4904287,
+      "haze": 1.36089289,
+      "dustClock": 15.3300772
+    },
+    {
+      "elapsed": 15.1227036,
+      "speed": 0.00207616668,
+      "turn": 0.0,
+      "strength": 0.4815982,
+      "haze": 1.35498369,
+      "dustClock": 15.3909254
+    },
+    {
+      "elapsed": 15.1803207,
+      "speed": 0.0027976355,
+      "turn": 0.0,
+      "strength": 0.472963631,
+      "haze": 1.34932339,
+      "dustClock": 15.4488087
+    },
+    {
+      "elapsed": 15.2458344,
+      "speed": 0.00336117228,
+      "turn": 0.0,
+      "strength": 0.463154554,
+      "haze": 1.342892,
+      "dustClock": 15.5141134
+    },
+    {
+      "elapsed": 15.3038025,
+      "speed": 0.002808012,
+      "turn": 0.0,
+      "strength": 0.4544857,
+      "haze": 1.33715093,
+      "dustClock": 15.5720053
+    },
+    {
+      "elapsed": 15.3752289,
+      "speed": 0.002174584,
+      "turn": 0.0,
+      "strength": 0.4438213,
+      "haze": 1.33002245,
+      "dustClock": 15.6433792
+    },
+    {
+      "elapsed": 15.4331512,
+      "speed": 0.00244841026,
+      "turn": 0.0,
+      "strength": 0.435189843,
+      "haze": 1.32399487,
+      "dustClock": 15.7033052
+    },
+    {
+      "elapsed": 15.492012,
+      "speed": 0.00159271492,
+      "turn": 0.0,
+      "strength": 0.426436424,
+      "haze": 1.31805456,
+      "dustClock": 15.7619953
+    },
+    {
+      "elapsed": 15.5449371,
+      "speed": 0.00163266645,
+      "turn": 0.0,
+      "strength": 0.418583035,
+      "haze": 1.3126508,
+      "dustClock": 15.8150778
+    },
+    {
+      "elapsed": 15.5951538,
+      "speed": 0.00247138133,
+      "turn": 0.0,
+      "strength": 0.4111486,
+      "haze": 1.307517,
+      "dustClock": 15.865243
+    },
+    {
+      "elapsed": 15.6519089,
+      "speed": 0.00269901473,
+      "turn": 0.0,
+      "strength": 0.402767718,
+      "haze": 1.30167532,
+      "dustClock": 15.9220228
+    },
+    {
+      "elapsed": 15.7033157,
+      "speed": 0.00283515546,
+      "turn": 0.0,
+      "strength": 0.3951984,
+      "haze": 1.296353,
+      "dustClock": 15.9734821
+    },
+    {
+      "elapsed": 15.763237,
+      "speed": 0.002488202,
+      "turn": 0.0,
+      "strength": 0.38640368,
+      "haze": 1.29036069,
+      "dustClock": 16.0311165
+    },
+    {
+      "elapsed": 15.8234406,
+      "speed": 0.00265333126,
+      "turn": 0.0,
+      "strength": 0.3776006,
+      "haze": 1.28408337,
+      "dustClock": 16.0911579
+    },
+    {
+      "elapsed": 15.8743057,
+      "speed": 0.00280173,
+      "turn": 0.0,
+      "strength": 0.37019074,
+      "haze": 1.27848184,
+      "dustClock": 16.144455
+    },
+    {
+      "elapsed": 15.9253845,
+      "speed": 0.00198182114,
+      "turn": 0.0,
+      "strength": 0.362777174,
+      "haze": 1.27334845,
+      "dustClock": 16.1930733
+    },
+    {
+      "elapsed": 15.9858017,
+      "speed": 0.00271927286,
+      "turn": 0.0,
+      "strength": 0.354045749,
+      "haze": 1.26668322,
+      "dustClock": 16.255888
+    },
+    {
+      "elapsed": 16.0454712,
+      "speed": 0.00236561475,
+      "turn": 0.0,
+      "strength": 0.3454647,
+      "haze": 1.26031458,
+      "dustClock": 16.315588
+    },
+    {
+      "elapsed": 16.0999451,
+      "speed": 0.00215574144,
+      "turn": 0.0,
+      "strength": 0.3376698,
+      "haze": 1.2546761,
+      "dustClock": 16.36819
+    },
+    {
+      "elapsed": 16.1604,
+      "speed": 0.00162720925,
+      "turn": 0.0,
+      "strength": 0.329064965,
+      "haze": 1.24819851,
+      "dustClock": 16.4283371
+    },
+    {
+      "elapsed": 16.2216949,
+      "speed": 0.00161065883,
+      "turn": 0.0,
+      "strength": 0.3203926,
+      "haze": 1.241503,
+      "dustClock": 16.4901981
+    },
+    {
+      "elapsed": 16.2810135,
+      "speed": 0.00152677053,
+      "turn": 0.0,
+      "strength": 0.31205225,
+      "haze": 1.23503792,
+      "dustClock": 16.54964
+    },
+    {
+      "elapsed": 16.341423,
+      "speed": 0.0014737685,
+      "turn": 0.0,
+      "strength": 0.30361414,
+      "haze": 1.2284739,
+      "dustClock": 16.60971
+    },
+    {
+      "elapsed": 16.4011765,
+      "speed": 0.00136450655,
+      "turn": 0.0,
+      "strength": 0.2953254,
+      "haze": 1.22191107,
+      "dustClock": 16.6694946
+    },
+    {
+      "elapsed": 16.45366,
+      "speed": 0.00174069754,
+      "turn": 0.0,
+      "strength": 0.2880947,
+      "haze": 1.21592331,
+      "dustClock": 16.7238083
+    },
+    {
+      "elapsed": 16.52008,
+      "speed": 0.00138402812,
+      "turn": 0.0,
+      "strength": 0.27901262,
+      "haze": 1.20875025,
+      "dustClock": 16.78859
+    },
+    {
+      "elapsed": 16.57177,
+      "speed": 0.001146028,
+      "turn": 0.0,
+      "strength": 0.272000551,
+      "haze": 1.20281792,
+      "dustClock": 16.841938
+    },
+    {
+      "elapsed": 16.6260681,
+      "speed": 0.00142004469,
+      "turn": 0.0,
+      "strength": 0.26468873,
+      "haze": 1.19676757,
+      "dustClock": 16.896143
+    },
+    {
+      "elapsed": 16.6855927,
+      "speed": 0.0009775785,
+      "turn": 0.0,
+      "strength": 0.256739378,
+      "haze": 1.19008708,
+      "dustClock": 16.955761
+    },
+    {
+      "elapsed": 16.7401733,
+      "speed": 0.00078848144,
+      "turn": 0.0,
+      "strength": 0.249513209,
+      "haze": 1.1841377,
+      "dustClock": 17.0086536
+    },
+    {
+      "elapsed": 16.8005829,
+      "speed": 0.000931741844,
+      "turn": 0.0,
+      "strength": 0.241587877,
+      "haze": 1.17732978,
+      "dustClock": 17.0689545
+    },
+    {
+      "elapsed": 16.8614349,
+      "speed": 0.00051805476,
+      "turn": 0.0,
+      "strength": 0.233684242,
+      "haze": 1.17044687,
+      "dustClock": 17.1296844
+    },
+    {
+      "elapsed": 16.916832,
+      "speed": 0.000577016152,
+      "turn": 0.0,
+      "strength": 0.226561069,
+      "haze": 1.16393971,
+      "dustClock": 17.1868877
+    },
+    {
+      "elapsed": 16.9675217,
+      "speed": 0.0004050371,
+      "turn": 0.0,
+      "strength": 0.220104814,
+      "haze": 1.15814543,
+      "dustClock": 17.2376556
+    },
+    {
+      "elapsed": 17.0241089,
+      "speed": 0.00038970256,
+      "turn": 0.0,
+      "strength": 0.2129693,
+      "haze": 1.15166354,
+      "dustClock": 17.2942657
+    },
+    {
+      "elapsed": 17.0839844,
+      "speed": 0.000372122973,
+      "turn": 0.0,
+      "strength": 0.205503762,
+      "haze": 1.14494359,
+      "dustClock": 17.3527584
+    },
+    {
+      "elapsed": 17.1411133,
+      "speed": 0.0003450241,
+      "turn": 0.0,
+      "strength": 0.198464274,
+      "haze": 1.138409,
+      "dustClock": 17.4094524
+    },
+    {
+      "elapsed": 17.19284,
+      "speed": 0.0003846546,
+      "turn": 0.0,
+      "strength": 0.192162693,
+      "haze": 1.13222563,
+      "dustClock": 17.4629345
+    },
+    {
+      "elapsed": 17.2456436,
+      "speed": 0.000436063361,
+      "turn": 0.0,
+      "strength": 0.185802639,
+      "haze": 1.12609935,
+      "dustClock": 17.51577
+    },
+    {
+      "elapsed": 17.3030014,
+      "speed": 0.0005475171,
+      "turn": 0.0,
+      "strength": 0.178979218,
+      "haze": 1.11942255,
+      "dustClock": 17.573185
+    },
+    {
+      "elapsed": 17.3644714,
+      "speed": 0.00093385746,
+      "turn": 0.0,
+      "strength": 0.171767473,
+      "haze": 1.11225963,
+      "dustClock": 17.634594
+    },
+    {
+      "elapsed": 17.4229965,
+      "speed": 0.00106491742,
+      "turn": 0.0,
+      "strength": 0.165000916,
+      "haze": 1.10540843,
+      "dustClock": 17.6931534
+    },
+    {
+      "elapsed": 17.4753036,
+      "speed": 0.00124068221,
+      "turn": 0.0,
+      "strength": 0.159037471,
+      "haze": 1.09928823,
+      "dustClock": 17.7453232
+    },
+    {
+      "elapsed": 17.5311127,
+      "speed": 0.00100480893,
+      "turn": 0.0,
+      "strength": 0.15276444,
+      "haze": 1.09272277,
+      "dustClock": 17.8011456
+    },
+    {
+      "elapsed": 17.5839386,
+      "speed": 0.00110756094,
+      "turn": 0.0,
+      "strength": 0.146913767,
+      "haze": 1.08647811,
+      "dustClock": 17.8541069
+    },
+    {
+      "elapsed": 17.639267,
+      "speed": 0.0006736016,
+      "turn": 0.0,
+      "strength": 0.1408788,
+      "haze": 1.08014059,
+      "dustClock": 17.9077282
+    },
+    {
+      "elapsed": 17.6933975,
+      "speed": 0.0007176158,
+      "turn": 0.0,
+      "strength": 0.1350683,
+      "haze": 1.07354748,
+      "dustClock": 17.963377
+    },
+    {
+      "elapsed": 17.75499,
+      "speed": 0.000437025243,
+      "turn": 0.0,
+      "strength": 0.1285721,
+      "haze": 1.06621242,
+      "dustClock": 18.025135
+    },
+    {
+      "elapsed": 17.8167953,
+      "speed": 0.000408282824,
+      "turn": 0.0,
+      "strength": 0.122179508,
+      "haze": 1.0588553,
+      "dustClock": 18.0869217
+    },
+    {
+      "elapsed": 17.8803864,
+      "speed": 0.000392597,
+      "turn": 0.0,
+      "strength": 0.115737021,
+      "haze": 1.05144846,
+      "dustClock": 18.1489735
+    },
+    {
+      "elapsed": 17.9390564,
+      "speed": 0.0005937909,
+      "turn": 0.0,
+      "strength": 0.109916985,
+      "haze": 1.04440582,
+      "dustClock": 18.2078362
+    },
+    {
+      "elapsed": 17.99031,
+      "speed": 0.0005664288,
+      "turn": 0.0,
+      "strength": 0.104931831,
+      "haze": 1.03809178,
+      "dustClock": 18.2605019
+    },
+    {
+      "elapsed": 18.04567,
+      "speed": 0.0008614451,
+      "turn": 0.0,
+      "strength": 0.09965342,
+      "haze": 1.03143382,
+      "dustClock": 18.3159275
+    },
+    {
+      "elapsed": 18.1046219,
+      "speed": 0.0007835498,
+      "turn": 0.0,
+      "strength": 0.09415561,
+      "haze": 1.02435148,
+      "dustClock": 18.37477
+    },
+    {
+      "elapsed": 18.1652069,
+      "speed": 0.0006794484,
+      "turn": 0.0,
+      "strength": 0.08864045,
+      "haze": 1.0170393,
+      "dustClock": 18.4354
+    },
+    {
+      "elapsed": 18.2219086,
+      "speed": 0.0006077496,
+      "turn": 0.0,
+      "strength": 0.08360499,
+      "haze": 1.01039517,
+      "dustClock": 18.4903889
+    },
+    {
+      "elapsed": 18.28154,
+      "speed": 0.000583134533,
+      "turn": 0.0,
+      "strength": 0.07844359,
+      "haze": 1.00322223,
+      "dustClock": 18.54965
+    },
+    {
+      "elapsed": 18.3417435,
+      "speed": 0.000426594168,
+      "turn": 0.0,
+      "strength": 0.07337463,
+      "haze": 0.995866,
+      "dustClock": 18.61032
+    },
+    {
+      "elapsed": 18.40123,
+      "speed": 0.0004993326,
+      "turn": 0.0,
+      "strength": 0.06850886,
+      "haze": 0.9886507,
+      "dustClock": 18.6697235
+    },
+    {
+      "elapsed": 18.4606247,
+      "speed": 0.000357912184,
+      "turn": 0.0,
+      "strength": 0.06379461,
+      "haze": 0.9814485,
+      "dustClock": 18.7289238
+    },
+    {
+      "elapsed": 18.52185,
+      "speed": 0.000364195323,
+      "turn": 0.0,
+      "strength": 0.05908847,
+      "haze": 0.9739607,
+      "dustClock": 18.7903767
+    },
+    {
+      "elapsed": 18.57264,
+      "speed": 0.000233658429,
+      "turn": 0.0,
+      "strength": 0.0553046465,
+      "haze": 0.967570066,
+      "dustClock": 18.8427525
+    },
+    {
+      "elapsed": 18.6260757,
+      "speed": 0.0002722488,
+      "turn": 0.0,
+      "strength": 0.05144298,
+      "haze": 0.961041868,
+      "dustClock": 18.8961887
+    },
+    {
+      "elapsed": 18.6800232,
+      "speed": 0.000165005447,
+      "turn": 0.0,
+      "strength": 0.0476704836,
+      "haze": 0.9546448,
+      "dustClock": 18.94849
+    },
+    {
+      "elapsed": 18.735405,
+      "speed": 0.0001984345,
+      "turn": 0.0,
+      "strength": 0.0439313054,
+      "haze": 0.947649956,
+      "dustClock": 19.0056114
+    },
+    {
+      "elapsed": 18.7872,
+      "speed": 0.000155321846,
+      "turn": 0.0,
+      "strength": 0.0405586958,
+      "haze": 0.9412779,
+      "dustClock": 19.05759
+    },
+    {
+      "elapsed": 18.84423,
+      "speed": 0.000166305181,
+      "turn": 0.0,
+      "strength": 0.03698629,
+      "haze": 0.9343134,
+      "dustClock": 19.1143436
+    },
+    {
+      "elapsed": 18.9052124,
+      "speed": 0.000182055723,
+      "turn": 0.0,
+      "strength": 0.0333324671,
+      "haze": 0.9268172,
+      "dustClock": 19.1753654
+    },
+    {
+      "elapsed": 18.9592972,
+      "speed": 0.000164231576,
+      "turn": 0.0,
+      "strength": 0.0302376151,
+      "haze": 0.9203928,
+      "dustClock": 19.2276134
+    },
+    {
+      "elapsed": 19.0192337,
+      "speed": 0.000155811664,
+      "turn": 0.0,
+      "strength": 0.0269702673,
+      "haze": 0.912992537,
+      "dustClock": 19.2877445
+    },
+    {
+      "elapsed": 19.0801315,
+      "speed": 0.0001309566,
+      "turn": 0.0,
+      "strength": 0.02382803,
+      "haze": 0.905480266,
+      "dustClock": 19.3487339
+    },
+    {
+      "elapsed": 19.1406784,
+      "speed": 0.000109176632,
+      "turn": 0.0,
+      "strength": 0.0208839178,
+      "haze": 0.8980411,
+      "dustClock": 19.40908
+    },
+    {
+      "elapsed": 19.2001343,
+      "speed": 6.51471E-05,
+      "turn": 0.0,
+      "strength": 0.0181700587,
+      "haze": 0.890696347,
+      "dustClock": 19.46862
+    },
+    {
+      "elapsed": 19.2544632,
+      "speed": 7.504556E-05,
+      "turn": 0.0,
+      "strength": 0.0158459544,
+      "haze": 0.8837912,
+      "dustClock": 19.52456
+    },
+    {
+      "elapsed": 19.3161545,
+      "speed": 4.711353E-05,
+      "turn": 0.0,
+      "strength": 0.0133897662,
+      "haze": 0.8761709,
+      "dustClock": 19.5862617
+    },
+    {
+      "elapsed": 19.3677826,
+      "speed": 3.19674036E-05,
+      "turn": 0.0,
+      "strength": 0.0114855766,
+      "haze": 0.869786143,
+      "dustClock": 19.6379337
+    },
+    {
+      "elapsed": 19.42524,
+      "speed": 2.78157149E-05,
+      "turn": 0.0,
+      "strength": 0.009530723,
+      "haze": 0.8626833,
+      "dustClock": 19.6953945
+    },
+    {
+      "elapsed": 19.4825211,
+      "speed": 1.48310692E-05,
+      "turn": 0.0,
+      "strength": 0.007756412,
+      "haze": 0.855805159,
+      "dustClock": 19.7510185
+    },
+    {
+      "elapsed": 19.5415039,
+      "speed": 1.32454579E-05,
+      "turn": 0.0,
+      "strength": 0.00611376762,
+      "haze": 0.848529756,
+      "dustClock": 19.8098373
+    },
+    {
+      "elapsed": 19.6004868,
+      "speed": 7.047938E-06,
+      "turn": 0.0,
+      "strength": 0.004660785,
+      "haze": 0.8412056,
+      "dustClock": 19.8690376
+    },
+    {
+      "elapsed": 19.6596527,
+      "speed": 6.208341E-06,
+      "turn": 0.0,
+      "strength": 0.003396213,
+      "haze": 0.833930135,
+      "dustClock": 19.9278355
+    },
+    {
+      "elapsed": 19.7221832,
+      "speed": 5.1629645E-06,
+      "turn": 0.0,
+      "strength": 0.002272606,
+      "haze": 0.826137662,
+      "dustClock": 19.9908066
+    },
+    {
+      "elapsed": 19.7787247,
+      "speed": 3.21843277E-06,
+      "turn": 0.0,
+      "strength": 0.00144720078,
+      "haze": 0.819146037,
+      "dustClock": 20.0473042
+    },
+    {
+      "elapsed": 19.86216,
+      "speed": 1.31486468E-06,
+      "turn": 0.0,
+      "strength": 0.000564754,
+      "haze": 0.809168,
+      "dustClock": 20.127943
+    },
+    {
+      "elapsed": 19.915123,
+      "speed": 1.42619126E-06,
+      "turn": 0.0,
+      "strength": 0.000214874744,
+      "haze": 0.802071035,
+      "dustClock": 20.1853065
+    },
+    {
+      "elapsed": 19.979599,
+      "speed": 5.20945832E-07,
+      "turn": 0.0,
+      "strength": 1.24573708E-05,
+      "haze": 0.79428643,
+      "dustClock": 20.2482414
+    },
+    {
+      "elapsed": 20.03444,
+      "speed": 5.295207E-07,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.787313759,
+      "dustClock": 20.30463
+    },
+    {
+      "elapsed": 20.0949936,
+      "speed": 6.922801E-08,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.7798257,
+      "dustClock": 20.3652077
+    },
+    {
+      "elapsed": 20.1557465,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.772315562,
+      "dustClock": 20.4259911
+    },
+    {
+      "elapsed": 20.2117767,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.7653975,
+      "dustClock": 20.48201
+    },
+    {
+      "elapsed": 20.2685165,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.7583879,
+      "dustClock": 20.5388012
+    },
+    {
+      "elapsed": 20.3625565,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.7473208,
+      "dustClock": 20.6285381
+    },
+    {
+      "elapsed": 20.4208145,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.739816546,
+      "dustClock": 20.6894436
+    },
+    {
+      "elapsed": 20.47651,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.7327709,
+      "dustClock": 20.7466736
+    },
+    {
+      "elapsed": 20.5307159,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.726098239,
+      "dustClock": 20.8009186
+    },
+    {
+      "elapsed": 20.5848236,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.719438255,
+      "dustClock": 20.8551083
+    },
+    {
+      "elapsed": 20.6420135,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.712430358,
+      "dustClock": 20.9121838
+    },
+    {
+      "elapsed": 20.701149,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.7052841,
+      "dustClock": 20.9704475
+    },
+    {
+      "elapsed": 20.7598038,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.6981851,
+      "dustClock": 21.0283928
+    },
+    {
+      "elapsed": 20.8227158,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.6903754,
+      "dustClock": 21.0922184
+    },
+    {
+      "elapsed": 20.88057,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.6833167,
+      "dustClock": 21.1499844
+    },
+    {
+      "elapsed": 20.9333344,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.676776767,
+      "dustClock": 21.2035751
+    },
+    {
+      "elapsed": 20.98996,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.669874549,
+      "dustClock": 21.26021
+    },
+    {
+      "elapsed": 21.045845,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.6630797,
+      "dustClock": 21.3160439
+    },
+    {
+      "elapsed": 21.1060028,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.6557624,
+      "dustClock": 21.3762665
+    },
+    {
+      "elapsed": 21.1632156,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.6488236,
+      "dustClock": 21.433466
+    },
+    {
+      "elapsed": 21.22039,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.6420045,
+      "dustClock": 21.4897728
+    },
+    {
+      "elapsed": 21.2816772,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.6345942,
+      "dustClock": 21.5510712
+    },
+    {
+      "elapsed": 21.3350677,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.6280467,
+      "dustClock": 21.6053314
+    },
+    {
+      "elapsed": 21.3929672,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.621087,
+      "dustClock": 21.6631145
+    },
+    {
+      "elapsed": 21.4527588,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.613885641,
+      "dustClock": 21.7230263
+    },
+    {
+      "elapsed": 21.5153427,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.6063861,
+      "dustClock": 21.785553
+    },
+    {
+      "elapsed": 21.5788956,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.5988963,
+      "dustClock": 21.8481426
+    },
+    {
+      "elapsed": 21.6344986,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.592147946,
+      "dustClock": 21.904665
+    },
+    {
+      "elapsed": 21.6897354,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.5855736,
+      "dustClock": 21.9598522
+    },
+    {
+      "elapsed": 21.7421341,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.5793398,
+      "dustClock": 22.0122948
+    },
+    {
+      "elapsed": 21.7948532,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.5730576,
+      "dustClock": 22.0652618
+    },
+    {
+      "elapsed": 21.85353,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.56614393,
+      "dustClock": 22.1236935
+    },
+    {
+      "elapsed": 21.9163361,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.558734238,
+      "dustClock": 22.1864853
+    },
+    {
+      "elapsed": 21.9682617,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.5526119,
+      "dustClock": 22.2385063
+    },
+    {
+      "elapsed": 22.0184326,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.5468292,
+      "dustClock": 22.2877579
+    },
+    {
+      "elapsed": 22.0734711,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.5402824,
+      "dustClock": 22.3436584
+    },
+    {
+      "elapsed": 22.13031,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.5336438,
+      "dustClock": 22.4005032
+    },
+    {
+      "elapsed": 22.1819687,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.5276233,
+      "dustClock": 22.4521961
+    },
+    {
+      "elapsed": 22.23854,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.521152139,
+      "dustClock": 22.5079155
+    },
+    {
+      "elapsed": 22.2981339,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.5142431,
+      "dustClock": 22.5675888
+    },
+    {
+      "elapsed": 22.3508911,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.5080708,
+      "dustClock": 22.621067
+    },
+    {
+      "elapsed": 22.4090652,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.5013822,
+      "dustClock": 22.6792
+    },
+    {
+      "elapsed": 22.46785,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.494638681,
+      "dustClock": 22.7380066
+    },
+    {
+      "elapsed": 22.5261612,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.488065422,
+      "dustClock": 22.7955265
+    },
+    {
+      "elapsed": 22.57914,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.482035816,
+      "dustClock": 22.8484669
+    },
+    {
+      "elapsed": 22.6323242,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.475880355,
+      "dustClock": 22.9026928
+    },
+    {
+      "elapsed": 22.6909027,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.469284058,
+      "dustClock": 22.9610081
+    },
+    {
+      "elapsed": 22.7427673,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.463434041,
+      "dustClock": 23.0129128
+    },
+    {
+      "elapsed": 22.7981949,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.4572939,
+      "dustClock": 23.0675831
+    },
+    {
+      "elapsed": 22.8539047,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.450965345,
+      "dustClock": 23.1241436
+    },
+    {
+      "elapsed": 22.9158249,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.4440754,
+      "dustClock": 23.185976
+    },
+    {
+      "elapsed": 22.9764633,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.437360525,
+      "dustClock": 23.2464981
+    },
+    {
+      "elapsed": 23.0330048,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.431089759,
+      "dustClock": 23.3032589
+    },
+    {
+      "elapsed": 23.0886536,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.424971253,
+      "dustClock": 23.3588715
+    },
+    {
+      "elapsed": 23.1427765,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.419045627,
+      "dustClock": 23.4129562
+    },
+    {
+      "elapsed": 23.1980515,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.4130947,
+      "dustClock": 23.4675
+    },
+    {
+      "elapsed": 23.2604141,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.40634954,
+      "dustClock": 23.5296078
+    },
+    {
+      "elapsed": 23.3166046,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.400166124,
+      "dustClock": 23.5868187
+    },
+    {
+      "elapsed": 23.3684387,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.394568056,
+      "dustClock": 23.6388474
+    },
+    {
+      "elapsed": 23.42434,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.388599247,
+      "dustClock": 23.6945724
+    },
+    {
+      "elapsed": 23.4805,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.382730663,
+      "dustClock": 23.7496223
+    },
+    {
+      "elapsed": 23.5335922,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.3769769,
+      "dustClock": 23.8038521
+    },
+    {
+      "elapsed": 23.5901718,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.37100476,
+      "dustClock": 23.8604183
+    },
+    {
+      "elapsed": 23.6418152,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.365601331,
+      "dustClock": 23.91185
+    },
+    {
+      "elapsed": 23.69262,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.360298932,
+      "dustClock": 23.9625587
+    },
+    {
+      "elapsed": 23.7508469,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.354212672,
+      "dustClock": 24.0210629
+    },
+    {
+      "elapsed": 23.803093,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.348869354,
+      "dustClock": 24.0726986
+    },
+    {
+      "elapsed": 23.8613434,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.342808664,
+      "dustClock": 24.1315823
+    },
+    {
+      "elapsed": 23.9250336,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.336297363,
+      "dustClock": 24.1952324
+    },
+    {
+      "elapsed": 23.980484,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.330739439,
+      "dustClock": 24.24989
+    },
+    {
+      "elapsed": 24.035759,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.325066656,
+      "dustClock": 24.306
+    },
+    {
+      "elapsed": 24.0914459,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.3194924,
+      "dustClock": 24.36146
+    },
+    {
+      "elapsed": 24.142746,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.314347565,
+      "dustClock": 24.4129448
+    },
+    {
+      "elapsed": 24.1987839,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.30886212,
+      "dustClock": 24.4681587
+    },
+    {
+      "elapsed": 24.2534866,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.303386718,
+      "dustClock": 24.523613
+    },
+    {
+      "elapsed": 24.30935,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.297909528,
+      "dustClock": 24.57944
+    },
+    {
+      "elapsed": 24.3680878,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.292172,
+      "dustClock": 24.6383076
+    },
+    {
+      "elapsed": 24.41912,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.287301451,
+      "dustClock": 24.6886044
+    },
+    {
+      "elapsed": 24.4794846,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.2815074,
+      "dustClock": 24.7488365
+    },
+    {
+      "elapsed": 24.5375977,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.275942,
+      "dustClock": 24.8071136
+    },
+    {
+      "elapsed": 24.5907974,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.270826548,
+      "dustClock": 24.8610573
+    },
+    {
+      "elapsed": 24.6428223,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.265943676,
+      "dustClock": 24.9128933
+    },
+    {
+      "elapsed": 24.6994553,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.260698617,
+      "dustClock": 24.9689674
+    },
+    {
+      "elapsed": 24.7495346,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.2559792,
+      "dustClock": 25.01978
+    },
+    {
+      "elapsed": 24.8035126,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.2509983,
+      "dustClock": 25.0737839
+    },
+    {
+      "elapsed": 24.8544464,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.24633503,
+      "dustClock": 25.1247082
+    },
+    {
+      "elapsed": 24.911026,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.241202563,
+      "dustClock": 25.1811771
+    },
+    {
+      "elapsed": 24.966568,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.236187413,
+      "dustClock": 25.2367954
+    },
+    {
+      "elapsed": 25.0718765,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.226800621,
+      "dustClock": 25.3421154
+    },
+    {
+      "elapsed": 25.1237411,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.222234741,
+      "dustClock": 25.3939476
+    },
+    {
+      "elapsed": 25.1747513,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.217779189,
+      "dustClock": 25.4449234
+    },
+    {
+      "elapsed": 25.2318573,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.2128205,
+      "dustClock": 25.5021343
+    },
+    {
+      "elapsed": 25.2909241,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.20775491,
+      "dustClock": 25.5611153
+    },
+    {
+      "elapsed": 25.349205,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.2027918,
+      "dustClock": 25.6194534
+    },
+    {
+      "elapsed": 25.411644,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.197516531,
+      "dustClock": 25.68208
+    },
+    {
+      "elapsed": 25.4682388,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.192811385,
+      "dustClock": 25.7384968
+    },
+    {
+      "elapsed": 25.5297165,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.1877392,
+      "dustClock": 25.7999325
+    },
+    {
+      "elapsed": 25.5849457,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.183220714,
+      "dustClock": 25.8552227
+    },
+    {
+      "elapsed": 25.6358871,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.179100335,
+      "dustClock": 25.90612
+    },
+    {
+      "elapsed": 25.6893539,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.174815327,
+      "dustClock": 25.9595547
+    },
+    {
+      "elapsed": 25.7421417,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.170625135,
+      "dustClock": 26.0123234
+    },
+    {
+      "elapsed": 25.798584,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.166260466,
+      "dustClock": 26.067852
+    },
+    {
+      "elapsed": 25.8541489,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.161861464,
+      "dustClock": 26.1244221
+    },
+    {
+      "elapsed": 25.9092026,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.157640979,
+      "dustClock": 26.1792946
+    },
+    {
+      "elapsed": 25.9708557,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.152953818,
+      "dustClock": 26.2409477
+    },
+    {
+      "elapsed": 26.0241241,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.148942128,
+      "dustClock": 26.2943382
+    },
+    {
+      "elapsed": 26.0805054,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.14481172,
+      "dustClock": 26.34994
+    },
+    {
+      "elapsed": 26.1342316,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.140805036,
+      "dustClock": 26.40451
+    },
+    {
+      "elapsed": 26.18956,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.1367956,
+      "dustClock": 26.459774
+    },
+    {
+      "elapsed": 26.2456436,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.132760882,
+      "dustClock": 26.516077
+    },
+    {
+      "elapsed": 26.2991486,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.12904875,
+      "dustClock": 26.5685215
+    },
+    {
+      "elapsed": 26.354866,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.125092715,
+      "dustClock": 26.62512
+    },
+    {
+      "elapsed": 26.4175873,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.120822169,
+      "dustClock": 26.68708
+    },
+    {
+      "elapsed": 26.4777451,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.116738476,
+      "dustClock": 26.7472115
+    },
+    {
+      "elapsed": 26.533287,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.112969205,
+      "dustClock": 26.8035183
+    },
+    {
+      "elapsed": 26.58973,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.109241538,
+      "dustClock": 26.8600063
+    },
+    {
+      "elapsed": 26.645546,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.105614863,
+      "dustClock": 26.9157677
+    },
+    {
+      "elapsed": 26.70073,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.102136016,
+      "dustClock": 26.9700413
+    },
+    {
+      "elapsed": 26.7622681,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.09823771,
+      "dustClock": 27.031826
+    },
+    {
+      "elapsed": 26.8227386,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.0944464058,
+      "dustClock": 27.0929489
+    },
+    {
+      "elapsed": 26.8732529,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.09135386,
+      "dustClock": 27.1436081
+    },
+    {
+      "elapsed": 26.9300919,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.0879456252,
+      "dustClock": 27.2003212
+    },
+    {
+      "elapsed": 26.982872,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.0848244652,
+      "dustClock": 27.2531147
+    },
+    {
+      "elapsed": 27.0375748,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.08169298,
+      "dustClock": 27.3069534
+    },
+    {
+      "elapsed": 27.087677,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.0787692,
+      "dustClock": 27.3580551
+    },
+    {
+      "elapsed": 27.1441269,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.07560486,
+      "dustClock": 27.4143238
+    },
+    {
+      "elapsed": 27.2007828,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.0725162551,
+      "dustClock": 27.47027
+    },
+    {
+      "elapsed": 27.2544785,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.06956268,
+      "dustClock": 27.5247765
+    },
+    {
+      "elapsed": 27.3136978,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.066426076,
+      "dustClock": 27.5838146
+    },
+    {
+      "elapsed": 27.370491,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.0634643361,
+      "dustClock": 27.6407261
+    },
+    {
+      "elapsed": 27.427681,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.0605498031,
+      "dustClock": 27.6979179
+    },
+    {
+      "elapsed": 27.4797516,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.057996992,
+      "dustClock": 27.7490444
+    },
+    {
+      "elapsed": 27.5380936,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.0551410764,
+      "dustClock": 27.8074741
+    },
+    {
+      "elapsed": 27.5927429,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.0524829365,
+      "dustClock": 27.86311
+    },
+    {
+      "elapsed": 27.65274,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.04968858,
+      "dustClock": 27.9230061
+    },
+    {
+      "elapsed": 27.7146378,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.0468779057,
+      "dustClock": 27.9848347
+    },
+    {
+      "elapsed": 27.7736359,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.0442647077,
+      "dustClock": 28.043869
+    },
+    {
+      "elapsed": 27.8342667,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.0416568257,
+      "dustClock": 28.1044121
+    },
+    {
+      "elapsed": 27.8895264,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.0393360145,
+      "dustClock": 28.1597843
+    },
+    {
+      "elapsed": 27.9403076,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.0372921564,
+      "dustClock": 28.20982
+    },
+    {
+      "elapsed": 27.99887,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.03497597,
+      "dustClock": 28.2680931
+    },
+    {
+      "elapsed": 28.05265,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.0328604132,
+      "dustClock": 28.3229141
+    },
+    {
+      "elapsed": 28.1109543,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.0306870285,
+      "dustClock": 28.3809834
+    },
+    {
+      "elapsed": 28.1614532,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.0288832337,
+      "dustClock": 28.4306583
+    },
+    {
+      "elapsed": 28.21177,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.0270737354,
+      "dustClock": 28.4819813
+    },
+    {
+      "elapsed": 28.2703857,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.0250731464,
+      "dustClock": 28.5406456
+    },
+    {
+      "elapsed": 28.321907,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.02337665,
+      "dustClock": 28.5921516
+    },
+    {
+      "elapsed": 28.3804016,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.02154404,
+      "dustClock": 28.6498222
+    },
+    {
+      "elapsed": 28.4384689,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.0197706334,
+      "dustClock": 28.7078953
+    },
+    {
+      "elapsed": 28.49022,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.018231,
+      "dustClock": 28.7603569
+    },
+    {
+      "elapsed": 28.5402985,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.016842233,
+      "dustClock": 28.8095245
+    },
+    {
+      "elapsed": 28.59761,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.0152867669,
+      "dustClock": 28.86696
+    },
+    {
+      "elapsed": 28.6479568,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.0139764817,
+      "dustClock": 28.9175529
+    },
+    {
+      "elapsed": 28.7033386,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.0125984335,
+      "dustClock": 28.9732914
+    },
+    {
+      "elapsed": 28.7656555,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.0111332508,
+      "dustClock": 29.0358772
+    },
+    {
+      "elapsed": 28.823349,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.009860238,
+      "dustClock": 29.09357
+    },
+    {
+      "elapsed": 28.8827972,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.0086401375,
+      "dustClock": 29.1523571
+    },
+    {
+      "elapsed": 28.9347458,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.007613879,
+      "dustClock": 29.20501
+    },
+    {
+      "elapsed": 28.9889679,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.00661997776,
+      "dustClock": 29.2594032
+    },
+    {
+      "elapsed": 29.0498734,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.005590081,
+      "dustClock": 29.3201466
+    },
+    {
+      "elapsed": 29.1081161,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.004684889,
+      "dustClock": 29.3782387
+    },
+    {
+      "elapsed": 29.16896,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.00381883979,
+      "dustClock": 29.43922
+    },
+    {
+      "elapsed": 29.2211151,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.00315764849,
+      "dustClock": 29.4905186
+    },
+    {
+      "elapsed": 29.28035,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.00247019832,
+      "dustClock": 29.5498276
+    },
+    {
+      "elapsed": 29.3418579,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.00183782273,
+      "dustClock": 29.612112
+    },
+    {
+      "elapsed": 29.4008179,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.00133172574,
+      "dustClock": 29.6701374
+    },
+    {
+      "elapsed": 29.4632111,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.000871655357,
+      "dustClock": 29.7334118
+    },
+    {
+      "elapsed": 29.5250626,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.0005152434,
+      "dustClock": 29.7952423
+    },
+    {
+      "elapsed": 29.5801468,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.0002786189,
+      "dustClock": 29.8495731
+    },
+    {
+      "elapsed": 29.6364517,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.0001072973,
+      "dustClock": 29.90675
+    },
+    {
+      "elapsed": 29.69165,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 1.809597E-05,
+      "dustClock": 29.96178
+    },
+    {
+      "elapsed": 29.7675552,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.0,
+      "dustClock": 0.0
+    },
+    {
+      "elapsed": 29.8225555,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.0,
+      "dustClock": 0.0
+    },
+    {
+      "elapsed": 29.8766785,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.0,
+      "dustClock": 0.0
+    },
+    {
+      "elapsed": 29.9314957,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.0,
+      "dustClock": 0.0
+    },
+    {
+      "elapsed": 29.9891663,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.0,
+      "dustClock": 0.0
+    },
+    {
+      "elapsed": 30.03936,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.0,
+      "dustClock": 0.0
+    },
+    {
+      "elapsed": 30.0934372,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.0,
+      "dustClock": 0.0
+    },
+    {
+      "elapsed": 30.1540833,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.0,
+      "dustClock": 0.0
+    },
+    {
+      "elapsed": 30.2095261,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.0,
+      "dustClock": 0.0
+    },
+    {
+      "elapsed": 30.2756424,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.0,
+      "dustClock": 0.0
+    },
+    {
+      "elapsed": 30.3691711,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.0,
+      "dustClock": 0.0
+    },
+    {
+      "elapsed": 30.4249573,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.0,
+      "dustClock": 0.0
+    },
+    {
+      "elapsed": 30.4788055,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.0,
+      "dustClock": 0.0
+    },
+    {
+      "elapsed": 30.5304718,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.0,
+      "dustClock": 0.0
+    },
+    {
+      "elapsed": 30.5878525,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.0,
+      "dustClock": 0.0
+    },
+    {
+      "elapsed": 30.6449051,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.0,
+      "dustClock": 0.0
+    },
+    {
+      "elapsed": 30.7037888,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.0,
+      "dustClock": 0.0
+    },
+    {
+      "elapsed": 30.7650146,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.0,
+      "dustClock": 0.0
+    },
+    {
+      "elapsed": 30.8253479,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.0,
+      "dustClock": 0.0
+    },
+    {
+      "elapsed": 30.8830338,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.0,
+      "dustClock": 0.0
+    },
+    {
+      "elapsed": 30.93338,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.0,
+      "dustClock": 0.0
+    },
+    {
+      "elapsed": 30.9915848,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.0,
+      "dustClock": 0.0
+    },
+    {
+      "elapsed": 31.043251,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.0,
+      "dustClock": 0.0
+    },
+    {
+      "elapsed": 31.1006851,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.0,
+      "dustClock": 0.0
+    },
+    {
+      "elapsed": 31.1554184,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.0,
+      "dustClock": 0.0
+    },
+    {
+      "elapsed": 31.2090912,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.0,
+      "dustClock": 0.0
+    },
+    {
+      "elapsed": 31.2645645,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.0,
+      "dustClock": 0.0
+    },
+    {
+      "elapsed": 31.3207779,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.0,
+      "dustClock": 0.0
+    },
+    {
+      "elapsed": 31.3742142,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.0,
+      "dustClock": 0.0
+    },
+    {
+      "elapsed": 31.430275,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.0,
+      "dustClock": 0.0
+    },
+    {
+      "elapsed": 31.4813156,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.0,
+      "dustClock": 0.0
+    },
+    {
+      "elapsed": 31.542778,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.0,
+      "dustClock": 0.0
+    },
+    {
+      "elapsed": 31.6028061,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.0,
+      "dustClock": 0.0
+    },
+    {
+      "elapsed": 31.6540756,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.0,
+      "dustClock": 0.0
+    },
+    {
+      "elapsed": 31.7092819,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.0,
+      "dustClock": 0.0
+    },
+    {
+      "elapsed": 31.7635574,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.0,
+      "dustClock": 0.0
+    },
+    {
+      "elapsed": 31.8204727,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.0,
+      "dustClock": 0.0
+    },
+    {
+      "elapsed": 31.8796,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.0,
+      "dustClock": 0.0
+    },
+    {
+      "elapsed": 31.9319534,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.0,
+      "dustClock": 0.0
+    },
+    {
+      "elapsed": 31.9888077,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.0,
+      "dustClock": 0.0
+    },
+    {
+      "elapsed": 32.0602036,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.0,
+      "dustClock": 0.0
+    },
+    {
+      "elapsed": 32.1213,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.0,
+      "dustClock": 0.0
+    },
+    {
+      "elapsed": 32.17237,
+      "speed": 0.0,
+      "turn": 0.0,
+      "strength": 0.0,
+      "haze": 0.0,
+      "dustClock": 0.0
+    }
+  ]
+}

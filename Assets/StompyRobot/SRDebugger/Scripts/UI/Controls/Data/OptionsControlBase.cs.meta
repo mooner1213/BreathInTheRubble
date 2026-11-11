@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: ff04c6750fdb3b744ac19818a2425666
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 27688
+  packageName: SRDebugger - Console & Tools On-Device
+  packageVersion: 1.13.2
+  assetPath: Assets/StompyRobot/SRDebugger/Scripts/UI/Controls/Data/OptionsControlBase.cs
+  uploadId: 1040702

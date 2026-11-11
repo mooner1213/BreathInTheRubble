@@ -1,0 +1,6 @@
+{
+  "distance": 0.055,
+  "degrees": 0.7,
+  "loadReference": 3.85,
+  "envelope": "squared smoothstep 0–5; full 5–10; decay 10–20"
+}

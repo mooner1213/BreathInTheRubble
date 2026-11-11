@@ -1,0 +1,15 @@
+{
+  "result": "PASS",
+  "samples": 150,
+  "frames": 164,
+  "available": true,
+  "position": "(-0.073, 1.025, 0.756)",
+  "reachable": true,
+  "LastBlockedSurface": "Wall_Grey_Big_01_LOD0",
+  "blockedAt": "(-0.006, 1.292, 0.749)",
+  "renderedRadius": 0.0110000577,
+  "physicalRadius": 0.027,
+  "geometry": "rendered-radius capsule against visible rubble triangles; 1.5mm tolerance",
+  "intersections": [],
+  "count": 0
+}

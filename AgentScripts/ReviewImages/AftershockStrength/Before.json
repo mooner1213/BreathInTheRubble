@@ -1,0 +1,9 @@
+{
+  "scene": "Assets/_Project/Scenes/ConfinedPrototype.unity",
+  "playing": false,
+  "distance": 0.02,
+  "degrees": 0.12,
+  "scale": 1.0,
+  "root": "Prototype Environment",
+  "head": "Main Camera"
+}

@@ -1,0 +1,135 @@
+using UnityEngine;
+
+namespace BreathInTheRubble.Prototype
+{
+    public sealed class AftershockEnvironmentMotion : MonoBehaviour
+    {
+        [SerializeField] Transform head;
+        [SerializeField] Transform[] ceilingTargets=System.Array.Empty<Transform>();
+        [SerializeField] Transform[] shakeTargets=System.Array.Empty<Transform>();
+        [SerializeField] Transform[] roomTargets=System.Array.Empty<Transform>();
+        [SerializeField, Range(0f, 0.03f)] float roomShakeDistance = 0.012f;
+        [SerializeField, Range(0f, 1f)] float roomShakeDegrees = 0.28f;
+        [SerializeField, Range(0f, 2f)] float desktopShakeDegrees = 0.85f;
+        [SerializeField, Range(0f, 0.01f)] float desktopShakeDistance = 0.004f;
+        [SerializeField, Range(0f, 0.2f)] float ceilingDrop = 0.14f;
+        [SerializeField, Min(0.1f)] float minimumHeadGap = 0.20f;
+        [SerializeField, Range(0f, 0.035f)] float shakeDistance = 0.018f;
+        [SerializeField, Range(0f, 2f)] float shakeDegrees = 0.9f;
+        [SerializeField, Range(0f, 5f)] float slabTiltDegrees = 2.8f;
+        [SerializeField, Min(0.05f)] float breakawaySeconds = 0.20f;
+        Vector3[] ceilingPositions, shakePositions;
+        Quaternion[] ceilingRotations, shakeRotations;
+        Bounds[] ceilingBounds;
+        Vector3[] roomPositions;
+        Quaternion[] roomRotations;
+        float[] collapseTimes = { 3.2f, 4.8f, 6.6f };
+        int primaryCollapseCount = 3;
+        public float AppliedMaximumDrop { get; private set; }
+        public float MaximumConfiguredDrop => ceilingDrop;
+        public Vector3 DesktopShakeOffset { get; private set; }
+        public Vector3 DesktopShakeEuler { get; private set; }
+        public void Prepare(float[] times, int primaryCount = 3) { if (times != null && times.Length > 0) collapseTimes = times; primaryCollapseCount = Mathf.Clamp(primaryCount, 1, collapseTimes.Length); }
+        void Awake()
+        {
+            ceilingPositions = new Vector3[ceilingTargets.Length];ceilingBounds = new Bounds[ceilingTargets.Length];ceilingRotations = new Quaternion[ceilingTargets.Length];
+            for(int i=0;i<ceilingTargets.Length;i++)
+            {
+                if(ceilingTargets[i]==null)continue;
+                ceilingPositions[i]=ceilingTargets[i].localPosition;ceilingRotations[i]=ceilingTargets[i].localRotation;
+                // Imported prefab roots hold several child renderers; the root itself has no Renderer.
+                var surfaces=ceilingTargets[i].GetComponentsInChildren<Renderer>(true);
+                var bounds=new Bounds(ceilingTargets[i].position,Vector3.zero);bool first=true;
+                foreach(var r in surfaces)if(r.enabled&&r.gameObject.activeInHierarchy&&!(r is ParticleSystemRenderer)&&!(r is LineRenderer)&&r.bounds.size.sqrMagnitude>.01f)
+                {if(first){bounds=r.bounds;first=false;}else bounds.Encapsulate(r.bounds);}
+                ceilingBounds[i]=bounds;
+            }
+            shakePositions=new Vector3[shakeTargets.Length];shakeRotations=new Quaternion[shakeTargets.Length];
+            for(int i=0;i<shakeTargets.Length;i++){shakePositions[i]=shakeTargets[i].localPosition;shakeRotations[i]=shakeTargets[i].localRotation;}
+            roomPositions=new Vector3[roomTargets.Length];roomRotations=new Quaternion[roomTargets.Length];
+            for(int i=0;i<roomTargets.Length;i++)if(roomTargets[i]!=null){roomPositions[i]=roomTargets[i].position;roomRotations[i]=roomTargets[i].rotation;}
+        }
+        public void Apply(float elapsed,float progress,float energy)
+        {
+            if(ceilingPositions==null)return;
+            AppliedMaximumDrop=0f;
+            float impactEnergy = 0f;
+            foreach (float time in collapseTimes)
+            {
+                float since = elapsed - time;
+                if (since >= 0f) impactEnergy += Mathf.Exp(-since * 5f);
+            }
+            float rattle = progress >= 1f ? 0f : Mathf.Clamp01(energy * 0.65f + impactEnergy);
+            float tau = elapsed * Mathf.PI * 2f;
+            var roomWave = new Vector3(Mathf.Sin(tau*3.3f)+0.24f*Mathf.Sin(tau*11.7f),Mathf.Sin(tau*4.1f)*0.35f,Mathf.Cos(tau*2.7f)*0.4f);
+            Vector3 roomOffset = roomWave*roomShakeDistance*rattle;
+            Quaternion roomRotation = Quaternion.Euler(new Vector3(Mathf.Sin(tau*3.3f),Mathf.Sin(tau*2.7f)*0.4f,Mathf.Sin(tau*4.1f)*0.6f)*roomShakeDegrees*rattle);
+            Vector3 pivot = head != null ? head.position : Vector3.up;
+            DesktopShakeOffset = new Vector3(Mathf.Sin(tau*8.2f),Mathf.Sin(tau*11.3f)*0.6f,Mathf.Sin(tau*5.7f)*0.2f)*desktopShakeDistance*rattle;
+            DesktopShakeEuler = new Vector3(Mathf.Sin(tau*7.6f)+0.3f*Mathf.Sin(tau*13.1f),Mathf.Sin(tau*9.3f)*0.6f,Mathf.Sin(tau*8.7f)*0.45f)*desktopShakeDegrees*rattle;
+            for(int i=0;i<ceilingTargets.Length;i++)
+            {
+                if (ceilingTargets[i] == null) continue;
+                float fraction = 0f;
+                for (int pulse = 0; pulse < primaryCollapseCount; pulse++)
+                {
+                    float fall = Mathf.Clamp01((elapsed - collapseTimes[pulse] - i * 0.023f) / breakawaySeconds);
+                    fraction += fall * fall / primaryCollapseCount;
+                }
+                float allowed=ceilingDrop;var bounds=ceilingBounds[i];
+                bool overHead = head!=null && head.position.x>=bounds.min.x-0.18f && head.position.x<=bounds.max.x+0.18f && head.position.z>=bounds.min.z-0.18f && head.position.z<=bounds.max.z+0.18f;
+                float tilt = slabTiltDegrees;
+                if (overHead)
+                {
+                    float clearance = Mathf.Max(0f, bounds.min.y - head.position.y - minimumHeadGap - roomShakeDistance*2f);
+                    float rotationAllowance = bounds.extents.magnitude * Mathf.Sin(slabTiltDegrees * Mathf.Deg2Rad * 1.5f);
+                    tilt *= Mathf.Clamp01(clearance / Mathf.Max(0.001f, rotationAllowance + ceilingDrop));
+                    allowed = Mathf.Clamp(clearance - rotationAllowance, 0f, ceilingDrop);
+                }
+                float drop=allowed*fraction;
+                Vector3 localDrop=ceilingTargets[i].parent!=null?ceilingTargets[i].parent.InverseTransformVector(Vector3.up*drop):Vector3.up*drop;
+                ceilingTargets[i].localPosition=ceilingPositions[i]-localDrop;
+                float sign = i % 2 == 0 ? 1f : -1f;
+                float fractureRattle = Mathf.Sin(elapsed * 39f + i * 2f) * rattle * (overHead ? 0f : 0.6f);
+                ceilingTargets[i].localRotation=ceilingRotations[i]*Quaternion.Euler(sign*tilt*fraction+fractureRattle,0f,-sign*tilt*0.45f*fraction);
+                AppliedMaximumDrop=Mathf.Max(AppliedMaximumDrop,drop);
+                if (!overHead&&!InheritsRoomMotion(ceilingTargets[i])) ApplyShared(ceilingTargets[i],pivot,roomOffset,roomRotation);
+            }
+            for(int i=0;i<shakeTargets.Length;i++)
+            {
+                if (shakeTargets[i] == null) continue;
+                float phase=elapsed*32f+i*2.3f;
+                var jitter = new Vector3(Mathf.Sin(phase)+0.35f*Mathf.Sin(phase*2.7f),Mathf.Sin(phase*1.37f)*0.65f,Mathf.Cos(phase*0.83f));
+                shakeTargets[i].localPosition=shakePositions[i]+jitter*shakeDistance*rattle;
+                shakeTargets[i].localRotation=shakeRotations[i]*Quaternion.Euler(Mathf.Sin(phase)*shakeDegrees*rattle,Mathf.Sin(phase*1.7f)*shakeDegrees*0.3f*rattle,Mathf.Cos(phase)*shakeDegrees*0.7f*rattle);
+                if(!InheritsRoomMotion(shakeTargets[i]))ApplyShared(shakeTargets[i],pivot,roomOffset,roomRotation);
+            }
+            for(int i=0;i<roomTargets.Length;i++)
+            {
+                var target=roomTargets[i];if(target==null)continue;
+                target.position=roomPositions[i];target.rotation=roomRotations[i];
+                ApplyShared(target,pivot,roomOffset,roomRotation);
+            }
+        }
+        bool InheritsRoomMotion(Transform target)
+        {
+            foreach(var room in roomTargets)if(room!=null&&room!=target&&target.IsChildOf(room))return true;
+            return false;
+        }
+        static void ApplyShared(Transform target,Vector3 pivot,Vector3 offset,Quaternion rotation)
+        {
+            target.position=pivot+rotation*(target.position-pivot)+offset;
+            target.rotation=rotation*target.rotation;
+        }
+        public void Restore()
+        {
+            if(ceilingPositions==null)return;
+            for(int i=0;i<ceilingTargets.Length;i++)if(ceilingTargets[i]!=null){ceilingTargets[i].localPosition=ceilingPositions[i];ceilingTargets[i].localRotation=ceilingRotations[i];}
+            for(int i=0;i<shakeTargets.Length;i++)if(shakeTargets[i]!=null){shakeTargets[i].localPosition=shakePositions[i];shakeTargets[i].localRotation=shakeRotations[i];}
+            if(roomPositions!=null)for(int i=0;i<roomTargets.Length;i++)if(roomTargets[i]!=null){roomTargets[i].position=roomPositions[i];roomTargets[i].rotation=roomRotations[i];}
+            DesktopShakeOffset=DesktopShakeEuler=Vector3.zero;
+            AppliedMaximumDrop=0f;
+        }
+        void OnDisable(){Restore();}
+    }
+}

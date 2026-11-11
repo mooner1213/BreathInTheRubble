@@ -1,0 +1,406 @@
+[
+  {
+    "parent": "Compressed bearing fragment 1",
+    "mesh": "ClosedCut_8"
+  },
+  {
+    "parent": "Compressed bearing fragment 2",
+    "mesh": "ClosedCut_9"
+  },
+  {
+    "parent": "Compressed bearing fragment 3",
+    "mesh": "ClosedCut_10"
+  },
+  {
+    "parent": "Compressed bearing fragment 4",
+    "mesh": "ClosedCut_11"
+  },
+  {
+    "parent": "Compressed bearing fragment 6",
+    "mesh": "ClosedCut_12"
+  },
+  {
+    "parent": "Compressed bearing fragment 7",
+    "mesh": "ClosedCut_13"
+  },
+  {
+    "parent": "Compressed bearing fragment 8",
+    "mesh": "ClosedCut_14"
+  },
+  {
+    "parent": "Compressed bearing fragment 9",
+    "mesh": "ClosedCut_15"
+  },
+  {
+    "parent": "Compressed bearing fragment 10",
+    "mesh": "ClosedCut_16"
+  },
+  {
+    "parent": "Compressed bearing fragment 11",
+    "mesh": "ClosedCut_17"
+  },
+  {
+    "parent": "Compressed bearing fragment 12",
+    "mesh": "ClosedCut_18"
+  },
+  {
+    "parent": "Compressed bearing fragment 13",
+    "mesh": "097_retained"
+  },
+  {
+    "parent": "Compressed bearing fragment 15",
+    "mesh": "ClosedCut_21"
+  },
+  {
+    "parent": "Compressed bearing fragment 16",
+    "mesh": "ClosedCut_22"
+  },
+  {
+    "parent": "Compressed bearing fragment 18",
+    "mesh": "ClosedCut_24"
+  },
+  {
+    "parent": "Compressed bearing fragment 19",
+    "mesh": "155_retained"
+  },
+  {
+    "parent": "Compressed bearing fragment 20",
+    "mesh": "ClosedCut_26"
+  },
+  {
+    "parent": "Compressed bearing fragment 23",
+    "mesh": "127_retained"
+  },
+  {
+    "parent": "Compressed bearing fragment 24",
+    "mesh": "ClosedCut_30"
+  },
+  {
+    "parent": "Compressed bearing fragment 26",
+    "mesh": "ClosedCut_31"
+  },
+  {
+    "parent": "Compressed bearing fragment 27",
+    "mesh": "ClosedCut_32"
+  },
+  {
+    "parent": "Compressed bearing fragment 28",
+    "mesh": "ClosedCut_33"
+  },
+  {
+    "parent": "Compressed bearing fragment 29",
+    "mesh": "ClosedCut_34"
+  },
+  {
+    "parent": "Compressed bearing fragment 30",
+    "mesh": "ClosedCut_35"
+  },
+  {
+    "parent": "Compressed bearing fragment 31",
+    "mesh": "ClosedCut_36"
+  },
+  {
+    "parent": "Compressed bearing fragment 32",
+    "mesh": "ClosedCut_37"
+  },
+  {
+    "parent": "Compressed bearing fragment 33",
+    "mesh": "ClosedCut_38"
+  },
+  {
+    "parent": "Compressed bearing fragment 34",
+    "mesh": "ClosedCut_39"
+  },
+  {
+    "parent": "Compressed bearing fragment 35",
+    "mesh": "ClosedCut_40"
+  },
+  {
+    "parent": "Compressed bearing fragment 36",
+    "mesh": "ClosedCut_41"
+  },
+  {
+    "parent": "Compressed bearing fragment 38",
+    "mesh": "CutCanopy_068"
+  },
+  {
+    "parent": "Compressed bearing fragment 39",
+    "mesh": "CutCanopy_069"
+  },
+  {
+    "parent": "Compressed bearing fragment 40",
+    "mesh": "Wall_DarkGrey_Medium_01_LOD0"
+  },
+  {
+    "parent": "Compressed bearing fragment 41",
+    "mesh": "CutCanopy_070"
+  },
+  {
+    "parent": "Compressed bearing fragment 42",
+    "mesh": "CutCanopy_071"
+  },
+  {
+    "parent": "Compressed bearing fragment 43",
+    "mesh": "ClosedCut_42"
+  },
+  {
+    "parent": "Compressed bearing fragment 44",
+    "mesh": "CutCanopy_073"
+  },
+  {
+    "parent": "Compressed bearing fragment 45",
+    "mesh": "ClosedCut_43"
+  },
+  {
+    "parent": "Compressed bearing fragment 46",
+    "mesh": "ClosedCut_44"
+  },
+  {
+    "parent": "Compressed bearing fragment 47",
+    "mesh": "ClosedCut_45"
+  },
+  {
+    "parent": "Compressed bearing fragment 48",
+    "mesh": "ClosedCut_46"
+  },
+  {
+    "parent": "Compressed bearing fragment 50",
+    "mesh": "CutCanopy_078"
+  },
+  {
+    "parent": "Compressed bearing fragment 51",
+    "mesh": "CutCanopy_079"
+  },
+  {
+    "parent": "Compressed bearing fragment 52",
+    "mesh": "CutCanopy_080"
+  },
+  {
+    "parent": "Compressed bearing fragment 53",
+    "mesh": "ClosedCut_47"
+  },
+  {
+    "parent": "Compressed bearing fragment 54",
+    "mesh": "ClosedCut_48"
+  },
+  {
+    "parent": "Compressed bearing fragment 55",
+    "mesh": "ClosedCut_49"
+  },
+  {
+    "parent": "Compressed bearing fragment 56",
+    "mesh": "ClosedCut_50"
+  },
+  {
+    "parent": "Compressed bearing fragment 57",
+    "mesh": "ClosedCut_51"
+  },
+  {
+    "parent": "Compressed bearing fragment 58",
+    "mesh": "ClosedCut_52"
+  },
+  {
+    "parent": "Compressed bearing fragment 59",
+    "mesh": "ClosedCut_53"
+  },
+  {
+    "parent": "Compressed bearing fragment 60",
+    "mesh": "ClosedCut_54"
+  },
+  {
+    "parent": "Compressed bearing fragment 61",
+    "mesh": "152_retained"
+  },
+  {
+    "parent": "Compressed bearing fragment 62",
+    "mesh": "ClosedCut_56"
+  },
+  {
+    "parent": "Compressed bearing fragment 63",
+    "mesh": "ClosedCut_57"
+  },
+  {
+    "parent": "Compressed bearing fragment 64",
+    "mesh": "ClosedCut_58"
+  },
+  {
+    "parent": "Compressed bearing fragment 65",
+    "mesh": "ClosedCut_59"
+  },
+  {
+    "parent": "Compressed bearing fragment 66",
+    "mesh": "ClosedCut_60"
+  },
+  {
+    "parent": "Compressed bearing fragment 67",
+    "mesh": "ClosedCut_61"
+  },
+  {
+    "parent": "Compressed bearing fragment 68",
+    "mesh": "ClosedCut_62"
+  },
+  {
+    "parent": "Compressed bearing fragment 69",
+    "mesh": "ClosedCut_63"
+  },
+  {
+    "parent": "Compressed bearing fragment 70",
+    "mesh": "CutCanopy_098"
+  },
+  {
+    "parent": "Compressed bearing fragment 71",
+    "mesh": "ClosedCut_64"
+  },
+  {
+    "parent": "Compressed bearing fragment 72",
+    "mesh": "CutCanopy_100"
+  },
+  {
+    "parent": "Compressed bearing fragment 73",
+    "mesh": "ClosedCut_65"
+  },
+  {
+    "parent": "Compressed bearing fragment 74",
+    "mesh": "ClosedCut_66"
+  },
+  {
+    "parent": "Compressed bearing fragment 75",
+    "mesh": "ClosedCut_67"
+  },
+  {
+    "parent": "Compressed bearing fragment 76",
+    "mesh": "CutCanopy_104"
+  },
+  {
+    "parent": "Compressed bearing fragment 78",
+    "mesh": "ClosedCut_68"
+  },
+  {
+    "parent": "Compressed bearing fragment 80",
+    "mesh": "ClosedCut_69"
+  },
+  {
+    "parent": "Compressed bearing fragment 81",
+    "mesh": "ClosedCut_70"
+  },
+  {
+    "parent": "Compressed bearing fragment 82",
+    "mesh": "ClosedCut_71"
+  },
+  {
+    "parent": "Compressed bearing fragment 83",
+    "mesh": "ClosedCut_72"
+  },
+  {
+    "parent": "Compressed bearing fragment 84",
+    "mesh": "ClosedCut_73"
+  },
+  {
+    "parent": "Compressed bearing fragment 85",
+    "mesh": "ClosedCut_74"
+  },
+  {
+    "parent": "Compressed bearing fragment 86",
+    "mesh": "ClosedCut_75"
+  },
+  {
+    "parent": "Compressed bearing fragment 88",
+    "mesh": "ClosedCut_76"
+  },
+  {
+    "parent": "Compressed bearing fragment 89",
+    "mesh": "ClosedCut_77"
+  },
+  {
+    "parent": "Compressed bearing fragment 90",
+    "mesh": "ClosedCut_78"
+  },
+  {
+    "parent": "Compressed bearing fragment 91",
+    "mesh": "ClosedCut_79"
+  },
+  {
+    "parent": "Compressed bearing fragment 92",
+    "mesh": "ClosedCut_80"
+  },
+  {
+    "parent": "Compressed bearing fragment 93",
+    "mesh": "Blocks_Big_02_LOD0"
+  },
+  {
+    "parent": "Compressed bearing fragment 94",
+    "mesh": "Wall_Gray_Medium_02_LOD0"
+  },
+  {
+    "parent": "Compressed bearing fragment 95",
+    "mesh": "Bricks_Big_02_LOD0"
+  },
+  {
+    "parent": "Compressed bearing fragment 96",
+    "mesh": "Blocks_Big_02_LOD0"
+  },
+  {
+    "parent": "Compressed bearing fragment 97",
+    "mesh": "ClosedCut_81"
+  },
+  {
+    "parent": "Compressed bearing fragment 98",
+    "mesh": "ClosedCut_82"
+  },
+  {
+    "parent": "Compressed bearing fragment 99",
+    "mesh": "ClosedCut_83"
+  },
+  {
+    "parent": "Compressed bearing fragment 100",
+    "mesh": "ClosedCut_84"
+  },
+  {
+    "parent": "Compressed bearing fragment 101",
+    "mesh": "ClosedCut_85"
+  },
+  {
+    "parent": "Compressed bearing fragment 102",
+    "mesh": "ClosedCut_86"
+  },
+  {
+    "parent": "Compressed bearing fragment 103",
+    "mesh": "ClosedCut_87"
+  },
+  {
+    "parent": "Compressed bearing fragment 104",
+    "mesh": "ClosedCut_88"
+  },
+  {
+    "parent": "Compressed bearing fragment 105",
+    "mesh": "CutCanopy_129"
+  },
+  {
+    "parent": "Compressed bearing fragment 106",
+    "mesh": "CutCanopy_130"
+  },
+  {
+    "parent": "Compressed bearing fragment 107",
+    "mesh": "CutCanopy_131"
+  },
+  {
+    "parent": "Compressed bearing fragment 108",
+    "mesh": "ClosedCut_89"
+  },
+  {
+    "parent": "Compressed bearing fragment 109",
+    "mesh": "ClosedCut_90"
+  },
+  {
+    "parent": "Compressed bearing fragment 110",
+    "mesh": "ClosedCut_91"
+  },
+  {
+    "parent": "Compressed bearing fragment 111",
+    "mesh": "ClosedCut_92"
+  },
+  {
+    "parent": "Compressed bearing fragment 112",
+    "mesh": "ClosedCut_93"
+  }
+]

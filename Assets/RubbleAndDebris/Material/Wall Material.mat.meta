@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: baaf55d5f8848f64f89e5e358cc8e2a7
+timeCreated: 1523392250
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 116330
+  packageName: Rubble and Debris - Modular Set
+  packageVersion: 1.3
+  assetPath: Assets/RubbleAndDebris/Material/Wall Material.mat
+  uploadId: 415886

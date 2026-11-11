@@ -1,0 +1,38 @@
+﻿using UnityEngine;
+
+namespace BreathInTheRubble.Prototype
+{
+    /// <summary>Short, gravity-driven showers from the loaded joints above the cavity.</summary>
+    public sealed class AftershockRubbleRain : MonoBehaviour
+    {
+        [SerializeField] AftershockDirector aftershock;
+        [SerializeField] ParticleSystem[] joints = System.Array.Empty<ParticleSystem>();
+        [SerializeField] float[] burstTimes = { 2.95f, 3.35f, 4.65f, 5.05f, 6.45f, 6.85f, 9.95f, 10.35f, 13.15f, 13.65f, 15.4f };
+        [SerializeField, Min(1)] int chipsPerJoint = 4;
+        int nextBurst;
+        void OnEnable()
+        {
+            if (aftershock != null) { aftershock.Advanced += Apply; aftershock.EffectReset += ResetEffect; }
+            ResetEffect();
+        }
+        void OnDisable()
+        {
+            if (aftershock != null) { aftershock.Advanced -= Apply; aftershock.EffectReset -= ResetEffect; }
+            ResetEffect();
+        }
+        public void Apply(float elapsed)
+        {
+            while (nextBurst < burstTimes.Length && elapsed >= burstTimes[nextBurst])
+            {
+                foreach (var joint in joints) if (joint != null) joint.Emit(chipsPerJoint);
+                nextBurst++;
+            }
+        }
+        public void ResetEffect()
+        {
+            nextBurst = 0;
+            foreach (var joint in joints) if (joint != null) joint.Stop(true, ParticleSystemStopBehavior.StopEmittingAndClear);
+        }
+    }
+}
+

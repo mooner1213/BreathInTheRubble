@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a0916e3cc81f04685be08e1f0618a994
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4890085278179872738
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 27688
+  packageName: SRDebugger - Console & Tools On-Device
+  packageVersion: 1.13.2
+  assetPath: Assets/StompyRobot/SRDebugger/Scenes/SampleSettings.lighting
+  uploadId: 1040702

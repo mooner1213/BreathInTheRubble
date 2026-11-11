@@ -9,8 +9,8 @@ namespace BreathInTheRubble.EditorTools
     public sealed class DesktopPhoneTestWindow : EditorWindow
     {
         VisualElement controls;
-        Label status;
-        Button holdButton, flashlightButton, aimButton;
+        Label status, sequenceStatus;
+        Button holdButton, flashlightButton, aimButton, aftershockButton, endingButton, nextStageButton, restoreAftershockButton, guardButton;
         static DesktopPhoneTestDriver Driver => Object.FindFirstObjectByType<DesktopPhoneTestDriver>();
 
         static DesktopPhoneTestWindow()
@@ -45,15 +45,16 @@ namespace BreathInTheRubble.EditorTools
             var stylesheet = AssetDatabase.LoadAssetAtPath<StyleSheet>("Assets/_Project/Editor/DesktopPhoneTestWindow.uss");
             if (stylesheet != null) rootVisualElement.styleSheets.Add(stylesheet);
             rootVisualElement.AddToClassList("phone-test");
-            var title = new Label("PC 휴대폰 테스트"); title.AddToClassList("title");rootVisualElement.Add(title);
-            status = new Label();status.AddToClassList("status");rootVisualElement.Add(status);
-            rootVisualElement.Add(new Button(() =>
+            var scroll=new ScrollView(ScrollViewMode.Vertical);scroll.AddToClassList("test-scroll");rootVisualElement.Add(scroll);
+            var title = new Label("PC 휴대폰 테스트"); title.AddToClassList("title");scroll.Add(title);
+            status = new Label();status.AddToClassList("status");scroll.Add(status);
+            scroll.Add(new Button(() =>
             {
                 if(!EditorApplication.isPlaying){EditorApplication.EnterPlaymode();return;}
                 if(Driver==null)new GameObject("Editor Desktop Phone Test").AddComponent<DesktopPhoneTestDriver>();
                 Driver.SetDesktopMode(!Driver.DesktopEnabled);
             }) {text="PC 테스트 시작 / XR 시뮬레이터로 전환"});
-            controls = new VisualElement();rootVisualElement.Add(controls);
+            controls = new VisualElement();scroll.Add(controls);
             holdButton = AddButton("E · 휴대폰 집기",()=>Driver.ToggleHold());
             flashlightButton = AddButton("F · 라이트 켜기",()=>Driver.ToggleFlashlight());
             AddButton("C · 긴급통화",()=>Driver.EmergencyCall());
@@ -63,8 +64,18 @@ namespace BreathInTheRubble.EditorTools
             AddButton("테스트 · 통신 2칸",()=>Driver.PreviewReception(2));
             aimButton = AddButton("Q · 시선 방향으로 비추기",()=>Driver.ToggleAim());
             AddButton("R · 휴대폰 방향 초기화",()=>Driver.ResetPhonePose());
+            aftershockButton = AddButton("여진 시작 / 재시작",()=>Object.FindFirstObjectByType<GameSequenceController>()?.BeginAftershockNow());
+            endingButton = AddButton("엔딩 시작 / 재시작",StartEndingPreview);
+            endingButton.tooltip = "119 통화와 파이프 신호 조건을 건너뛰고, 여진 후 상태에서 엔딩을 처음부터 재생합니다.";
+            nextStageButton = AddButton("다음 단계 미리보기",()=>Object.FindFirstObjectByType<GameSequenceController>()?.PreviewNextStage());
+            restoreAftershockButton = AddButton("여진 연출 원상복구",()=>Object.FindFirstObjectByType<GameSequenceController>()?.RestoreAftershock());
+            guardButton = AddButton("H · 머리 보호 자세 토글 (PC)",()=>Driver.ToggleGuardPreview());
+            AddButton("배터리 24% 경고 테스트",()=>Driver.PreviewBattery(24f));
+            AddButton("배터리 47%로 복원",()=>Driver.PreviewBattery(47f));
+            sequenceStatus = new Label(); sequenceStatus.AddToClassList("status"); scroll.Add(sequenceStatus);
             var help = new Label("Game 창을 클릭한 다음 조작하세요.\n\n오른쪽 마우스 드래그 · 둘러보기\n왼쪽 마우스 드래그 · 휴대폰 돌리기\n화면의 LIGHT / SOS · 마우스로 클릭\n마우스 휠 · 휴대폰 거리 조절\n\nF는 휴대폰을 자동으로 집어 라이트를 켭니다.\nE를 다시 누르면 원래 자리에 돌려놓습니다.");
-            help.AddToClassList("help");rootVisualElement.Add(help);
+            help.AddToClassList("help");scroll.Add(help);
+            var guardHelp=new Label("여진 중에는 Game 창에서 H를 누르고 있으면 머리 보호 자세로 테스트합니다. 실제 HMD 연결 시에는 양손 추적으로 판정합니다.");guardHelp.AddToClassList("help");scroll.Add(guardHelp);
             rootVisualElement.schedule.Execute(Refresh).Every(100);
             Refresh();
         }
@@ -72,6 +83,22 @@ namespace BreathInTheRubble.EditorTools
         Button AddButton(string text,System.Action action)
         {
             var button = new Button(()=> {if(Driver!=null && Driver.DesktopEnabled)action();Refresh();}){text=text};controls.Add(button);return button;
+        }
+
+        static void StartEndingPreview()
+        {
+            var sequence = Object.FindFirstObjectByType<GameSequenceController>();
+            var ending = Object.FindFirstObjectByType<RescueEndingDirector>();
+            if (sequence == null || ending == null) return;
+            var aftershock = Object.FindFirstObjectByType<AftershockDirector>();
+            sequence.BeginAftershockNow();
+            sequence.Advance(aftershock != null ? aftershock.DurationSeconds + 0.01f : 0f);
+            Object.FindFirstObjectByType<HeadImpactFeedback>()?.Clear();
+            Object.FindFirstObjectByType<AftershockDustEffect>()?.Clear();
+            if (aftershock != null)
+                foreach (var particles in aftershock.GetComponentsInChildren<ParticleSystem>(true))
+                    particles.Stop(true, ParticleSystemStopBehavior.StopEmittingAndClear);
+            sequence.PreviewNextStage();
         }
 
         void Refresh()
@@ -83,6 +110,17 @@ namespace BreathInTheRubble.EditorTools
             holdButton.text=active && driver.IsHolding?"E · 원래 자리에 돌려놓기":"E · 휴대폰 집기";
             flashlightButton.text=active && driver.Phone.FlashlightEnabled?"F · 라이트 끄기":"F · 라이트 켜기";
             aimButton.text=active && driver.AimWithView?"Q · 자유롭게 돌리기":"Q · 시선 방향으로 비추기";
+            var sequence = Object.FindFirstObjectByType<GameSequenceController>();
+            var protection = Object.FindFirstObjectByType<HeadProtectionDetector>();
+            var aftershock = Object.FindFirstObjectByType<AftershockDirector>();
+            aftershockButton.SetEnabled(active && sequence != null);
+            endingButton.SetEnabled(active && sequence != null && Object.FindFirstObjectByType<RescueEndingDirector>() != null);
+            nextStageButton.SetEnabled(active && sequence != null);
+            restoreAftershockButton.SetEnabled(active && sequence != null);
+            guardButton.SetEnabled(active && protection != null);
+            guardButton.text = active && driver.GuardPreviewEnabled ? "H · 머리 보호 켜짐 (PC)" : "H · 머리 보호 꺼짐 (PC)";
+            sequenceStatus.text = sequence == null ? "현재 씬에 여진/단계 전환 기능이 연결되지 않았습니다." :
+                $"단계: {sequence.Stage} · {sequence.ElapsedSeconds:F1}초\n머리 보호: {(protection != null && protection.IsProtected ? "보호 중" : "미보호")} · 충격 방어 {aftershock?.GuardedImpacts ?? 0} / 피격 {aftershock?.UnprotectedImpacts ?? 0}\n엔딩 버튼은 구조 조건을 건너뛰는 미리보기입니다. 여진 연출 원상복구로 종료할 수 있습니다.";
         }
     }
 }

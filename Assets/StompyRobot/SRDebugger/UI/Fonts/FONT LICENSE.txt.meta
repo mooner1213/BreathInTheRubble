@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ff89cdf7c4536ff47b40d4549239bc2c
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 27688
+  packageName: SRDebugger - Console & Tools On-Device
+  packageVersion: 1.13.2
+  assetPath: Assets/StompyRobot/SRDebugger/UI/Fonts/FONT LICENSE.txt
+  uploadId: 1040702

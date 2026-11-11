@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: dcb2803171ffa4744a2f113a502bafec
+timeCreated: 1526341563
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 116330
+  packageName: Rubble and Debris - Modular Set
+  packageVersion: 1.3
+  assetPath: Assets/RubbleAndDebris/Prefabs/Props/Bricks_Big_01.prefab
+  uploadId: 415886

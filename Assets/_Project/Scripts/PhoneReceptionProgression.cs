@@ -21,11 +21,13 @@ namespace BreathInTheRubble.Prototype
         bool hasWeakSignal;
         float nextReceptionChange;
         int oneBarWindows;
+        bool externalClock;
         public float ElapsedSeconds => elapsed;
         public bool HasPreviewOverride => previewOverride;
 
         void Awake() { if (callSystem == null) callSystem = GetComponent<EmergencyCallSystem>(); }
-        void Update() { Advance(Time.deltaTime); }
+        void Update() { if (!externalClock) Advance(Time.deltaTime); }
+        public void SetExternalClock(bool drivenExternally) { externalClock = drivenExternally; }
         public void Advance(float seconds)
         {
             elapsed += Mathf.Max(0f, seconds);

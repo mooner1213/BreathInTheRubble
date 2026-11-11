@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: a8fe06bc3fe482443801b0de6e39ee4d
+timeCreated: 1523403381
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 116330
+  packageName: Rubble and Debris - Modular Set
+  packageVersion: 1.3
+  assetPath: Assets/RubbleAndDebris/Material/Rubble_Tile_Concrete.mat
+  uploadId: 415886

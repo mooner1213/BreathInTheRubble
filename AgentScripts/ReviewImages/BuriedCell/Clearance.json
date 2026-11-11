@@ -1,0 +1,58 @@
+{
+  "rays": [
+    {
+      "direction": "(0.00, 0.00, 1.00)",
+      "distance": 0.471040636,
+      "surface": "Center crushed bearing stone"
+    },
+    {
+      "direction": "(-0.45, 0.00, 0.89)",
+      "distance": 0.5450687,
+      "surface": "Front face left pressed rubble"
+    },
+    {
+      "direction": "(0.45, 0.00, 0.89)",
+      "distance": 0.5290979,
+      "surface": "Front face right interlocked masonry"
+    },
+    {
+      "direction": "(-1.00, 0.00, 0.00)",
+      "distance": 0.4998954,
+      "surface": "Rubble_Small_01_LOD0"
+    },
+    {
+      "direction": "(1.00, 0.00, 0.00)",
+      "distance": 0.440843433,
+      "surface": "Rubble_Small_01_LOD0"
+    },
+    {
+      "direction": "(0.00, 1.00, 0.00)",
+      "distance": 0.276259482,
+      "surface": "Low continuous overburden"
+    }
+  ],
+  "propOverlaps": [],
+  "headOverlaps": [],
+  "visibleSources": [
+    {
+      "offset": "(0.00, 0.00, 0.00)",
+      "visible": []
+    },
+    {
+      "offset": "(0.12, 0.00, 0.00)",
+      "visible": []
+    },
+    {
+      "offset": "(-0.12, 0.00, 0.00)",
+      "visible": []
+    },
+    {
+      "offset": "(0.00, 0.10, 0.00)",
+      "visible": []
+    },
+    {
+      "offset": "(0.00, 0.00, 0.10)",
+      "visible": []
+    }
+  ]
+}

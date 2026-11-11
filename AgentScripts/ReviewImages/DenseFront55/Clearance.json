@@ -1,0 +1,81 @@
+{
+  "rays": [
+    {
+      "direction": "(0.00, 0.00, 1.00)",
+      "distance": 0.55,
+      "surface": "Center crushed bearing stone"
+    },
+    {
+      "direction": "(-0.45, 0.00, 0.89)",
+      "distance": 0.649436653,
+      "surface": "Front face left pressed rubble"
+    },
+    {
+      "direction": "(0.45, 0.00, 0.89)",
+      "distance": 0.6364887,
+      "surface": "Front face right interlocked masonry"
+    },
+    {
+      "direction": "(-1.00, 0.00, 0.00)",
+      "distance": 0.4998954,
+      "surface": "Rubble_Small_01_LOD0"
+    },
+    {
+      "direction": "(1.00, 0.00, 0.00)",
+      "distance": 0.440843433,
+      "surface": "Rubble_Small_01_LOD0"
+    },
+    {
+      "direction": "(0.00, 1.00, 0.00)",
+      "distance": 0.276259482,
+      "surface": "Low continuous overburden"
+    }
+  ],
+  "propOverlaps": [],
+  "headOverlaps": [],
+  "visibleSources": [
+    {
+      "offset": "(0.00, 0.00, 0.00)",
+      "visible": [
+        "Close seam plate 9",
+        "Close seam plate 18",
+        "Close seam plate 27",
+        "Close seam plate 36"
+      ]
+    },
+    {
+      "offset": "(0.12, 0.00, 0.00)",
+      "visible": [
+        "Close seam plate 18",
+        "Close seam plate 27",
+        "Close seam plate 36"
+      ]
+    },
+    {
+      "offset": "(-0.12, 0.00, 0.00)",
+      "visible": [
+        "Close seam plate 9",
+        "Close seam plate 18",
+        "Close seam plate 36"
+      ]
+    },
+    {
+      "offset": "(0.00, 0.10, 0.00)",
+      "visible": [
+        "Close seam plate 9",
+        "Close seam plate 18",
+        "Close seam plate 27",
+        "Close seam plate 36"
+      ]
+    },
+    {
+      "offset": "(0.00, 0.00, 0.10)",
+      "visible": [
+        "Close seam plate 9",
+        "Close seam plate 18",
+        "Close seam plate 27",
+        "Close seam plate 36"
+      ]
+    }
+  ]
+}

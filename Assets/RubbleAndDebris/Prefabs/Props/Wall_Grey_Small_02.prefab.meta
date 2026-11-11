@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 588295ff67d05cb4783d23736770d909
+timeCreated: 1526341541
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 116330
+  packageName: Rubble and Debris - Modular Set
+  packageVersion: 1.3
+  assetPath: Assets/RubbleAndDebris/Prefabs/Props/Wall_Grey_Small_02.prefab
+  uploadId: 415886
